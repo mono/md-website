@@ -8,7 +8,7 @@ The site uses Jekyll (http://jekyllrb.com), a static site generator. GitHub Page
 Contributing to the website
 ---------------------------
 
-**Note:** Major issues or feature requests should be filed on the [issue tracker](https://github.com/mono/monodevelop-website/issues) first, so we can discuss the implications.
+**Note:** Major issues or feature requests should be filed on the [issue tracker](https://github.com/mono/md-website/issues) first, so we can discuss the implications.
 
 If you want to edit a page, the easiest way is to click the ![Edit page on GitHub](https://cloud.githubusercontent.com/assets/1376924/3712375/a6d7bc42-150f-11e4-9ceb-5230cbbfba3f.png) link under the page title on the website.
 
@@ -37,4 +37,21 @@ After you've forked and cloned the repository, run the following commands:
 
 **Note:** you can add the `--watch` option when running `jekyll serve` to let Jekyll watch for file changes, which means the site will be rebuilt when a file is modified.
 
-The site should now be running locally.
+The site should now be running locally:
+
+![MD website](https://cloud.githubusercontent.com/assets/1376924/4876352/1e451ec4-62c1-11e4-9c5f-2b9e4e21ce4e.png)
+
+Repository structure
+--------------------
+
+ - `_includes` - *special folder* contains snippets that can be included via `{% include file.html %}` in other pages
+ - `_layouts` - *special folder* contains the layouts that are shared between pages. Layouts can be inherited, the root layout is `base.html`.
+ - `_site` - the output of the generated site is stored here by default, this folder only exists after Jekyll built the site
+ - `archived` - content that is no longer relevant but kept to keep external links working
+ - `css` - contains the main stylesheet
+ - `developers` - contains the source pages for the `/developers` website section
+ - `documentation` - contains the source pages for the `/documentation` website section
+ - `download` - contains the source pages for the `/download` website section
+ - `help` - contains the source pages for the `/help` website section
+ - `images` - stores the images used in pages
+ - `screenshots` - contains the source pages for the `/screenshots` website section
