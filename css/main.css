@@ -1,0 +1,302 @@
+/* ### GLOBAL STYLES ### */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+code {
+  font-weight: normal;
+  font-size: 0.95em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#header {
+  border-bottom: 5px solid #333;
+  background: rgb(35,35,53); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(35,35,53,1) 0%, rgba(113,153,206,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(35,35,53,1)), color-stop(100%,rgba(113,153,206,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, rgba(35,35,53,1) 0%,rgba(113,153,206,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, rgba(35,35,53,1) 0%,rgba(113,153,206,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, rgba(35,35,53,1) 0%,rgba(113,153,206,1) 100%); /* IE10+ */
+  background: linear-gradient(135deg, rgba(35,35,53,1) 0%,rgba(113,153,206,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232335', endColorstr='#7199ce',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#main-wrapper {
+  background: #FAFAFA;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-left: 1px solid #d9d8d7;
+  border-right: 1px solid #d9d8d7;
+}
+
+.panel.info {
+  background: #F2FAFC;
+  border-left-color: #258FAF;
+  border-left-width: 5px;  
+}
+
+.panel.success {
+  background: #E0FFE6;
+  border-left-color: #43AC6A;
+  border-left-width: 5px;  
+}
+
+.panel.alert {
+  background: #F0D6C4;
+  border-left-color: #F04124;
+  border-left-width: 5px;
+}
+
+.mfp-figure > figure {
+  margin: 0px;
+}
+
+footer {
+  color: #333;
+  border-top: 1px solid #D9D8D7;
+  height: 41px;
+  margin-bottom: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgb(103,135,184); /* Old browsers */
+  background: -moz-linear-gradient(-45deg, rgba(103,135,184,1) 0%, rgba(35,35,53,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(103,135,184,1)), color-stop(100%,rgba(35,35,53,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, rgba(103,135,184,1) 0%,rgba(35,35,53,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, rgba(103,135,184,1) 0%,rgba(35,35,53,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, rgba(103,135,184,1) 0%,rgba(35,35,53,1) 100%); /* IE10+ */
+  background: linear-gradient(135deg, rgba(103,135,184,1) 0%,rgba(35,35,53,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6787b8', endColorstr='#232335',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#footer-content {
+  background: url('/images/md-footer.svg') no-repeat right 40px center;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 40px;
+}
+
+/* ### ### */
+
+/* ### HEADER STYLES ### */
+#header-logo {
+  width: 241px;
+  height: 46px;
+}
+
+.top-bar {
+  height: 75px;
+  line-height: 75px;
+  background: none;
+}
+
+.top-bar.expanded  .title-area{
+  background: none;
+}
+
+.top-bar.expanded .toggle-topbar a {
+  color: #bbb;
+}
+
+.top-bar .name {
+  height: 75px;
+  padding-top: 17px;
+  padding-left: 10px;
+}
+
+.top-bar-section > ul { 
+  margin-top: 45px;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  line-height: 30px;
+}
+
+.top-bar-section .has-dropdown > a:after {
+  margin-top: -8px;
+}
+
+.top-bar .toggle-topbar {
+  margin-top: 20px;
+}
+
+.top-bar #header-searchform {
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 58.125em) and (min-width: 40.063em) {
+  .top-bar-section li:not(.has-form) a:not(.button),
+  .top-bar-section li.active:not(.has-form) a:not(.button) {
+    padding: 0 5px;
+  }
+}
+
+@media only screen and (max-width: 40.063em) {
+  .top-bar-section > ul {
+      margin-top: 0px;
+  }
+}
+
+/* ### ### */
+
+
+/* ### PAGE-SPECIFIC STYLES ### */
+
+/* --- Index page --- */
+#index-hero {
+  background: #444;
+  color: #FFF;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
+
+#index-hero h1 {
+  color: #FFF;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* --- --- */
+
+/* ### ### */
+
+/* ### SECTION-SPECIFIC STYLES ### */
+
+/* --- Blog post --- */
+.meta {
+  margin-left: 2px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.meta span {
+  margin-right: 10px;
+}
+
+.meta .author:before { 
+  font: 1.0em FontAwesome;
+  content: "\f007"
+}
+
+.meta .date:before { 
+  font: 1.0em FontAwesome;
+  content: "\f073"
+}
+
+.meta .tags:before { 
+  font: 1.0em FontAwesome;
+  content: "\f02c"
+}
+
+.meta a {
+  color: #999
+}
+/* --- --- */
+
+/* --- Doc page --- */
+.heading-anchor-link {
+  display: none;
+  color: #666;
+  font-size: 0.7em;
+  padding-left: 1%;
+}
+
+.heading-anchor-link:hover {
+  color: #222;
+}
+
+h1:hover .heading-anchor-link,
+h2:hover .heading-anchor-link,
+h3:hover .heading-anchor-link,
+h4:hover .heading-anchor-link,
+h5:hover .heading-anchor-link,
+h6:hover .heading-anchor-link {
+  display: inline;
+}
+
+ul.doc-breadcrumbs-nav {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+ul.doc-breadcrumbs-nav > *:before {
+  margin-right: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+ul.doc-breadcrumbs-nav li {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+ul.doc-breadcrumbs-nav li.toc {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul.doc-breadcrumbs-nav li.toc:before{
+  display: none;
+}
+
+ul.doc-breadcrumbs-nav li.toc a:hover {
+  text-decoration: none;
+}
+
+ul.doc-breadcrumbs-nav .here-note {
+  text-transform: none;
+  color: #000;
+}
+
+#toc-dropdown-button-inline {
+  padding: 5px 20px 5px 5px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#toc-dropdown-button-inline:after {
+  right: 5px;
+}
+
+#toc-dropdown-button-separate {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+#toc-dropdown li.toc-indent-h2 {
+  text-indent: 10px;
+}
+
+#toc-dropdown li.toc-indent-h3 {
+  line-height: 10px;
+  font-size: 12px;
+  text-indent: 20px;
+}
+
+#toc-dropdown li.toc-indent-h4 {
+  line-height: 8px;
+  font-size: 11px;
+  text-indent: 30px;
+}
+
+/* trick to make anchor links not jump to the very top of screen */
+.doc-content h1:not(#page-title):before,
+.doc-content h2:before,
+.doc-content h3:before,
+.doc-content h4:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -15px; 
+  height: 15px; 
+  visibility: hidden;
+}
+
+/* --- --- */
+
+/* ### ### */

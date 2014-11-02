@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en"><![endif]-->
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>{{ page.title }} | MonoDevelop</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/normalize.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/foundation.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css" />
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans' />
+    <link rel="stylesheet" href="/css/main.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+    <script>
+      // redirect to the real domain in case someone visits the GitHub Pages domain
+      if (window.location.hostname === 'mono.github.io') {
+        window.location.replace(window.location.href.replace("mono.github.io/monodevelop-website", "www.monodevelop.com"));
+      }
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-xxxxx-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id="header" class="contain-to-grid">
+      <nav class="top-bar" role="navigation" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <a href="/"><img alt="MonoDevelop Logo" src="/images/md-logo.svg" id="header-logo"/></a>
+          </li>
+          <li class="toggle-topbar"><a href="#"><span>Menu</span></a></li>
+        </ul>
+
+        <section class="top-bar-section">
+          <ul class="right">
+            <li {% if page.navgroup == "home" %}class="active"{% endif %}><a href="/"><i class="fa fa-home"></i> Home</a></li>
+            <li {% if page.navgroup == "screenshots" %}class="active"{% endif %}>
+              <a href="/screenshots/">
+                <div class="hide-for-medium-only"><i class="fa fa-image"></i> Screenshots</div>
+                <div class="show-for-medium-only"><i class="fa fa-image"></i> Screens</div>
+              </a>
+            </li>
+            <li {% if page.navgroup == "download" %}class="active"{% endif %}><a href="/download/"><i class="fa fa-download"></i> Download</a></li>
+            <li {% if page.navgroup == "help" %}class="active"{% endif %}><a href="/help/"><i class="fa fa-question"></i> Help</a></li>
+            <li {% if page.navgroup == "documentation" %}class="active"{% endif %}>
+              <a href="/documentation/">
+                <div class="hide-for-medium-only"><i class="fa fa-book"></i> Documentation</div>
+                <div class="show-for-medium-only"><i class="fa fa-book"></i> Docs</div>
+              </a>
+            </li>
+            <li {% if page.navgroup == "developers" %}class="active"{% endif %}>
+              <a href="/developers/">
+                <div class="hide-for-medium-only"><i class="fa fa-code"></i> Development</div>
+                <div class="show-for-medium-only"><i class="fa fa-code"></i> Dev</div>
+              </a>
+            </li>
+            <li class="has-dropdown">
+              <a title="Search" href="#">
+                <div class="hide-for-small"><i class="fa fa-search"></i></div>
+                <div class="hide-for-medium-up"><i class="fa fa-search"></i> Search</div>
+              </a>
+                <ul class="dropdown">
+                   <li class="has-form">
+                    <form id="header-searchform" action="https://www.google.com/search" method="get">
+                          <input name="as_sitesearch" type="hidden" value="www.monodevelop.com" />
+                          <input name="q" type="text" placeholder="Search..." />
+                    </form>
+                  </li>
+                </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    {% if page.nowrap %}
+      {{ content }}
+    {% else %}
+      <div id="main-wrapper" class="row">
+        <div class="small-12 columns">
+          {{ content }}
+        </div>
+      </div>
+    {% endif %}
+    <div class="row">
+      <footer>
+        <div id="footer-content">
+          &copy; {{site.time | date: '%Y'}} MonoDevelop
+        </div>
+      </footer>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/js/foundation.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
+
+    <script>
+      // allow sub pages to run custom code
+      if (typeof runScripts == 'function') {
+        runScripts();
+      }
+
+      $(document).foundation();
+      hljs.initHighlightingOnLoad();
+      $(document).ready(function() {
+        fixGitHubPagesUrl();
+
+        $('.image-link').magnificPopup({
+          disableOn: 400,
+          image: { verticalFit: false },
+          type: 'image'
+        });
+      });
+
+    // TODO: remove this when we're hosted on the proper domain
+    function fixGitHubPagesUrl() {
+        $("img").attr('src', function() { return modifyHref (this.src); });
+        $("a").attr('href', function() { return modifyHref (this.href); });
+        $("link").attr('href', function() { return modifyHref (this.href); });
+        $("#footer-content").css('background-image', "url('{{ site.github.url }}/images/md-footer.svg')");
+    }
+
+    function modifyHref(href) {
+
+      if (href.substring(0, location.origin.length) !== location.origin || href.substring(location.href.length).substring(0, 1) === "#")
+        return;
+
+      return '{{ site.github.url }}' + href.substring(location.origin.length);
+    }
+    //
+    </script>
+  </body>
+  <!--  GitHub revision:  {{ site.github.build_revision }}
+        GitHub Pages URL: {{ site.github.url }}  -->
+</html>

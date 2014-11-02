@@ -1,0 +1,48 @@
+# General settings
+permalink: pretty
+highlighter: null   # we use a javascript based highlighter
+markdown: kramdown
+kramdown:
+  input: GFM
+defaults:
+  -
+    scope:
+      path: "archived"
+    values:
+      layout: "obsolete"
+  -
+    scope:
+      path: "developers"
+    values:
+      layout: "docpage"
+      navgroup: "developers"
+  -
+    scope:
+      path: "documentation"
+    values:
+      layout: "docpage"
+      navgroup: "documentation"
+  -
+    scope:
+      path: "download"
+    values:
+      navgroup: "download"
+  -
+    scope:
+      path: "help"
+    values:
+      layout: "docpage"
+      navgroup: "help"
+  -
+    scope:
+      path: ""
+    values:
+      layout: "base"
+gems:
+  - jekyll-redirect-from
+exclude:
+  - CNAME
+  - README.md
+  - CONTRIBUTING.md
+  - Gemfile*
+  - Vagrantfile
