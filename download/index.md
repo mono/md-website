@@ -1,6 +1,8 @@
 ---
 title: Download
-latestmonodevelop: 5.5.3.6
+latest_monodevelop: 5.5.3
+latest_monodevelop_mac: http://download.xamarin.com/studio/Mac/XamarinStudio-5.5.3.6-0.dmg
+latest_monodevelop_win: http://download.xamarin.com/studio/Windows/XamarinStudio-5.5.3.6-0.msi
 redirect_from:
   - /Download/
   - /Download/Windows_Preview/
@@ -10,7 +12,7 @@ redirect_from:
 Download
 ========
 
-The latest stable release is **{{ page.latestmonodevelop }}**. See the [Release Notes](/documentation/release-notes/).
+The latest stable release is **{{ page.latest_monodevelop }}**. See the [Release Notes](/documentation/release-notes/).
 
 Source code is available on [GitHub](https://github.com/mono/monodevelop) or as a [Tarball](http://download.mono-project.com/sources/monodevelop/).
 
@@ -24,7 +26,7 @@ To install this release, you also need to install the following packages:
 
 - Mono + GTK#: [Download](http://www.mono-project.com/download/)
 
-<a href="http://download.xamarin.com/studio/Mac/XamarinStudio-{{ page.latestmonodevelop }}-0.dmg" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
+<a href="{{ page.latest_monodevelop_mac }}" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
 
 <hr/>
 
@@ -35,7 +37,7 @@ To install this release, you also need to install the following packages:
 - .NET Framework 4.0: [Download](http://www.microsoft.com/download/en/details.aspx?displaylang=en&id=8279)
 - GTK# for .NET 2.12.25: [Download](http://download.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.25.msi)
 
-<a href="http://download.xamarin.com/studio/Windows/XamarinStudio-{{ page.latestmonodevelop }}-0.msi" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
+<a href="{{ page.latest_monodevelop_win }}" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
 
 <hr/>
 
