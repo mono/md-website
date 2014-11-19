@@ -88,13 +88,13 @@
         </div>
       </div>
     {% endif %}
-    <div class="row">
-      <footer>
+    <footer>
+      <div class="row">
         <div id="footer-content">
-          &copy; {{site.time | date: '%Y'}} MonoDevelop
+          <strong>&copy; {{site.time | date: '%Y'}} MonoDevelop Project</strong>
         </div>
-      </footer>
-    </div>
+      </div>
+    </footer>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/js/foundation.min.js"></script>
@@ -124,7 +124,6 @@
         $("img").attr('src', function() { return modifyHref (this.src); });
         $("a").attr('href', function() { return modifyHref (this.href); });
         $("link").attr('href', function() { return modifyHref (this.href); });
-        $("#footer-content").css('background-image', "url('{{ site.github.url }}/images/md-footer.svg')");
     }
 
     function modifyHref(href) {
