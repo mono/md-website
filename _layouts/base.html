@@ -17,9 +17,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <script>
       // redirect to the real domain in case someone visits the GitHub Pages domain
-      //if (window.location.hostname === 'mono.github.io') {
-      //  window.location.replace(window.location.href.replace("mono.github.io/md-website", "www.monodevelop.com"));
-      //}
+      if (window.location.hostname === 'mono.github.io') {
+        window.location.replace(window.location.href.replace("mono.github.io/md-website", "www.monodevelop.com"));
+      }
     </script>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
@@ -110,7 +110,6 @@
       $(document).foundation();
       hljs.initHighlightingOnLoad();
       $(document).ready(function() {
-        fixGitHubPagesUrl();
 
         $('.image-link').magnificPopup({
           disableOn: 400,
@@ -118,22 +117,6 @@
           type: 'image'
         });
       });
-
-    // TODO: remove this when we're hosted on the proper domain
-    function fixGitHubPagesUrl() {
-        $("img").attr('src', function() { return modifyHref (this.src); });
-        $("a").attr('href', function() { return modifyHref (this.href); });
-        $("link").attr('href', function() { return modifyHref (this.href); });
-    }
-
-    function modifyHref(href) {
-
-      if (href.substring(0, location.origin.length) !== location.origin || href.substring(location.href.length).substring(0, 1) === "#")
-        return;
-
-      return '{{ site.github.url }}' + href.substring(location.origin.length);
-    }
-    //
     </script>
   </body>
   <!--  GitHub revision:  {{ site.github.build_revision }}
