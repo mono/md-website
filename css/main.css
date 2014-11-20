@@ -4,6 +4,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-top:20px;
+  margin-bottom:20px;
+}
+
 h4 {
   font-size: 1.2375rem;
 }
@@ -12,7 +18,7 @@ code {
   font-weight: normal;
   font-size: 0.95em;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #header {
