@@ -11,63 +11,59 @@ Our website is open source on [GitHub](https://github.com/mono/md-website). If y
 {% endcapture %}
 {% include note.html type='info' message=docNote %}
 
-### Basics
+Basics
+------
 
-#### Feature List
+[Feature List](/documentation/feature-list/)
+A list of all features supported by MonoDevelop.
 
-[Read Article](/documentation/feature-list/). A list of all features supported by MonoDevelop.
+[Creating A Simple Solution](/documentation/creating-a-simple-solution/)
+This tutorial is intended as an introduction to working with MonoDevelop.
 
-#### Creating A Simple Solution
+[Introducing Xamarin Studio](http://docs.xamarin.com/guides/cross-platform/getting_started/introducing_xamarin_studio)
+Xamarin Studio is an IDE based on MonoDevelop, which provides additional features to create projects for iOS and Android. This article is a nice overview of the IDE.
 
-[Read Article](/documentation/creating-a-simple-solution/). This tutorial is intended as an introduction to working with MonoDevelop.
+[Creating C/C++ Projects](/documentation/creating-c-and-cpp-projects/)
+This tutorial provides an overview of creating simple C/C++ projects.
 
-#### Introducing Xamarin Studio
+Gtk# Development
+----------------
 
-[Read Article](http://docs.xamarin.com/guides/cross-platform/getting_started/introducing_xamarin_studio). Xamarin Studio is an IDE based on MonoDevelop, which provides additional features to create projects for iOS and Android. This article is a nice overview of the IDE.
+[Using the Gtk# GUI Designer](/documentation/stetic-gui-designer/)
+A short tutorial on using the Stetic GUI designer.
 
-#### Creating C/C++ Projects
+[Screencast: Creating a simple user interface with MonoDevelop](/documentation/creating-a-simple-user-interface-with-monodevelop/)
+This screencast shows how to use MonoDevelop and the integrated Gtk# designer to create an application with a simple user interface.
 
-[Read article](/documentation/creating-c-and-cpp-projects/). This tutorial provides an overview of creating simple C/C++ projects.
+[Screencast: Creating custom widgets with MonoDevelop](/documentation/creating-custom-widgets-with-monodevelop/)
+This screencast shows how to use MonoDevelop to create custom Gtk# widgets and use those widgets in an application.
 
-### Gtk# Development
+Build and Deployment
+--------------------
 
-#### Using the Gtk# GUI Designer
+[Building packages with MonoDevelop](/documentation/building-packages-with-monodevelop/)
+This screencast shows how to use MonoDevelop to create source and binary packages for projects.
 
-[Read Article](/documentation/stetic-gui-designer/). A short tutorial on using the Stetic GUI designer.
+Working with Source Code Control
+--------------------------------
 
-#### Screencast: Creating a simple user interface with MonoDevelop
+[Screencast: Using Version Control in MonoDevelop](/documentation/version-control-screencast/)
+A screencast showing how to use the integrated Version Control features in MonoDevelop.
 
-[See Screencast](/documentation/creating-a-simple-user-interface-with-monodevelop/). This screencast shows how to use MonoDevelop and the integrated Gtk# designer to create an application with a simple user interface.
+Web Programming
+---------------
 
-#### Screencast: Creating custom widgets with MonoDevelop
+[How to create ASP.NET applications with MonoDevelop](/documentation/creating-asp.net-projects/)
+An overview of the features that MonoDevelop provides for developing ASP.NET applications.
 
-[See Screencast](/documentation/creating-custom-widgets-with-monodevelop/). This screencast shows how to use MonoDevelop to create custom Gtk# widgets and use those widgets in an application.
+Working With Databases
+----------------------
 
-#### Build and Deployment
+[The Database Explorer](/documentation/database-addin/)
+An overview of the Database addin futures and common use.
 
-#### Screencast: Building packages with MonoDevelop
-
-[See Screencast](/documentation/building-packages-with-monodevelop/). This screencast shows how to use MonoDevelop to create source and binary packages for projects.
-
-### Working with Source Code Control
-
-#### Screencast: Using Version Control in MonoDevelop
-
-[See Screencast](/documentation/version-control-screencast/). A screencast showing how to use the integrated Version Control features in MonoDevelop.
-
-### Web Programming
-
-#### How to create ASP.NET applications with MonoDevelop
-
-[Read Article](/documentation/creating-asp.net-projects/). An overview of the features that MonoDevelop provides for developing ASP.NET applications.
-
-#### Working With Databases
-
-#### The Database Explorer
-
-[Read Article.](/documentation/database-addin/)  An overview of the Database addin futures and common use.
-
-### Extending MonoDevelop
+Extending MonoDevelop
+---------------------
 
 If you want to create new add-ins for the IDE, implement your own tools based on the platform, contribute on the development of MonoDevelop, or just know more about the project, you'll find some useful information in the following sections:
 
