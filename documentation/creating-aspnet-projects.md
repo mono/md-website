@@ -3,6 +3,7 @@ title: Creating ASP.NET Projects
 redirect_from:
   - /Documentation/Creating_ASP.NET_Projects/
   - /Creating_ASP.NET_Projects/
+  - /documentation/creating_asp.net_projects/
 ---
 
 Introduction

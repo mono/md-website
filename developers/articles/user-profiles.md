@@ -2,6 +2,7 @@
 title: User Profiles
 redirect_from:
   - /Developers/Articles/User_Profiles/
+  - /developers/articles/user_profiles/
 ---
 
 User-specific data should be stored in the locations indicated by the properties of the `UserLocations` class on the static property `MonoDevelop.Core.PropertyService.Locations`. This set of locations is called a profile.

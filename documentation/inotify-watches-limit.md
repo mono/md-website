@@ -2,6 +2,7 @@
 title: Inotify Watches Limit
 redirect_from:
   - /Inotify_Watches_Limit/
+  - /Inotify_watches_limit/
 ---
 
 When available, MonoDevelop uses Inotify to keep track of changes in files. In some systems, the maximum number of allowed watch handles may be too low, and may prevent MonoDevelop to work properly.

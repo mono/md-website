@@ -3,6 +3,7 @@ title: Stetic GUI Designer
 redirect_from:
   - /Documentation/Stetic_GUI_Designer/
   - /Stetic_GUI_Designer/
+  - /stetic_gui_designer/
 ---
 
 Introduction

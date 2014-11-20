@@ -4,6 +4,7 @@ redirect_from:
   - /Documentation/Creating_C_and_CPP_Projects/
   - /Creating_C_and_CPP_Projects/
   - /Creating_C//CPP_Projects/
+  - /documentation/creating_c_and_cpp_projects/
 ---
 
 ### Introduction

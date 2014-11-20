@@ -6,6 +6,7 @@ redirect_from:
   - /Developers/Articles/Building_MonoDevelop_on_OS_X/
   - /Developers/Mac_Support/Building_on_OS_X/
   - /Developers/Articles/Building_MonoDevelop_on_Ubuntu/
+  - /developers/building_monodevelop/
 ---
 
 Linux
