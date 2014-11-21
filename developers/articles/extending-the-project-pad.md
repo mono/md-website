@@ -79,19 +79,30 @@ Notice that a node builder extension can return true for more than one data type
 The **BuildNode()** method is called sequentially for all node builders in a chain to get the icon and the text of the node being created. It has the following signature:
 
 ``` csharp
-public virtual void BuildNode (ITreeBuilder builder, object dataObject, ref string label, ref Gdk.Pixbuf icon, ref Gdk.Pixbuf closedIcon)
+public virtual void BuildNode (ITreeBuilder builder, object dataObject, NodeInfo nodeInfo)
 ```
 
-The **dataObject** parameter is the object for which the node is being built. **label** is the text of the node. It is a *ref* parameter, which means that an extension is free to change it. **icon** is the icon to show for the node when it is expanded, and also for when it is collapsed if **closedIcon** is set to null. I'll talk about the **builder** parameter in a minute.
+The **dataObject** parameter is the object for which the node is being built. **nodeInfo** has several properties that can be used to set the content and style of the node. Those properties are:
+
+- **Label**: text of the node
+- **Icon**: icon to show for the node when it is expanded, and also for when it is collapsed if ClosedIcon is not set
+- **ClosedIcon**: icon to show for the node when it is collapsed.
+- **OverlayBottomLeft**, **OverlayBottomRight**, **OverlayTopLeft**, **OverlayTopRight**: overlay icons that will be shown in a corner of the main icon.
+- **StatusIcon**: icon used to represent the status of the node. It is shown next to the icon text.
+- **StatusMessage**: message shown in a tooltip when mouse is moved over the status icon.
+- **StatusSeverity**: specifies if the status icon represents an error, warning, or just information.
+- **DisabledStyle**: if set to true, the icon is shown with a grey color, meaning that it is disabled.
+
+I'll talk about the **builder** parameter in a minute.
 
 The sample extension overrides this method and extends the label to include the number of classes inside the file:
 
 ``` csharp
-public override void BuildNode (ITreeBuilder builder, object dataObject, ref string label, ref Gdk.Pixbuf icon, ref Gdk.Pixbuf closedIcon)
+public override void BuildNode (ITreeBuilder builder, object dataObject, NodeInfo nodeInfo)
 {
     ProjectFile file = (ProjectFile) dataObject;
     IClass[] cls = Runtime.ParserService.GetFileContents (file.Project, file.Name);
-    label = string.Format ("{0} ({1})", label, cls.Length);
+    nodeInfo.Label = string.Format ("{0} ({1})", label, cls.Length);
 }
 ```
 
@@ -130,9 +141,7 @@ There is another method that is called when building a tree node: **GetNodeAttri
 
 #### Adding a display option
 
-We want to make this new "Show classes inside files" feature optional, so the user can choose whether to show or not the classes by clicking on a checkbox menu option in the contextual menu:
-
-[http://primates.ximian.com/~lluis/im...noDevelop2.png](http://primates.ximian.com/~lluis/images/Captura-MonoDevelop2.png "http://primates.ximian.com/~lluis/images/Captura-MonoDevelop2.png")
+We want to make this new "Show classes inside files" feature optional, so the user can choose whether to show or not the classes by clicking on a checkbox menu option in the contextual menu.
 
 All management of the options (which includes creating the menu option, enabling/disabling the option and updating the tree) is automatically handled by the solution pad. The node builder only needs to check whether the option is enabled or not when building the node. This is the complete FileClassExtension class with support for options:
 
@@ -144,12 +153,12 @@ class FileClassExtension: NodeBuilderExtension
         return typeof(ProjectFile).IsAssignableFrom (dataType);
     }
 
-    public override void BuildNode (ITreeBuilder builder, object dataObject, ref string label, ref Gdk.Pixbuf icon, ref Gdk.Pixbuf closedIcon)
+    public override void BuildNode (ITreeBuilder builder, object dataObject, NodeInfo nodeInfo)
     {
         if (builder.Options ["ShowFileClasses"]) {
             ProjectFile file = (ProjectFile) dataObject;
             IClass[] cls = Runtime.ParserService.GetFileContents (file.Project, file.Name);
-            label = string.Format ("{0} ({1})", label, cls.Length);
+            nodeInfo.Label = string.Format ("{0} ({1})", label, cls.Length);
         }
     }
 
@@ -312,36 +321,9 @@ ITreeNavigator has many other methods that can be used to navigate the tree: Mov
 
 #### Extending the context Menu
 
-If we are implementing a new node type using TypeNodeBuilder, we can specify the menu's addin extension path for this type of node by overriding the **ContextMenuAddinPath** property. Just to show how it works, we'll add a "Properties" menu option which will show a message box with some information about the class:
+Once the new class node is showing up in the project pad, the next step is to create a context menu for the node. Just to show how it works, we'll add a "Properties" menu option which will show a message box with some information about the class.
 
-``` csharp
-class ClassBuilder: TypeNodeBuilder
-{
-    (...)
-
-    public override string ContextMenuAddinPath {
-        get { return "/SharpDevelop/Views/ProjectBrowser/ContextMenu/FileClassNode"; }
-    }
-}
-```
-
-In the addin xml file we define the new menu. In this case it will have a single option:
-
-``` xml
-<AddIn name = "SampleProjectPadExtension" ... >
-    (...)
-    <Extension path = "/MonoDevelop/Ide/Commands">
-        <Command id = "Sample.SampleCommands.ShowProperties"
-                  _label = "Properties" />
-    </Extension>
-    <Extension path = "/MonoDevelop/Ide/ContextMenu/ProjectPad/FileClassNode">
-                <CommandItem id = "Sample.SampleCommands.ShowProperties"/>
-    </Extension>
-    (...)
-</AddIn>
-```
-
-The command can be implemented in the NodeCommandHandler subclass. We first need to create the enumeration value that identifies the command, and then we add a command handler for that command:
+The command can be implemented in the ClassCommandHandler class we defined above. We first need to create the enumeration value that identifies the command, and then we add a command handler for that command:
 
 ``` csharp
 public enum SampleCommands {
@@ -367,7 +349,7 @@ class ClassCommandHandler: NodeCommandHandler
         foreach (IMethod met in cls.Methods)
             sb.AppendFormat (" - {0}\n", met.Name);
 
-        Runtime.MessageService.ShowMessage (sb.ToString ());
+        MessageService.ShowMessage (sb.ToString ());
     }
 
     public override void ActivateItem ()
@@ -380,17 +362,67 @@ class ClassCommandHandler: NodeCommandHandler
 }
 ```
 
-We can also extend the context menu for existing node builders like we would do for any other menu. We just need to know the addin extension path for the node type we want to extend, and register the new options there. For example, to add new options to the ProjectFile context menu, we would add the options to the "/SharpDevelop/Views/ProjectBrowser/ContextMenu/ProjectFileNode" addin path.
+Once we have the command implemented, we need to show it in the context menu. There are two ways of doing it: by extending the existing project pad context menu, or by creating a brand new context menu.
+
+The first and easiest option is to extend the existing context menu definition of the project pad. All we have to do is to add a new extension:
+
+``` xml
+<AddIn name = "SampleProjectPadExtension" ... >
+    (...)
+    <Extension path = "/MonoDevelop/Ide/ContextMenu/ProjectPad">
+        <Condition id="ItemType" value="MonoDevelop.Projects.IClass">
+            <CommandItem id = "Sample.SampleCommands.ShowProperties"/>
+        </Condition>
+    </Extension>
+    (...)
+</AddIn>
+```
+
+The **Condition** element is required here to ensure that the new option is only shown for objects that implement the IClass interface (the value of the condition has to be the full name of the type).
+
+The second option is to define a new menu. If we are implementing a new node type using TypeNodeBuilder, we can specify the menu's addin extension path for this type of node by overriding the **ContextMenuAddinPath** property. Just to show how it works, we'll add a "Properties" menu option which will show a message box with some information about the class:
+
+``` csharp
+class ClassBuilder: TypeNodeBuilder
+{
+    (...)
+
+    public override string ContextMenuAddinPath {
+        get { return "/SampleProjectPadExtension/ProjectPad/ContextMenu"; }
+    }
+}
+```
+
+In the addin xml file we define the new menu. In this case it will have a single option:
+
+``` xml
+<AddIn name = "SampleProjectPadExtension" ... >
+    (...)
+    <Extension path = "/MonoDevelop/Ide/Commands">
+        <Command id = "Sample.SampleCommands.ShowProperties"
+                  _label = "Properties" />
+    </Extension>
+
+    <!-- Declares an extension point for the new menu -->
+    <ExtensionPoint path = "/SampleProjectPadExtension/ProjectPad/ContextMenu" name = "Context menu for the sample extension">
+	<ExtensionNodeSet id="MonoDevelop.Components.Commands.ItemSet"/>
+    </ExtensionPoint>
+
+    <!-- Declares the menu items -->
+    <Extension path = "/SampleProjectPadExtension/ProjectPad/ContextMenu">
+        <CommandItem id = "Sample.SampleCommands.ShowProperties"/>
+    </Extension>
+    (...)
+</AddIn>
+```
 
 #### Drag & Drop
-
-**WARNING**: This is not yet working and the API may still change a bit.
 
 Drag & drop can be supported by overriding some methods defined by NodeCommandHandler: CanDragNode, CanDropNode and OnNodeDrop.
 
 ### Registering the new node builders
 
-The final step is to tell MD to include the our new node builders to the project pad. We need also to register the new ShowFileClasses option, so it is included in the contextual menu. The addin XML file would look like this:
+The final step is to tell MD to include the our new node builders to the project pad. We also need to register the new ShowFileClasses option, so it is included in the contextual menu. The addin XML file would look like this:
 
 ``` xml
 <AddIn name = "SampleProjectPadExtension" ... >
