@@ -330,11 +330,11 @@ In the addin xml file we define the new menu. In this case it will have a single
 ``` xml
 <AddIn name = "SampleProjectPadExtension" ... >
     (...)
-    <Extension path = "/SharpDevelop/Commands">
+    <Extension path = "/MonoDevelop/Ide/Commands">
         <Command id = "Sample.SampleCommands.ShowProperties"
                   _label = "Properties" />
     </Extension>
-    <Extension path = "/SharpDevelop/Views/ProjectBrowser/ContextMenu/FileClassNode">
+    <Extension path = "/MonoDevelop/Ide/ContextMenu/ProjectPad/FileClassNode">
                 <CommandItem id = "Sample.SampleCommands.ShowProperties"/>
     </Extension>
     (...)
