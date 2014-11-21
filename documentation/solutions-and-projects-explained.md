@@ -43,7 +43,7 @@ When you have multiple projects in your solution, **organizing your Projects in 
 
 ### 4.1: Adding references to other projects
 
-When you create larger solutions, you'll often want to add a**reference to another project**. This can be the case when you've created a library. To do so, you only have to right click on the *References* item for the project that needs references and choose *Edit references*. In the tab *Projects*, you'll get a list of all possible projects to link to in the current solution. Choose the one(s) you need and click *OK*.
+When you create larger solutions, you'll often want to add a**reference to another project**. This can be the case when you've created a library. To do so, you only have to right click on the *References* item for the project that needs references and choose *Edit references*. In the tab *Projects*, you'll get a list of all possible projects to link to in the current solution. Choose the one(s) you need and click *OK*.<br/>
  When you want to remove references, select the one to remove and click on the *-* button on the right.
 
 ### 4.2: Changing the 'Startup Project'

@@ -41,8 +41,7 @@ The new Navigate To dialog allows quickly finding and jumping to files, types an
 
 MonoDevelop has an option which allows choosing the font to use for the tree view pads such as the Solution pad or the Class pad. Those tree views may be large for big projects, so users find it convenient to use a small font, which allows seeing more information at once.
 
-[![md24-PadZoom.png](/images/285-md24-PadZoom.png)](/images/285-md24-PadZoom.png "Pad Zooming")To make font reduction easier and more handy, a new Zoom capability has been added to the tree pads. So to zoom, all you have to do is hold the **Control key** and move the **mouse wheel** up and down (the standard zoom shortcuts can also be used for this, including **Control+0** to reset the zoom).**
-**
+[![md24-PadZoom.png](/images/285-md24-PadZoom.png)](/images/285-md24-PadZoom.png "Pad Zooming")To make font reduction easier and more handy, a new Zoom capability has been added to the tree pads. So to zoom, all you have to do is hold the **Control key** and move the **mouse wheel** up and down (the standard zoom shortcuts can also be used for this, including **Control+0** to reset the zoom).
 
 **Other Improvements**
 
@@ -69,8 +68,7 @@ Console projects with the 'Run in External Console' option will now properly wor
 
 **Proper MSBuild file links in projects**
 
-Files from outside the directory of a project can now be added as a link in any project folder. In previous versions, such files where always shown in a single "External Files" folder.**
-**
+Files from outside the directory of a project can now be added as a link in any project folder. In previous versions, such files where always shown in a single "External Files" folder.
 
 <span id="1273074684562S" style="display: none;"> </span>**Project Infrastructure Improvements**
 

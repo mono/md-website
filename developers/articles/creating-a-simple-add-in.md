@@ -83,8 +83,7 @@ Each extension point has a unique *path*, so the extension is contained in and *
 </Extension>
 ```
 
-This extension defines a command for the command system. The command ID should correspond to an enum value. The underscore prefixing the label and description attributes indicates that they're translatable using Gettext, but adding a Gettext translation catalog to the addin is beyond the scope
- of this introduction.
+This extension defines a command for the command system. The command ID should correspond to an enum value. The underscore prefixing the label and description attributes indicates that they're translatable using Gettext, but adding a Gettext translation catalog to the addin is beyond the scope of this introduction.
 
 MonoDevelop's command system provides ways to control the availability, visibility and handling of commands depending on context. Commands can also be assigned a keyboard shortcut and an icon. For more details, read the guide to the [Command System](/developers/articles/the-command-system/ "Developers/Articles/The Command System"). We will implement the command later in the walkthrough.
 
@@ -211,6 +210,6 @@ Wrapping Up
 
 It's done! Rebuild the project, and the command should now inset the date, as expected.
 
-Now that you've built your first addin, try adding more features to it. For example, if the text editor has a selection, the addin could use that as a format string for the date. The reference version of the project that's attached to this document implements this feature.
- When you're ready to try more adventurous addin development, there are more [articles](/developers/articles/ "Developers/Articles") that describe more advanced addin development, and a lot of the API is readily discoverable via code completion, once you know the general areas to look. If you can't work out how best to do something, take a look at
+Now that you've built your first addin, try adding more features to it. For example, if the text editor has a selection, the addin could use that as a format string for the date. The reference version of the project that's attached to this document implements this feature.<br/>
+ When you're ready to try more adventurous addin development, there are more [articles](/developers/articles/ "Developers/Articles") that describe more advanced addin development, and a lot of the API is readily discoverable via code completion, once you know the general areas to look. If you can't work out how best to do something, take a look at<br/>
  an existing addin that does something similar, or email your question to the monodevelop-devel mailing list.

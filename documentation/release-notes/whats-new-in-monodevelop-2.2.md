@@ -42,11 +42,11 @@ Text file formatting settings can now be specified per file type. Formatting inf
 The new *Run With* menu allows running a project using a special execution mode. Execution modes can be provided by add-ins (for example, a debugger or a profiler), and can be customized by the user (for example, it would be possible to define a custom mode which runs a profiler with a set of user defined options).
 
 [![CapturaModes.png](/images/243-CapturaModes.png)](/images/243-CapturaModes.png "Custom Execution Modes")
-**Global Assembly Folders**
+**Global Assembly Folders**<br/>
 It is now possible to specify a set of folders where MonoDevelop should look for assemblies when resolving project references. This set of folders is also used to look for .pc files. This simplifies the development of libraries (such as add-ins) that need to be linked to applications which are not installed in the system. Custom folders can be specified in the Preferences -\> Build options panel.
 
 [![OptionsAssemblyFolders.png](/images/244-OptionsAssemblyFolders.png)](/images/244-OptionsAssemblyFolders.png "Global Assembly Folders")
-**Delete Project Dialog** 
+**Delete Project Dialog** <br/>
 When removing a project from a solution, MonoDevelop now presents a dialog which allows deleting all or part of the project files from disk.
 
 [![DeleteProject.png](/images/245-DeleteProject.png)](/images/245-DeleteProject.png "Delete Project Dialog")
@@ -76,7 +76,7 @@ Code Template support has been completely rewritten and now offers much more pow
 -   Templates can now have **placeholders**. When the template is inserted, the cursor will be moved to the first placeholder and the user can move between placeholders by pressing TAB. Placeholders can be linked to other text in the template, which will be automatically updated. For example, a template for the 'for' statement can have a placeholder for the iteration variable, and when the name of the variable is entered all references to that variable in the template are automatically updated.
 -   Support for **'Surround With'**. Templates supporting this mode, can be used to surround a block of selected code. For example, the 'try' template will surround a block of code with a try/catch statement.
 
-[![CodeTemplates.png](/images/247-CodeTemplates.png)](/images/247-CodeTemplates.png "Code template with placeholder")
+[![CodeTemplates.png](/images/247-CodeTemplates.png)](/images/247-CodeTemplates.png "Code template with placeholder")<br/>
  
 **Block Selection**
 
@@ -92,8 +92,7 @@ When hovering over a fold region, the corresponding area of code will be highlig
 
 The editor is now much faster and will be more responsive when editing large files.
 
-**Code Formatting
-**
+**Code Formatting**
 
 A new **C# formatter** has been implemented. This formatter has plenty of formatting options which can be configured per-project.
 

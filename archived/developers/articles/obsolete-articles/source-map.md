@@ -153,14 +153,14 @@ Sometimes it can be hard to find your way around the MonoDevelop source tree. Th
 
 Add-in files:
 
-`build/AddIns/`
+`build/AddIns/`<br/>
  Resources:
 
 `build/data/resources/`
-`data/resources/`
+`data/resources/`<br/>
  Templates:
 
-`build/data/templates/`
+`build/data/templates/`<br/>
  Glade:
 
 `data/resources/glade/`

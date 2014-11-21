@@ -4,7 +4,7 @@ redirect_from:
   - /Documentation/Database_Addin/
 ---
 
-The addin database consists of the following Addins:
+The addin database consists of the following Addins:<br/>
  **MonoDevelop.Database.ConnectionManager.** This addin is responsible for connectivity, database explorer (Connection Manager Pad) and all nodes in a database (tables, procedures, functions, etc.).
 
 **MonoDevelop.Database.Components.** Common dialogs and widgets for the database addin.
@@ -112,11 +112,11 @@ Developers
 References
 ----------
 
-[1] <http://dev.mysql.com/usingmysql/dotnet/>
-[2] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/AbstractConnectionProvider.cs>
-[3] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/IDbFactory.cs>
-[4] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/IGuiProvider.cs>
-[5] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/ConnectionPool/AbstractPooledDbConnection.cs>
-[6] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/AbstractSchemaProvider.cs>
-[7] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/IDbLinq.cs>
+[1] <http://dev.mysql.com/usingmysql/dotnet/><br/>
+[2] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/AbstractConnectionProvider.cs><br/>
+[3] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/IDbFactory.cs><br/>
+[4] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/IGuiProvider.cs><br/>
+[5] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/ConnectionPool/AbstractPooledDbConnection.cs><br/>
+[6] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/AbstractSchemaProvider.cs><br/>
+[7] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/IDbLinq.cs><br/>
 [8] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Dialect/ISqlDialect.cs>

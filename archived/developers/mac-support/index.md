@@ -47,8 +47,8 @@ Bugs marked as ~~strikethough~~ have been fixes that will be released in future 
 
 #### Misc
 
--   ~~Control-click doesn't emulate right-click
-     [[GTK+ bug, patch]](http://bugzilla.gnome.org/show_bug.cgi?id=346609 "http://bugzilla.gnome.org/show_bug.cgi?id=346609")
+-   ~~Control-click doesn't emulate right-click<br/>
+     [[GTK+ bug, patch]](http://bugzilla.gnome.org/show_bug.cgi?id=346609 "http://bugzilla.gnome.org/show_bug.cgi?id=346609")<br/>
      [[Bug 359734 - Control-click doesn't map to right-click]](https://bugzilla.novell.com/show_bug.cgi?id=359734 "https://bugzilla.novell.com/show_bug.cgi?id=359734")~~
 -   Context menu submenus can display on wrong monitor [[MD Bug 501553]](https://bugzilla.novell.com/show_bug.cgi?id=501553 "https://bugzilla.novell.com/show_bug.cgi?id=501553") [GTK+ bug]
 -   Mouse clicks on dialogs annd menus sometimes have no effect unless MD is defocused and refocused.

@@ -124,7 +124,7 @@ There are two ways of difining update tags:
 This property should have the release notes for this release and for all the previous releases that it supersedes. The format is the following.
 
 {% raw %}
-{{version2,date2}} release note text
+{{version2,date2}} release note text<br/>
 {{version1,date1}} release note text ...
 ...
 {% endraw %}
@@ -132,14 +132,14 @@ This property should have the release notes for this release and for all the pre
 For example:
 
 {% raw %}
-{{2.0, 2011-11-22}}
-Release notes for 2.0
+{{2.0, 2011-11-22}}<br/>
+Release notes for 2.0<br/>
 It can have multiple lines
 
-{{1.2, 2011-09-02}}
+{{1.2, 2011-09-02}}<br/>
 Release notes for 1.2
 
-{{1.1, 2011-01-10}}
+{{1.1, 2011-01-10}}<br/>
 Release notes for 1.1
 {% endraw %}
 

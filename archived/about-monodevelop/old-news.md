@@ -57,8 +57,7 @@ MonoDevelop 2.2 has been released. See the [official announcement](/documentatio
 
 MonoDevelop 2.2 RC has been released. This release candidate includes plenty of bug fixes and some new features. More details in the [release notes](/documentation/release-notes/2.2-rc-1/ "Download/Release Notes/Release Notes for MonoDevelop 2.2 RC 1"). Directions for the packages are in the [Download](/download/ "Download") page.
 
-*December 10, 2009*****
-****
+*December 10, 2009*
 
 ### MonoDevelop 2.2 Beta 2 released
 
@@ -93,7 +92,7 @@ The first MonoDevelop 2.0 beta release includes per-project/solution policies, b
 ### MonoDevelop 2.0 Alpha 2 released
 
 MonoDevelop 2.0 Alpha 2 has been released, and it comes with many interesting features. This is the first release to include support for debugging managed and native applications. Code completion has been greatly improved, with basic support for C# 3. More details in the [release notes](/documentation/release-notes/2.0-alpha-2/ "Download/Release_notes_for_MonoDevelop_2.0_Alpha_2"). Directions for the packages are in the [Download - Unstable](/download/ "Download/Download_-_Unstable") page.
-test
+
 *November 21, 2008*
 
 ### MonoDevelop 2.0 Alpha 1 released

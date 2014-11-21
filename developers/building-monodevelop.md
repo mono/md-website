@@ -34,14 +34,14 @@ After getting the source code from [GitHub](http://github.com/mono/monodevelop "
 
 It may fail because of missing dependencies; install them, and re-run the command.
 
-This script allows selecting and configuring a set of MonoDevelop modules to be included in an integrated build. The MonoDevelop build system consists of a 'main' module, which contains the main distribution, and a number of additional add-ins in subdirectories of 'extras'.
+This script allows selecting and configuring a set of MonoDevelop modules to be included in an integrated build. The MonoDevelop build system consists of a 'main' module, which contains the main distribution, and a number of additional add-ins in subdirectories of 'extras'.<br/>
  The 'extras' add-ins are designed to be built and distributed separately, and therefore build against your system-installed MonoDevelop by default. However, this script sets them up to build against the MonoDevelop in 'main', and ensures that they will be loaded when MonoDevelop is launched with 'make run' in this top-level directory. This is very useful for development and testing.
 
 You can select the list of extra add-ins to be built by running this command:
 
     ./configure --select
 
-Further executions of the *configure* script will configure only the selected add-ins.
+Further executions of the *configure* script will configure only the selected add-ins.<br/>
  You can also configure a predefined list of modules by specifying a build profile using the --profile option. Use the --help option to get information about available profiles and other build options.
 
 #### Linux: Running

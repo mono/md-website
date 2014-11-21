@@ -50,6 +50,6 @@ Usage
 
 The package ***monodevelop*** should be installed to get the main MonoDevelop application.
 
-Install ***monodevelop-nunit*** to get the MonoDevelop NUnit addin, so you can run unit tests inside the IDE.
-Install ***monodevelop-versioncontrol*** to add Git and SVN integration to the IDE.
+Install ***monodevelop-nunit*** to get the MonoDevelop NUnit addin, so you can run unit tests inside the IDE.<br/>
+Install ***monodevelop-versioncontrol*** to add Git and SVN integration to the IDE.<br/>
 Install ***monodevelop-database*** to add the database addin to the IDE.

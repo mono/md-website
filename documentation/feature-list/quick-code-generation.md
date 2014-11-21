@@ -30,7 +30,7 @@ class Timer
 
 Now go inside the class and hit Alt+Insert. With just using the code generators mentioned above you can create:
 
-``` c#
+``` csharp
 using System;
 
 class Timer

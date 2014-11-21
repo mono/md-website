@@ -30,8 +30,8 @@ It might also be useful to have a method on the logging service that would launc
 
 It would be useful to have detailed information about the MD build and the user's system in the about box, which could be copied into bug reports. Possible info:
 
-Machine info: number of processors, processor speed, amount of RAM
- OS info: OS and version, GTK version, Mono/.NET version
+Machine info: number of processors, processor speed, amount of RAM<br/>
+ OS info: OS and version, GTK version, Mono/.NET version<br/>
  MD info: version, svn revision, previous versions used w/profile, working set, enabled addins, config dir. size, number of snippets, some prefs, e.g code completion settings, theme, default policy
 
 It should also be possible for addins to provide hooks for additional info.

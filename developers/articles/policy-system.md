@@ -8,12 +8,12 @@ redirect_from:
 Policies
 --------
 
-Policies are organisation-specific conventions that are applied to a solution. This makes it possible to ensure that all contributors are using the same style for their code, are following the commit policies, naming guidelines, and so forth.
+Policies are organisation-specific conventions that are applied to a solution. This makes it possible to ensure that all contributors are using the same style for their code, are following the commit policies, naming guidelines, and so forth.<br/>
 Policies may be set in several places:
 
 ### The Default Policies dialog
 
-This is used for editing the policies that are applied to new solutions, or solutions that do not have policies set. Each panel in this dialog corresponds to a policy. Each of these  panels has a combo box that the top that can be used to select a named policy.
+This is used for editing the policies that are applied to new solutions, or solutions that do not have policies set. Each panel in this dialog corresponds to a policy. Each of these  panels has a combo box that the top that can be used to select a named policy.<br/>
 If the current policy matches any of the built-in named policies, that policy's name will be displayed in the combo box.
 
 In future it will be possible to use this dialog to save named sets of policies, so that users will be able to choose from their own named sets when creating a new solution, or apply these named sets to existing solutions.
@@ -24,7 +24,7 @@ The policy panels that are in the *Default Policies* dialog are also included in
 
 ### Project/Solution Folder Options
 
-The policy panels are also included in the Options dialog for projects and solution folders. An additional "Parent" choice is available in the named policy combo, and means that the project or solution folder will use its parent solution or solution folder's value for this policy.
+The policy panels are also included in the Options dialog for projects and solution folders. An additional "Parent" choice is available in the named policy combo, and means that the project or solution folder will use its parent solution or solution folder's value for this policy.<br/>
 By default, all solution folder and project policies use the parent value. Taken together, these options allow overriding the solution policies for any project, but the default cascading of values from the parents make it easy to control the policies when this granularity is not needed.
 
 Implementing policies
@@ -54,7 +54,7 @@ Named policy sets are registered as extensions:
 </Extension>
 ```
 
-The policies xml file contains any number of policies, in their raw serialized XML form. Note that policies saved into projects and solutions are serialized as a diff relative to the closest named policy; such "diff policies" may not be used when registering policies
+The policies xml file contains any number of policies, in their raw serialized XML form. Note that policies saved into projects and solutions are serialized as a diff relative to the closest named policy; such "diff policies" may not be used when registering policies<br/>
  for named sets.
 
 Other addins can add policies to existing named policy sets:

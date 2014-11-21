@@ -168,8 +168,7 @@ Other
 -----
 
 -   The command line tool for building projects (mdtool) now has a switch for selecting the runtime to be used for building.
--   The export-project tool now allows specifying which projects of a solution
-     should be exported.
+-   The export-project tool now allows specifying which projects of a solution should be exported.
 -   Support for Jump Lists in Windows 7 and Vista.
 -   The gettext add-in is now supported in Mac
 

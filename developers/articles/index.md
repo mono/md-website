@@ -15,79 +15,79 @@ Our website is open source on [GitHub](https://github.com/mono/md-website). If y
 Building MonoDevelop
 --------------------
 
-[Development: Getting Started](/developers/articles/development-getting-started/ "Developers/Articles/Development: Getting Started")
+[Development: Getting Started](/developers/articles/development-getting-started/ "Developers/Articles/Development: Getting Started")<br/>
 It's relatively easy to get started working on MonoDevelop, but this article aims to make it easier to get off the ground.
 
-[Environment Variables](/developers/articles/environment-variables/ "Developers/Articles/Environment_Variables")
+[Environment Variables](/developers/articles/environment-variables/ "Developers/Articles/Environment_Variables")<br/>
 An in-depth explanation of all environment variables that can be altered in order to simplify the development of MonoDevelop. 
 
-[Building MonoDevelop from source](/developers/building-monodevelop/)
+[Building MonoDevelop from source](/developers/building-monodevelop/)<br/>
 Basic steps for building MonoDevelop. 
 
 Writing Add-ins
 ---------------
 
-[Creating a Simple Add-in](/developers/articles/creating-a-simple-add-in/ "Developers/Articles/Creating a Simple Add-in")
+[Creating a Simple Add-in](/developers/articles/creating-a-simple-add-in/ "Developers/Articles/Creating a Simple Add-in")<br/>
 This walkthrough will guide you through the process of creating a simple add-in, introducing the fundamentals of the add-in system and some of MonoDevelop's core APIs.
 
-[Walk through: Extending the Project Pad](/developers/articles/extending-the-project-pad/ "Developers/Articles/Extending_the_Project_Pad")
+[Walk through: Extending the Project Pad](/developers/articles/extending-the-project-pad/ "Developers/Articles/Extending_the_Project_Pad")<br/>
 This tutorial explains how to implement an addin that extends the project pad. The idea for this extension is to be able to show the classes that are implemented in a file as child nodes of that file in the project pad.
 
-[How to extend the Project Model](/developers/articles/how-to-extend-the-project-model/ "Developers/Articles/How_to_extend_the_Project_Model")
+[How to extend the Project Model](/developers/articles/how-to-extend-the-project-model/ "Developers/Articles/How_to_extend_the_Project_Model")<br/>
 This article explains how to extend the project model to support new types of projects or to add additional information to existing project types.
 
-[Syntax mode definition](/developers/articles/syntax-mode-definition/ "Developers/Articles/Syntax Mode Definition")
+[Syntax mode definition](/developers/articles/syntax-mode-definition/ "Developers/Articles/Syntax Mode Definition")<br/>
 This article explains how to create a syntax hilighting mode for a new file type.
 
-[Editor color sheme definition](/developers/articles/color-sheme-definition/ "Developers/Articles/Color Sheme Definition")
+[Editor color sheme definition](/developers/articles/color-sheme-definition/ "Developers/Articles/Color Sheme Definition")<br/>
 This article explains how to create a syntax hilighting mode for a new file type.
 
-[Publishing an Add-in](/developers/articles/publishing-an-addin/ "Developers/Articles/Publishing an Addin")
+[Publishing an Add-in](/developers/articles/publishing-an-addin/ "Developers/Articles/Publishing an Addin")<br/>
 This article explains how to publish an add-in to make it available to MonoDevelop users.
 
-[Introduction to Mono.Addins](http://www.mono-project.com/Introduction_to_Mono.Addins "http://www.mono-project.com/Introduction_to_Mono.Addins")
+[Introduction to Mono.Addins](http://www.mono-project.com/Introduction_to_Mono.Addins "http://www.mono-project.com/Introduction_to_Mono.Addins")<br/>
 This article explains the library basics and some examples. Mono.Addins is the add-in engine used by MonoDevelop.
 
-[Mono.Addins Reference Manual](http://www.mono-project.com/Mono.Addins_Reference_Manual "http://www.mono-project.com/Mono.Addins_Reference_Manual")
+[Mono.Addins Reference Manual](http://www.mono-project.com/Mono.Addins_Reference_Manual "http://www.mono-project.com/Mono.Addins_Reference_Manual")<br/>
 An in-depth explanation of all Mono.Addins features. Mono.Addins is the add-in engine used by MonoDevelop.
 
 MonoDevelop API
 ---------------
 
-[API Overview](/developers/articles/api-overview/ "Developers/Articles/API Overview")
+[API Overview](/developers/articles/api-overview/ "Developers/Articles/API Overview")<br/>
 An overview of the MonoDevelop API, explaining where to find the most important services and how to use them.
 
-[Using the Data Serializer](/developers/articles/using-the-data-serializer/ "Developers/Articles/Using The Data Serializer")
+[Using the Data Serializer](/developers/articles/using-the-data-serializer/ "Developers/Articles/Using The Data Serializer")<br/>
 A programming guide of the generic data serializer provided by the MonoDevelop API.
 
-[The String Parser Service](/developers/articles/the-string-parser-service/ "Developers/Articles/The String Parser Service")
+[The String Parser Service](/developers/articles/the-string-parser-service/ "Developers/Articles/The String Parser Service")<br/>
 A programming guide for the String Parser Service.
 
-[Logging](/developers/articles/logging/ "Developers/Articles/Logging")
+[Logging](/developers/articles/logging/ "Developers/Articles/Logging")<br/>
 MonoDevelop's logging service provides a configurable way for developers to log debug and error messages reported by Addins.
 
 MonoDevelop Design and Architecure
 ----------------------------------
 
-[Architecture Overview](/developers/articles/architecture-overview/ "Developers/Articles/Architecture_Overview")
+[Architecture Overview](/developers/articles/architecture-overview/ "Developers/Articles/Architecture_Overview")<br/>
 This document is an overview of the new assembly organization of MonoDevelop.
 
-[Add-in Extension Tree Reference](/developers/articles/extension-tree-reference/ "Developers/Articles/Extension_Tree_Reference")
+[Add-in Extension Tree Reference](/developers/articles/extension-tree-reference/ "Developers/Articles/Extension_Tree_Reference")<br/>
 This document shows the complete extension tree available to add-in developers.
 
-[The Command System](/developers/articles/the-command-system/ "Developers/Articles/The_Command_System")
+[The Command System](/developers/articles/the-command-system/ "Developers/Articles/The_Command_System")<br/>
 This article explains how MonoDevelop's Command System works, and how can you take advantage of it for writing your add-ins.
 
-[Thread Management in MonoDevelop](/developers/articles/thread-management/ "Developers/Articles/Thread_Management")
+[Thread Management in MonoDevelop](/developers/articles/thread-management/ "Developers/Articles/Thread_Management")<br/>
 This article explains the some basic rules that every addin developer should follow regarding thread management in MonoDevelop.
 
-[Translations](/developers/articles/translations/ "Developers/Articles/Translations")
+[Translations](/developers/articles/translations/ "Developers/Articles/Translations")<br/>
 MonoDevelop has chosen to use gettext instead of resources for translating into other languages. This allows us to take advantage of GNOME translators' familiarity with gettext.
 
-[Refactoring](/developers/articles/refactoring/ "Developers/Articles/Refactoring")
+[Refactoring](/developers/articles/refactoring/ "Developers/Articles/Refactoring")<br/>
 This article explains the MonoDevelop refactoring infrastructure. It helps writing own 
 
-[The Toolbox](/developers/articles/toolbox/ "Developers/Articles/Toolbox")
+[The Toolbox](/developers/articles/toolbox/ "Developers/Articles/Toolbox")<br/>
 MonoDevelop has some infrastructure for supporting visual designers, such as the ASP.NET and Gtk# designers. Some of this — the property grid and toolbox — is now being used elsewhere in MonoDevelop.
 
 Obsolete Articles

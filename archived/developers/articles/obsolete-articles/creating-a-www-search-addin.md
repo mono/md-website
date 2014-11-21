@@ -213,10 +213,10 @@ Now you should have another menu item in the Help menu: <http://projectgo.com/mo
 
 Now we finally gotten through all the technical problems with compiling and installing an AddIn. The next step is to make it do something useful. First we need to add references to some of the MonoDevelop mono libraries. Specifically we need:
 
-MonoDevelop.Base.dll (already included in Step II)
- MonoDevelop.Core.dll
- MonoDevelop.Gui.Widget.dll
- MonoDevelop.SourceEditor.dll
+MonoDevelop.Base.dll (already included in Step II)<br/>
+MonoDevelop.Core.dll<br/>
+MonoDevelop.Gui.Widget.dll<br/>
+MonoDevelop.SourceEditor.dll
 
 It doesn't hurt much to include more of the .dll files in the monodevelop/bin directory, remember that auto completion do not work before you have added a reference to the library (.net assembly). We also need a reference to System.Web which we find in the tab Global Assembly Cache after choosing add references. If you do not remember the process of adding references feel free to refresh you memory.
 
@@ -263,8 +263,8 @@ After adding these references, you should be able to compile this code:
 
 The code was pieced together by looking at some of the AddIns in the MonoDevelop source, mostly
 
-MonoDevelop/Core/src/AddIns/prj2make-sharp-lib
- MonoDevelop/Core/src/AddIns/DisplayBindings/SourceEditor/Commands/SearchCommands.cs
+MonoDevelop/Core/src/AddIns/prj2make-sharp-lib<br/>
+MonoDevelop/Core/src/AddIns/DisplayBindings/SourceEditor/Commands/SearchCommands.cs
 
 but also the rest of the source code of MonoDevelop. The auto completion functionality in MonoDevelop is also invaluable - if auto completion do not work for your references try to restart monodevelop. Compile it with F8 and install it by copying if you do not use the symlink trick. Now the Help-\>Search Google command should open the google search engine with the selected text as the query. If you have not selected anything - nothing will happen.
 

@@ -69,7 +69,7 @@ GUI
 
 This is a powerful and flexible system, which makes it difficult to expose as a GUI.
 
-The plan was to have a single policy panel for the project/solution/default options dialogs, which would contain a "summary" of policies: a flat list of all mime types with policies, and combo cell editors for picking named policies. Mimetypes would be displayed with their "friendly" name (available from the platform service), not the literal mimetype string.  An "Advanced" or "Custom" button would open up the Advanced Code Style dialog.
+The plan was to have a single policy panel for the project/solution/default options dialogs, which would contain a "summary" of policies: a flat list of all mime types with policies, and combo cell editors for picking named policies. Mimetypes would be displayed with their "friendly" name (available from the platform service), not the literal mimetype string.  An "Advanced" or "Custom" button would open up the Advanced Code Style dialog.<br/>
  Note that all mimetypes with a "specific" policy type, e.g. XmlStylePolicy, would automatically be in this list, since at least one instance of any policy type that's used is saved on the solution.
 
 The Code Style dialog would contain a treeview on the left, showing mimetypes hierarchically grouped using their cascades. There might also be a combo cell editor in this treeview for named policies. There would be a button for adding additional mimetypes.
@@ -79,8 +79,7 @@ Selecting an item in the treeview would cause a policy settings panel to show on
 Possible Complications and Alternatives
 ---------------------------------------
 
-Complications might be introduced by files that contain multiple "sub-mimetypes". E.g. aspx may contain C# (or VB), HTML, CSS, and JavaScript. We could handle this by having it cascade to all of these, but that would cause it to appear multiple times in the hierarchy. There may also be settings that are specific to aspx, such as formatting of directives. It seems likely that the only sane way to handle these pages is by having it cascade to a "primary" parent mimetype (e.g. HTML). The [ASP.NET](http://asp.net/ "http://asp.net/") editor would have to use the settings from the C# and JS mimetypes directly, except for the text
- settings.
+Complications might be introduced by files that contain multiple "sub-mimetypes". E.g. aspx may contain C# (or VB), HTML, CSS, and JavaScript. We could handle this by having it cascade to all of these, but that would cause it to appear multiple times in the hierarchy. There may also be settings that are specific to aspx, such as formatting of directives. It seems likely that the only sane way to handle these pages is by having it cascade to a "primary" parent mimetype (e.g. HTML). The [ASP.NET](http://asp.net/ "http://asp.net/") editor would have to use the settings from the C# and JS mimetypes directly, except for the text settings.
 
 Can this be handled with subclasses of TextStylePolicy? Are there ever likely to be parallel per-mimetype style policies? Baking the cascades into the class hierarchy would be quite neat, but would sort of conflict with "multi-mimetype" documents.
 

@@ -24,6 +24,7 @@ Bug Fixes
 Here is a summary of the most important fixes:
 
 Projects
+
 -   656696 - project (both C# and VB) properties aren't deserialized correctly from vb/csproj files
 -   659511 - After Build events do not work as expected
 -   663305 - Deleting project configurations is not persistent
@@ -38,20 +39,25 @@ Projects
 -   640248 - Mono-2.8 p5 on openSUSE 11.3 i586: System.ObjectDisposedException on run
 
 Text editor
+
 -   651660 - Exception in parser service with unsaved file
 
 Gtk# Designer
+
 -   654372 - Display string[] property from gtk custom widget in property pad.
 
 Debugger
+
 -   644650 - monodevelop crash when debug c++ project with gdb
 -   Fix expression evaluation bug
 -   Fix visualizer display issue
 
 iPhone
+
 -   Support for zipping app bundles
 
 Other
+
 -   658794 - IDE crash during a copy/paste operation in the assembly content window
 -   Fixed url for windows add-in repository
 -   Improved schema-driven XML code completion

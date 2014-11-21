@@ -16,15 +16,13 @@ redirect_from:
 
 Instead of using sharpssh, use the command line ssh tool (plink on windows).
 
-The major problem is that sharpssh lacks some features and will require export review.
- There are 3 places where we use this library:
+The major problem is that sharpssh lacks some features and will require export review. There are 3 places where we use this library:
 
 1.  SshRemoteProcess -  an IProcessAsyncOperation for running a command over ssh.
 2.  MeeGoUtility.Upload - an IAsyncOperation that uses sftp to copy a directory to a remote machine
 3.  MeeGoExecutionHandler.GetGdmXAuth - could trivially be eliminated, by putting this functionality in the shell command that's used to launch the app.
 
-Both SshRemoteProcess and MeeGoUtility.Upload are very generic and should probably be moved down into MD core at some point.
- Both SshRemoteProcess and MeeGoUtility.Upload could very easily be made to use ssh commandline utilities instead, except for the authentication problem.
+Both SshRemoteProcess and MeeGoUtility.Upload are very generic and should probably be moved down into MD core at some point. Both SshRemoteProcess and MeeGoUtility.Upload could very easily be made to use ssh commandline utilities instead, except for the authentication problem.
 
 Error recovery on authetication also has to be improved.
 
@@ -47,11 +45,9 @@ The solution that I intended to implement for all these problems was the followi
 1.  MD creates an ssh key for MeeGo debugging and stores it in ~/.config/MonoDevelop.
 2.  MD creates a script "provision-meego-development-$DEVELMACHINE" that can be copied to the MeeGo device and run, where $DEVELMACHINE is some unique name identifying the MD host machine.
 3.  The script enables avahi and ssh on a MeeGo device and  adds MD's SSH key to authorized\_keys.
-4.  The script registers a "MonoDevelop Debug" service on Avahi, with extra info in the TXT record
-     ("$USER;$DEVELMACHINE1,$DEVELMACHINE2,...)
+4.  The script registers a "MonoDevelop Debug" service on Avahi, with extra info in the TXT record    ("$USER;$DEVELMACHINE1,$DEVELMACHINE2,...)
 5.  MD uses Mono.ZeroConf to get the list of devices on the local network that advertise "MonoDevelop Debug" service and are provisioned for the current machine.
-6.  There would be an Active Device menu beside Active Configuration/Runtime, allowing the user to pick between provisioned targets. MD can then use the target's mdns address and username to
-     ssh.
+6.  There would be an Active Device menu beside Active Configuration/Runtime, allowing the user to pick between provisioned targets. MD can then use the target's mdns address and username to ssh.
 7.  There would be a "provision target" command that shows a dialog explaining how to run the provisioning script, with a button to write the provisioning script to a removable drive.
 8.  When debugging or running, MD would use the active target, or run the "provision target" command.
 
@@ -100,8 +96,7 @@ Add some options:
 
 -   Configurable upload directory on target machine
 -   Configurable launch parameters
--   Upload a .desktop file and launch script to the target so the app
-     can be run directly
+-   Upload a .desktop file and launch script to the target so the app can be run directly
 
 ### Integrate the MeeGo Simulator
 
