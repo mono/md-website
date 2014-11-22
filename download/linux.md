@@ -53,3 +53,10 @@ The package ***monodevelop*** should be installed to get the main MonoDevelop ap
 Install ***monodevelop-nunit*** to get the MonoDevelop NUnit addin, so you can run unit tests inside the IDE.<br/>
 Install ***monodevelop-versioncontrol*** to add Git and SVN integration to the IDE.<br/>
 Install ***monodevelop-database*** to add the database addin to the IDE.
+
+openSUSE
+--------
+
+[MonoDevelop](http://software.opensuse.org/package/monodevelop) is part of the official distribution. The latest stable version released as tarballs is also available from the [openSUSE build service](http://software.opensuse.org/download.html?project=Mono%3AFactory&package=monodevelop) development repository via One-Click-Install.
+
+The package ***monodevelop*** contains the IDE including version control and unit test integration. ***monodevelop-database*** contains the database addins and ***monodevelop-debugger-gdb*** adds support for the GNU Debugger.
