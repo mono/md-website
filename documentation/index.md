@@ -53,7 +53,7 @@ A screencast showing how to use the integrated Version Control features in MonoD
 Web Programming
 ---------------
 
-[How to create ASP.NET applications with MonoDevelop](/documentation/creating-asp.net-projects/)<br/>
+[How to create ASP.NET applications with MonoDevelop](/documentation/creating-aspnet-projects/)<br/>
 An overview of the features that MonoDevelop provides for developing ASP.NET applications.
 
 Working With Databases
