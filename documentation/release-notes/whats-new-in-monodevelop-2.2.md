@@ -2,6 +2,7 @@
 title: What's new in MonoDevelop 2.2
 redirect_from:
   - /Download/What's_new_in_MonoDevelop_2.2/
+  - /download/what's_new_in_monodevelop_2.2/
 ---
 
 Windows Support

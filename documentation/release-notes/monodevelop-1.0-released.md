@@ -3,6 +3,7 @@ title: MonoDevelop 1.0 Released
 redirect_from:
   - /Download/MonoDevelop_1.0_Released/
   - /MonoDevelop_1.0_Released/
+  - /monodevelop_1.0_released/
 ---
 
 The MonoDevelop team is proud to announce the release of MonoDevelop 1.0.

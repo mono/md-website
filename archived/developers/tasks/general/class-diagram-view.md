@@ -4,6 +4,7 @@ redirect_from:
   - /Developers/Tasks/General/Class_Diagram_View/
   - /Class_Diagrams/
   - /Class_Diagram_View_Proposal/
+  - /Class_diagram_view_proposal/
   - /Proposals/Class_Diagram_View_Proposal/
   - /Developers/TODO/Proposals/Class_Diagram_View_Proposal/
   - /Developers/Proposals/Class_Diagram_View_Proposal/

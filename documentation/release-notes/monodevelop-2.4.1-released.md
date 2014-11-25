@@ -2,6 +2,7 @@
 title: MonoDevelop 2.4.1 Released
 redirect_from:
   - /Download/MonoDevelop_2.4.1_Released/
+  - /download/monodevelop_2.4.1_released/
 ---
 
 The MonoDevelop team is proud to announce the release of **MonoDevelop 2.4.1**.

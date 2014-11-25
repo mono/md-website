@@ -7,6 +7,8 @@ redirect_from:
   - /Download/
   - /Download/Windows_Preview/
   - /Download/Mac_MonoTouch/
+  - /Download/Mac_Preview/
+  - /MonoDevelopWin32/
 ---
 
 Download
