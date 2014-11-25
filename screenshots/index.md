@@ -29,7 +29,7 @@ Screenshots
 
 [![ss-addin-manager.png](/images/392-ss-addin-5-4.png)](/images/392-ss-addin-5-4.png "Add-in Manager")
 
-#### NuGet Manager 
+#### NuGet Manager
 
 [![ss-nuget-manager.png](/images/391-ss-nuget-5-4.png)](/images/391-ss-nuget-5-4.png "NuGet Manager")
 

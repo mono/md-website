@@ -405,7 +405,7 @@ In the addin xml file we define the new menu. In this case it will have a single
 
     <!-- Declares an extension point for the new menu -->
     <ExtensionPoint path = "/SampleProjectPadExtension/ProjectPad/ContextMenu" name = "Context menu for the sample extension">
-	<ExtensionNodeSet id="MonoDevelop.Components.Commands.ItemSet"/>
+    <ExtensionNodeSet id="MonoDevelop.Components.Commands.ItemSet"/>
     </ExtensionPoint>
 
     <!-- Declares the menu items -->

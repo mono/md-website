@@ -85,7 +85,7 @@ This article explains the some basic rules that every addin developer should fol
 MonoDevelop has chosen to use gettext instead of resources for translating into other languages. This allows us to take advantage of GNOME translators' familiarity with gettext.
 
 [Refactoring](/developers/articles/refactoring/ "Developers/Articles/Refactoring")<br/>
-This article explains the MonoDevelop refactoring infrastructure. It helps writing own 
+This article explains the MonoDevelop refactoring infrastructure. It helps writing own refactorings.
 
 [The Toolbox](/developers/articles/toolbox/ "Developers/Articles/Toolbox")<br/>
 MonoDevelop has some infrastructure for supporting visual designers, such as the ASP.NET and Gtk# designers. Some of this — the property grid and toolbox — is now being used elsewhere in MonoDevelop.
