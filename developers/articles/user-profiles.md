@@ -56,10 +56,10 @@ Cache files that may be deleted without loss of information.
 
 The location is dependent on operating system and environment, but normally will have the following values:
 
-|-----------------|---------------------------------------------|
-| Mac             | ~/Library/Cache/MonoDevelop-{version}/      |
-| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/Cache |
-| Linux           | ~/.cache/MonoDevelop-{version}/             |
+|-----------------|----------------------------------------------|
+| Mac             | ~/Library/Caches/MonoDevelop-{version}/      |
+| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/Cache  |
+| Linux           | ~/.cache/MonoDevelop-{version}/              |
 
 #### Temp
 
@@ -67,10 +67,10 @@ Temporary files that may be deleted while MonoDevelop is not running, without lo
 
 The location is dependent on operating system and environment, but normally will have the following values:
 
-|-----------------|--------------------------------------------|
-| Mac             | ~/Library/Cache/MonoDevelop-{version}/Temp |
-| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/Temp |
-| Linux           | ~/.cache/MonoDevelop-{version}/Temp        |
+|-----------------|---------------------------------------------|
+| Mac             | ~/Library/Caches/MonoDevelop-{version}/Temp |
+| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/Temp  |
+| Linux           | ~/.cache/MonoDevelop-{version}/Temp         |
 
 #### Data
 
