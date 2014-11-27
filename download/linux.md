@@ -54,6 +54,8 @@ Install ***monodevelop-nunit*** to get the MonoDevelop NUnit addin, so you can r
 Install ***monodevelop-versioncontrol*** to add Git and SVN integration to the IDE.<br/>
 Install ***monodevelop-database*** to add the database addin to the IDE.
 
+*Note:* the separate addin packages only apply to Debian, Ubuntu, and derivates. On CentOS, Fedora, and derivates they are part of the MonoDevelop package.
+
 openSUSE
 --------
 
