@@ -39,10 +39,10 @@ Update your package cache if necessary (i.e. run `apt-get update`).
 
 ### CentOS, Fedora, and derivatives
 
-Add the GPG key **in a root shell** with:
+Add the Mono Project GPG signing key **in a root shell** with:
 
 ``` bash
-rpm --import xamarin.gpg
+rpm --import "https://pgp.mit.edu/pks/lookup?op=get&search=0x3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF"
 ```
 
 Next, add the package repository **in a root shell**:
