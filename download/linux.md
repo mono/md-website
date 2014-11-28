@@ -55,10 +55,3 @@ Install ***monodevelop-versioncontrol*** to add Git and SVN integration to the I
 Install ***monodevelop-database*** to add the database addin to the IDE.
 
 *Note:* the separate addin packages only apply to Debian, Ubuntu, and derivates. On CentOS, Fedora, and derivates they are part of the MonoDevelop package.
-
-openSUSE
---------
-
-[MonoDevelop](http://software.opensuse.org/package/monodevelop) is part of the official distribution. The latest stable version released as tarballs is also available from the [openSUSE build service](http://software.opensuse.org/download.html?project=Mono%3AFactory&package=monodevelop) development repository via One-Click-Install.
-
-The package ***monodevelop*** contains the IDE including version control and unit test integration. ***monodevelop-database*** contains the database addins and ***monodevelop-debugger-gdb*** adds support for the GNU Debugger.

@@ -45,15 +45,33 @@ To install this release, you also need to install the following packages:
 
 <h3 id="lin"><i class="fa fa-linux"></i> Linux</h3>
 
+#### Xamarin packages
+
 MonoDevelop for Linux is available for various distributions. The following packages are built, tested and distributed by Xamarin. Use these if you want to use a stable, official and up-to-date version of MonoDevelop.
 
 - [Debian, Ubuntu, and derivatives](/download/linux/#debian-ubuntu-and-derivatives)
-- [Fedora, Red Hat and derivatives](/download/linux/#centos-fedora-and-derivatives)
-- [openSUSE](/download/linux/#opensuse)
+- [Red Hat, SUSE, and derivatives](/download/linux/#centos-fedora-and-derivatives)
 
-Note that MonoDevelop is also packaged in various Linux distributions by third-party maintainers. Some of these packages do not ship the latest MonoDevelop version; this depends on the distribution/maintainer.
+#### Linux distribution packages
 
-<h3 id="ci-packages">Continuous Integration Packages</h3>
+MonoDevelop is also packaged in various Linux distributions by third-party maintainers. Some of these packages do not ship the latest MonoDevelop version; this depends on the distribution/maintainer.
+
+-   [Arch Linux](https://www.archlinux.org/packages/extra/i686/monodevelop/)
+-   CentOS
+-   [Debian](https://packages.debian.org/monodevelop)
+-   [Gentoo](https://packages.gentoo.org/package/dev-util/monodevelop)
+-   [openSUSE](https://software.opensuse.org/package/monodevelop)
+-   [Ubuntu](http://packages.ubuntu.com/monodevelop)
+
+#### Community packages
+
+These packages are provided by the community and linked here for your convenience. They are not tested by Xamarin, so use them at your own risk.
+
+- [Latest SUSE monodevelop packages, part of the official "Factory" repository](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop) (contains the IDE, version control and unit test integration)
+  - [monodevelop-database](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop-database) contains the database addins
+  - [monodevelop-debugger-gdb](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop-debugger-gdb) adds support for the GNU Debugger
+
+<h4 id="ci-packages">Continuous Integration Packages</h4>
 
 Packages for some distros are built regularly from source code snapshots. These are *CI builds* that have undergone little or no QA testing.
 
