@@ -75,8 +75,8 @@ This document is an overview of the new assembly organization of MonoDevelop.
 [Add-in Extension Tree Reference](/developers/articles/extension-tree-reference/ "Developers/Articles/Extension_Tree_Reference")<br/>
 This document shows the complete extension tree available to add-in developers.
 
-[Coding Guide](/developers/articles/coding-guide/ "Developers/Articles/Coding_Guide")
-This document explains several coding guidelines to be used when developing MonoDevelop and MonoDevelop add-ins.
+[Error and Exception Handling](/developers/articles/error-and-exception-handling/ "Developers/Articles/Error_and_Exception_Handling")<br/>
+This document explains how to handle errors and how to show them to the user.
 
 [The Command System](/developers/articles/the-command-system/ "Developers/Articles/The_Command_System")<br/>
 This article explains how MonoDevelop's Command System works, and how can you take advantage of it for writing your add-ins.
