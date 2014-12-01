@@ -2,6 +2,7 @@
 title: FAQ
 redirect_from:
   - /FAQ/
+  - /faq/
   - /Troubleshooting/
 ---
 

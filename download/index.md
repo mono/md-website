@@ -9,6 +9,7 @@ redirect_from:
   - /Download/Mac_MonoTouch/
   - /Download/Mac_Preview/
   - /MonoDevelopWin32/
+  - /download/trunk_builds/
 ---
 
 Download
