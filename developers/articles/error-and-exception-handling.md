@@ -1,7 +1,5 @@
 ---
 title: Error and Exception Handling
-redirect_from:
-  - /Developers/Articles/Error_and_Exception Handling/
 ---
 
 ## Generating Errors
