@@ -214,7 +214,7 @@ Some improvements in the Mac OSX port:
 Vala
 ----
 
-The Vala completion engine has been reworked, replacing the out-of-process [VSC](http://code.google.com/p/vtg "http://code.google.com/p/vtg")-based completion with the more accurate and responsive [libafrodite](http://code.google.com/p/vtg "http://code.google.com/p/vtg").
+The Vala completion engine has been reworked, replacing the out-of-process [VSC](http://code.google.com/p/vtg)-based completion with the more accurate and responsive [libafrodite](http://code.google.com/p/vtg).
 
 Other
 -----

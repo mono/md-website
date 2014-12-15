@@ -15,5 +15,5 @@ redirect_from:
 
 We could do some work to remove redundancy related to AssemblyInfo.cs files. AssemblyTitle, AssemblyDescription, and so forth could automatically be populated from the corresponding project.
 
-More details [here](https://bugzilla.novell.com/show_bug.cgi?id=320643 "https://bugzilla.novell.com/show_bug.cgi?id=320643").
+More details [here](https://bugzilla.novell.com/show_bug.cgi?id=320643).
 

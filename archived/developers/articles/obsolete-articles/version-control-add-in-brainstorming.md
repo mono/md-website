@@ -10,7 +10,7 @@ redirect_from:
 
 Rubens Ramos has created a basic version control framework add-in for MonoDevelop called *VersionControl*. It is in the very early stages of development and as such there is no actual version control functionality as of yet. Such functionality will actually be provided by add-ins interfacing with the various version control libraries that VersionControl will support. For maintainability these backends should remain separate add-in projects.
 
-If you'd like to help out and need a copy of VersionControl to get an idea of what's going on, drop by [\#monodevelop](irc://irc.gimp.org/monodevelop "irc://irc.gimp.org/monodevelop") on `irc.gimp.org`, or get it from the [MonoDevelop mailing list archives](http://lists.ximian.com/archives/public/monodevelop-list/2004-November/001480.html "http://lists.ximian.com/archives/public/monodevelop-list/2004-November/001480.html") if you can decode the embedded mime attachment.
+If you'd like to help out and need a copy of VersionControl to get an idea of what's going on, drop by [\#monodevelop](irc://irc.gimp.org/monodevelop) on `irc.gimp.org`, or get it from the [MonoDevelop mailing list archives](http://lists.ximian.com/archives/public/monodevelop-list/2004-November/001480.html) if you can decode the embedded mime attachment.
 
 The following are proposals regarding VersionControl or backend support for it. Click this page's *discussion* tab above to discuss them here on the wiki, or drop by `#monodevelop-addins`.
 
@@ -18,7 +18,7 @@ The following are proposals regarding VersionControl or backend support for it. 
 
 Here's a high-level view of how everything fits together in the current proposals:
 
-[http://img67.exs.cx/img67/7377/versi...ntrol\_addi.jpg](http://img67.exs.cx/img67/7377/version_control_addi.jpg "http://img67.exs.cx/img67/7377/version_control_addi.jpg")
+[http://img67.exs.cx/img67/7377/versi...ntrol\_addi.jpg](http://img67.exs.cx/img67/7377/version_control_addi.jpg)
 
 ### Backend Support
 

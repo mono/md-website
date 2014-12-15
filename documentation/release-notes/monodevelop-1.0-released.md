@@ -366,7 +366,7 @@ This native support is not available for Visual Studio 2003 projects. When openi
 
 MonoDevelop integrates support for several common version control operations. Right now only **Subversion** repositories can be used.
 
-See the screencast [Using Version Control in MonoDevelop](/documentation/version-control-screencast/ "Documentation/Version_Control_Screencast") for a live demonstration of the main features, which are:
+See the screencast [Using Version Control in MonoDevelop](/documentation/version-control-screencast/) for a live demonstration of the main features, which are:
 
 <table>
 <colgroup>
@@ -400,7 +400,7 @@ See the screencast [Using Version Control in MonoDevelop](/documentation/version
 
 ### Unit Testing
 
-MonoDevelop features integrated unit testing based on [NUnit](http://www.nunit.org/ "http://www.nunit.org/"):
+MonoDevelop features integrated unit testing based on [NUnit](http://www.nunit.org/):
 
 <table>
 <colgroup>

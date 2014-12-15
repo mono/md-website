@@ -43,27 +43,27 @@ Advanced templates:
 
 ### Existing Implementations
 
-#### [ReSharper](http://www.jetbrains.com/resharper/features/code_templates.html "http://www.jetbrains.com/resharper/features/code_templates.html")
+#### [ReSharper](http://www.jetbrains.com/resharper/features/code_templates.html)
 
-#### [Visual Assist](http://www.wholetomato.com/products/features/vasnippets.asp "http://www.wholetomato.com/products/features/vasnippets.asp")
+#### [Visual Assist](http://www.wholetomato.com/products/features/vasnippets.asp)
 
-#### [CodeRush](http://devexpress.com/Products/Visual_Studio_Add-in/Coding_Assistance/Templates.xml "http://devexpress.com/Products/Visual_Studio_Add-in/Coding_Assistance/Templates.xml")
+#### [CodeRush](http://devexpress.com/Products/Visual_Studio_Add-in/Coding_Assistance/Templates.xml)
 
-#### [GEdit](http://live.gnome.org/Gedit/Plugins/Snippets "http://live.gnome.org/Gedit/Plugins/Snippets")
+#### [GEdit](http://live.gnome.org/Gedit/Plugins/Snippets)
 
-#### [TextMate](http://manual.macromates.com/en/snippets "http://manual.macromates.com/en/snippets")
+#### [TextMate](http://manual.macromates.com/en/snippets)
 
-#### [Visual Studio](http://msdn.microsoft.com/en-us/library/f7d3wz0k.aspx "http://msdn.microsoft.com/en-us/library/f7d3wz0k.aspx")
+#### [Visual Studio](http://msdn.microsoft.com/en-us/library/f7d3wz0k.aspx)
 
 Visual Studio supports snippets via 2 mechanisms: tab-activation, or a dedicated snippet command. There is a snippet manager, and snippets are stored within the user's Documents directory. The snippet command launches a dedicated embedded mini-browser that can be used to find move advanced snippets within a directory structure; this means that not all snippets need have tab-activated shortcuts. Snippets may also be used to surround the current selection via a similar command.
 
-The snippets are defined in an XML format, for which a full [schema](http://msdn.microsoft.com/en-us/library/ms171418.aspx "http://msdn.microsoft.com/en-us/library/ms171418.aspx") is available. The format supports placeholders, with mirroring and a few simple functions.
+The snippets are defined in an XML format, for which a full [schema](http://msdn.microsoft.com/en-us/library/ms171418.aspx) is available. The format supports placeholders, with mirroring and a few simple functions.
 
-For C# it supports a limited number of [functions](http://msdn.microsoft.com/en-us/library/ms242312.aspx "http://msdn.microsoft.com/en-us/library/ms242312.aspx") that can be use to get the name of the enclosing class, generate switch statements for enum types, or remove unnecessary qualification on type names.
+For C# it supports a limited number of [functions](http://msdn.microsoft.com/en-us/library/ms242312.aspx) that can be use to get the name of the enclosing class, generate switch statements for enum types, or remove unnecessary qualification on type names.
 
-There is a Visual Basic [snippet editor](http://msdn.microsoft.com/en-us/vbasic/bb973770.aspx "http://msdn.microsoft.com/en-us/vbasic/bb973770.aspx"), and a more flexible open source [snippet editor](http://www.codeplex.com/SnippetDesigner "http://www.codeplex.com/SnippetDesigner").
+There is a Visual Basic [snippet editor](http://msdn.microsoft.com/en-us/vbasic/bb973770.aspx), and a more flexible open source [snippet editor](http://www.codeplex.com/SnippetDesigner).
 
-Note that people sometimes have large collections of VS snippets, so being able to import this format would be good. This would also allow importing third-party collections such as [CodePlex.Snippets](http://www.codeplex.com/cpsnippets "http://www.codeplex.com/cpsnippets").
+Note that people sometimes have large collections of VS snippets, so being able to import this format would be good. This would also allow importing third-party collections such as [CodePlex.Snippets](http://www.codeplex.com/cpsnippets).
 
  There is some discussion at <https://bugzilla.novell.com/show_bug.cgi?id=386494>
 

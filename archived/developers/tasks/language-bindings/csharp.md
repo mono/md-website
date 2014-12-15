@@ -30,7 +30,7 @@ Search and replaced based on actual semantic structure of the documents. The sea
 
 It would be an excellent use of the new DOM.
 
-Resharper [has this](http://blogs.jetbrains.com/dotnet/2010/02/resharper-5-beta-2-released/ "http://blogs.jetbrains.com/dotnet/2010/02/resharper-5-beta-2-released/").
+Resharper [has this](http://blogs.jetbrains.com/dotnet/2010/02/resharper-5-beta-2-released/).
 
 ### Integrate mcs as parser
 
@@ -56,7 +56,7 @@ This will allow better support for on the fly error checking. Possibility of cre
 
 Implement a C# REPL pad by integrating the MCS REPL. 
 
-It would be useful to create a generic [REPL Pad](/archived/developers/tasks/tools/repl-pad/ "Developers/Tasks/Tools/REPL Pad") infrastructure that could be used for other languages such as F#, IronPython, Boo, etc.
+It would be useful to create a generic [REPL Pad](/archived/developers/tasks/tools/repl-pad/) infrastructure that could be used for other languages such as F#, IronPython, Boo, etc.
 
 ### Basic C# 4 support
 

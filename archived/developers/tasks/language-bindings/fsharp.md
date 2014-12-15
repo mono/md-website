@@ -14,5 +14,5 @@ redirect_from:
 
 <span class="Apple-style-span" style="font-family: 'bitstream vera sans',verdana,sans-serif;">Provide support for creating and compiling F# projects, with support for code completion, and a REPL pad.</span>
 
-*<span class="Apple-style-span" style="font-family: 'bitstream vera sans',verdana,sans-serif;">This has been implemented by an externally-developed addin, available at </span>*<span class="Apple-style-span" style="font-family: 'bitstream vera sans',verdana,sans-serif;">[*Functional Variations*](http://functional-variations.net/monodevelop/ "http://functional-variations.net/monodevelop/")</span>*<span class="Apple-style-span" style="font-family: 'bitstream vera sans',verdana,sans-serif;">.</span>*
+*<span class="Apple-style-span" style="font-family: 'bitstream vera sans',verdana,sans-serif;">This has been implemented by an externally-developed addin, available at </span>*<span class="Apple-style-span" style="font-family: 'bitstream vera sans',verdana,sans-serif;">[*Functional Variations*](http://functional-variations.net/monodevelop/)</span>*<span class="Apple-style-span" style="font-family: 'bitstream vera sans',verdana,sans-serif;">.</span>*
 

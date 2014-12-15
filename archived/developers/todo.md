@@ -5,7 +5,7 @@ redirect_from:
   - /TODO/
 ---
 
-This is a list of features that we would like to add to MonoDevelop. If you want to contribute to MD, just pick one of them and notify through the [mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list "http://lists.ximian.com/mailman/listinfo/monodevelop-list") that your are going to work on it. Thanks for your help!
+This is a list of features that we would like to add to MonoDevelop. If you want to contribute to MD, just pick one of them and notify through the [mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list) that your are going to work on it. Thanks for your help!
 
 <table class="task-list" width="100%">
     <thead>
@@ -2101,4 +2101,4 @@ This is a list of features that we would like to add to MonoDevelop. If you want
 Requested features in Bugzilla
 ------------------------------
 
-Many [feature requests](http://tinyurl.com/monodevelop-enh "http://tinyurl.com/monodevelop-enh") have been filed in MonoDevelop's Bugzilla. Feel free to pick any of them and work on it.
+Many [feature requests](http://tinyurl.com/monodevelop-enh) have been filed in MonoDevelop's Bugzilla. Feel free to pick any of them and work on it.

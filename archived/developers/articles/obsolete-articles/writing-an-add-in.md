@@ -8,7 +8,7 @@ redirect_from:
 
 **Note: This page is out of date and the instructions do not work with any recent version of MonoDevelop.**
 
-**For an up to date guide, see [Creating a Simple Add-In](/developers/articles/creating-a-simple-add-in/ "Developers/Articles/Creating a Simple Add-in")**
+**For an up to date guide, see [Creating a Simple Add-In](/developers/articles/creating-a-simple-add-in/)**
 
 Introduction
 ------------
@@ -19,13 +19,13 @@ MonoDevelop's extension system is based on a **tree of extension points**. An ex
 
 Add-ins add new elements to extension points, and frequently these elements are references to classes or interfaces implemented in the add-in. For example, an add-in which adds new menu items to the main menu may need to implement classes for handling those new commands.
 
-The [Extension Tree Reference](/developers/articles/extension-tree-reference/ "Developers/Articles/Extension Tree Reference") has a complete description of the extension tree and the requirements of each extension point.
+The [Extension Tree Reference](/developers/articles/extension-tree-reference/) has a complete description of the extension tree and the requirements of each extension point.
 
 Add-ins can also add new extension points to the extension tree. For example, the SourceEditor add-in (the add-in which implements the main MonoDevelop source code editor) adds a new extension point to the tree: '/MonoDevelop/SourceEditor2/EditActions'. Other add-ins can then extend the editor by implementing and registering custom edit actions.
 
 MonoDevelop can be seen as a hierarchy of add-ins. Each add-in can add new items to extension points, and can add new extension points for other add-ins to extend.
 
-MonoDevelop uses the [Mono.Addins](http://www.mono-project.com/Mono.Addins "http://www.mono-project.com/Mono.Addins") framework, and its [introduction](http://www.mono-project.com/Introduction_to_Mono.Addins "http://www.mono-project.com/Introduction_to_Mono.Addins")and [reference manual ](http://www.mono-project.com/Mono.Addins_Reference_Manual "http://www.mono-project.com/Mono.Addins_Reference_Manual")may be useful to developers writing addins that are more advanced than what is described in this document.
+MonoDevelop uses the [Mono.Addins](http://www.mono-project.com/Mono.Addins) framework, and its [introduction](http://www.mono-project.com/Introduction_to_Mono.Addins)and [reference manual ](http://www.mono-project.com/Mono.Addins_Reference_Manual)may be useful to developers writing addins that are more advanced than what is described in this document.
 
 Contents of an add-in
 ---------------------
@@ -129,7 +129,7 @@ The format of the tree path is like the format for paths in a Unix directory tre
 
 Extension nodes have attributes which specify the behaviour or state of some element of the program. Every node can have an ID which identifies it in the tree; the extension is then inserted into the tree beneath the extension path + '/' + id. The id attribute is not mandatory, but only extensions with an ID will be able to be referenced or extended by other extensions.
 
-An add-in will usually add elements to several extension points of the extension tree. See the [Extension Tree Reference](/developers/articles/extension-tree-reference/ "Developers/Articles/Extension Tree Reference") for a complete description of all available extensions.
+An add-in will usually add elements to several extension points of the extension tree. See the [Extension Tree Reference](/developers/articles/extension-tree-reference/) for a complete description of all available extensions.
 
 #### Arranging extensions
 
@@ -232,7 +232,7 @@ In this case, this new extension point contains some elements defined in the own
 
 The **description** attribute is an explanation of what is this extension point for.
 
-The **extension-nodes** attribute specifies which elements are allowed in this extension point. MonoDevelop defines several element types or *codons*. A complete list can be found [here](/developers/articles/extension-tree-reference/ "Developers/Articles/Extension_Tree_Reference#Extension_Elements"). However, you can create your own codon types.
+The **extension-nodes** attribute specifies which elements are allowed in this extension point. MonoDevelop defines several element types or *codons*. A complete list can be found [here](/developers/articles/extension-tree-reference/). However, you can create your own codon types.
 
 ### Creating new codons
 
@@ -289,4 +289,4 @@ MonoDevelop provides tools for packaging and publishing add-ins. This is what yo
 
 The URL of the main.mref file is the URL of the add-in repository you just created.
 
-The document '[The SharpDevelop add-in tree architecture](http://www.icsharpcode.net/TechNotes/ProgramArchitecture.pdf "http://www.icsharpcode.net/TechNotes/ProgramArchitecture.pdf")' by Mike Krueger and Bernd Spudia has some information about the SharpDevelop add-in architecure, from which MonoDevelop was derived and further developed. This article originally included several paragraphs directly taken from that document.
+The document '[The SharpDevelop add-in tree architecture](http://www.icsharpcode.net/TechNotes/ProgramArchitecture.pdf)' by Mike Krueger and Bernd Spudia has some information about the SharpDevelop add-in architecure, from which MonoDevelop was derived and further developed. This article originally included several paragraphs directly taken from that document.

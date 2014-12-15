@@ -9,7 +9,7 @@ Sql Metal Integration
 
 *Currently only available on svn version  with mono 2.6.x*
 
-MonoDevelop [Database Addin](/documentation/database-addin/ "/Documentation/Database Addin") implements SqlMetal integration. The responsive addin for this integration is MonoDevelop.Database.CodeGenerator:
+MonoDevelop [Database Addin](/documentation/database-addin/) implements SqlMetal integration. The responsive addin for this integration is MonoDevelop.Database.CodeGenerator:
 
 ![AddinManager.png](/images/271-AddinManager.png)
 

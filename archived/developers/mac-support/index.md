@@ -10,7 +10,7 @@ redirect_from:
 
 Detailed instructions for building MonoDevelop on OS X can be found in the following articles:
 
-[Building MonoDevelop](/developers/building-monodevelop/ "Developers/Mac Support/Building on OS X")
+[Building MonoDevelop](/developers/building-monodevelop/)
 
 However, most users should use the binaries from the main download page.
 
@@ -20,9 +20,9 @@ This is a list of known Mac-specific issues in MonoDevelop. Older releases likel
 
 Many of these known issues correspond to existing MonoDevelop or GTK+ bugs, but some have not yet been filed. Note that the Mac native GTK+ (Quartz) is relatively new, and hence many Monodevelop problems are actually GTK+ ones.
 
-Open GTK+ Quartz bugs can be seen here on [GNOME BugZilla](http://bugzilla.gnome.org/buglist.cgi?query=component:quartz+product:gtk%2B+ "http://bugzilla.gnome.org/buglist.cgi?query=component:quartz+product:gtk++").
+Open GTK+ Quartz bugs can be seen here on [GNOME BugZilla](http://bugzilla.gnome.org/buglist.cgi?query=component:quartz+product:gtk%2B+).
 
-Open MonoDevelop bugs can be seen on [Xamarin BugZilla](http://bugzilla.xamarin.com/describecomponents.cgi?product=MonoDevelop "http://bugzilla.xamarin.com/describecomponents.cgi?product=MonoDevelop").
+Open MonoDevelop bugs can be seen on [Xamarin BugZilla](http://bugzilla.xamarin.com/describecomponents.cgi?product=MonoDevelop).
 
 Bugs marked as ~~strikethough~~ have been fixes that will be released in future versions of MonoDevelop or Mono.
 

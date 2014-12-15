@@ -5,7 +5,7 @@ redirect_from:
   - /Human_Interface_Guidelines/
 ---
 
-Since MonoDevelop is a GNOME application it has to follow the [GNOME Human Interface Guidelines](http://developer.gnome.org/projects/gup/hig/2.0 "http://developer.gnome.org/projects/gup/hig/2.0"). This document is a summary of the most important rules, with some MonoDevelop specific changes.
+Since MonoDevelop is a GNOME application it has to follow the [GNOME Human Interface Guidelines](http://developer.gnome.org/projects/gup/hig/2.0). This document is a summary of the most important rules, with some MonoDevelop specific changes.
 
 ### Window Layout
 
@@ -27,7 +27,7 @@ Here are some simple steps to configure the spacing in a dialog:
 
 There are two styles of capitalization: **Sentence capitalization** (capitalize the first letter of the first word) and **Header capitalization** (Capitalize all words in the element, excluding articles, conjunctions and prepositions).
 
-See the table [Capitalization Style Guidelines for User Interface Elements](http://developer.gnome.org/projects/gup/hig/2.0/design-text-labels.html#layout-capitalization "http://developer.gnome.org/projects/gup/hig/2.0/design-text-labels.html#layout-capitalization") to know which style has to be used for each element type.
+See the table [Capitalization Style Guidelines for User Interface Elements](http://developer.gnome.org/projects/gup/hig/2.0/design-text-labels.html#layout-capitalization) to know which style has to be used for each element type.
 
 ### Default Activation Buttons in Dialogs
 

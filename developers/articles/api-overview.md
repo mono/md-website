@@ -22,7 +22,7 @@ Core Services
 
 ### Add-in Engine
 
-The add-in engine API is explained in detail in the [Mono.Addins Reference Manual](http://www.mono-project.com/Mono.Addins_Reference_Manual "http://www.mono-project.com/Mono.Addins_Reference_Manual").
+The add-in engine API is explained in detail in the [Mono.Addins Reference Manual](http://www.mono-project.com/Mono.Addins_Reference_Manual).
 
 ### Information about installed assemblies, frameworks and runtimes
 
@@ -45,7 +45,7 @@ Here are some classes you can use:
 
 ### Localization
 
-Add-ins must use add-in localizers for translating strings in the code. See the [Getting Localized Strings](http://www.mono-project.com/Mono.Addins_Reference_Manual#Getting_Localized_Strings "http://www.mono-project.com/Mono.Addins_Reference_Manual#Getting_Localized_Strings") of the Mono.Addins [reference manual](http://www.mono-project.com/Mono.Addins_Reference_Manual "http://www.mono-project.com/Mono.Addins_Reference_Manual") to learn how to do it.
+Add-ins must use add-in localizers for translating strings in the code. See the [Getting Localized Strings](http://www.mono-project.com/Mono.Addins_Reference_Manual#Getting_Localized_Strings) of the Mono.Addins [reference manual](http://www.mono-project.com/Mono.Addins_Reference_Manual) to learn how to do it.
 
 The class `MonoDevelop.Core.GettextCatalog` can be used to get translated strings in the main IDE solution.
 
@@ -77,7 +77,7 @@ string result = StringParserService.Parse ("Copyright (c) ${year} ${name)", valu
 // The result will be: "Copyright (c) 2010 Novell Inc"
 ```
 
-This service is explained in detail in the [String Parser Service article](/developers/articles/the-string-parser-service/ "Developers/Articles/The String Parser Service").
+This service is explained in detail in the [String Parser Service article](/developers/articles/the-string-parser-service/).
 
 ### Execution of Processes and External Commands
 
@@ -173,7 +173,7 @@ The `MonoDevelop.Core.ProgressMonitoring` and `MonoDevelop.Core.Gui.ProgressMoni
 
 MonoDevelop provides a data serializer which can be used by add-ins to serialize data to files. This serializer is also used by the project service to read and write projects and solutions. This API is available in the `MonoDevelop.Core.Serialization` namespace.
 
-See [Using The Data Serializer](/developers/articles/using-the-data-serializer/ "Developers/Articles/Using The Data Serializer") for more information.
+See [Using The Data Serializer](/developers/articles/using-the-data-serializer/) for more information.
 
 ### Integration with the Desktop
 

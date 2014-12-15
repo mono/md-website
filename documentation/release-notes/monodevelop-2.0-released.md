@@ -109,7 +109,7 @@ The default policies for new solutions, or solutions without policies applied, c
 
 **Vala Add-in**
 
-The new Vala project type allows managing, editing, and compiling [Vala](http://live.gnome.org/Vala "http://live.gnome.org/Vala") code (using valac). The compilation is configurable, including define symbols, linked libraries, custom VAPI paths and arbitrary additional arguments.
+The new Vala project type allows managing, editing, and compiling [Vala](http://live.gnome.org/Vala) code (using valac). The compilation is configurable, including define symbols, linked libraries, custom VAPI paths and arbitrary additional arguments.
 
 Integration with Vala's API binding system allows users to easily reference packages like SDL, DBus, or libsoup. Library projects produce VAPIs for use with Vala, as well as pkg-config files for use with C and other languages.
 
@@ -309,7 +309,7 @@ Version Control support has been improved with some new features:
 Getting MonoDevelop
 -------------------
 
-Instructions about how to get MonoDevelop are available in MonoDevelop's [Download](/download/ "Download") page.
+Instructions about how to get MonoDevelop are available in MonoDevelop's [Download](/download/) page.
 
 Credits
 -------

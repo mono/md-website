@@ -16,7 +16,7 @@ redirect_from:
 
 This requires planning as support for Windows would require a working GIT installation.
 
-We should probably use [GitSharp](http://www.eqqon.com/index.php/GitSharp "http://www.eqqon.com/index.php/GitSharp") for any many operations as possible.
+We should probably use [GitSharp](http://www.eqqon.com/index.php/GitSharp) for any many operations as possible.
 
 ### Support for Mercurial
 

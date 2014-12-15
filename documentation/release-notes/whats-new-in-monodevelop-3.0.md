@@ -17,7 +17,7 @@ These features are described in detail below.
 New C# Completion Engine
 -------------------------
 
-This release of MonoDevelop features a new resolver and code completion engine for C# based on Mono's C# Compiler as a Service. This means that improvements that are done to Mono's C# compiler, such as new features added to the language or fixes done to it, now flow naturally into MonoDevelop. The compiler as a service is encapsulated in the easy-to-use [NRefactory 5](https://github.com/icsharpcode/NRefactory "https://github.com/icsharpcode/NRefactory") library, which both MonoDevelop and SharpDevelop consume.
+This release of MonoDevelop features a new resolver and code completion engine for C# based on Mono's C# Compiler as a Service. This means that improvements that are done to Mono's C# compiler, such as new features added to the language or fixes done to it, now flow naturally into MonoDevelop. The compiler as a service is encapsulated in the easy-to-use [NRefactory 5](https://github.com/icsharpcode/NRefactory) library, which both MonoDevelop and SharpDevelop consume.
 
 This work has allowed us to substantially improve many existing features, and to introduce new ones, and it provides a solid foundation for future changes.
 
@@ -49,7 +49,7 @@ Semantic highlighting for C# has returned! It is now much faster, and is enabled
 
 The on-the-fly C# code formatter automatically reformats your code to match your project's code style settings as you edit it in the source editor. The newest version is much improved. It's more reliable and less intrusive, and is now enabled by default. It can be disabled in the *Text Editor-\>Behavior* preferences panel.
 
-By [popular demand](http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2697145-code-formatting-exactly-like-in-visual-studio "http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2697145-code-formatting-exactly-like-in-visual-studio"), there is a new pre-defined C# code style scheme called "Allman" that is compatible with the default code formatting of Visual Studio. There's also a choice of built in schemes for other popular styles, and an editor that allows you to customise the scheme to match your personal preferences.
+By [popular demand](http://xamarin.uservoice.com/forums/144858-xamarin-suggestions/suggestions/2697145-code-formatting-exactly-like-in-visual-studio), there is a new pre-defined C# code style scheme called "Allman" that is compatible with the default code formatting of Visual Studio. There's also a choice of built in schemes for other popular styles, and an editor that allows you to customise the scheme to match your personal preferences.
 
 ### Experimental Source Analysis
 
@@ -57,7 +57,7 @@ By [popular demand](http://xamarin.uservoice.com/forums/144858-xamarin-suggesti
 
 The new *Quick Fix* command offers contextual actions for transforming and refactoring code, including automatic fixes for many inspections. It improves discovery of refactoring commands by hinting when they are available with a lightbulb icon.
 
-The source analysis engine and context actions now use the new C# resolver, which has enabled the efficient implementation of many more inspection rules. It's straightforward to [implement new actions](http://mikemdblog.blogspot.com/2012/03/how-to-write-context-action-using.html "http://mikemdblog.blogspot.com/2012/03/how-to-write-context-action-using.html") using the NRefactory 5 context actions model.
+The source analysis engine and context actions now use the new C# resolver, which has enabled the efficient implementation of many more inspection rules. It's straightforward to [implement new actions](http://mikemdblog.blogspot.com/2012/03/how-to-write-context-action-using.html) using the NRefactory 5 context actions model.
 
 [![md\_30\_minimap\_scrollbar.png](/images/378-md_30_minimap_scrollbar.png)](/images/378-md_30_minimap_scrollbar.png "md_30_minimap_scrollbar.png")
 
@@ -93,7 +93,7 @@ On Windows, PLP projects are built using the Microsoft PLP targets. Building PL
 
 [![md30\_android\_designer.png](/images/382-md30_android_designer.png)](/images/382-md30_android_designer.png "md30_android_designer.png")The Xamarin packages of MonoDevelop on Mac and Windows include a new visual drag-and-drop UI designer for editing Android XML layouts in Mono for Android projects. It has full support for resources and qualifiers, and can be used to view and edit the layout in various simulated device specifications.
 
-For more information, see the [Mono for Android Designer Tutorial](http://docs.xamarin.com/android/tutorials/Designer_Overview "http://docs.xamarin.com/android/tutorials/Designer_Overview").
+For more information, see the [Mono for Android Designer Tutorial](http://docs.xamarin.com/android/tutorials/Designer_Overview).
 
 Other Features
 --------------

@@ -10,7 +10,7 @@ Windows Support
 
 **Windows now Officially Supported**
 
-Windows is now an officially supported platform for running MonoDevelop. Many Windows specific issues have been fixed, and some add-ins such as debugging and subversion support have been written specifically for Windows. See the [Feature Matrix](#feature-matrix "Download/What's new in MonoDevelop 2.2") for more details about which add-ins are supported in Windows.
+Windows is now an officially supported platform for running MonoDevelop. Many Windows specific issues have been fixed, and some add-ins such as debugging and subversion support have been written specifically for Windows. See the [Feature Matrix](#feature-matrix) for more details about which add-ins are supported in Windows.
 
 **Windows Installer**
 
@@ -23,7 +23,7 @@ Mac Support
 
 [![MacMainMenu.png](/images/256-MacMainMenu.png)](/images/256-MacMainMenu.png "MonoDevelop running on Mac OSX")**Mac OSX now Officially Supported**
 
-Mac OSX is also now a supported platform. MonoDevelop has been adapted to Mac OSX in many ways. For example, keyboard shortcuts follow the OSX standard, and the main menu is replaced by the global Mac menu. In addition, a large number of Mac-specific, mainly GTK-related bugs have been fixed. See the [Feature Matrix](#feature-matrix "Download/What's new in MonoDevelop 2.2") for more details about which add-ins are supported in Mac OSX.
+Mac OSX is also now a supported platform. MonoDevelop has been adapted to Mac OSX in many ways. For example, keyboard shortcuts follow the OSX standard, and the main menu is replaced by the global Mac menu. In addition, a large number of Mac-specific, mainly GTK-related bugs have been fixed. See the [Feature Matrix](#feature-matrix) for more details about which add-ins are supported in Mac OSX.
 
 Project Management
 ------------------
@@ -259,7 +259,7 @@ The Mac release of MonoDevelop includes an iPhone development addin. Although it
 Moonlight Add-in
 ----------------
 
-The Moonlight addin, which was first previewed in MonoDevelop 2.0, should still be considered an alpha-quality release. However, it is now able to build applications against a local SDK bundle. This is included in the Mac release, and on other platforms can be specified using the [MOONLIGHT\_2\_SDK\_PATH](http://mjhutchinson.com/journal/2009/05/08/moonlight_development_linux_monodevelop "http://mjhutchinson.com/journal/2009/05/08/moonlight_development_linux_monodevelop") environment variable.
+The Moonlight addin, which was first previewed in MonoDevelop 2.0, should still be considered an alpha-quality release. However, it is now able to build applications against a local SDK bundle. This is included in the Mac release, and on other platforms can be specified using the [MOONLIGHT\_2\_SDK\_PATH](http://mjhutchinson.com/journal/2009/05/08/moonlight_development_linux_monodevelop) environment variable.
 
 **NOTE: the iPhone addin is known to interfere with the Moonlight addin's "Add references" listing at this time. This will be fixed in an upcoming release of MonoTouch.**
 

@@ -49,11 +49,11 @@ There are no longer codebehind files for xib files, instead there are designer f
 
 #### XCode 4 Samples
 
-We have updated MonoTouch's samples to take advantage of XCode 4 and added many new samples.   You can [browse our samples on github](https://github.com/xamarin/monotouch-samples "https://github.com/xamarin/monotouch-samples").
+We have updated MonoTouch's samples to take advantage of XCode 4 and added many new samples.   You can [browse our samples on github](https://github.com/xamarin/monotouch-samples).
 
 #### Storyboard Support
 
-[![xcode\_storyboard.jpg](/images/320-xcode_storyboard.jpg)](/images/320-xcode_storyboard.jpg "xcode_storyboard.jpg")With the new version of MonoDevelop, you can now create applications that use [iOS 5 Storyboards](http://developer.apple.com/technologies/ios5/ "http://developer.apple.com/technologies/ios5/").   This is part of our XCode 4 integration.   Merely double-click on a storyboard to launch XCode 4.2, design your UI, name your custom classes, switch back to MonoDevelop, and consume all of the new classes that were created.
+[![xcode\_storyboard.jpg](/images/320-xcode_storyboard.jpg)](/images/320-xcode_storyboard.jpg "xcode_storyboard.jpg")With the new version of MonoDevelop, you can now create applications that use [iOS 5 Storyboards](http://developer.apple.com/technologies/ios5/).   This is part of our XCode 4 integration.   Merely double-click on a storyboard to launch XCode 4.2, design your UI, name your custom classes, switch back to MonoDevelop, and consume all of the new classes that were created.
 
 Storyboards require that your application target iOS5 and newer.
 
@@ -83,7 +83,7 @@ The location of the MonoTouch and iOS SDKs is now configurable.
 
 #### TestFlight integration
 
-![testflight.jpg](/images/321-testflight.jpg)iOS developers will enjoy the [TestFlight integration](http://docs.xamarin.com/ios/tutorials/TestFlight_Support "http://docs.xamarin.com/ios/tutorials/TestFlight_Support") in MonoDevelop.  You can now publish your projects directly from MonoDevelop to TestFlight to allow your users and beta testers to take out your application for a spin, without having to deal with any of the complexities of managing certificates or provisioning profiles.   Merely select "Publish to TestFlight" from the Project menu, and watch as your application is compiled, packaged and uploaded to TestFlight for distribution
+![testflight.jpg](/images/321-testflight.jpg)iOS developers will enjoy the [TestFlight integration](http://docs.xamarin.com/ios/tutorials/TestFlight_Support) in MonoDevelop.  You can now publish your projects directly from MonoDevelop to TestFlight to allow your users and beta testers to take out your application for a spin, without having to deal with any of the complexities of managing certificates or provisioning profiles.   Merely select "Publish to TestFlight" from the Project menu, and watch as your application is compiled, packaged and uploaded to TestFlight for distribution
 
 ### MonoMac Projects
 

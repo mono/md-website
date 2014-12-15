@@ -38,7 +38,7 @@ Switch to MSBuild entirely for building MD, eliminating autotools. Perhaps a sin
 | **<span style="font-size: x-small;">Status</span>**                          | **<span style="font-size: x-small;">Owner</span>**           | **<span style="font-size: x-small;">Importance</span>**                        | **<span style="font-size: x-small;">Complexity</span>**                        | **<span style="font-size: x-small;">MD Version</span>**       |
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
-It would be very useful to track MD performance, to avoid regressions, by having a series of automated performance tests on common operations. We might take some cues from [Visual Studio's stress testing](http://blogs.msdn.com/kirillosenkov/archive/2010/04/21/stress-testing-visual-studio-2010-part-3.aspx "http://blogs.msdn.com/kirillosenkov/archive/2010/04/21/stress-testing-visual-studio-2010-part-3.aspx").
+It would be very useful to track MD performance, to avoid regressions, by having a series of automated performance tests on common operations. We might take some cues from [Visual Studio's stress testing](http://blogs.msdn.com/kirillosenkov/archive/2010/04/21/stress-testing-visual-studio-2010-part-3.aspx).
 
 ### Automated UI Tests
 

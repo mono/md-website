@@ -122,7 +122,7 @@ More unit testing of the HTML parser, and unit testing of the HTML code completi
 | **<span style="font-size: x-small;">Status</span>**                          | **<span style="font-size: x-small;">Owner</span>**           | **<span style="font-size: x-small;">Importance</span>**                        | **<span style="font-size: x-small;">Complexity</span>**                        | **<span style="font-size: x-small;">MD Version</span>**       |
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
-Visual designer for HTML pages, which could be used as a basis for the [ASP.NET visual designer](/archived/developers/tasks/web-development/webkit-port-of-aspnetedit/ "Developers/Tasks/Web Development/WebKit Port of AspNetEdit").
+Visual designer for HTML pages, which could be used as a basis for the [ASP.NET visual designer](/archived/developers/tasks/web-development/webkit-port-of-aspnetedit/).
 
 ### JS debugger integration with Chromium
 
@@ -146,6 +146,6 @@ JS debugger using the Chromium/WebKit debugger API. 
 | **<span style="font-size: x-small;">Status</span>**                          | **<span style="font-size: x-small;">Owner</span>**           | **<span style="font-size: x-small;">Importance</span>**                        | **<span style="font-size: x-small;">Complexity</span>**                        | **<span style="font-size: x-small;">MD Version</span>**       |
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
-CSS editor based on an inspector like Firebug, Chrome, [Stylizer](http://www.stylizerapp.com/ "http://www.stylizerapp.com/"), etc.
+CSS editor based on an inspector like Firebug, Chrome, [Stylizer](http://www.stylizerapp.com/), etc.
 
 

@@ -8,7 +8,7 @@ redirect_from:
   - /Developers/Obsolete_Articles/Creating_a_WWW_search_AddIn/
 ---
 
-[Original version with all images and links](http://projectgo.com/monodevelop/AddInWalkthrough.html "http://projectgo.com/monodevelop/AddInWalkthrough.html")
+[Original version with all images and links](http://projectgo.com/monodevelop/AddInWalkthrough.html)
 
 ### Goal
 
@@ -133,7 +133,7 @@ The function Run() in the class MonoDevelop.Commands.M is called every time "Hel
 
 One of the points of having an IDE (Integrated Development Environment) like MonoDevelop is to be able to develop applications using it. It would be nice to be able to use MonoDevelop to develop AddIns for MonoDevelop. Since MonoDevelop does not have a AddIn project template project, we must create this all by ourselves.
 
-[http://projectgo.com/monodevelop/cre...typroject2.png](http://projectgo.com/monodevelop/createemptyproject2.png "http://projectgo.com/monodevelop/createemptyproject2.png")
+[http://projectgo.com/monodevelop/cre...typroject2.png](http://projectgo.com/monodevelop/createemptyproject2.png)
 
 Let us create our search AddIn as a project in MonoDevelop. First we start monodevelop and chose File-\>New Solution/Project (Ctrl+Shift+N), the project type C# -\> "C# Library" suits our needs best. Let us call the project for MySearchAddIn. MonoDevelop will then automatically creates a file MyClass.cs with a class called MyClass - for simplicity we might just delete the content of this file and replace it with the content of helloworld.cs, then change the name of the class from MyHelloWorldCommand to MySearchEngineAddIn.
 
@@ -158,7 +158,7 @@ If you try to compile it (F8) you will get the error: Cannot find type 'Abstract
 
 After choosing the tab ".Net Assembly" we get the screen:
 
-[http://projectgo.com/monodevelop/add...t\_assembly.png](http://projectgo.com/monodevelop/addreferences_net_assembly.png "http://projectgo.com/monodevelop/addreferences_net_assembly.png")
+[http://projectgo.com/monodevelop/add...t\_assembly.png](http://projectgo.com/monodevelop/addreferences_net_assembly.png)
 
 Chose Browse and locate the MonoDevelop.Base.dll, located in /usr/local/lib/monodevelop/bin/ (or /usr/lib/monodevelop/bin/ for the rpm version). Press F8 to compile and if you are successful you will see:
 

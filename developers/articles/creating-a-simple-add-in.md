@@ -11,7 +11,7 @@ Introduction
 
 The MonoDevelop addin architecture is designed to allow you to extend any part of MonoDevelop, for example supporting a new language or version control system, or custom source editing commands. This walkthrough will take you through the basics of writing addins, by describing the creating of a simple addin that adds a command to insert the current date into the source editor.
 
-MonoDevelop is built around the concept of an extension tree. An addin is a set of extensions that plug into extension points defined in other addins, and can also define new extension points for other addins to extend. The whole of MonoDevelop is built this way, so there are many extension points available, and the core ones are described in the Extension Point Reference. MonoDevelop uses the [Mono.Addins](http://www.mono-project.com/Mono.Addins "http://www.mono-project.com/Mono.Addins") addin engine, so for advanced addin questions, refer to the [Mono.Addins Reference Manual](http://www.mono-project.com/Mono.Addins_Reference_Manual "http://www.mono-project.com/Mono.Addins_Reference_Manual"). You can also use Mono.Addins in your own applications.
+MonoDevelop is built around the concept of an extension tree. An addin is a set of extensions that plug into extension points defined in other addins, and can also define new extension points for other addins to extend. The whole of MonoDevelop is built this way, so there are many extension points available, and the core ones are described in the Extension Point Reference. MonoDevelop uses the [Mono.Addins](http://www.mono-project.com/Mono.Addins) addin engine, so for advanced addin questions, refer to the [Mono.Addins Reference Manual](http://www.mono-project.com/Mono.Addins_Reference_Manual). You can also use Mono.Addins in your own applications.
 
 Creating the Addin
 ------------------
@@ -66,7 +66,7 @@ The empty `Manifest.addin.xml` file should look like this:
 
 Some extension points accept resources as arguments, so these can be embedded into the assembly too, and hence many addins consist of a single assembly. However, if the addin requires additional files or assemblies, these should be referenced in the *Runtime* element, so that the addin engine can ensure that they exist, and can package all of the addin's files into an *mpack* file for distribution. This addin requires no extra files, so we can ignore or omit this element.
 
-In this tutorial we will use a few core extension points and APIs, but there are many more. The core addins and their extension points and APIs are described in the [API Overview](/developers/articles/api-overview/ "Developers/Articles/API Overview") document, though it is not reliably kept up to date. There is also a [MonkeySpace 2013 video](http://vimeo.com/album/2481016/video/84367095 "http://vimeo.com/album/2481016/video/84367095") with a high-level overview of core APIs.
+In this tutorial we will use a few core extension points and APIs, but there are many more. The core addins and their extension points and APIs are described in the [API Overview](/developers/articles/api-overview/) document, though it is not reliably kept up to date. There is also a [MonkeySpace 2013 video](http://vimeo.com/album/2481016/video/84367095) with a high-level overview of core APIs.
 
 Adding Extensions
 -----------------
@@ -85,7 +85,7 @@ Each extension point has a unique *path*, so the extension is contained in and *
 
 This extension defines a command for the command system. The command ID should correspond to an enum value. The underscore prefixing the label and description attributes indicates that they're translatable using Gettext, but adding a Gettext translation catalog to the addin is beyond the scope of this introduction.
 
-MonoDevelop's command system provides ways to control the availability, visibility and handling of commands depending on context. Commands can also be assigned a keyboard shortcut and an icon. For more details, read the guide to the [Command System](/developers/articles/the-command-system/ "Developers/Articles/The Command System"). We will implement the command later in the walkthrough.
+MonoDevelop's command system provides ways to control the availability, visibility and handling of commands depending on context. Commands can also be assigned a keyboard shortcut and an icon. For more details, read the guide to the [Command System](/developers/articles/the-command-system/). We will implement the command later in the walkthrough.
 
 Commands can be bound to keyboard shortcuts and can be inserted into menus. We're going to insert this command into the main Edit menu with another extension.
 
@@ -211,5 +211,5 @@ Wrapping Up
 It's done! Rebuild the project, and the command should now inset the date, as expected.
 
 Now that you've built your first addin, try adding more features to it. For example, if the text editor has a selection, the addin could use that as a format string for the date. The reference version of the project that's attached to this document implements this feature.<br/>
- When you're ready to try more adventurous addin development, there are more [articles](/developers/articles/ "Developers/Articles") that describe more advanced addin development, and a lot of the API is readily discoverable via code completion, once you know the general areas to look. If you can't work out how best to do something, take a look at<br/>
+ When you're ready to try more adventurous addin development, there are more [articles](/developers/articles/) that describe more advanced addin development, and a lot of the API is readily discoverable via code completion, once you know the general areas to look. If you can't work out how best to do something, take a look at<br/>
  an existing addin that does something similar, or email your question to the monodevelop-devel mailing list.

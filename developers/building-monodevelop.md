@@ -20,15 +20,15 @@ MonoDevelop requires the following packages (or newer versions):
 -   Mono.Addins 0.6
 -   Gtk# 2.12.10
 
-You can build them from [git](http://github.com/mono/monodevelop "http://github.com/mono"), [source releases](http://download.mono-project.com/sources/ "http://download.mono-project.com/sources/") or, even easier, simply install the [pre-built packages](http://www.go-mono.com/mono-downloads/download.html "http://www.go-mono.com/mono-downloads/download.html") appropriate for your platform.
+You can build them from [git](http://github.com/mono/monodevelop), [source releases](http://download.mono-project.com/sources/) or, even easier, simply install the [pre-built packages](http://www.go-mono.com/mono-downloads/download.html) appropriate for your platform.
 
-**We strongly recommend you install everything from packages if possible.** If not, you should use a [Parallel Mono Environment](http://www.mono-project.com/Parallel_Mono_Environments "http://www.mono-project.com/Parallel_Mono_Environments"). Do not install anything to /usr or /usr/local unless you completely understand the implications of doing do.
+**We strongly recommend you install everything from packages if possible.** If not, you should use a [Parallel Mono Environment](http://www.mono-project.com/Parallel_Mono_Environments). Do not install anything to /usr or /usr/local unless you completely understand the implications of doing do.
 
 Note that if your distro has sufficiently up-to-date Gtk# or Mono.Addins packages, you can configure a parallel Mono environment to use them instead of building them from source. See the section on MONO\_GAC\_PREFIX in the Parallel Mono Environment guide.
 
 ### Building from Git
 
-After getting the source code from [GitHub](http://github.com/mono/monodevelop "http://github.com/mono/monodevelop"), run the following code in the root directory:
+After getting the source code from [GitHub](http://github.com/mono/monodevelop), run the following code in the root directory:
 
     ./configure
 
@@ -56,7 +56,7 @@ to run it without installing it. It is a good idea to keep separate copies for u
 
 ### Building from Tarballs
 
-MonoDevelop is split in several tarballs: one for the main application, and one for each optional add-in. You can get the tarballs from the [Download](/download/ "Download") page.
+MonoDevelop is split in several tarballs: one for the main application, and one for each optional add-in. You can get the tarballs from the [Download](/download/) page.
 
 First of all you have to configure and install the main tarball:
 
@@ -71,13 +71,13 @@ After this, you can build and install any of the additional tarballs using the s
 Mac OSX
 -------
 
-Building MonoDevelop from source on the Mac is straightforward when the latest **Mono SDK** package is installed. In general, the instructions in [Development:Getting Started](/developers/articles/development-getting-started/ "Development: Getting Started") can be applied directly to building MD on OS X. However, there are a few caveats, so this page explains the Mac build process in more detail.
+Building MonoDevelop from source on the Mac is straightforward when the latest **Mono SDK** package is installed. In general, the instructions in [Development:Getting Started](/developers/articles/development-getting-started/) can be applied directly to building MD on OS X. However, there are a few caveats, so this page explains the Mac build process in more detail.
 
 ### Building using Makefiles
 
 #### Building
 
-First you will need Xcode installed. If you have Xcode 4.3 or later, you will need to then install the Xcode Commandline tool from Xcode preferences, and install `autoconf` and `automake` from [brew](http://mxcl.github.com/homebrew/ "http://mxcl.github.com/homebrew/").
+First you will need Xcode installed. If you have Xcode 4.3 or later, you will need to then install the Xcode Commandline tool from Xcode preferences, and install `autoconf` and `automake` from [brew](http://mxcl.github.com/homebrew/).
 
 Before running the `configure` script, tell aclocal where to find the pkgconfig M4 macro (pkg.m4), e.g.
 
@@ -161,12 +161,12 @@ Windows
 
 ### Prerequisites and Source
 
--   Install Gtk# ([installer](http://download.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.22.msi "http://download.mono-project.com/gtk-sharp/gtk-sharp-2.12.10.win32.msi")).
+-   Install Gtk# ([installer](http://download.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.22.msi)).
 -   Install the Mono libraries package
--   Install the Microsoft Build Tools 2013 ([installer](http://www.microsoft.com/en-us/download/details.aspx?id=40760 "http://www.microsoft.com/en-us/download/details.aspx?id=40760")).
--   Install MSysGit (from [here](http://code.google.com/p/msysgit/ "http://code.google.com/p/msysgit/"))
--   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm "http://gnuwin32.sourceforge.net/packages/gettext.htm"))
--   Get MonoDevelop from [GitHub](http://github.com/mono/monodevelop "http://github.com/mono/monodevelop").
+-   Install the Microsoft Build Tools 2013 ([installer](http://www.microsoft.com/en-us/download/details.aspx?id=40760)).
+-   Install MSysGit (from [here](http://code.google.com/p/msysgit/))
+-   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm))
+-   Get MonoDevelop from [GitHub](http://github.com/mono/monodevelop).
 
 ### Building using Visual Studio or MonoDevelop
 

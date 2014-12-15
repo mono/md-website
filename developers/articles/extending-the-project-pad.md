@@ -445,7 +445,7 @@ This is the source code of the sample:
 -   **fileclassextension.cs**
 -   **sampleprojectpadextension.xml**
 
-A tarball with the complete sample can be downloaded from [here](http://primates.ximian.com/~lluis/samples/SampleProjectPadExtension.tar.gz "http://primates.ximian.com/~lluis/samples/SampleProjectPadExtension.tar.gz"). If you want to compile it, beware that you'll need to add a new reference to your local MonoDevelop.Base.dll assembly to the project.
+A tarball with the complete sample can be downloaded from [here](http://primates.ximian.com/~lluis/samples/SampleProjectPadExtension.tar.gz). If you want to compile it, beware that you'll need to add a new reference to your local MonoDevelop.Base.dll assembly to the project.
 
 Once compiled, just put the dll and the xml file into the AddIns folder, and restart MonoDevelop.
 

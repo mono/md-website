@@ -4,7 +4,7 @@ redirect_from:
   - /Developers/Articles/Addin_development_basics/
 ---
 
-<span style="color:#ff0000;">**For a more up to date guide, see** </span>**[<span style="color:#ff0000;">Creating a Simple Add-In</span>](/developers/articles/creating-a-simple-add-in/ "Developers/Articles/Creating a Simple Add-in")**
+<span style="color:#ff0000;">**For a more up to date guide, see** </span>**[<span style="color:#ff0000;">Creating a Simple Add-In</span>](/developers/articles/creating-a-simple-add-in/)**
 
 This walkthrough will get you through the basic steps to get started developing addins for MonoDevelop. This is kept as short as possible and will only cover a very basic example.
 
@@ -99,7 +99,7 @@ Before we do the actual implementation of the event we have to make sure that yo
 
 Implementing the event is very easy. In the essence what you do is: create a subclass of CommandHandler and override the Run and Update methods. Update is executed every time the command is shown, this is where you set if the command is enabled or even visible. Run is executed when a user activates the command.
 
-When overriding Update make sure to override the one that takes the CommandInfo parameter. For this example the command will always be enabled, so you can just write <span style="color: rgb(128, 0, 0); ">info.Enabled = true;</span> in the method. In the Run method we are going to create an Gtk# dialog that says "Hello World!". I will not cover the Gtk#-code (for that you can read the [Gtk#-tutorial](http://zetcode.com/tutorials/gtksharptutorial/ "http://zetcode.com/tutorials/gtksharptutorial/")). The example looks like this:
+When overriding Update make sure to override the one that takes the CommandInfo parameter. For this example the command will always be enabled, so you can just write <span style="color: rgb(128, 0, 0); ">info.Enabled = true;</span> in the method. In the Run method we are going to create an Gtk# dialog that says "Hello World!". I will not cover the Gtk#-code (for that you can read the [Gtk#-tutorial](http://zetcode.com/tutorials/gtksharptutorial/)). The example looks like this:
 
 ``` csharp
 using System;
@@ -148,4 +148,4 @@ Now you can build the project and copy the dll to the addin directory, restart M
 Where to go from here
 ---------------------
 
-There is a limited amount of documentation for addin development at the moment. The best option at the moment is to [download the source](/download/ "Download") for MonoDevelop and read the source for the addins there. You could also read the [existing documentation](/developers/articles/ "Developers/Articles"), unfortunately the current documentation uses deprecated code.
+There is a limited amount of documentation for addin development at the moment. The best option at the moment is to [download the source](/download/) for MonoDevelop and read the source for the addins there. You could also read the [existing documentation](/developers/articles/), unfortunately the current documentation uses deprecated code.

@@ -11,25 +11,25 @@ MonoDevelop is an IDE primarily designed for C# and other .NET languages. MonoDe
 New Features
 ------------
 
-This release contains lots of new features and improvements. Here is a summary of the new features. You will find a more detailed description of what's new in the [What's new in MonoDevelop 2.2](/documentation/release-notes/whats-new-in-monodevelop-2.2/ "Download/What's new in MonoDevelop 2.2") page.
+This release contains lots of new features and improvements. Here is a summary of the new features. You will find a more detailed description of what's new in the [What's new in MonoDevelop 2.2](/documentation/release-notes/whats-new-in-monodevelop-2.2/) page.
 
 -   Multi-platform
-    -   [Windows](/documentation/release-notes/whats-new-in-monodevelop-2.2/#windows-support "Download/What's new in MonoDevelop 2.2#Windows Support") and [Mac OSX](/documentation/release-notes/whats-new-in-monodevelop-2.2/#mac-support "Download/What's new in MonoDevelop 2.2#Mac Support") are now officially supported platforms
--   [Project Management](/documentation/release-notes/whats-new-in-monodevelop-2.2/#project-management "Download/What's new in MonoDevelop 2.2#Project Management")
+    -   [Windows](/documentation/release-notes/whats-new-in-monodevelop-2.2/#windows-support) and [Mac OSX](/documentation/release-notes/whats-new-in-monodevelop-2.2/#mac-support) are now officially supported platforms
+-   [Project Management](/documentation/release-notes/whats-new-in-monodevelop-2.2/#project-management)
     -   Multiple target runtimes
     -   Per-mime type and per-project formatting policies
     -   Custom execution modes
     -   Global assembly folders
     -   Drag & Drop from file explorer to solution tree
     -   Initial support for .NET 4.0
--   [Debugger](/documentation/release-notes/whats-new-in-monodevelop-2.2/#debugger "Download/What's new in MonoDevelop 2.2#Debugger")
+-   [Debugger](/documentation/release-notes/whats-new-in-monodevelop-2.2/#debugger)
     -   Support for the new Mono Soft Debugger
     -   Support for Win32 debugging
     -   ASP.NET debugging
     -   Moonlight debugging
     -   New expression evaluation options
     -   Immediate window
--   [Text Editor](/documentation/release-notes/whats-new-in-monodevelop-2.2/#text-editor "Download/What's new in MonoDevelop 2.2#Text Editor")
+-   [Text Editor](/documentation/release-notes/whats-new-in-monodevelop-2.2/#text-editor)
     -   Autosave
     -   Code templates
     -   Block selection
@@ -40,7 +40,7 @@ This release contains lots of new features and improvements. Here is a summary o
     -   Xml documentation shown in code completion
     -   Dynamic abbrev command
     -   Code generator
--   [Refactoring Operations](/documentation/release-notes/whats-new-in-monodevelop-2.2/#refactoring "Download/What's new in MonoDevelop 2.2#Refactoring")
+-   [Refactoring Operations](/documentation/release-notes/whats-new-in-monodevelop-2.2/#refactoring)
     -   Resolve namespace
     -   Rename refactoring with preview
     -   Extract method
@@ -52,23 +52,23 @@ This release contains lots of new features and improvements. Here is a summary o
     -   Sort namespace imports
     -   Create/Remove backing store
     -   Inline rename
--   [Version Control](/documentation/release-notes/whats-new-in-monodevelop-2.2/#version-control "Download/What's new in MonoDevelop 2.2#Version Control")
+-   [Version Control](/documentation/release-notes/whats-new-in-monodevelop-2.2/#version-control)
     -   New Show Annotations command
     -   Create Patch command
 -   New add-ins
-    -   [Python add-in](/documentation/release-notes/whats-new-in-monodevelop-2.2/#python-binding "Download/What's new in MonoDevelop 2.2#Python Binding")
-    -   [ASP.NET MVC add-in](/documentation/release-notes/whats-new-in-monodevelop-2.2/#aspnet-mvc-add-in "Download/What's new in MonoDevelop 2.2#ASP.NET MVC Add-in")
-    -   [IPhone add-in](/documentation/release-notes/whats-new-in-monodevelop-2.2/#iphone-add-in "Download/What's new in MonoDevelop 2.2#IPhone Add-in")
-    -   [Moonlight add-in](/documentation/release-notes/whats-new-in-monodevelop-2.2/#iphone-add-in "Download/What's new in MonoDevelop 2.2#IPhone Add-in")
+    -   [Python add-in](/documentation/release-notes/whats-new-in-monodevelop-2.2/#python-binding)
+    -   [ASP.NET MVC add-in](/documentation/release-notes/whats-new-in-monodevelop-2.2/#aspnet-mvc-add-in)
+    -   [IPhone add-in](/documentation/release-notes/whats-new-in-monodevelop-2.2/#iphone-add-in)
+    -   [Moonlight add-in](/documentation/release-notes/whats-new-in-monodevelop-2.2/#iphone-add-in)
 
-Notice that not all features are supported in all platforms. See the [Feature Matrix](/documentation/release-notes/whats-new-in-monodevelop-2.2/#feature-matrix "Download/What's new in MonoDevelop 2.2#Feature Matrix") to find out which features are supported.
+Notice that not all features are supported in all platforms. See the [Feature Matrix](/documentation/release-notes/whats-new-in-monodevelop-2.2/#feature-matrix) to find out which features are supported.
 
-Please see [What's new in MonoDevelop 2.2](/documentation/release-notes/whats-new-in-monodevelop-2.2/ "Download/What's new in MonoDevelop 2.2") for more details.
+Please see [What's new in MonoDevelop 2.2](/documentation/release-notes/whats-new-in-monodevelop-2.2/) for more details.
 
 Getting MonoDevelop
 -------------------
 
-Packages for several distros and platforms, as well as source code tarballs and build instructions are available in the MonoDevelop [Download](/download/ "Download") page.
+Packages for several distros and platforms, as well as source code tarballs and build instructions are available in the MonoDevelop [Download](/download/) page.
 
 This release of MonoDevelop needs at least **Mono 2.4** and **Gtk# 2.12.8** to run on Linux and Mac OSX.
 

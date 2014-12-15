@@ -21,13 +21,13 @@ Instead of using a string directly in your code, you just need to pass it to `ge
 
 ### Translators
 
-See [Gnome I18N](http://www.gnome.org/i18n/ "http://www.gnome.org/i18n/") for information about the GNOME translation project. Much of that material will also apply here. In particular:
+See [Gnome I18N](http://www.gnome.org/i18n/) for information about the GNOME translation project. Much of that material will also apply here. In particular:
 
--   [Language codes](http://lcweb.loc.gov/standards/iso639-2/englangn.html "http://lcweb.loc.gov/standards/iso639-2/englangn.html")
--   [Resources](http://developer.gnome.org/projects/gtp/resources.html "http://developer.gnome.org/projects/gtp/resources.html")
+-   [Language codes](http://lcweb.loc.gov/standards/iso639-2/englangn.html)
+-   [Resources](http://developer.gnome.org/projects/gtp/resources.html)
 
 ### Credits, License, and Errata
 
-Send comments to [jluke](mailto:jluke@cfl.rr.com "mailto:jluke@cfl.rr.com") or the [MonoDevelop mailing list](mailto:monodevelop-list@lists.ximian.com "mailto:monodevelop-list@lists.ximian.com")
+Send comments to [jluke](mailto:jluke@cfl.rr.com) or the [MonoDevelop mailing list](mailto:monodevelop-list@lists.ximian.com)
 
-Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php "http://opensource.org/licenses/mit-license.php")
+Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php)

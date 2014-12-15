@@ -8,11 +8,11 @@ redirect_from:
 
 **Note: This page is out of date and the instructions do not work with any recent version of MonoDevelop.**
 
-**For an up to date guide, see [Creating a Simple Add-In](/developers/articles/creating-a-simple-add-in/ "Developers/Articles/Creating a Simple Add-in")**
+**For an up to date guide, see [Creating a Simple Add-In](/developers/articles/creating-a-simple-add-in/)**
 
 ### Introduction
 
-MonoDevelop (and SharpDevelop) have been written so that they can be easily extended by others. This can be accomplished by doing two simple things. First, by creating an assembly (`.dll`) containing the code for your add-in. Second, providing an `.addin` XML file that maps your code into MonoDevelop. There is a detailed PDF available at SharpDevelop's website [here](http://www.icsharpcode.net/TechNotes/ProgramArchitecture.pdf "http://www.icsharpcode.net/TechNotes/ProgramArchitecture.pdf") that you will want to read for a full understanding of the entire system and possiblities. The SharpDevelop book has information on this as well. This is intended as a simple and quick overview.
+MonoDevelop (and SharpDevelop) have been written so that they can be easily extended by others. This can be accomplished by doing two simple things. First, by creating an assembly (`.dll`) containing the code for your add-in. Second, providing an `.addin` XML file that maps your code into MonoDevelop. There is a detailed PDF available at SharpDevelop's website [here](http://www.icsharpcode.net/TechNotes/ProgramArchitecture.pdf) that you will want to read for a full understanding of the entire system and possiblities. The SharpDevelop book has information on this as well. This is intended as a simple and quick overview.
 
 ### Terms
 
@@ -130,7 +130,7 @@ Although SharpDevelop and MonoDevelop currently use the same format this may not
 
 ### Internationalization
 
-Since we are using `gettext` and not resources, you will want to read the [translation guide](/developers/articles/translations/ "Developers/Articles/Translations") as that is handled in a different way than SharpDevelop and deserves its own explanation.
+Since we are using `gettext` and not resources, you will want to read the [translation guide](/developers/articles/translations/) as that is handled in a different way than SharpDevelop and deserves its own explanation.
 
 ### Add-in ideas
 
@@ -148,8 +148,8 @@ There are various things that would be nice to have implemented as add-ins. Here
 
 ### Credits, License, and Errata
 
-Send comments to [jluke](mailto:jluke@cfl.rr.com "mailto:jluke@cfl.rr.com") or the [MonoDevelop mailing list](mailto:monodevelop-list@lists.ximian.com "mailto:monodevelop-list@lists.ximian.com")
+Send comments to [jluke](mailto:jluke@cfl.rr.com) or the [MonoDevelop mailing list](mailto:monodevelop-list@lists.ximian.com)
 
-Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php "http://opensource.org/licenses/mit-license.php")
+Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php)
 
 

@@ -11,9 +11,9 @@ MonoDevelop is an IDE primarily designed for C# and other .NET languages. MonoDe
 New Features and Improvements
 -----------------------------
 
-This release contains lots of new features and improvements. Here is a summary of the new features. You will find a more detailed description of what's new in the [What's new in MonoDevelop 2.4](/documentation/release-notes/whats-new-in-monodevelop-2.4/ "Download/What's new in MonoDevelop 2.4") page.
+This release contains lots of new features and improvements. Here is a summary of the new features. You will find a more detailed description of what's new in the [What's new in MonoDevelop 2.4](/documentation/release-notes/whats-new-in-monodevelop-2.4/) page.
 
--   [Workbench Usability](/documentation/release-notes/whats-new-in-monodevelop-2.4/#workbench-usability "Download/What's new in MonoDevelop 2.4#Workbench Usability")
+-   [Workbench Usability](/documentation/release-notes/whats-new-in-monodevelop-2.4/#workbench-usability)
     -   Improved look
     -   Improved pad organization
     -   Improved Error Workflow with In-line Error Bubbles
@@ -21,12 +21,12 @@ This release contains lots of new features and improvements. Here is a summary o
     -   New Navigate To dialog
     -   Solution and Class pad Zooming
     -   New Options for selecting the user interface language, output pad font and GTK+ theme.
--   [Project Model](/documentation/release-notes/whats-new-in-monodevelop-2.4/#project-model "Download/What's new in MonoDevelop 2.4#Project Model")
+-   [Project Model](/documentation/release-notes/whats-new-in-monodevelop-2.4/#project-model)
     -   Standalone Assembly Projects
     -   External Console Support for Mac and Windows
     -   Support for adding files to solution folders
     -   Proper MSBuild file links in projects
--   [Source Editing](/documentation/release-notes/whats-new-in-monodevelop-2.4/#source-editing "Download/What's new in MonoDevelop 2.4#Source Editing")
+-   [Source Editing](/documentation/release-notes/whats-new-in-monodevelop-2.4/#source-editing)
     -   Improved in-line search
     -   Group Mode in Code Completion
     -   Symbol Usage Highlighting
@@ -37,18 +37,18 @@ This release contains lots of new features and improvements. Here is a summary o
     -   Quick Fix Command
     -   Scrollable Region Tooltips
     -   Improved Filtering in Completion List
--   [Debugger](/documentation/release-notes/whats-new-in-monodevelop-2.4/#debugger "Download/What's new in MonoDevelop 2.4#Debugger")
+-   [Debugger](/documentation/release-notes/whats-new-in-monodevelop-2.4/#debugger)
     -   Pinned Quick Watches
     -   Debug Value Visualizers
     -   Improved expression evaluation
     -   New Exception Dialog
--   [Tools](/documentation/release-notes/whats-new-in-monodevelop-2.4/#tools "Download/What's new in MonoDevelop 2.4#Tools")
+-   [Tools](/documentation/release-notes/whats-new-in-monodevelop-2.4/#tools)
     -   New Hex Editor
     -   Integrated T4 Templating
     -   More Code Metrics
--   [ASP.NET](/documentation/release-notes/whats-new-in-monodevelop-2.4/#aspnet "Download/What's new in MonoDevelop 2.4#ASP.NET")
+-   [ASP.NET](/documentation/release-notes/whats-new-in-monodevelop-2.4/#aspnet)
     -   Code completion for C# regions
--   [Web References](/documentation/release-notes/whats-new-in-monodevelop-2.4/#web-references "Download/What's new in MonoDevelop 2.4#Web References")
+-   [Web References](/documentation/release-notes/whats-new-in-monodevelop-2.4/#web-references)
     -   Support for WCF Web References
     -   Support for references that require authentication
 -   Improvements in other add-ins:
@@ -57,12 +57,12 @@ This release contains lots of new features and improvements. Here is a summary o
     -   Mac OS support
     -   Vala
 
-Please see [What's new in MonoDevelop 2.4](/documentation/release-notes/whats-new-in-monodevelop-2.4/ "Download/What's new in MonoDevelop 2.4") for more details.
+Please see [What's new in MonoDevelop 2.4](/documentation/release-notes/whats-new-in-monodevelop-2.4/) for more details.
 
 Getting MonoDevelop
 -------------------
 
-Packages for several distros and platforms, as well as source code tarballs and build instructions are available in the MonoDevelop [Download](/download/ "Download") page.
+Packages for several distros and platforms, as well as source code tarballs and build instructions are available in the MonoDevelop [Download](/download/) page.
 
 This release of MonoDevelop needs at least **Mono 2.6.1** and **Gtk# 2.12.8** to run.
 

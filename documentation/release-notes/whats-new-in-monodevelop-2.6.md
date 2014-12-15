@@ -28,7 +28,7 @@ Also, some GIT specific commands have been added:
 
 In addition, there is a **Manage Branches and Remotes** command which allows browsing, creating and deleting branches and remotes.
 
-The GIT backend is implemented using the [NGit](https://github.com/slluis/ngit "https://github.com/slluis/ngit") library, which is a port of [JGit](http://eclipse.org/jgit "http://eclipse.org/jgit") to .NET (details [here](http://foodformonkeys.blogspot.com/2010/10/ngit.html "http://foodformonkeys.blogspot.com/2010/10/ngit.html")).
+The GIT backend is implemented using the [NGit](https://github.com/slluis/ngit) library, which is a port of [JGit](http://eclipse.org/jgit) to .NET (details [here](http://foodformonkeys.blogspot.com/2010/10/ngit.html)).
 
 #### **Improved Version Control Views**
 

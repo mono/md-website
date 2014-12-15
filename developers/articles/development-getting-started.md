@@ -12,7 +12,7 @@ It's relatively easy to get started working on MonoDevelop, but this page aims t
 
 MonoDevelop doesn't require the very latest version of Mono, and we specifically depend on GTK+ features no later that GTK+ 2.8. That said, using a recent release of Mono and Gtk# is likely to improve reliability and performance.
 
-**It is strongly recommended to use a packaged release of Mono** for your distribution, as it is very easy to mix up conflicting Mono versions if installing from source. If you must install Mono from source, set up a [Parallel Mono Environment](http://www.mono-project.com/Parallel_Mono_Environments "http://www.mono-project.com/Parallel_Mono_Environments").
+**It is strongly recommended to use a packaged release of Mono** for your distribution, as it is very easy to mix up conflicting Mono versions if installing from source. If you must install Mono from source, set up a [Parallel Mono Environment](http://www.mono-project.com/Parallel_Mono_Environments).
 
 Make sure you have git installed, and check MonoDevelop out from GitHub (https://github.com/mono/monodevelop).
 
@@ -56,7 +56,7 @@ If you do install MonoDevelop, it is best to run the current version uninstalled
 
 ### Working on MonoDevelop
 
-Before hacking on MonoDevelop, don't be afraid to ask questions on [\#monodevelop IRC](http://mono-project.com/IRC "http://mono-project.com/IRC") or [MonoDevelop mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list "http://lists.ximian.com/mailman/listinfo/monodevelop-list"). People will be able to give you pointer about where to start and how best to approach the problems your are trying to solve. There are also number of [Articles](/developers/articles/ "Developers/Articles") on the MonoDevelop architecture and on implementing addins.
+Before hacking on MonoDevelop, don't be afraid to ask questions on [\#monodevelop IRC](http://mono-project.com/IRC) or [MonoDevelop mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list). People will be able to give you pointer about where to start and how best to approach the problems your are trying to solve. There are also number of [Articles](/developers/articles/) on the MonoDevelop architecture and on implementing addins.
 
 The MonoDevelop solution can be opened from MonoDevelop, and builds can be preformed form within MonoDevelop. Indeed, some parts of the build (such as Stetic code generation) must be performed within MD. However, the modified MonoDevelop must be run from a terminal with
 
@@ -64,7 +64,7 @@ The MonoDevelop solution can be opened from MonoDevelop, and builds can be prefo
 make run
 ```
 
-You should follow our [contribution rules](/developers/#contribute "Developers#Contribute"), for code style and licensing. Please add ChangeLog entries for all of your changes. There's one for each assembly.
+You should follow our [contribution rules](/developers/#contribute), for code style and licensing. Please add ChangeLog entries for all of your changes. There's one for each assembly.
 
 After you have made your changes, produce a diff
 
@@ -72,7 +72,7 @@ After you have made your changes, produce a diff
 svn diff ChangeLog changedfile1.cs changedfile2.cs > some_diff_file.diff
 ```
 
-and attach your patch to an issue in <http://bugzilla.xamarin.com> or send it to the [MonoDevelop mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list "http://lists.ximian.com/mailman/listinfo/monodevelop-list").
+and attach your patch to an issue in <http://bugzilla.xamarin.com> or send it to the [MonoDevelop mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list).
 
 ### Troubleshooting the Build
 

@@ -6,7 +6,7 @@ redirect_from:
   - /Developers/TODO/Proposals/
 ---
 
-This is a list of features and changes that have been proposed to include in MonoDevelop. Those proposals need further refinement and discussion, so feel free to provide your feedback in each proposal page or through the [mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list "http://lists.ximian.com/mailman/listinfo/monodevelop-list"). Thanks for your help!
+This is a list of features and changes that have been proposed to include in MonoDevelop. Those proposals need further refinement and discussion, so feel free to provide your feedback in each proposal page or through the [mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list). Thanks for your help!
 
 <table class="task-list" width="100%">
     <thead>

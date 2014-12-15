@@ -4,7 +4,7 @@ redirect_from:
   - /Documentation/Preprocessed_Razor_Templates/
 ---
 
-Preprocessed Razor Templates use the [Razor templating language](http://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx "http://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx") to create C# template classes that can be embedded into any project type, and used to generate HTML without the dependency and overhead of the System.Web.Mvc app. This makes them suited for things like mobile apps that need to generate content for an embedded web view, or tools that generate HTML reports.
+Preprocessed Razor Templates use the [Razor templating language](http://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx) to create C# template classes that can be embedded into any project type, and used to generate HTML without the dependency and overhead of the System.Web.Mvc app. This makes them suited for things like mobile apps that need to generate content for an embedded web view, or tools that generate HTML reports.
 
 ### Creating a Preprocessed Razor Template
 
@@ -12,7 +12,7 @@ Preprocessed Razor Template templates use the "Custom Tool" feature of MonoDeve
 
 Fortunately there is a file template that performs this step automatically. Simply create a new file using the *Text Templating -\> Preprocessed Razor Template* template, and a cshtml file will be added with the Custom Tool property already set.
 
-A [tutorial](https://mjhutchinson.com/journal/2012/12/08/razor_preprocessed_templates "https://mjhutchinson.com/journal/2012/12/08/razor_preprocessed_templates") is available.
+A [tutorial](https://mjhutchinson.com/journal/2012/12/08/razor_preprocessed_templates) is available.
 
 ### The Generated Class
 

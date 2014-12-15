@@ -117,7 +117,7 @@ This new solution will be a simple GUI application. To do this, we'll need to us
 
 [![SimpleCPPSolution\_EditPackages.png](/images/351-SimpleCPPSolution_EditPackages.png)](/images/351-SimpleCPPSolution_EditPackages.png "SimpleCPPSolution_EditPackages.png")
 
-Now copy and paste the following [GTK sample](http://www.gtk.org/tutorial/c39.html "http://www.gtk.org/tutorial/c39.html") to your main.cpp file
+Now copy and paste the following [GTK sample](http://www.gtk.org/tutorial/c39.html) to your main.cpp file
 
 ``` c
  #include <iostream>

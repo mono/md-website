@@ -156,13 +156,13 @@ Same as the **ReleaseNotes** property, but the content is provided in a file ins
 Publishing in the official MonoDevelop repository
 -------------------------------------------------
 
-The official MonoDevelop add-in repository is available at [addins.monodevelop.com](http://addins.monodevelop.com/ "http://addins.monodevelop.com/"). Add-ins published in this repository are available to all MonoDevelop users, since it is registered by default in MonoDevelop.
+The official MonoDevelop add-in repository is available at [addins.monodevelop.com](http://addins.monodevelop.com/). Add-ins published in this repository are available to all MonoDevelop users, since it is registered by default in MonoDevelop.
 
 In order to publish your add-in in the official repository, you have to do the following:
 
--   Create a file named **addin-project.xml** with the content specified [here](http://addins.monodevelop.com/Source/AddinProjectHelp?projectId=1 "http://addins.monodevelop.com/Source/AddinProjectHelp?projectId=1").
+-   Create a file named **addin-project.xml** with the content specified [here](http://addins.monodevelop.com/Source/AddinProjectHelp?projectId=1).
 -   Upload the source code of your add-in to a public git, subversion or bazaar repository
--   Login to [addins.monodevelop.com](http://addins.monodevelop.com/ "http://addins.monodevelop.com/")
+-   Login to [addins.monodevelop.com](http://addins.monodevelop.com/)
 -   Create a new project, and in the source settings, specify the location of your source code
 -   Wait for the project to build (it may take a while)
 -   When the project is built, a new entry will be shown in the Source section of the project page.

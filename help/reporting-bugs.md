@@ -6,11 +6,11 @@ redirect_from:
   - /Bugs/
 ---
 
-MonoDevelop bugs should be filed at [bugzilla.xamarin.com](http://bugzilla.xamarin.com "http://bugzilla.xamarin.com").
+MonoDevelop bugs should be filed at [bugzilla.xamarin.com](http://bugzilla.xamarin.com).
 
 To report a bug, follow the steps below:
 
-1.  [Create a Bugzilla account](http://bugzilla.xamarin.com "http://bugzilla.xamarin.com").
+1.  [Create a Bugzilla account](http://bugzilla.xamarin.com).
 2.  Ensure the bug you are reporting hasn't already been fixed. Install the latest version of MonoDevelop using the "Current Development" instructions on the download page.
 3.  Review the [open MonoDevelop bugs](https://bugzilla.xamarin.com/describecomponents.cgi?product=Xamarin%20Studio) and make sure that your bug hasn't been submitted already.
 4.  If it hasn't been submitted, submit a new MonoDevelop bug.
@@ -25,7 +25,7 @@ MonoDevelop outputs logging information that can be useful in tracking down prob
 
 The log output is also logged to files and/or the terminal, though the location of this information depends on the platform and on how MonoDevelop is run.
 
-Logging can be controlled using several [environment variables](/developers/articles/environment-variables/#logging "Developers/Articles/Environment Variables#Logging"). For more information see the article on [logging](/developers/articles/logging/ "Developers/Articles/Logging").
+Logging can be controlled using several [environment variables](/developers/articles/environment-variables/#logging). For more information see the article on [logging](/developers/articles/logging/).
 
 #### Linux Launch Script
 

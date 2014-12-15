@@ -47,7 +47,7 @@ This assembly implements the following services:
 
 -   Resources: It can be used to get fonts and stock icons.
 -   MessageService: Common methods for displaying error dialogs, warning dialogs, informative dialogs and yes/no question dialogs.
--   DispatchService: Provides methods which simplify the thread management in MonoDevelop (see [Thread Management](/developers/articles/thread-management/ "Developers/Articles/Thread_Management")).
+-   DispatchService: Provides methods which simplify the thread management in MonoDevelop (see [Thread Management](/developers/articles/thread-management/)).
 -   Common dialogs to build wizards and options panels.
 -   Some basic progress monitors.
 
@@ -84,7 +84,7 @@ This assembly implements the MonoDevelop IDE, which is based on all services des
 
 -   The workbench: Documents, pads, layouts, status bar, progress monitors.
 -   Project operations: this is a GUI front-end to everything you can do with a project: loading, saving, building, running, showing options, etc.
--   The Command Service: it can be used to define new commands, create menus, context menus and toolbars (see [The Command System](/developers/articles/the-command-system/ "Developers/Articles/The_Command_System")).
+-   The Command Service: it can be used to define new commands, create menus, context menus and toolbars (see [The Command System](/developers/articles/the-command-system/)).
 
 The IDE provides many extension points. Here are some of them:
 

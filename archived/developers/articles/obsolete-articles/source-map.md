@@ -176,8 +176,8 @@ find . -name '*.cs' | xargs grep TypeName
 
 ### Credits, License, and Errata
 
-Send comments to [jluke](mailto:jluke@cfl.rr.com "mailto:jluke@cfl.rr.com") or the [MonoDevelop mailing list](mailto:monodevelop-list@lists.ximian.com "mailto:monodevelop-list@lists.ximian.com")
+Send comments to [jluke](mailto:jluke@cfl.rr.com) or the [MonoDevelop mailing list](mailto:monodevelop-list@lists.ximian.com)
 
-Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php "http://opensource.org/licenses/mit-license.php")
+Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php)
 
 
