@@ -52,6 +52,7 @@ MonoDevelop for Linux is available for various distributions. The following pack
 
 - [Debian, Ubuntu, and derivatives](/download/linux/#debian-ubuntu-and-derivatives)
 - [Red Hat, SUSE, and derivatives](/download/linux/#centos-fedora-and-derivatives)
+- [openSUSE and SLES](/download/linux/#opensuse-and-sles)
 
 #### Linux distribution packages
 
