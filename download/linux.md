@@ -48,7 +48,9 @@ Users of CentOS or RHEL (or similar distributions) may need to add the [EPEL rep
 openSUSE and SLES
 -----------------
 
-You can install using SUSE One-Click: [monodevelop](http://download.mono-project.com/repo/monodevelop.ymp)
+You can install using SUSE One-Click:
+
+[![monodevelop](/images/OneClick.svg)](http://download.mono-project.com/repo/monodevelop.ymp)
 
 Usage
 -----
