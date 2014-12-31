@@ -208,8 +208,7 @@ This uses the ITextEditorDataProvider directly - we know it's not null, since 
 Wrapping Up
 -----------
 
-It's done! Rebuild the project, and the command should now inset the date, as expected.
+It's done! Rebuild the project, and the command should now insert the date, as expected.
 
 Now that you've built your first addin, try adding more features to it. For example, if the text editor has a selection, the addin could use that as a format string for the date. The reference version of the project that's attached to this document implements this feature.<br/>
- When you're ready to try more adventurous addin development, there are more [articles](/developers/articles/) that describe more advanced addin development, and a lot of the API is readily discoverable via code completion, once you know the general areas to look. If you can't work out how best to do something, take a look at<br/>
- an existing addin that does something similar, or email your question to the monodevelop-devel mailing list.
+ When you're ready to try more adventurous addin development, there are more [articles](/developers/articles/) that describe more advanced addin development, and a lot of the API is readily discoverable via code completion, once you know the general areas to look. If you can't work out how best to do something, take a look at an existing addin that does something similar, or email your question to the monodevelop-devel mailing list.
