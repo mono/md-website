@@ -9,7 +9,7 @@ redirect_from:
 If you need help building, running, or troubleshooting a problem with MonoDevelop or related components, you can:
 
 -   check the [troubleshooting section](/help/faq/#troubleshooting) in the FAQ.
--   join us in **\#monodevelop** on [GIMPnet](http://wiki.gimp.org/gimp/Irc) IRC
+-   join us in **\#monodevelop** on [GIMPnet](http://www.gimp.org/irc.html) IRC
 -   subscribe to the [MonoDevelop Mailing List](http://lists.ximian.com/mailman/listinfo/monodevelop-list).
 
 For general help about the Mono framework, take a look at the [Mono website](http://www.mono-project.com).
