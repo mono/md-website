@@ -81,7 +81,7 @@ This screencast shows how to use MonoDevelop to create custom Gtk# widgets and u
         <a class="panel" href="#Working-With-Databases"><h2>Working With Databases</h2></a>
         <div id="Working-With-Databases" class="content">
             <ul class="disc">
-                <li><a href="/documentation/database-addin/">The Database Explorer</a>)<br/>
+                <li><a href="/documentation/database-addin/">The Database Explorer</a><br/>
                      An overview of the Database addin futures and common use.
                 </li>
             </ul>
