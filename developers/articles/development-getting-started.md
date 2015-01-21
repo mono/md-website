@@ -71,7 +71,7 @@ After you have made your changes, produce a diff
 ``` bash
 svn diff ChangeLog changedfile1.cs changedfile2.cs > some_diff_file.diff
 ```
-
+(for windows, you can use WinMerge (http://winmerge.org/) to produce a diff)..
 and attach your patch to an issue in <http://bugzilla.xamarin.com> or send it to the [MonoDevelop mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list).
 
 ### Troubleshooting the Build
