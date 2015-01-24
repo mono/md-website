@@ -64,15 +64,9 @@ The MonoDevelop solution can be opened from MonoDevelop, and builds can be prefo
 make run
 ```
 
-You should follow our [contribution rules](/developers/#contribute), for code style and licensing. Please add ChangeLog entries for all of your changes. There's one for each assembly.
+You should follow our [contribution rules](/developers/#contribute), for code style and licensing.
 
-After you have made your changes, produce a diff
-
-``` bash
-svn diff ChangeLog changedfile1.cs changedfile2.cs > some_diff_file.diff
-```
-
-and attach your patch to an issue in <http://bugzilla.xamarin.com> or send it to the [MonoDevelop mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list).
+After you have made your changes, commit them with a descriptive message and open a pull request on GitHub.
 
 ### Troubleshooting the Build
 
