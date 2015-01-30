@@ -106,10 +106,10 @@ Only the top level category has an icon. These top level category icons are defi
 
 The icons should be compiled as embedded resources in your addin.
 
-MonoDevelop supports retina icons everywhere and to use them in the New Project dialog on a retina device just add a second embedded resource with a filename that @2x just before the file extension.
+MonoDevelop supports retina icons everywhere and to use them in the New Project dialog on a retina device just add a second embedded resource with a filename that has `@2x` just before the file extension.
 
-- Non-retina resource: platform-other-light-16.png
-- Retina resource: platform-other-light-16@2x.png
+- Non-retina resource: `platform-other-light-16.png`
+- Retina resource: `platform-other-light-16@2x.png`
 
 The addin.xml file only needs to define the single StockIcon resource. MonoDevelop will automatically find and use the retina icon for a retina screen.
 
@@ -156,7 +156,7 @@ Then specify the id for that image in the template’s TemplateConfiguration sec
 </TemplateConfiguration>
 ```
 
-You can also provide a retina image by adding the retina image as an embedded resource into your addin. In the example above the retina image would have the resource id **md-asp-project@2x.png**
+You can also provide a retina image by adding the retina image as an embedded resource into your addin. In the example above the retina image would have the resource `md-asp-project@2x.png`
 
 ### Project Template Image - File
 
