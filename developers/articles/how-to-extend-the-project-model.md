@@ -196,7 +196,7 @@ It is recomended to use the add-in namespace as prefix of the name, to avoid nam
 
 ### Project service extensions
 
-Using Project Service Extensions add-ins can hook on the project service and change the behavior of some common project an solution operations. A project service extension can be created by implementing a subclass of **ProjectServiceExtension**. This class is defined in the MonoDevelop.Projects namespace and looks like this:
+Using Project Service Extensions add-ins can hook on the project service and change the behavior of some common project and solution operations. A project service extension can be created by implementing a subclass of **ProjectServiceExtension**. This class is defined in the MonoDevelop.Projects namespace and looks like this:
 
 ``` csharp
 public class ProjectServiceExtension
