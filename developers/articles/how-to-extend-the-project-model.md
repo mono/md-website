@@ -422,7 +422,7 @@ public class WindowData: ICustomDataItem
         // Use the provided serializer to run the default serialization.
         // This is optional, but it's useful if you just want to
         // tweak the default behavior, not completely reimplement it.
-        DataCollection data = serialize.Serialize (this);
+        DataCollection data = serializer.Serialize (this);
 
         // Now add some custom data
         data.Add (new DataValue ("size", width + " " + height));
