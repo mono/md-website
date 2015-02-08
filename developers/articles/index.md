@@ -37,10 +37,10 @@ This tutorial explains how to implement an addin that extends the project pad. T
 This article explains how to extend the project model to support new types of projects or to add additional information to existing project types.
 
 [Syntax mode definition](/developers/articles/syntax-mode-definition/)<br/>
-This article explains how to create a syntax hilighting mode for a new file type.
+This article explains how to create a syntax highlighting mode for a new file type.
 
 [Editor color sheme definition](/developers/articles/color-sheme-definition/)<br/>
-This article explains how to create a syntax hilighting mode for a new file type.
+This article explains how to create a syntax highlighting mode for a new file type.
 
 [Publishing an Add-in](/developers/articles/publishing-an-addin/)<br/>
 This article explains how to publish an add-in to make it available to MonoDevelop users.
