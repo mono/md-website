@@ -464,7 +464,7 @@ If you need to perform a long operation in the background, the IDE offers sever
 | **GetRunProgressMonitor ()**        | Creates a monitor for execution operations. Output is written in the Application Output pad.                                                           |
 | **GetOutputProgressMonitor ()**     | Creates a monitor which writes the output in an Output pad.                                                                                            |
 | **GetLoadProgressMonitor ()**       | Creates a monitor for load operations. Progress is shown in the status bar. Errors and warnings are shown in a dialog when the operation is completed. |
-| **GetSaveProgressMonitor ()**       | Creates a monitor for load operations. Progress is shown in the status bar. Errors and warnings are shown in a dialog when the operation is completed. |
+| **GetSaveProgressMonitor ()**       | Creates a monitor for save operations. Progress is shown in the status bar. Errors and warnings are shown in a dialog when the operation is completed. |
 | **GetSearchProgressMonitor ()**     | Creates a monitor for search operations. Progress and results of the search are shown in a Search Results pad. It supports multiple search instances.  |
 | **GetStatusProgressMonitor ()**     | Creates a monitor which shows progress in the status bar.                                                                                               |
 | **GetBackgroundProgressMonitor ()** | Creates a monitor which shows an icon in the status bar. The tooltip of the icon is the current task description.                                       |
