@@ -466,8 +466,8 @@ If you need to perform a long operation in the background, the IDE offers sever
 | **GetLoadProgressMonitor ()**       | Creates a monitor for load operations. Progress is shown in the status bar. Errors and warnings are shown in a dialog when the operation is completed. |
 | **GetSaveProgressMonitor ()**       | Creates a monitor for load operations. Progress is shown in the status bar. Errors and warnings are shown in a dialog when the operation is completed. |
 | **GetSearchProgressMonitor ()**     | Creates a monitor for search operations. Progress and results of the search are shown in a Search Results pad. It supports multiple search instances.  |
-| **GetStatusProgressMonitor ()**     | Creates a monitor wich shows progress in the status bar.                                                                                               |
-| **GetBackgroundProgressMonitor ()** | Creates a monitor wich shows an icon in the status bar. The tooltip of the icon is the current task description.                                       |
+| **GetStatusProgressMonitor ()**     | Creates a monitor which shows progress in the status bar.                                                                                               |
+| **GetBackgroundProgressMonitor ()** | Creates a monitor which shows an icon in the status bar. The tooltip of the icon is the current task description.                                       |
 
 There are also other classes which can be used to show progress in a dialog:
 
