@@ -414,7 +414,7 @@ using (ctx) {
 }
 
 // When the context is disposed, the old message is restored,
-// so the status bar will now show "Read" again
+// so the status bar will now show "Ready" again
 ```
 
 #### Changing the Layout of the Main Window
