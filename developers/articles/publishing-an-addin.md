@@ -104,7 +104,7 @@ The update rank can be conditioned to the presence of a specific update tag in M
 
 In this example, the update rank of the add-in will be Important if the tag 'MySpecialTag' is defined, and Minor otherwise.
 
-There are two ways of difining update tags:
+There are two ways of defining update tags:
 
 -   Using the method: MonoDevelop.Ide.Updater.UpdateService.AddUpdateTag(tag)
 -   Defining an extension of the "/MonoDevelop/Ide/UpdateTags" extension point. Notice that this extension must be defined for an add-in that is already installed. For example:
