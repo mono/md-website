@@ -1,12 +1,13 @@
 ---
-title: Color Sheme Definition
+title: Color Scheme Definition
 redirect_from:
   - /Developers/Articles/Color_Sheme_Definition/
+  - /developers/articles/color-sheme-definition/
 ---
 
-Color sheme files define colors which are used inside the text editor and syntax mode definitions. Every color used by the editor is defined inside a sheme.
+Color scheme files define colors which are used inside the text editor and syntax mode definitions. Every color used by the editor is defined inside a sheme.
 
-Sheme files are defined in xml with following syntax:
+Scheme files are defined in xml with following syntax:
 
 ``` xml
 <EditorStyle name="[NAME]" _description="[DESCRIPTION]">
