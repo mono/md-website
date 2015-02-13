@@ -171,7 +171,7 @@ Colors for keywords:
 
 A match is simply a regular expression that is colorized. An example for this are numbers. The match content is the regular expression to match and the match has only one attribute: color (See the [Keywords](#the-keywords-tag) section for a list of colors).
 
-Note that you'll find 'CSharpNumber' as content of the Match tags. This is a hard coded regular expression for C# numbers. Its faster than using the regex engine of C#. Unfortunately the regex engine only works on strings and not on custom character sequences. Therefore the perfomance penalaty of regexes can be too high in some cases.
+Note that you'll find 'CSharpNumber' as content of the Match tags. This is a hard coded regular expression for C# numbers. Its faster than using the regex engine of C#. Unfortunately the regex engine only works on strings and not on custom character sequences. Therefore the perfomance penalty of regexes can be too high in some cases.
 
 ### The Property Tag
 
@@ -186,7 +186,7 @@ At the point of writing following properties can be defined:
 | BlockCommentEnd   | The tag that ends a block comment.                                  |
 | StringQuote       | The quotation mark                                                  |
 
-Note that a property is always a list. Multiple line comments can be defined by specifying morge than one LineComment property.
+Note that a property is always a list. Multiple line comments can be defined by specifying more than one LineComment property.
 
 In C# syntax a property in the MonoDevelop syntax mode is: KeyValuePair\<string, List\<string\>\>
 
@@ -231,7 +231,7 @@ These rule is applied to comments. In the editor it looks like:
 
 ### The Span Tag
 
-A span is a part of the buffer that is highlighted differently using a begin and an end string. The begin and end strings ar specfied as childs of the `Span` tag.
+A span is a part of the buffer that is highlighted differently using a begin and an end string. The begin and end strings are specfied as childs of the `Span` tag.
 
 A `Span` tag can have following attributes:
 
