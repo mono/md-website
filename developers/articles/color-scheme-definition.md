@@ -2,6 +2,7 @@
 title: Color Scheme Definition
 redirect_from:
   - /Developers/Articles/Color_Sheme_Definition/
+  - /Color_Sheme_Definition/
 ---
 
 Color scheme files define colors which are used inside the text editor and syntax mode definitions. Every color used by the editor is defined inside a sheme.
