@@ -39,7 +39,7 @@ This article explains how to extend the project model to support new types of pr
 [Syntax mode definition](/developers/articles/syntax-mode-definition/)<br/>
 This article explains how to create a syntax highlighting mode for a new file type.
 
-[Editor color sheme definition](/developers/articles/color-sheme-definition/)<br/>
+[Editor color scheme definition](/developers/articles/color-sheme-definition/)<br/>
 This article explains how to create a syntax highlighting mode for a new file type.
 
 [Publishing an Add-in](/developers/articles/publishing-an-addin/)<br/>
