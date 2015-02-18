@@ -60,8 +60,8 @@ Extension Nodes
 
 **DocType**
 
-|-----------------------|---------------|----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Name                  | Type          | Required | Localizable | Description                                                                                                                          |
+|-----------------------|---------------|----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | name                  | System.String | True     | False       | The human-readable name of the schema. It's expected to be a substring of the full doctype declaration that's uniquely identifiable. |
 | fullName              | System.String | True     | False       | The full doctype declaration.                                                                                                        |
 | xsdFile               | System.String | False    | False       | An XML schema that can be used to provide code completion for documents using this doctype.                                          |
@@ -93,8 +93,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -102,15 +102,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -119,8 +120,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -128,8 +129,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### ProjectPackage context menu
 
@@ -141,8 +143,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -150,15 +152,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -167,8 +170,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -176,8 +179,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /CBinding/Compilers
 
@@ -187,8 +191,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 Debugger support for MonoDevelop
@@ -215,8 +219,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 Deployment Services Core
@@ -252,8 +256,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### File copiers
@@ -266,8 +270,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Deploy service extensions
@@ -278,8 +282,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### /MonoDevelop/Deployment/PackageBuilderEditors
@@ -292,8 +296,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Editors for file copy configurations
@@ -306,8 +310,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Package context menu
@@ -318,8 +322,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -327,15 +331,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -344,8 +349,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -364,8 +369,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -373,15 +378,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -390,8 +396,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -399,8 +405,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Deploy directories
 
@@ -408,8 +415,8 @@ Extension Nodes
 
 **DeployDirectory**
 
-|---------|---------------|----------|-------------|-------------|
 | Name    | Type          | Required | Localizable | Description |
+|---------|---------------|----------|-------------|-------------|
 | \_label | System.String | False    | False       |            |
 
 #### Deploy platforms
@@ -418,8 +425,8 @@ Extension Nodes
 
 **DeployPlatform**
 
-|---------|---------------|----------|-------------|-------------|
 | Name    | Type          | Required | Localizable | Description |
+|---------|---------------|----------|-------------|-------------|
 | \_label | System.String | False    | False       |            |
 
 #### Deploy directory resolvers
@@ -430,8 +437,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 Gettext Translations Support
@@ -458,8 +465,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -467,15 +474,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -484,8 +492,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -493,8 +501,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Translation context menu
 
@@ -504,8 +513,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -513,15 +522,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -530,8 +540,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -539,8 +549,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### File scanners
 
@@ -550,16 +561,16 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 **RegexScanner**
 
 Specifies a file scanner which can extract strings to be translated using regular expressions.
 
-|-----------|-----------------|----------|-------------|-----------------------------------------------------------------------------------------------|
 | Name      | Type            | Required | Localizable | Description                                                                                   |
+|-----------|-----------------|----------|-------------|-----------------------------------------------------------------------------------------------|
 | extension | System.String[] | False    | False       | Extensions of the files supported by this scanner (use comma to separate multiple extensions) |
 | mimeType  | System.String[] | False    | False       | Mime types of the files supported by this scanner (use comma to separate multiple mime types) |
 
@@ -567,8 +578,9 @@ Specifies a file scanner which can extract strings to be translated using regula
 
 Specifies an xml file scanner which can extract strings to be translated using regular expressions.
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 Gtk# Visual Designer
 ---------------------
@@ -595,8 +607,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -604,15 +616,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -621,8 +634,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -630,8 +643,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/GtkCore/ContextMenu/ProjectPad.UserInterfaceFolder
 
@@ -641,8 +655,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -650,15 +664,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -667,8 +682,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -676,8 +691,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/GtkCore/ContextMenu/ProjectPad.Component
 
@@ -687,8 +703,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -696,15 +712,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -713,8 +730,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -722,8 +739,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/GtkCore/ContextMenu/ProjectPad.StockIcons
 
@@ -733,8 +751,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -742,15 +760,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -759,8 +778,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -768,8 +787,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 HeapBuddy Profiler Add-in
 -------------------------
@@ -798,8 +818,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -807,15 +827,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -824,8 +845,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -833,8 +854,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### HeapBuddy Types node context menu
 
@@ -846,8 +868,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -855,15 +877,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -872,8 +895,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -881,8 +904,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### HeapBuddy Backtraces node context menu
 
@@ -894,8 +918,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -903,15 +927,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -920,8 +945,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -929,8 +954,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### HeapBuddy History node context menu
 
@@ -942,8 +968,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -951,15 +977,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -968,8 +995,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -977,8 +1004,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 HeapShot Profiler Add-in
 ------------------------
@@ -1004,8 +1032,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1013,15 +1041,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1030,8 +1059,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1039,8 +1068,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 Makefile generation
 -------------------
@@ -1067,8 +1097,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### /MonoDevelop/Autotools/MakefileHandlers
@@ -1081,8 +1111,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 MonoDevelop Database Components
@@ -1110,8 +1140,9 @@ Extension Nodes
 
 **Renderer**
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### DataGrid object visualizers
 
@@ -1121,8 +1152,9 @@ Extension Nodes
 
 **Visualizer**
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/Database/ContextMenu/DataGrid
 
@@ -1132,8 +1164,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1141,15 +1173,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1158,8 +1191,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1167,8 +1200,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/Database/ContextMenu/SqlEditor
 
@@ -1178,8 +1212,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1187,15 +1221,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1204,8 +1239,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1213,8 +1248,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 MonoDevelop Database ConnectionManager
 --------------------------------------
@@ -1266,8 +1302,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1275,15 +1311,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1292,8 +1329,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1301,8 +1338,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Aggregates context menu
 
@@ -1312,8 +1350,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1321,15 +1359,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1338,8 +1377,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1347,8 +1386,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Columns context menu
 
@@ -1358,8 +1398,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1367,15 +1407,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1384,8 +1425,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1393,8 +1434,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Column context menu
 
@@ -1404,8 +1446,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1413,15 +1455,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1430,8 +1473,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1439,8 +1482,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Connections context menu
 
@@ -1450,8 +1494,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1459,15 +1503,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1476,8 +1521,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1485,8 +1530,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Connection context menu
 
@@ -1496,8 +1542,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1505,15 +1551,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1522,8 +1569,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1531,8 +1578,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Constraint context menu
 
@@ -1542,8 +1590,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1551,15 +1599,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1568,8 +1617,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1577,8 +1626,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Constraints context menu
 
@@ -1588,8 +1638,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1597,15 +1647,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1614,8 +1665,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1623,8 +1674,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Groups context menu
 
@@ -1634,8 +1686,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1643,15 +1695,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1660,8 +1713,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1669,8 +1722,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Languages context menu
 
@@ -1680,8 +1734,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1689,15 +1743,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1706,8 +1761,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1715,8 +1770,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Operators context menu
 
@@ -1726,8 +1782,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1735,15 +1791,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1752,8 +1809,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1761,8 +1818,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Parameter context menu
 
@@ -1772,8 +1830,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1781,15 +1839,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1798,8 +1857,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1807,8 +1866,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Parameters context menu
 
@@ -1818,8 +1878,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1827,15 +1887,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1844,8 +1905,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1853,8 +1914,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Procedure context menu
 
@@ -1864,8 +1926,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1873,15 +1935,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1890,8 +1953,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1899,8 +1962,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Procedures context menu
 
@@ -1910,8 +1974,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1919,15 +1983,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1936,8 +2001,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1945,8 +2010,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Roles context menu
 
@@ -1956,8 +2022,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -1965,15 +2031,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -1982,8 +2049,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -1991,8 +2058,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Rules context menu
 
@@ -2002,8 +2070,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2011,15 +2079,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2028,8 +2097,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2037,8 +2106,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Sequences context menu
 
@@ -2048,8 +2118,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2057,15 +2127,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2074,8 +2145,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2083,8 +2154,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Table context menu
 
@@ -2094,8 +2166,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2103,15 +2175,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2120,8 +2193,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2129,8 +2202,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Tables context menu
 
@@ -2140,8 +2214,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2149,15 +2223,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2166,8 +2241,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2175,8 +2250,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Trigger context menu
 
@@ -2186,8 +2262,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2195,15 +2271,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2212,8 +2289,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2221,8 +2298,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Triggers context menu
 
@@ -2232,8 +2310,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2241,15 +2319,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2258,8 +2337,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2267,8 +2346,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Types context menu
 
@@ -2278,8 +2358,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2287,15 +2367,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2304,8 +2385,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2313,8 +2394,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### User context menu
 
@@ -2324,8 +2406,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2333,15 +2415,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2350,8 +2433,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2359,8 +2442,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Users context menu
 
@@ -2370,8 +2454,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2379,15 +2463,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2396,8 +2481,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2405,8 +2490,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### View context menu
 
@@ -2416,8 +2502,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2425,15 +2511,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2442,8 +2529,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2451,8 +2538,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Views context menu
 
@@ -2462,8 +2550,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2471,15 +2559,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2488,8 +2577,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2497,8 +2586,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 MonoDevelop Database Query
 --------------------------
@@ -2522,8 +2612,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2531,15 +2621,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2548,8 +2639,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2557,8 +2648,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 MonoDevelop Database Sql
 ------------------------
@@ -2582,8 +2674,9 @@ Extension Nodes
 
 **DatabaseFactory**
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 MonoDevelop GUI for Project Services
 ------------------------------------
@@ -2639,8 +2732,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Stock icons
@@ -2653,8 +2746,8 @@ Extension Nodes
 
 A stock icon. It is possible to register several icons with the same 'id' and different sizes.
 
-|----------|---------------|----------|-------------|------------------------------------------------------------------------|
 | Name     | Type          | Required | Localizable | Description                                                            |
+|----------|---------------|----------|-------------|------------------------------------------------------------------------|
 | stockid  | System.String | True     | False       | Id of the stock icon.                                                  |
 | size     | Gtk.IconSize  | False    | False       | Size of the icon.                                                      |
 | resource | System.String | False    | False       | Name of the resource where the icon is stored.                         |
@@ -2670,8 +2763,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Mime types
@@ -2682,8 +2775,8 @@ Extension Nodes
 
 **MimeType**
 
-|---------------|----------------|----------|-------------|-------------|
 | Name          | Type           | Required | Localizable | Description |
+|---------------|----------------|----------|-------------|-------------|
 | icon          | System.String  | False    | False       |            |
 | \_description | System.String  | False    | False       |            |
 | baseType      | System.String  | False    | False       |            |
@@ -2741,8 +2834,9 @@ Extension Nodes
 
 A display binding. The specified class must implement MonoDevelop.Ide.Codons.IDisplayBinding.
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Startup handlers
 
@@ -2754,8 +2848,8 @@ Extension Nodes
 
 A subclass of MonoDevelop.Components.Commands.CommandHandler
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### User interface commands
@@ -2768,8 +2862,8 @@ Extension Nodes
 
 A user interface command. The 'id' of the command must match the full name of an existing enumeration. An arbitrary string can also be used as an id for the command by just using '@' as prefix for the string.
 
-|-----------------|----------------|----------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name            | Type           | Required | Localizable | Description                                                                                                                                                                                                                                                            |
+|-----------------|----------------|----------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label         | System.String  | True     | False       | Label                                                                                                                                                                                                                                                                  |
 | \_description   | System.String  | False    | False       | Description of the command                                                                                                                                                                                                                                             |
 | shortcut        | System.String  | False    | False       | Key combination that triggers the command. Control, Alt, Meta, Super and Shift modifiers can be specified using '+' as a separator. Multi-state key bindings can be specified using a '|' between the mode and accel. For example 'Control+D' or 'Control+X|Control+S' |
@@ -2784,8 +2878,8 @@ A user interface command. The 'id' of the command must match the full name of an
 
 A command category
 
-|--------|---------------|----------|-------------|-------------|
 | Name   | Type          | Required | Localizable | Description |
+|--------|---------------|----------|-------------|-------------|
 | \_name | System.String | True     | False       | Name        |
 
 #### Key binding schemes
@@ -2796,8 +2890,8 @@ Extension Nodes
 
 **Scheme**
 
-|----------|----------------|----------|-------------|--------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                            |
+|----------|----------------|----------|-------------|--------------------------------------------------------|
 | \_name   | System.String  | False    | False       | Name of the key bindings scheme                        |
 | file     | System.String  | False    | False       | Name of the key bindings file                          |
 | forMac   | System.Boolean | False    | False       | Whether the keybinding file is for Macs.               |
@@ -2813,8 +2907,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2822,15 +2916,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2839,8 +2934,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2848,8 +2943,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Method node context menu in the class pad
 
@@ -2861,8 +2957,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2870,15 +2966,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2887,8 +2984,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2896,8 +2993,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Field node context menu in the class pad
 
@@ -2909,8 +3007,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2918,15 +3016,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2944,8 +3043,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Event node context menu in the class pad
 
@@ -2957,8 +3057,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -2966,15 +3066,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -2983,8 +3084,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -2992,8 +3093,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Combine node context menu in the class pad
 
@@ -3005,8 +3107,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3014,15 +3116,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3031,8 +3134,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3040,8 +3143,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Class node context menu in the class pad
 
@@ -3053,8 +3157,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3062,15 +3166,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3079,8 +3184,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3101,8 +3206,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3110,15 +3215,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3127,8 +3233,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3136,8 +3242,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Project node context menu in the class pad
 
@@ -3149,8 +3256,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3158,15 +3265,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3175,8 +3283,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3184,8 +3292,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Reference node context menu in the class pad
 
@@ -3197,8 +3306,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3206,15 +3315,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3223,8 +3333,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3232,8 +3342,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Project pad context menu
 
@@ -3245,8 +3356,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3254,15 +3365,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3271,8 +3383,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3280,8 +3392,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Task list views
 
@@ -3293,8 +3406,8 @@ Extension Nodes
 
 Registers a task list view to be shown in the task list pad.
 
-|---------|---------------|----------|-------------|---------------------------|
 | Name    | Type          | Required | Localizable | Description               |
+|---------|---------------|----------|-------------|---------------------------|
 | \_label | System.String | False    | False       | Display name of the view. |
 | class   | System.String | False    | False       | Class of the view.        |
 
@@ -3308,8 +3421,8 @@ Extension Nodes
 
 Registers a pad to be shown in the workbench.
 
-|------------------|---------------|----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name             | Type          | Required | Localizable | Description                                                                                                                                                                                                                                                                                                                                                                                |
+|------------------|---------------|----------|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label          | System.String | False    | False       | Display name of the pad.                                                                                                                                                                                                                                                                                                                                                                   |
 | class            | System.String | False    | False       | Class name.                                                                                                                                                                                                                                                                                                                                                                                |
 | icon             | System.String | False    | False       | Icon of the pad. It can be a stock icon or a resource icon (use 'res:' as prefix in the last case).                                                                                                                                                                                                                                                                                        |
@@ -3319,13 +3432,14 @@ Registers a pad to be shown in the workbench.
 
 Registers a pad which shows information about a project in a tree view.
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **Category**
 
-|--------|---------------|----------|-------------|---------------|
 | Name   | Type          | Required | Localizable | Description   |
+|--------|---------------|----------|-------------|---------------|
 | \_name | System.String | True     | False       | Category name |
 
 #### Workbench contexts
@@ -3338,8 +3452,9 @@ Extension Nodes
 
 A workbench context.
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Global options panels
 
@@ -3349,8 +3464,8 @@ Extension Nodes
 
 **Section**
 
-|------|---------------|----------|-------------|-------------|
 | Name | Type          | Required | Localizable | Description |
+|------|---------------|----------|-------------|-------------|
 | icon | System.String | False    | False       |            |
 
 #### Combine file filters
@@ -3363,8 +3478,8 @@ Extension Nodes
 
 A file filter to be used in the Open File dialog.
 
-|------------|-----------------|----------|-------------|------------------------------|
 | Name       | Type            | Required | Localizable | Description                  |
+|------------|-----------------|----------|-------------|------------------------------|
 | \_label    | System.String   | True     | False       | Display name of the filter.  |
 | extensions | System.String[] | True     | False       | Extensions to use as filter. |
 
@@ -3378,8 +3493,8 @@ Extension Nodes
 
 A file filter to be used in the Open File dialog.
 
-|------------|-----------------|----------|-------------|------------------------------|
 | Name       | Type            | Required | Localizable | Description                  |
+|------------|-----------------|----------|-------------|------------------------------|
 | \_label    | System.String   | True     | False       | Display name of the filter.  |
 | extensions | System.String[] | True     | False       | Extensions to use as filter. |
 
@@ -3393,8 +3508,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3402,15 +3517,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3419,8 +3535,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3428,8 +3544,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Main menu
 
@@ -3441,8 +3558,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3450,15 +3567,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3467,8 +3585,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3476,8 +3594,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### File templates
 
@@ -3489,8 +3608,8 @@ Extension Nodes
 
 A project template.
 
-|----------|---------------|----------|-------------|----------------------------------------------------|
 | Name     | Type          | Required | Localizable | Description                                        |
+|----------|---------------|----------|-------------|----------------------------------------------------|
 | resource | System.String | False    | False       | Name of the resource where the template is stored. |
 | file     | System.String | False    | False       | Name of the file where the template is stored.     |
 
@@ -3504,8 +3623,8 @@ Extension Nodes
 
 A file template type. The specified class must be a subclass of MonoDevelop.Ide.Templates.FileDescriptionTemplate
 
-|------|---------------|----------|-------------|-----------------------------------------------------------------|
 | Name | Type          | Required | Localizable | Description                                                     |
+|------|---------------|----------|-------------|-----------------------------------------------------------------|
 | name | System.String | True     | False       | Name to use to reference this template type in a file template. |
 
 #### File template condition types
@@ -3518,8 +3637,8 @@ Extension Nodes
 
 A condition that limits when a file template is shown. The specified class must be a subclass of MonoDevelop.Ide.Templates.FileTemplateCondition
 
-|------|---------------|----------|-------------|------------------------------------------------------------------|
 | Name | Type          | Required | Localizable | Description                                                      |
+|------|---------------|----------|-------------|------------------------------------------------------------------|
 | name | System.String | True     | False       | Name to use to reference this condition type in a file template. |
 
 #### File template types 2
@@ -3532,8 +3651,8 @@ Extension Nodes
 
 A project template.
 
-|----------|---------------|----------|-------------|----------------------------------------------------|
 | Name     | Type          | Required | Localizable | Description                                        |
+|----------|---------------|----------|-------------|----------------------------------------------------|
 | resource | System.String | False    | False       | Name of the resource where the template is stored. |
 | file     | System.String | False    | False       | Name of the file where the template is stored.     |
 
@@ -3547,8 +3666,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Project feature editors
@@ -3559,8 +3678,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### View Context Menu
@@ -3573,8 +3692,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3582,15 +3701,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3599,8 +3719,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3608,8 +3728,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 MonoDevelop Profiling Addin
 ---------------------------
@@ -3638,8 +3759,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3647,15 +3768,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3664,8 +3786,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3673,8 +3795,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Profiling pad 'Profiling Snapshots' node
 
@@ -3686,8 +3809,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -3695,15 +3818,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -3712,8 +3836,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -3721,8 +3845,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Profilers
 
@@ -3732,8 +3857,9 @@ Extension Nodes
 
 **Profiler**
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### File filters 2
 
@@ -3745,8 +3871,8 @@ Extension Nodes
 
 A file filter to be used in the Open File dialog.
 
-|------------|-----------------|----------|-------------|------------------------------|
 | Name       | Type            | Required | Localizable | Description                  |
+|------------|-----------------|----------|-------------|------------------------------|
 | \_label    | System.String   | True     | False       | Display name of the filter.  |
 | extensions | System.String[] | True     | False       | Extensions to use as filter. |
 
@@ -3788,8 +3914,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Project bindings
@@ -3802,8 +3928,9 @@ Extension Nodes
 
 A project binding. The specified class must implement MonoDevelop.Projects.IProjectBinding.
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Solution file format handlers
 
@@ -3815,8 +3942,8 @@ Extension Nodes
 
 A file format handler. The specified class must implement MonoDevelop.Projects.IFileFormat.
 
-|------|---------------|----------|-------------|-------------|
 | Name | Type          | Required | Localizable | Description |
+|------|---------------|----------|-------------|-------------|
 | name | System.String | False    | False       |            |
 
 #### Serializable classes
@@ -3829,8 +3956,8 @@ Extension Nodes
 
 A type name.
 
-|-------|---------------|----------|-------------|-------------|
 | Name  | Type          | Required | Localizable | Description |
+|-------|---------------|----------|-------------|-------------|
 | class | System.String | True     | False       |            |
 
 #### Serializable classes 2
@@ -3843,8 +3970,8 @@ Extension Nodes
 
 A custom property. The type specified in the 'class' property is the type to which the property has to be added. Only types which implement IExtendedDataItem can be extended in this way.
 
-|-----------|----------------|----------|-------------|-----------------------------------------------------------|
 | Name      | Type           | Required | Localizable | Description                                               |
+|-----------|----------------|----------|-------------|-----------------------------------------------------------|
 | name      | System.String  | True     | False       | Name of the property                                      |
 | type      | System.String  | True     | False       | Full name of the property type                            |
 | external  | System.Boolean | False    | False       | Set to true if the property is an extension               |
@@ -3860,8 +3987,8 @@ Extension Nodes
 
 A subclass of ProjectServiceExtension.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Language bindings
@@ -3874,8 +4001,8 @@ Extension Nodes
 
 A language binding. The specified class must implement MonoDevelop.Projects.ILanguageBinding
 
-|---------------------|-----------------|----------|-------------|---------------------------------------------------------------------------------|
 | Name                | Type            | Required | Localizable | Description                                                                     |
+|---------------------|-----------------|----------|-------------|---------------------------------------------------------------------------------|
 | supportedextensions | System.String[] | False    | False       | File extensions supported by this binding (to be shown in the Open File dialog) |
 
 #### MSBuild item types
@@ -3886,21 +4013,21 @@ Extension Nodes
 
 **SolutionItem**
 
-|------|---------------|----------|-------------|-------------|
 | Name | Type          | Required | Localizable | Description |
+|------|---------------|----------|-------------|-------------|
 | type | System.String | True     | False       |            |
 
 **DotNetProject**
 
-|-----------------|---------------|----------|-------------|-------------|
 | Name            | Type          | Required | Localizable | Description |
+|-----------------|---------------|----------|-------------|-------------|
 | language        | System.String | True     | False       |            |
 | resourceHandler | System.String | False    | False       |            |
 
 **DotNetProjectSubtype**
 
-|--------|---------------|----------|-------------|-------------|
 | Name   | Type          | Required | Localizable | Description |
+|--------|---------------|----------|-------------|-------------|
 | guid   | System.String | False    | False       |            |
 | type   | System.String | False    | False       |            |
 | import | System.String | False    | False       |            |
@@ -3913,8 +4040,8 @@ Extension Nodes
 
 **SerializationMap**
 
-|----------|---------------|----------|-------------|-------------|
 | Name     | Type          | Required | Localizable | Description |
+|----------|---------------|----------|-------------|-------------|
 | resource | System.String | False    | False       |            |
 
 #### Parsers
@@ -3925,8 +4052,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Formatters
@@ -3937,8 +4064,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Pretty Printers
@@ -3949,8 +4076,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Format definitions
@@ -3961,8 +4088,8 @@ Extension Nodes
 
 A xml definition.
 
-|----------|---------------|----------|-------------|-----------------------------------------------|
 | Name     | Type          | Required | Localizable | Description                                   |
+|----------|---------------|----------|-------------|-----------------------------------------------|
 | resource | System.String | False    | False       | Name of the resource where the xml is stored. |
 | file     | System.String | False    | False       | Name of the file where the xml is stored.     |
 
@@ -3976,8 +4103,8 @@ Extension Nodes
 
 A type name.
 
-|-------|---------------|----------|-------------|-------------|
 | Name  | Type          | Required | Localizable | Description |
+|-------|---------------|----------|-------------|-------------|
 | class | System.String | True     | False       |            |
 
 #### Named policy sets
@@ -3988,8 +4115,8 @@ Extension Nodes
 
 A named set of defined policies
 
-|--------|---------------|----------|-------------|-------------|
 | Name   | Type          | Required | Localizable | Description |
+|--------|---------------|----------|-------------|-------------|
 | \_name | System.String | True     | False       |            |
 
 MonoDevelop Runtime
@@ -4019,16 +4146,16 @@ Extension Nodes
 
 **Mode**
 
-|--------|---------------|----------|-------------|-------------|
 | Name   | Type          | Required | Localizable | Description |
+|--------|---------------|----------|-------------|-------------|
 | \_name | System.String | False    | False       |            |
 
 **ModeSetType**
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Execution handlers
@@ -4041,8 +4168,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### File system extensions
@@ -4055,8 +4182,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Applications
@@ -4067,8 +4194,8 @@ Extension Nodes
 
 **Application**
 
-|-------------|--------------------------------------------------------------------------------------------|----------|-------------|-------------------------|
 | Name        | Type                                                                                       | Required | Localizable | Description             |
+|-------------|--------------------------------------------------------------------------------------------|----------|-------------|-------------------------|
 | class       | System.Type, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089   | False    | False       | Name of the class       |
 | description | System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Description of the tool |
 
@@ -4078,8 +4205,8 @@ Extension Nodes
 
 **Package**
 
-|-----------------|-----------------------------|----------|-------------|-------------|
 | Name            | Type                        | Required | Localizable | Description |
+|-----------------|-----------------------------|----------|-------------|-------------|
 | name            | System.String               | True     | False       |            |
 | version         | System.String               | True     | False       |            |
 | targetFramework | System.String               | False    | False       |            |
@@ -4096,8 +4223,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 MonoDevelop Source Editor
@@ -4140,8 +4267,9 @@ Extension Nodes
 
 **EditAction**
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Formatters 2
 
@@ -4153,8 +4281,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Tooltip providers
@@ -4167,8 +4295,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Text editor syntax modes
@@ -4181,8 +4309,8 @@ Extension Nodes
 
 A template for color and syntax shemes.
 
-|----------|---------------|----------|-------------|----------------------------------------------------|
 | Name     | Type          | Required | Localizable | Description                                        |
+|----------|---------------|----------|-------------|----------------------------------------------------|
 | resource | System.String | False    | False       | Name of the resource where the template is stored. |
 | file     | System.String | False    | False       | Name of the file where the template is stored.     |
 
@@ -4196,8 +4324,8 @@ Extension Nodes
 
 A template for color and syntax shemes.
 
-|----------|---------------|----------|-------------|----------------------------------------------------|
 | Name     | Type          | Required | Localizable | Description                                        |
+|----------|---------------|----------|-------------|----------------------------------------------------|
 | resource | System.String | False    | False       | Name of the resource where the template is stored. |
 | file     | System.String | False    | False       | Name of the file where the template is stored.     |
 
@@ -4232,8 +4360,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4241,15 +4369,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4258,8 +4387,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4267,8 +4396,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Editor context menu 4
 
@@ -4280,8 +4410,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4289,15 +4419,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4306,8 +4437,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4315,8 +4446,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Custom edit actions 2
 
@@ -4326,8 +4458,9 @@ Extension Nodes
 
 **EditAction**
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### Formatters 3
 
@@ -4339,8 +4472,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Tooltip providers 2
@@ -4353,8 +4486,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Text editor syntax modes 2
@@ -4367,8 +4500,8 @@ Extension Nodes
 
 A template for color and syntax shemes.
 
-|----------|---------------|----------|-------------|----------------------------------------------------|
 | Name     | Type          | Required | Localizable | Description                                        |
+|----------|---------------|----------|-------------|----------------------------------------------------|
 | resource | System.String | False    | False       | Name of the resource where the template is stored. |
 | file     | System.String | False    | False       | Name of the file where the template is stored.     |
 
@@ -4382,8 +4515,8 @@ Extension Nodes
 
 A template for color and syntax shemes.
 
-|----------|---------------|----------|-------------|----------------------------------------------------|
 | Name     | Type          | Required | Localizable | Description                                        |
+|----------|---------------|----------|-------------|----------------------------------------------------|
 | resource | System.String | False    | False       | Name of the resource where the template is stored. |
 | file     | System.String | False    | False       | Name of the file where the template is stored.     |
 
@@ -4397,8 +4530,8 @@ Extension Nodes
 
 A syntax mode. The specified class must be a valid syntax mode.
 
-|-----------|---------------|----------|-------------|--------------------------------|
 | Name      | Type          | Required | Localizable | Description                    |
+|-----------|---------------|----------|-------------|--------------------------------|
 | mimeTypes | System.String | True     | False       | Mime types of the syntax mode. |
 
 NUnit support
@@ -4433,8 +4566,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### /MonoDevelop/NUnit/ContextMenu/TestChart
@@ -4445,8 +4578,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4454,15 +4587,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4471,8 +4605,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4480,8 +4614,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/NUnit/ContextMenu/TestPad
 
@@ -4491,8 +4626,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4500,15 +4635,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4517,8 +4653,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4526,8 +4662,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/NUnit/ContextMenu/TestResultsPad
 
@@ -4537,8 +4674,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4546,15 +4683,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4563,8 +4701,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4572,8 +4710,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/NUnit/ContextMenu/ProjectPad/NUnitAssemblyGroup
 
@@ -4583,8 +4722,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4592,15 +4731,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4609,8 +4749,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4618,8 +4758,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/NUnit/ContextMenu/ProjectPad/TestAssembly
 
@@ -4629,8 +4770,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4638,15 +4779,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4655,8 +4797,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4664,8 +4806,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/NUnit/ContextMenu/ProjectPad/NUnitAssemblyGroupConfiguration
 
@@ -4675,8 +4818,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4684,15 +4827,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4701,8 +4845,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4710,8 +4854,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/NUnit/UnitTestOptions/GeneralOptions
 
@@ -4719,8 +4864,8 @@ Extension Nodes
 
 **Section**
 
-|------|---------------|----------|-------------|-------------|
 | Name | Type          | Required | Localizable | Description |
+|------|---------------|----------|-------------|-------------|
 | icon | System.String | False    | False       |            |
 
 #### /MonoDevelop/NUnit/UnitTestOptions/ConfigurationOptions
@@ -4729,8 +4874,8 @@ Extension Nodes
 
 **Section**
 
-|------|---------------|----------|-------------|-------------|
 | Name | Type          | Required | Localizable | Description |
+|------|---------------|----------|-------------|-------------|
 | icon | System.String | False    | False       |            |
 
 Project Web References
@@ -4756,8 +4901,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4765,15 +4910,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4782,8 +4928,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4791,8 +4937,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /MonoDevelop/WebReferences/ContextMenu/ProjectPad/WebReferenceItem
 
@@ -4802,8 +4949,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4811,15 +4958,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4828,8 +4976,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4837,8 +4985,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 Vala Language Binding
 ---------------------
@@ -4866,8 +5015,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4875,15 +5024,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4892,8 +5042,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4901,8 +5051,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### ProjectPackage context menu 2
 
@@ -4914,8 +5065,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -4923,15 +5074,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -4940,8 +5092,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -4949,8 +5101,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 #### /ValaBinding/Compilers
 
@@ -4960,8 +5113,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 Version Control Support
@@ -4990,8 +5143,8 @@ Extension Nodes
 
 The specified class must subclass VersionControlSystem.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Commit dialog extensions
@@ -5004,8 +5157,8 @@ Extension Nodes
 
 The specified class must subclass CommitDialogExtension.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Status View Commands
@@ -5018,16 +5171,17 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 **SeparatorItem**
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 Visual Designer Support
 -----------------------
@@ -5056,8 +5210,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Toolbox loaders
@@ -5070,8 +5224,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Providers for the property grid
@@ -5082,8 +5236,8 @@ Extension Nodes
 
 Specifies a class that will be used to create an extension object.
 
-|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|-----------------------------------------------------------------------------------------------------|
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
 #### Toolbox item context menu
@@ -5096,8 +5250,8 @@ Extension Nodes
 
 A command menu or toolbar item. The id of the element must match the id of a registered command.
 
-|-----------------|----------------|----------|-------------|-----------------------|
 | Name            | Type           | Required | Localizable | Description           |
+|-----------------|----------------|----------|-------------|-----------------------|
 | \_label         | System.String  | False    | False       | Label                 |
 | disabledVisible | System.Boolean | False    | False       | Visible when disabled |
 
@@ -5105,15 +5259,16 @@ A command menu or toolbar item. The id of the element must match the id of a reg
 
 A separator menu or toolbar item
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 **ItemSet**
 
 A submenu
 
-|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name     | Type           | Required | Localizable | Description                                                                                                                                                                           |
+|----------|----------------|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_label  | System.String  | False    | False       | Label of the submenu                                                                                                                                                                  |
 | icon     | System.String  | False    | False       | Icon of the submenu. The provided value must be a registered stock icon. A resource icon can also be specified using 'res:' as prefix for the name, for example: 'res:customIcon.png' |
 | autohide | System.Boolean | False    | False       | Whether the submenu should be hidden when it contains no items.                                                                                                                       |
@@ -5122,8 +5277,8 @@ A submenu
 
 A menu or toolbar item that opens an URL when activated
 
-|---------|---------------|----------|-------------|--------------------|
 | Name    | Type          | Required | Localizable | Description        |
+|---------|---------------|----------|-------------|--------------------|
 | \_label | System.String | False    | False       | Label of the item. |
 | link    | System.String | False    | False       | URL to open.       |
 
@@ -5131,8 +5286,9 @@ A menu or toolbar item that opens an URL when activated
 
 Allows the definition of a complete command item inside a menu or toolbar description
 
-|------|------|----------|-------------|-------------|
 | Name | Type | Required | Localizable | Description |
+|------|------|----------|-------------|-------------|
+|      |      |          |             |             |
 
 XML Editor
 ----------
@@ -5154,6 +5310,7 @@ Extension Nodes
 
 **XmlFileExtension**
 
-|-----------|---------------|----------|-------------|-------------|
 | Name      | Type          | Required | Localizable | Description |
-| extension | System.String | True     | False       |            |
+|-----------|---------------|----------|-------------|-------------|
+| extension | System.String | True     | False       |             |
+
