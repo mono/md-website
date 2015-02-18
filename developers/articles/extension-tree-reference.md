@@ -296,7 +296,7 @@ Specifies a class that will be used to create an extension object.
 | Name  | Type                                                                                        | Required | Localizable | Description                                                                                         |
 | class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | Name of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
 
-#### Editors for file copy congigurations
+#### Editors for file copy configurations
 
 Editors for file copy congigurations. Specified classes must implement IFileCopyConfigurationEditor.
 
