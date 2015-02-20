@@ -129,7 +129,7 @@ This call to **Runtime.DispatchService.GuiDispatch** will create a wrapper deleg
 
 If the object does not update the GUI, it can be considered GUI thread safe (even if it raises events, see previous section).
 
-If some of the methods need to directly update the GUI, you have two options. The fist option is to implement an intermediary method that will dispatch the call to the real method through the GUI thread. For example, I could add a safe Reset method to the Clock sample class like this:
+If some of the methods need to directly update the GUI, you have two options. The first option is to implement an intermediary method that will dispatch the call to the real method through the GUI thread. For example, I could add a safe Reset method to the Clock sample class like this:
 
 ``` csharp
 public class Clock
