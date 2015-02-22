@@ -22,7 +22,7 @@ See the rename refactoring:
 
 The rename refactoring is a good example of how refactoring dialogs should look like. They should have some options for the refactoring and they need to validate these options. (for the rename refactoring not any given method name is valid for example)
 
-The refactorings should be able to commit the refactoring at once or show a preview dialog. The preview dialog can be shared accross all refactorings:
+The refactorings should be able to commit the refactoring at once or show a preview dialog. The preview dialog can be shared across all refactorings:
 
 ![ss-Refactoring Preview.png](/images/215-ss-Refactoring%20Preview.png)
 
@@ -82,6 +82,6 @@ Example:
 
 MonoDevelop is a cross language development environment and refactorings need to support such environments. If a refactoring is implemented it needs to handle cross-language solutions. For the first approach it is enough to inform the user, if the refactoring can't be performed for all projects that may be affected.
 
-Adding new languages to the refactoring system should be as easy as possible. It requires the implementation of the IRefactorer, INRefactoryASTProvider and IResolver interface. If these interfaces are not available the refactorings are not beeing executed.
+Adding new languages to the refactoring system should be as easy as possible. It requires the implementation of the IRefactorer, INRefactoryASTProvider and IResolver interface. If these interfaces are not available the refactorings are not being executed.
 
 Language specific refactorings are not required to use the common refactoring infrastructure - therefore they can implement their own infrastructure and don't need to depend on the current infrastructure.
