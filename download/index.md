@@ -37,7 +37,7 @@ To install this release, you also need to install the following packages:
 
 To install this release, you also need to install the following packages:
 
-- .NET Framework 4.5: [Download](http://www.microsoft.com/en-in/download/details.aspx?id=30653)
+- .NET Framework 4.5: [Download](http://go.microsoft.com/fwlink/p/?LinkId=397703)
 - GTK# for .NET 2.12.25: [Download](http://download.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.25.msi)
 
 <a href="{{ page.latest_monodevelop_win }}" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
