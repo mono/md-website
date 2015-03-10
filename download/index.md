@@ -50,9 +50,9 @@ To install this release, you also need to install the following packages:
 
 MonoDevelop for Linux is available for various distributions. The following packages are built, tested and distributed by Xamarin. Use these if you want to use a stable, official and up-to-date version of MonoDevelop.
 
-- [Debian, Ubuntu, and derivatives](/download/linux/#debian-ubuntu-and-derivatives)
-- [CentOS, Fedora and derivatives](/download/linux/#centos-fedora-and-derivatives)
-- [openSUSE and SLES](/download/linux/#opensuse-and-sles)
+- [Debian, Ubuntu, and derivatives](/download/linux/)
+- [CentOS, Fedora and derivatives](/download/linux/)
+- [openSUSE and SLES](/download/linux/)
 
 #### Linux distribution packages
 
