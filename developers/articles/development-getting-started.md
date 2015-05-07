@@ -8,6 +8,8 @@ redirect_from:
 
 It's relatively easy to get started working on MonoDevelop, but this page aims to make it easier to get off the ground.
 
+If you're on OS X you can also try @dvdsgl's one step install: https://github.com/dvdsgl/monodevelop-build
+
 ### Setting up an Environment
 
 MonoDevelop doesn't require the very latest version of Mono, and we specifically depend on GTK+ features no later that GTK+ 2.8. That said, using a recent release of Mono and Gtk# is likely to improve reliability and performance.
