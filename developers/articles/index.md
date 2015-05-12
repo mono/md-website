@@ -66,6 +66,9 @@ A programming guide for the String Parser Service.
 [Logging](/developers/articles/logging/)<br/>
 MonoDevelop's logging service provides a configurable way for developers to log debug and error messages reported by Addins.
 
+[Project Templates](/developers/articles/project-templates/)<br/>
+A guide on how to integrate with the New Project dialog and implement project template wizard pages.
+
 MonoDevelop Design and Architecure
 ----------------------------------
 
