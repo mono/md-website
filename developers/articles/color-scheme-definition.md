@@ -5,7 +5,7 @@ redirect_from:
   - /developers/articles/color-sheme-definition/
 ---
 
-Color scheme files define colors which are used inside the text editor and syntax mode definitions. Every color used by the editor is defined inside a sheme. 
+Color scheme files define colors which are used inside the text editor and syntax mode definitions. Every color used by the editor is defined inside a scheme. 
 
 In recent versions of MonoDevelop Color scheme files are defined in JSON with the following syntax:
 
