@@ -168,6 +168,8 @@ Windows
 -   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm))
 -   Get MonoDevelop from [GitHub](http://github.com/mono/monodevelop).
 
+*NOTE*: If you are building the Roslyn branch, you will need Microsoft Build Tools 2015 RC ([installer](https://www.microsoft.com/en-us/download/details.aspx?id=46882)). 
+
 ### Building using Visual Studio or MonoDevelop
 
 You need at least Visual Studio 2010 or MonoDevelop 3.0.5. 
