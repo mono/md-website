@@ -59,7 +59,7 @@ The Addin manager can be launched independently with the command 'mdtool gsetup'
 
 ### Can I import my Visual Studio 2K5+ project into MonoDevelop?
 
-MonoDevelop can open, manipulate and save MSBuild-based projects directly in mopst cases. In fact, since MonoDevelop 2.0 the default project format has been VS2008-style MSBuild projects, but VS2005 and VS1010 formats are also handled.
+MonoDevelop can open, manipulate and save MSBuild-based projects directly in most cases. In fact, since MonoDevelop 2.0 the default project format has been VS2008-style MSBuild projects, but VS2005 and VS1010 formats are also handled.
 
 ### I added an assembly to the GAC, why doesn't it appear in the assemblies list when I try to add a reference in a MonoDevelop project?
 
