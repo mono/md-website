@@ -18,7 +18,7 @@ MonoDevelop was originally a port of the [SharpDevelop IDE](http://www.icsharpco
 There are numerous goals that MonoDevelop hopes to achieve. Some of these are:
 
 -   To create a best of breed development environment for Unix systems for Mono.
--   Since its written in Gtk#, and we like Gtk# and we get good support from Gtk#, most likely it will add functionality to improve the Gtk# experience.
+-   Since it's written in Gtk#, and we like Gtk# and we get good support from Gtk#, most likely it will add functionality to improve the Gtk# experience.
 -   We want to integrate the tools we have been building so far, so things like MonoDoc, NUnit-Gtk and the debugger should target MonoDevelop.
 
 ### Under which license is MonoDevelop available?
@@ -53,13 +53,13 @@ Yes, it is available on the [Download](/download/) page.
 
 Yes. Right click on your project, select 'Options'-\>'Runtime' and select '2.0' from the drop-down list.
 
-### An Addin is causing MonoDevelop to crash at startup, how do I remove it?
+### An Add-in is causing MonoDevelop to crash at startup, how do I remove it?
 
-The Addin manager can be launched independently with the command 'mdtool gsetup'
+The Add-in Manager can be launched independently with the command 'mdtool gsetup'
 
 ### Can I import my Visual Studio 2K5+ project into MonoDevelop?
 
-MonoDevelop can open, manipulate and save MSBuild-based projects directly in mopst cases. In fact, since MonoDevelop 2.0 the default project format has been VS2008-style MSBuild projects, but VS2005 and VS1010 formats are also handled.
+MonoDevelop can open, manipulate and save MSBuild-based projects directly in most cases. In fact, since MonoDevelop 2.0 the default project format has been VS2008-style MSBuild projects, but VS2005 and VS1010 formats are also handled.
 
 ### I added an assembly to the GAC, why doesn't it appear in the assemblies list when I try to add a reference in a MonoDevelop project?
 
