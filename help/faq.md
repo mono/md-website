@@ -23,7 +23,7 @@ There are numerous goals that MonoDevelop hopes to achieve. Some of these are:
 
 ### Under which license is MonoDevelop available?
 
-The MonoDevelop Core is licensed under the [LGPLv2](http://www.gnu.org/licenses/lgpl-2.1.html), though much of the code and addins are licensed under the MIT/X11 license. All the source code is available through the Subversion file repository. Read the [Download](/download/) page for directions on downloading the source.
+The MonoDevelop Core is licensed under the [LGPLv2](http://www.gnu.org/licenses/lgpl-2.1.html), though much of the code and add-ins are licensed under the MIT/X11 license. All the source code is available through the Subversion file repository. Read the [Download](/download/) page for directions on downloading the source.
 
 ### Why another IDE for GNOME?
 
@@ -53,21 +53,21 @@ Yes, it is available on the [Download](/download/) page.
 
 Yes. Right click on your project, select 'Options'-\>'Runtime' and select '2.0' from the drop-down list.
 
-### An Addin is causing MonoDevelop to crash at startup, how do I remove it?
+### An Add-in is causing MonoDevelop to crash at startup, how do I remove it?
 
-The Addin manager can be launched independently with the command 'mdtool gsetup'
+The Add-in manager can be launched independently with the command 'mdtool gsetup'
 
 ### Can I import my Visual Studio 2K5+ project into MonoDevelop?
 
-MonoDevelop can open, manipulate and save MSBuild-based projects directly in mopst cases. In fact, since MonoDevelop 2.0 the default project format has been VS2008-style MSBuild projects, but VS2005 and VS1010 formats are also handled.
+MonoDevelop can open, manipulate and save MSBuild-based projects directly in most cases. In fact, since MonoDevelop 2.0 the default project format has been VS2008-style MSBuild projects, but VS2005 and VS1010 formats are also handled.
 
 ### I added an assembly to the GAC, why doesn't it appear in the assemblies list when I try to add a reference in a MonoDevelop project?
 
-Bacause MonoDevelop does not look for assemblies in the GAC. On Mac and Linux, MonoDevelop uses pkg-config to locate installed packages and get the list of assemblies that each package provides. A package specifies this list of assemblies in a .pc file which has to be installed in the standard pkg-config directory.
+Because MonoDevelop does not look for assemblies in the GAC. On Mac and Linux, MonoDevelop uses pkg-config to locate installed packages and get the list of assemblies that each package provides. A package specifies this list of assemblies in a .pc file which has to be installed in the standard pkg-config directory.
 
 If you are developing a library, MonoDevelop can automatically generate a .pc file for your project (in the project options dialog, select "Linux Deployment Settings", and check the "Generate .pc file" option).
 
-When targetting .NET on Windows, MonoDevelop uses the same AssemblyFolders mechamisn that VS uses.
+When targeting .NET on Windows, MonoDevelop uses the same AssemblyFolders mechanism that VS uses.
 
 ### Is there a Visual Designer for ASP.NET?
 
@@ -75,7 +75,7 @@ For all practical purposes, **no**.
 
 There was an experimental ASP.NET Visual Designer called AspNetEdit built in the Google Summer of Code 2005, and integrated into MonoDevelop in 2006. It is present in MonoDevelop SVN, and interested parties are welcome to build it and experiment with it, but it is **completely unsupported**.
 
-Although AspNetEdit can be used for simple demonstrations, it never reached a releaseable state where it could be used for real projects, mainly because of Mozilla Composer's **extremely poor handling of modern HTML**. There were also many difficulties with embedding Mozilla/Gecko/Firefox, which made it very difficult to install the addin successfully. As a result of this, a decision was made to [port AspNetEdit to the WebKit engine](/archived/developers/tasks/web-development/webkit-port-of-aspnetedit/#reasons-for-the-redesign). However, since completing this effort would be a massive undertaking, it has currently been put **on hold** in favour of features that will be more immediately useful to users.
+Although AspNetEdit can be used for simple demonstrations, it never reached a releasable state where it could be used for real projects, mainly because of Mozilla Composer's **extremely poor handling of modern HTML**. There were also many difficulties with embedding Mozilla/Gecko/Firefox, which made it very difficult to install the add-in successfully. As a result of this, a decision was made to [port AspNetEdit to the WebKit engine](/archived/developers/tasks/web-development/webkit-port-of-aspnetedit/#reasons-for-the-redesign). However, since completing this effort would be a massive undertaking, it has currently been put **on hold** in favour of features that will be more immediately useful to users.
 
 If you are interested in contributing to the designer, please email the [mailing list](/help/) or find Michael Hutchinson ('mhutch') on IRC.
 
@@ -96,7 +96,7 @@ To fix this problem, you have three options:
 -   Uninstall the boo add-in, by running "mdtool gsetup", or
 -   Upgrade Mono to 1.1.14 or upper
 
-This is the stack trace :
+This is the stack trace:
 
 ```
 System.Runtime.Remoting.RemotingException: Unix transport error.
@@ -112,7 +112,7 @@ Server stack trace:
    in Mono.Remoting.Channels.Unix.UnixMessageIO:ReceiveMessageStatus (System.IO.Stream networkStream, System.Byte[] buffer)
    in Mono.Remoting.Channels.Unix.UnixClientTransportSink:ProcessMessage (IMessage msg, ITransportHeaders requestHeaders, System.IO.Stream requestStream, ITransportHeaders responseHeaders, System.IO.Stream responseStream)
    in Mono.Remoting.Channels.Unix.UnixBinaryClientFormatterSink:SyncProcessMessage (IMessage msg)
-``` 
+```
 
 ### Copy/Paste is not working in the GUI Designer
 
@@ -124,7 +124,7 @@ If that outputs something, then glipper is active and should be disabled.
 
 ### Enabling the NUnit Add-in
 
-The NUnit addin requires mono 1.1.9+. This is do to some cross-appdomain bug fixes. Debian users currently also have another particular problem in that NUnit packages are separated from Mono, and do not include the proper pkg-config files.
+The NUnit add-in requires mono 1.1.9+. This is do to some cross-appdomain bug fixes. Debian users currently also have another particular problem in that NUnit packages are separated from Mono, and do not include the proper pkg-config files.
 
 Configure monodevelop with the following command.
 
