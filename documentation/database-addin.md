@@ -113,10 +113,10 @@ References
 ----------
 
 [1] <http://dev.mysql.com/usingmysql/dotnet/><br/>
-[2] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/AbstractConnectionProvider.cs><br/>
-[3] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/IDbFactory.cs><br/>
-[4] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/IGuiProvider.cs><br/>
-[5] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/ConnectionPool/AbstractPooledDbConnection.cs><br/>
-[6] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/AbstractSchemaProvider.cs><br/>
-[7] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/IDbLinq.cs><br/>
-[8] <http://anonsvn.mono-project.com/viewvc/trunk/monodevelop/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Dialect/ISqlDialect.cs>
+[2] <https://github.com/mono/monodevelop/blob/master/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/AbstractConnectionProvider.cs><br/>
+[3] <https://github.com/mono/monodevelop/blob/master/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/IDbFactory.cs><br/>
+[4] <https://github.com/mono/monodevelop/blob/master/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/IGuiProvider.cs><br/>
+[5] <https://github.com/mono/monodevelop/blob/master/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/ConnectionPool/AbstractPooledDbConnection.cs><br/>
+[6] <https://github.com/mono/monodevelop/blob/master/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Providers/AbstractSchemaProvider.cs><br/>
+[7] <https://github.com/mono/monodevelop/blob/master/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/IDbLinq.cs><br/>
+[8] <https://github.com/mono/monodevelop/blob/master/extras/MonoDevelop.Database/MonoDevelop.Database.Sql/Dialect/ISqlDialect.cs>
