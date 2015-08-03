@@ -31,7 +31,7 @@ The available providers are:
 -   Sybase: need a mantainer.
 -   Odbc: need a mantainer.
 
-Futures
+Features
 -------
 
 ### Connect to a database
@@ -50,7 +50,7 @@ Futures
 
 ### Working with results
 
-### Other futures
+### Other features
 
 Developers
 ----------
