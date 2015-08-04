@@ -1,6 +1,6 @@
 ---
 title: Download
-latest_monodevelop: Cycle 5 Service Release 2 (5.9.4.5)
+latest_monodevelop: 5.9.4 Stable (5.9.4.5)
 latest_monodevelop_mac: http://download.xamarin.com/studio/Mac/XamarinStudio-5.9.4.5-0.dmg
 latest_monodevelop_win: http://download.xamarin.com/studio/Windows/XamarinStudio-5.9.4.5-0.msi
 redirect_from:
