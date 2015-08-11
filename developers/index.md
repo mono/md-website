@@ -8,7 +8,7 @@ redirect_from:
 If you want to contribute on the development of MonoDevelop, implement your own tools based on the platform, create new add-ins for the IDE, or just know more about the project, you'll find some useful information in this page. Here are some interesting links to start with:
 
 -   [Articles](/developers/articles/): A collection of articles written by the MonoDevelop community. You'll find technical documentation, tutorials and other useful information for learning about the MonoDevelop platform.
--   [TODO](/archived/developers/todo/): A list of features we would like MD to have. If you want to contribute, just pick one of them and notify through the [mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list) that your are going to work on it.
+-   [TODO](/archived/developers/todo/): A list of features we would like MD to have. If you want to contribute, just pick one of them and notify through the [mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list) that you are going to work on it.
 -   The quick guide to [Development: Getting Started](/developers/articles/development-getting-started/).
 -   [Development Roadmap](/archived/developers/roadmap/): What you need to know about the future plans of MonoDevelop development.
 
