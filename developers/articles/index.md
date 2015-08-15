@@ -5,7 +5,7 @@ redirect_from:
   - /Articles/
 ---
 
-The following articles have been written by members of the MonoDevelop comunity. New articles are greatly appreciated!
+The following articles have been written by members of the MonoDevelop community. New articles are greatly appreciated!
 
 {% capture docNote %}
 Our website is open source on [GitHub](https://github.com/mono/md-website). If you find errors or think a page could be improved, just click the "Edit page on GitHub" link beneath the page title. See [contributing to the website](https://github.com/mono/md-website#contributing-to-the-website) for more details.
