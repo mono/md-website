@@ -1,8 +1,8 @@
 ---
 title: Download
-latest_monodevelop: 5.9.4 Stable (5.9.4.5)
-latest_monodevelop_mac: http://download.xamarin.com/studio/Mac/XamarinStudio-5.9.4.5-0.dmg
-latest_monodevelop_win: http://download.xamarin.com/studio/Windows/XamarinStudio-5.9.4.5-0.msi
+latest_monodevelop: 5.9.7 Stable (5.9.7.9)
+latest_monodevelop_mac: http://download.xamarin.com/studio/Mac/XamarinStudio-5.9.7.9-0.dmg
+latest_monodevelop_win: http://download.xamarin.com/studio/Windows/XamarinStudio-5.9.6.23-0.msi
 redirect_from:
   - /Download/
   - /Download/Windows_Preview/
