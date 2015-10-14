@@ -153,7 +153,7 @@ This tutorial has helped you to make C++ projects in MonoDevelop and given some 
 
 ### Other Tips
 
-#### Including C++ Projects in Mono Solutionss
+#### Including C++ Projects in Mono Solutions
 
 C/C++ projects can be included in Mono solutions. This is useful if you're developing with a mixture of managed and unmanaged code, either for performance or to access C/C++ libraries. You can write C libraries, then use them from your Mono code using P/Invoke.
 
