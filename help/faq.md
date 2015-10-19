@@ -18,7 +18,7 @@ MonoDevelop was originally a port of the [SharpDevelop IDE](http://www.icsharpco
 There are numerous goals that MonoDevelop hopes to achieve. Some of these are:
 
 -   To create a best of breed development environment for Unix systems for Mono.
--   Since its written in Gtk#, and we like Gtk# and we get good support from Gtk#, most likely it will add functionality to improve the Gtk# experience.
+-   Since it's written in Gtk#, and we like Gtk# and we get good support from Gtk#, most likely it will add functionality to improve the Gtk# experience.
 -   We want to integrate the tools we have been building so far, so things like MonoDoc, NUnit-Gtk and the debugger should target MonoDevelop.
 
 ### Under which license is MonoDevelop available?
@@ -55,7 +55,7 @@ Yes. Right click on your project, select 'Options'-\>'Runtime' and select '2.0' 
 
 ### An Add-in is causing MonoDevelop to crash at startup, how do I remove it?
 
-The Add-in manager can be launched independently with the command 'mdtool gsetup'
+The Add-in Manager can be launched independently with the command 'mdtool gsetup'
 
 ### Can I import my Visual Studio 2K5+ project into MonoDevelop?
 
