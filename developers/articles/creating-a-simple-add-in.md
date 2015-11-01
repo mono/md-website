@@ -176,6 +176,7 @@ Many important services can be accessed via the MonoDevelop.Ide.Gui.IdeApp stati
 First, import the namespaces:
 
 ``` csharp
+using MonoDevelop.Ide;
 using MonoDevelop.Ide.Gui;
 using MonoDevelop.Ide.Gui.Content;
 using Mono.TextEditor;
