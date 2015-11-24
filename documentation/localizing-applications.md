@@ -4,7 +4,7 @@ redirect_from:
   - /Documentation/Localizing_Applications/
 ---
 
-Localization is the is the process of translating an application's user interface to other natural languages, such as Spanish, Italian, and so so. This is important if your software is used in other countries, so that users can understand the program.
+Localization is the process of translating an application's user interface to other natural languages, such as Spanish, Italian, and so on. This is important if your software is used in other countries, so that users can understand the program.
 
 MonoDevelop provides support for using the GNU Gettext library for localization. Although Gettext works on most operating systems, so applications that use it can work anywhere, the MonoDevelop tools for updating and editing translations are currently only supported on Linux. Mac and Windows support may be provided in the future.
 
