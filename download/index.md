@@ -73,6 +73,9 @@ These packages are provided by the community and linked here for your convenienc
 - [Latest SUSE monodevelop packages, part of the official "Factory" repository](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop) (contains the IDE, version control and unit test integration)
   - [monodevelop-database](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop-database) contains the database addins
   - [monodevelop-debugger-gdb](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop-debugger-gdb) adds support for the GNU Debugger
+- [MonoDevelop installed to /opt for Debian and Ubuntu](http://software.opensuse.org/download/package?project=home:tpokorra:mono&amp;package=monodevelop-opt)
+- [MonoDevelop installed to /opt for CentOS](https://copr.fedoraproject.org/coprs/tpokorra/mono-opt/)
+- [Latest MonoDevelop for Fedora Rawhide and earlier Fedora versions](https://copr.fedoraproject.org/coprs/tpokorra/mono/)
 
 <h4 id="ci-packages">Continuous Integration Packages</h4>
 
