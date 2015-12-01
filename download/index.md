@@ -59,7 +59,7 @@ MonoDevelop for Linux is available for various distributions. The following pack
 MonoDevelop is also packaged in various Linux distributions by third-party maintainers. Some of these packages do not ship the latest MonoDevelop version; this depends on the distribution/maintainer.
 
 -   [Arch Linux](https://www.archlinux.org/packages/extra/i686/monodevelop/)
--   [CentOS EPEL] (https://apps.fedoraproject.org/packages/monodevelop)
+-   [CentOS EPEL](https://apps.fedoraproject.org/packages/monodevelop)
 -   [Debian](https://packages.debian.org/monodevelop)
 -   [Fedora](https://apps.fedoraproject.org/packages/monodevelop)
 -   [Gentoo](https://packages.gentoo.org/package/dev-util/monodevelop)
