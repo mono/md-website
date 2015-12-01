@@ -1,8 +1,8 @@
 ---
 title: Download
-latest_monodevelop: 5.9.7 Stable (5.9.7.9)
-latest_monodevelop_mac: http://download.xamarin.com/studio/Mac/XamarinStudio-5.9.7.9-0.dmg
-latest_monodevelop_win: http://download.xamarin.com/studio/Windows/XamarinStudio-5.9.6.23-0.msi
+latest_monodevelop: 5.10 Stable (5.10.0.871)
+latest_monodevelop_mac: http://download.xamarin.com/studio/Mac/XamarinStudio-5.10.0.871-0.dmg
+latest_monodevelop_win: http://download.xamarin.com/studio/Windows/XamarinStudio-5.10.0.871-0.msi
 redirect_from:
   - /Download/
   - /Download/Windows_Preview/
@@ -59,8 +59,9 @@ MonoDevelop for Linux is available for various distributions. The following pack
 MonoDevelop is also packaged in various Linux distributions by third-party maintainers. Some of these packages do not ship the latest MonoDevelop version; this depends on the distribution/maintainer.
 
 -   [Arch Linux](https://www.archlinux.org/packages/extra/i686/monodevelop/)
--   CentOS
+-   [CentOS EPEL] (https://apps.fedoraproject.org/packages/monodevelop)
 -   [Debian](https://packages.debian.org/monodevelop)
+-   [Fedora](https://apps.fedoraproject.org/packages/monodevelop)
 -   [Gentoo](https://packages.gentoo.org/package/dev-util/monodevelop)
 -   [openSUSE](https://software.opensuse.org/package/monodevelop)
 -   [Ubuntu](http://packages.ubuntu.com/monodevelop)
@@ -72,6 +73,9 @@ These packages are provided by the community and linked here for your convenienc
 - [Latest SUSE monodevelop packages, part of the official "Factory" repository](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop) (contains the IDE, version control and unit test integration)
   - [monodevelop-database](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop-database) contains the database addins
   - [monodevelop-debugger-gdb](http://software.opensuse.org/download/package?project=Mono:Factory&package=monodevelop-debugger-gdb) adds support for the GNU Debugger
+- [MonoDevelop installed to /opt for Debian and Ubuntu](http://software.opensuse.org/download/package?project=home:tpokorra:mono&amp;package=monodevelop-opt)
+- [MonoDevelop installed to /opt for CentOS](https://copr.fedoraproject.org/coprs/tpokorra/mono-opt/)
+- [Latest MonoDevelop for Fedora Rawhide and earlier Fedora versions](https://copr.fedoraproject.org/coprs/tpokorra/mono/)
 
 <h4 id="ci-packages">Continuous Integration Packages</h4>
 
