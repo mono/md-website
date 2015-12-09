@@ -15,6 +15,7 @@ Linux
 ### Installing dependencies
 
 MonoDevelop requires the following packages (or newer versions):
+
 -   Mono >= 3.0.4
 -   Mono.Addins 0.6
 -   Gtk# >= 2.12.10
