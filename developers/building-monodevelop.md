@@ -15,10 +15,12 @@ Linux
 ### Installing dependencies
 
 MonoDevelop requires the following packages (or newer versions):
-
--   Mono 2.10
+-   Mono >= 3.0.4
 -   Mono.Addins 0.6
--   Gtk# 2.12.10
+-   Gtk# >= 2.12.10
+-   monodoc >= 1.0
+-   cmake
+-   libssh2
 
 You can build them from [git](http://github.com/mono/monodevelop), [source releases](http://download.mono-project.com/sources/) or, even easier, simply install the [pre-built packages](http://www.go-mono.com/mono-downloads/download.html) appropriate for your platform.
 
@@ -163,12 +165,10 @@ Windows
 
 -   Install Gtk# ([installer](http://download.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.22.msi)).
 -   Install the Mono libraries package ([installer](https://files.xamarin.com/~jeremie/MonoLibraries.msi))
--   Install the Microsoft Build Tools 2013 ([installer](http://www.microsoft.com/en-us/download/details.aspx?id=40760)).
+-   Install the Microsoft Build Tools 2015 ([installer](https://www.microsoft.com/en-us/download/details.aspx?id=48159)).
 -   Install MSysGit (from [here](http://code.google.com/p/msysgit/))
 -   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm))
 -   Get MonoDevelop from [GitHub](http://github.com/mono/monodevelop).
-
-*NOTE*: If you are building the Roslyn branch, you will need Microsoft Build Tools 2015 ([installer](https://www.microsoft.com/en-us/download/details.aspx?id=48159)). 
 
 ### Building using Visual Studio or MonoDevelop
 
