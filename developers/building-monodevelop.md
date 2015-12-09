@@ -166,6 +166,7 @@ Windows
 
 -   Install Gtk# ([installer](http://download.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.22.msi)).
 -   Install the Mono libraries package ([installer](https://files.xamarin.com/~jeremie/MonoLibraries.msi))
+-   Install the Microsoft Build Tools 2013 ([installer](http://www.microsoft.com/en-us/download/details.aspx?id=40760)).
 -   Install the Microsoft Build Tools 2015 ([installer](https://www.microsoft.com/en-us/download/details.aspx?id=48159)).
 -   Install MSysGit (from [here](http://code.google.com/p/msysgit/))
 -   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm))
