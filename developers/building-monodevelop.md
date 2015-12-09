@@ -16,10 +16,10 @@ Linux
 
 MonoDevelop requires the following packages (or newer versions):
 
--   Mono >= 3.0.4
+-   Mono 3.0.4
 -   Mono.Addins 0.6
--   Gtk# >= 2.12.10
--   monodoc >= 1.0
+-   Gtk# 2.12.10
+-   monodoc 1.0
 -   cmake
 -   libssh2
 
