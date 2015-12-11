@@ -38,11 +38,11 @@ Now for those of you wanting the “why”, let me step you through the process 
 
 `# grab my python script to set everything up`
 
-`curl -o setup.py http://git.dronelabs.com/mono-osx-fi...ono_jhbuild.py `
+`curl -o setup.py http://git.dronelabs.com/mono-osx-fi...ono_jhbuild.py`
 
 `# make the script executable`
 
-`chmod +x setup.py `
+`chmod +x setup.py`
 
 `# execute the script with our desired installation prefix`
 

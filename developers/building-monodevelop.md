@@ -124,7 +124,7 @@ To build the app package, navigate to the OS X build directory:
 
     cd main/build/MacOSX
 
-From here, build the MonoDevelop.app or a zipped version using `make MonoDevelop.app` or `make MonoDevelop.app.zip` respectively. You can then build the .dmg using the` ./make-dmg-bundle.sh` script. To include addins from extras, manually copy their build directories into the MonoDevelop.app directory, e.g.
+From here, build the MonoDevelop.app or a zipped version using `make MonoDevelop.app` or `make MonoDevelop.app.zip` respectively. You can then build the .dmg using the `./make-dmg-bundle.sh` script. To include addins from extras, manually copy their build directories into the MonoDevelop.app directory, e.g.
 
     cp -r ../../../extras/MonoDevelop.AspNet.Mvc/build/* MonoDevelop.app/Contents/MacOS/lib/monodevelop/AddIns/MonoDevelop.AspNet.Mvc/
 

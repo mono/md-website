@@ -16,7 +16,7 @@ MonoDevelop doesn't require the very latest version of Mono, and we specifically
 
 **It is strongly recommended to use a packaged release of Mono** for your distribution, as it is very easy to mix up conflicting Mono versions if installing from source. If you must install Mono from source, set up a [Parallel Mono Environment](http://www.mono-project.com/Parallel_Mono_Environments).
 
-Make sure you have git installed, and check MonoDevelop out from GitHub (https://github.com/mono/monodevelop).
+Make sure you have git installed, and check MonoDevelop out from [GitHub](https://github.com/mono/monodevelop).
 
 ### Building and Installing
 

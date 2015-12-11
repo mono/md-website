@@ -5,24 +5,25 @@ redirect_from:
   - /developers/articles/color-sheme-definition/
 ---
 
-Color scheme files define colors which are used inside the text editor and syntax mode definitions. Every color used by the editor is defined inside a scheme. 
+Color scheme files define colors which are used inside the text editor and syntax mode definitions. Every color used by the editor is defined inside a scheme.
 
 In recent versions of MonoDevelop Color scheme files are defined in JSON with the following syntax:
 
 ``` json
 {
-	"name":"%NAME%",
-	"version":"%VERSION%",
-	"description":"%DESCRIPTION%",
-	"originator":"%ORIGINATOR%",
-	"colors":[
-		{"name": "%NAME - example: Background(Read Only)%", "color":"#RRGGBB", "secondcolor":"#RRGGBB", "bordercolor":"#RRGGBB"},
-	          ],
-	"text":[
-		{"name": "%NAME - example: Plain Text%", "fore":"#RRGGBB", "back":"#RRGGBB", "weight":"%WEIGHT - example: Bold%", "style":"%STYLE - example: Italic%"},
-	        ]
+    "name":"%NAME%",
+    "version":"%VERSION%",
+    "description":"%DESCRIPTION%",
+    "originator":"%ORIGINATOR%",
+    "colors":[
+        {"name": "%NAME - example: Background(Read Only)%", "color":"#RRGGBB", "secondcolor":"#RRGGBB", "bordercolor":"#RRGGBB"},
+    ],
+    "text":[
+        {"name": "%NAME - example: Plain Text%", "fore":"#RRGGBB", "back":"#RRGGBB", "weight":"%WEIGHT - example: Bold%", "style":"%STYLE - example: Italic%"},
+    ]
 }
 ```
+
 More information about valid names and values can be gained from exported color scheme definitions. To do this, open up MonoDevelop, go to Edit / Preferences / Text Editor / Syntax Highlighting, select a Color scheme, and click Export.
 MonoDevelop is also able to import Visual Studio Color Schemes. This can be done in Edit / Preferences / Text Editor / Syntax Highlighting with the Add button, where you can browse to the previously downloaded Color scheme file and import it to MonoDevelop.
 

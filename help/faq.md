@@ -98,7 +98,7 @@ To fix this problem, you have three options:
 
 This is the stack trace:
 
-```
+```text
 System.Runtime.Remoting.RemotingException: Unix transport error.
 Server stack trace:
    in Mono.Remoting.Channels.Unix.UnixMessageIO:ReceiveMessageStatus (System.IO.Stream networkStream, System.Byte[] buffer)

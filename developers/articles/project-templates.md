@@ -11,55 +11,55 @@ This document explains how to extend the New Project dialog with new categories 
 Project templates in the New Project dialog have three category levels. Xamarin Studio and MonoDevelop define the following category levels.
 
 - crossplat
-     - app
-         - forms
-         - native
-         - games
-     - library
-         - general
-     - tests
-         - general
+    - app
+        - forms
+        - native
+        - games
+    - library
+        - general
+    - tests
+        - general
 - ios
     - app
-         - general
-         - games
-         - watch
-         - classic
+        - general
+        - games
+        - watch
+        - classic
     - extension
-         - general
-         - watch
+        - general
+        - watch
     - library
-         - unified
-         - classic
+        - unified
+        - classic
     - tests
-         - unified
-         - classic
+        - unified
+        - classic
 - android
     - app
-         - general
+        - general
     - library
-         - general
+        - general
     - tests
-         - general
+        - general
 - mac
     - app
-         - general
-         - games
-         - classic
+        - general
+        - games
+        - classic
     - library
-         - unified
-         - classic
+        - unified
+        - classic
 - other
     - net
-         - general
+        - general
     - aspnet
-         - general
+        - general
     - misc
-         - generic
-         - c
-         - general
+        - generic
+        - c
+        - general
     - unsupported
-         - monomac
+        - monomac
 
 MonoDevelop’s categories are defined in the Templates.addin.xml file.
 
@@ -71,9 +71,9 @@ To add your project template into one of the above categories all three category
 
 ``` xml
 <TemplateConfiguration>
-	<_Name>Console Project</_Name>
-	<Category>other/net/general</Category>
-       ...
+    <_Name>Console Project</_Name>
+    <Category>other/net/general</Category>
+    ...
 </TemplateConfiguration>
 ```
 
@@ -85,14 +85,14 @@ You are free to add your own third level categories. To add your own project tem
 
 ``` xml
 <Extension path="/MonoDevelop/Ide/ProjectTemplateCategories">
-	<Category id="toplevel" name="Top Level" icon="md-platform-other">
-		<Category id="second-level-a" name="Second Level A">
-			<Category id="third-level-a" name="Third Level A" />
-		</Category>
-		<Category id="second-level-b" name="Second Level B">
-			<Category id="third-level-b" name="Third Level B" />
-		</Category>
-	</Category>
+    <Category id="toplevel" name="Top Level" icon="md-platform-other">
+        <Category id="second-level-a" name="Second Level A">
+            <Category id="third-level-a" name="Third Level A" />
+        </Category>
+        <Category id="second-level-b" name="Second Level B">
+            <Category id="third-level-b" name="Third Level B" />
+        </Category>
+    </Category>
 </Extension>
 ```
 
@@ -117,13 +117,13 @@ To insert a category before or after another existing category you can use the i
 
 ``` xml
 <Extension path="/MonoDevelop/Ide/ProjectTemplateCategories">
-  <Category 
-        id="crossplat" 
-        name="Cross-platform" 
-        icon="md-platform-cross-platform" 
+    <Category
+        id="crossplat"
+        name="Cross-platform"
+        icon="md-platform-cross-platform"
         insertbefore="other">
-   ...
-  </Extension>
+    ...
+</Extension>
 ```
 
 ### Project Template Large Image
@@ -150,9 +150,9 @@ Then specify the id for that image in the template’s TemplateConfiguration sec
 
 ``` xml
 <TemplateConfiguration>
-	...
-	<Image id="md-asp-project" />
-        ...
+    ...
+    <Image id="md-asp-project" />
+    ...
 </TemplateConfiguration>
 ```
 
@@ -164,9 +164,9 @@ To reference a template image that is available as a file and not embedded as a 
 
 ``` xml
 <TemplateConfiguration>
-	...
-	<Image file="templates\md-asp-project.png" />
-        ...
+    ...
+    <Image file="templates\md-asp-project.png" />
+    ...
 </TemplateConfiguration>
 ```
 
@@ -182,9 +182,9 @@ To group a project template you specify the group id in the template’s Templat
 
 ``` xml
 <TemplateConfiguration>
-	...
-	<GroupId>md-project-console</GroupId>
-	...
+    ...
+    <GroupId>md-project-console</GroupId>
+    ...
 </TemplateConfiguration>
 ```
 
@@ -196,9 +196,9 @@ The following project belongs to a group and will be selected if the Device para
 
 ``` xml
 <TemplateConfiguration>
-	...
+    ...
     <GroupId condition="Device=IPhone">md-project-group</GroupId>
-	...
+    ...
 </TemplateConfiguration>
 ```
 
@@ -206,9 +206,9 @@ The following project belongs to a group and will be selected if the Device para
 
 ``` xml
 <TemplateConfiguration>
-	...
+    ...
     <GroupId condition="Device=Device;SupportsSizeClasses=true">md-project-group</GroupId>
-	...
+    ...
 </TemplateConfiguration>
 ```
 
@@ -231,7 +231,7 @@ A NuGet package be conditionally installed based on a boolean parameter defined 
 
 ``` xml
 <Packages>
-   <Package id="Xamarin.GooglePlayServices" version="19.0.0.1" if="UseGooglePlayServices" />
+    <Package id="Xamarin.GooglePlayServices" version="19.0.0.1" if="UseGooglePlayServices" />
 </Packages>
 ```
 
@@ -252,17 +252,17 @@ The id specified above is used in the project template to reference the wizard. 
 There are two classes that need to be implemented: TemplateWizard and WizardPage.
 
 ``` csharp
-	public class MyProjectTemplateWizard : TemplateWizard
-	{
-		public override string Id {
-			get { return "MyWizard"; }
-		}
+public class MyProjectTemplateWizard : TemplateWizard
+{
+    public override string Id {
+        get { return "MyWizard"; }
+    }
 
-		public override WizardPage GetPage (int pageNumber)
-		{
-			return new MyProjectTemplateWizardPage (this);
-		}
-	}
+    public override WizardPage GetPage (int pageNumber)
+    {
+        return new MyProjectTemplateWizardPage (this);
+    }
+}
 ```
 
 The TemplateWizard class is referenced via the .addin.xml file and its responsibility is to return a wizard page for a particular page and to hold the template parameters.
@@ -284,38 +284,38 @@ bool IsSupportedParameter (string name);
 The WizardPage provides the UI that is shown in the New Project dialog.
 
 ``` csharp
-	public class MyProjectTemplateWizardPage : WizardPage
-	{
-		MyProjectTemplateWizard wizard;
-		IMyProjectTemplateView view;
+public class MyProjectTemplateWizardPage : WizardPage
+{
+    MyProjectTemplateWizard wizard;
+    IMyProjectTemplateView view;
 
-		public MyProjectTemplateWizardPage (MyTemplateWizard wizard)
-		{
-			this.wizard = wizard;
-			CanMoveToNextPage = true;
-		}
+    public MyProjectTemplateWizardPage (MyTemplateWizard wizard)
+    {
+        this.wizard = wizard;
+        CanMoveToNextPage = true;
+    }
 
-		protected override object CreateNativeWidget ()
-		{
-			if (view == null) {
-				view = new GtkProjectConfigurationWidget ();
-				view.WizardPage = this;
-			}
-			return view;
-		}
+    protected override object CreateNativeWidget ()
+    {
+        if (view == null) {
+            view = new GtkProjectConfigurationWidget ();
+            view.WizardPage = this;
+        }
+        return view;
+    }
 
-		public override string Title {
-			get { return GettextCatalog.GetString ("Configure your app"); }
-		}
+    public override string Title {
+      get { return GettextCatalog.GetString ("Configure your app"); }
+    }
 
-		protected override void Dispose (bool disposing)
-		{
-			if (view != null) {
-				view.Dispose ();
-				view = null;
-			}
-		}
-	}
+    protected override void Dispose (bool disposing)
+    {
+        if (view != null) {
+            view.Dispose ();
+            view = null;
+        }
+    }
+}
 ```
 
 The WizardPage should set the CanMoveToNextPage property to true or false to specify whether the Next button should be enabled or not.
@@ -332,23 +332,23 @@ A project template wizard can be referenced via its id in the template’s Templ
 
 ``` xml
 <TemplateConfiguration>
-	...
-	<Wizard>MyWizard</Wizard>
-	...
+    ...
+    <Wizard>MyWizard</Wizard>
+    ...
 </TemplateConfiguration>
 ```
 
 ### Specifying Supported Parameters
 
-A project template can specify the parameters that should be supported by the wizard that is used when creating the project. 
+A project template can specify the parameters that should be supported by the wizard that is used when creating the project.
 
 The parameters defined here can be used to determine which parts of the wizard UI should be visible or enabled whilst creating the project. For example, in the Android project template wizard it is possible to hide the theme selection and the list of components by not specifying certain parameters in the supported parameters list.
 
 ``` xml
 <TemplateConfiguration>
-	...
-	<SupportedParameters>AppName,AppIdentifier</SupportedParameters>
-	...
+    ...
+    <SupportedParameters>AppName,AppIdentifier</SupportedParameters>
+    ...
 </TemplateConfiguration>
 ```
 
@@ -364,9 +364,9 @@ The default parameters are defined in the TemplateConfiguration section.
 
 ``` xml
 <TemplateConfiguration>
-	...
-	<DefaultParameters>MinimumOSVersion=8.0; Param2=value</DefaultParameters>
-	...
+    ...
+    <DefaultParameters>MinimumOSVersion=8.0; Param2=value</DefaultParameters>
+    ...
 </TemplateConfiguration>
 ```
 

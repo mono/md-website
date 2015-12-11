@@ -34,6 +34,6 @@ You have the following possible combinations of APP/VER:
 Calling APP without specifying VER will load the latest version
 ```
 
-You can then configure your environment to use the desired version by calling **`. mono-snapshot APP/VER`** - for example, **`. mono-snapshot monodevelop/20140807112602`** (or simply **`. mono-snapshot monodevelop`**). Please note the leading "**`. `**":
+You can then configure your environment to use the desired version by calling **`. mono-snapshot APP/VER`** - for example, **`. mono-snapshot monodevelop/20140807112602`** (or simply **`. mono-snapshot monodevelop`**). Please note the leading "**`.`**":
 
 Then simply launch `monodevelop` to start the selected build of the IDE.
