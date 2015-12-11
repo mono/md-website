@@ -10,15 +10,15 @@ MonoDevelop has support for some refactoring operations.
 
 The rename operation can be found in the context menu of the text editor when the item to rename is clicked or simply activated by the F2 (default settings) key.
 
-![ss-Rename Class.png](/images/217-ss-Rename%20Class.png)
+![ss-Rename Class.png](/images/217-ss-Rename-Class.png)
 
 In MonoDevelop when a refactoring changes more than just the current source file a preview dialog can be shown that contains all changes done by that refactoring:
 
-![ss-Refactoring Preview.png](/images/218-ss-Refactoring%20Preview.png)
+![ss-Refactoring Preview.png](/images/218-ss-Refactoring-Preview.png)
 
 The operations are shown as diffs (like in the version control dialog):
 
-![ss-Refactoring Preview2.png](/images/219-ss-Refactoring%20Preview2.png)
+![ss-Refactoring Preview2.png](/images/219-ss-Refactoring-Preview2.png)
 
 ### Extract Method
 

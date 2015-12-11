@@ -20,18 +20,18 @@ This addin insert 2 **Tools menu** at:
 
 -   Tools - Database - **Generate Linq Class**
 
-![Project Tools Menu.png](/images/273-Project%20Tools%20Menu.png)
+![Project Tools Menu.png](/images/273-Project-Tools-Menu.png)
 
 -   Right click on a Project or a folder - Tools Menu - **Generate Linq Class**
 
-![Tools Menu.png](/images/272-Tools%20Menu.png)
+![Tools Menu.png](/images/272-Tools-Menu.png)
 
 Creating a new Linq to SQL Class
 --------------------------------
 
 Clicking on any of the above detailed menus you'll see a dialog like the following:
 
-![Generate Linq Class.png](/images/276-Generate%20Linq%20Class.png)
+![Generate Linq Class.png](/images/276-Generate-Linq-Class.png)
 
 In this dialog you will have to select the *Database Connection*.
 

@@ -18,13 +18,13 @@ A refactory in MonoDevelop inherits from the abstract Refactoring class. A refac
 
 See the rename refactoring:
 
-![ss-Rename Class.png](/images/216-ss-Rename%20Class.png)
+![ss-Rename Class.png](/images/216-ss-Rename-Class.png)
 
 The rename refactoring is a good example of how refactoring dialogs should look like. They should have some options for the refactoring and they need to validate these options. (for the rename refactoring not any given method name is valid for example)
 
 The refactorings should be able to commit the refactoring at once or show a preview dialog. The preview dialog can be shared across all refactorings:
 
-![ss-Refactoring Preview.png](/images/215-ss-Refactoring%20Preview.png)
+![ss-Refactoring Preview.png](/images/215-ss-Refactoring-Preview.png)
 
 The preview dialog lists all source code changes step by step in human readable form and a diff can be shown for each step, if it changes the source code. (a file rename/remove has no diff)
 
