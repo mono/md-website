@@ -1,8 +1,5 @@
 ---
 title: Download
-latest_monodevelop: 5.10 Stable (5.10.0.871)
-latest_monodevelop_mac: http://download.xamarin.com/studio/Mac/XamarinStudio-5.10.0.871-0.dmg
-latest_monodevelop_win: http://download.xamarin.com/studio/Windows/XamarinStudio-5.10.0.871-0.msi
 redirect_from:
   - /Download/
   - /Download/Windows_Preview/
@@ -15,7 +12,7 @@ redirect_from:
 Download
 ========
 
-The latest stable release is **{{ page.latest_monodevelop }}**. See the [Release Notes](/documentation/release-notes/).
+The latest stable release is **{{ site.data.latestrelease.version }}**. See the [Release Notes](/documentation/release-notes/).
 
 Source code is available on [GitHub](https://github.com/mono/monodevelop) or as a [Tarball](http://download.mono-project.com/sources/monodevelop/).
 
@@ -29,7 +26,7 @@ To install this release, you also need to install the following packages:
 
 - Mono + GTK#: [Download](http://www.mono-project.com/download/)
 
-<a href="{{ page.latest_monodevelop_mac }}" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
+<a href="{{ site.data.latestrelease.monodevelop_mac_url }}" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
 
 <hr/>
 
@@ -40,7 +37,7 @@ To install this release, you also need to install the following packages:
 - .NET Framework 4.5: [Download](http://go.microsoft.com/fwlink/p/?LinkId=397703)
 - GTK# for .NET: [Download from mono-project.com](http://www.mono-project.com/download/#download-win)
 
-<a href="{{ page.latest_monodevelop_win }}" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
+<a href="{{ site.data.latestrelease.monodevelop_windows_url }}" class="button radius"><i class="fa fa-download"></i> Download Xamarin Studio</a>
 
 <hr/>
 
