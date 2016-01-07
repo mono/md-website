@@ -8,7 +8,7 @@ Install MonoDevelop on Linux
 The first step is to install Mono on your system, please follow the guide for your distribution on the Mono website:
 
 - [Debian, Ubuntu, and derivatives](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives)
-- [CentOS, Fedora and derivatives](http://www.mono-project.com/docs/getting-started/install/linux/#centos-fedora-and-derivatives)
+- [CentOS, Fedora and derivatives](http://www.mono-project.com/docs/getting-started/install/linux/#centos-7-fedora-19-and-derivatives)
 - [openSUSE and SLES](http://www.mono-project.com/docs/getting-started/install/linux/#opensuse-and-sles)
 
 After you installed Mono and added the package repository, install the ***monodevelop*** package to get the main MonoDevelop application.
