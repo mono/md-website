@@ -174,7 +174,7 @@ Windows
 
 ### Building using Visual Studio or MonoDevelop
 
-You need at least Visual Studio 2010 or MonoDevelop 3.0.5. 
+You need at least Visual Studio 2015 or MonoDevelop 5.10.1(build 6)  
 
 -   Open main/Main.sln.
 -   Select the **DebugWin32 **configuration.
