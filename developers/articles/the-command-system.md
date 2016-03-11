@@ -143,7 +143,7 @@ Remember: "**The action to execute when a command is invoked depends on the cont
 
 OK, but what is a context? Basically, the context is the widget that has the focus. When the focus changes, the context changes, and the set of commands that are available and enabled, and even the behavior of those commands may change. Makes sense?
 
-Does this means that you need to define command handlers for every widget that can have the focus? Not at all (although you can if you want). Every widget has an inherent **command dispatch route**. When a command is invoked, if the widget that has the focus does not have a handler for the command, it will forward the command to the next object in the command route, which is (by default) the parent of the widget.
+Does this mean that you need to define command handlers for every widget that can have the focus? Not at all (although you can if you want). Every widget has an inherent **command dispatch route**. When a command is invoked, if the widget that has the focus does not have a handler for the command, it will forward the command to the next object in the command route, which is (by default) the parent of the widget.
 
 The following diagram shows an example of command routes:
 
