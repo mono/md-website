@@ -47,7 +47,9 @@ sure to have a try/catch to catch all of them. The usual way of reporting such
 errors is using **MessageService.ShowError()**.
 This method will show an error dialog. For example:
 
-    MessageService.ShowError ("Something failed", "Error details", exception);
+``` csharp
+MessageService.ShowError ("Something failed", "Error details", exception);
+```
 
 The **exception** argument is optional. Notice that the exception trace
 will **not** be shown in the dialog. However, ShowError() may decide in some
@@ -63,8 +65,9 @@ and stock progress monitors already do it by default.
 **Internal errors** have to be logged using the logging service,
 for example:
 
-    LoggingService.LogInternalError ("Something failed", exception);
-
+``` csharp
+LoggingService.LogInternalError ("Something failed", exception);
+```
 ### When to report exceptions to the user
 
 Short answer: never. The user should never see exception traces. Any operation
