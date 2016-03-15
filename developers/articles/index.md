@@ -75,6 +75,9 @@ MonoDevelop Design and Architecure
 [Architecture Overview](/developers/articles/architecture-overview/)<br/>
 This document is an overview of the new assembly organization of MonoDevelop.
 
+[The Project Model](/developers/articles/the-project-model/)<br/>
+This document describes the MonoDevelop Project Model.
+
 [Add-in Extension Tree Reference](/developers/articles/extension-tree-reference/)<br/>
 This document shows the complete extension tree available to add-in developers.
 
