@@ -14,7 +14,7 @@ The new project model has less abstraction layers and is more focused to MSBuild
 
 The following UML diagram is a simplified view of the project model:
 
-<img src="/developers/articles/the-project-model-images/model.png" width="500"/>
+<img src="/developers/articles/the-project-model-images/model.png" width="500" alt="UML diagram of the project model"/>
 
 This model is not very different from the old model, although the semantics are a bit different in some cases.
 
@@ -49,7 +49,7 @@ Support for new types of projects can be added by subclassing `SolutionItem` or 
  * If you are implementing support for any project type or language that is
    not based on MSBuild, you can subclass `SolutionItem`.
    
-<img src="/developers/articles/the-project-model-images/Subclassing.png" width="700"/>
+<img src="/developers/articles/the-project-model-images/Subclassing.png" width="700" alt="Subclassing SolutionItem"/>
 
 All Project Model classes have virtual methods that can be overriden to provide custom behavior.
 
@@ -160,7 +160,7 @@ public class CustomItemFactory: SolutionItemFactory
 
 Every instance of `WorkspaceObject` or any of its subclasses has an **extension chain**. An extension chain is a collection of extension objects that can override some functionality of the project model object they are bound to. `WorkspaceObjectExtension` is the base class for all extensions, but there are specialized extension classes that allow overriding the behavior of some specific project model types. This diagram shows the hierarchy of extension classes:
 
-<img src="/developers/articles/the-project-model-images/Extensions.png" width="500"/>
+<img src="/developers/articles/the-project-model-images/Extensions.png" width="500" alt="Extension chain"/>
 
 Some information about those classes:
 
@@ -186,7 +186,7 @@ protected override async Task<TargetEvaluationResult> OnRunTarget (ProgressMonit
 
 The following diagram shows how method calls flow through the extension chain:
 
-<img src="/developers/articles/the-project-model-images/flow.png" width="700"/>
+<img src="/developers/articles/the-project-model-images/flow.png" width="700" alt="Method call flow through extension chain"/>
 
 Methods overriden in extensions are called first, so they have the first chance of customizing the behavior. The default implementation of the virtual method will invoke the override in next extension, and finally on the model object class (`Project` in this example), which can also be overriden in subclasses (such as `DotNetProject` in this example).
 
