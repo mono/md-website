@@ -2,10 +2,10 @@
 title: Refactoring preview
 redirect_from:
   - /Developers/Tasks/Source_Editing/Refactoring_preview/
-  - /Proposal:_Refactoring_preview/
-  - /Proposals/Proposal:_Refactoring_preview/
-  - /Developers/TODO/Proposals/Proposal:_Refactoring_preview/
-  - /Developers/Proposals/Proposal:_Refactoring_preview/
+  - /Proposal%3A_Refactoring_preview/
+  - /Proposals/Proposal%3A_Refactoring_preview/
+  - /Developers/TODO/Proposals/Proposal%3A_Refactoring_preview/
+  - /Developers/Proposals/Proposal%3A_Refactoring_preview/
   - /Developers/Proposals/Refactoring_preview/
 ---
 

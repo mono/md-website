@@ -2,10 +2,10 @@
 title: Code Completion
 redirect_from:
   - /Developers/Tasks/Source_Editing/Code_Completion/
-  - /Proposal:_Code_Completion/
-  - /Proposals/Proposal:_Code_Completion/
-  - /Developers/TODO/Proposals/Proposal:_Code_Completion/
-  - /Developers/Proposals/Proposal:_Code_Completion/
+  - /Proposal%3A_Code_Completion/
+  - /Proposals/Proposal%3A_Code_Completion/
+  - /Developers/TODO/Proposals/Proposal%3A_Code_Completion/
+  - /Developers/Proposals/Proposal%3A_Code_Completion/
   - /Developers/Proposals/Code_Completion/
 ---
 

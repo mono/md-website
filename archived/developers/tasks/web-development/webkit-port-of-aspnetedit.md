@@ -3,10 +3,10 @@ title: WebKit Port of AspNetEdit
 redirect_from:
   - /Developers/Tasks/Web_Development/WebKit_Port_of_AspNetEdit/
   - /WebKit_Port_of_AspNetEdit/
-  - /Proposal:_WebKit_Port_of_AspNetEdit/
-  - /Proposals/Proposal:_WebKit_Port_of_AspNetEdit/
-  - /Developers/TODO/Proposals/Proposal:_WebKit_Port_of_AspNetEdit/
-  - /Developers/Proposals/Proposal:_WebKit_Port_of_AspNetEdit/
+  - /Proposal%3A_WebKit_Port_of_AspNetEdit/
+  - /Proposals/Proposal%3A_WebKit_Port_of_AspNetEdit/
+  - /Developers/TODO/Proposals/Proposal%3A_WebKit_Port_of_AspNetEdit/
+  - /Developers/Proposals/Proposal%3A_WebKit_Port_of_AspNetEdit/
   - /Developers/Proposals/WebKit_Port_of_AspNetEdit/
 ---
 

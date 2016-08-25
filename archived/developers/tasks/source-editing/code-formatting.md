@@ -2,10 +2,10 @@
 title: Code Formatting
 redirect_from:
   - /Developers/Tasks/Source_Editing/Code_Formatting/
-  - /Proposal:_Code_Formatting/
-  - /Proposals/Proposal:_Code_Formatting/
-  - /Developers/TODO/Proposals/Proposal:_Code_Formatting/
-  - /Developers/Proposals/Proposal:_Code_Formatting/
+  - /Proposal%3A_Code_Formatting/
+  - /Proposals/Proposal%3A_Code_Formatting/
+  - /Developers/TODO/Proposals/Proposal%3A_Code_Formatting/
+  - /Developers/Proposals/Proposal%3A_Code_Formatting/
   - /Developers/Proposals/Code_Formatting/
 ---
 

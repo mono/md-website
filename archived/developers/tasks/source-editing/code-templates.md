@@ -2,10 +2,10 @@
 title: Code Templates
 redirect_from:
   - /Developers/Tasks/Source_Editing/Code_Templates/
-  - /Proposal:_Code_Templates/
-  - /Proposals/Proposal:_Code_Templates/
-  - /Developers/TODO/Proposals/Proposal:_Code_Templates/
-  - /Developers/Proposals/Proposal:_Code_Templates/
+  - /Proposal%3A_Code_Templates/
+  - /Proposals/Proposal%3A_Code_Templates/
+  - /Developers/TODO/Proposals/Proposal%3A_Code_Templates/
+  - /Developers/Proposals/Proposal%3A_Code_Templates/
   - /Developers/Proposals/Code_Templates/
 ---
 

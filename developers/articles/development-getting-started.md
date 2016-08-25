@@ -1,9 +1,9 @@
 ---
 title: Development - Getting Started
 redirect_from:
-  - /Developers/Articles/Development:_Getting_Started/
-  - /Development:_Getting_Started/
-  - /Developers/Development:_Getting_Started/
+  - /Developers/Articles/Development%3A_Getting_Started/
+  - /Development%3A_Getting_Started/
+  - /Developers/Development%3A_Getting_Started/
 ---
 
 It's relatively easy to get started working on MonoDevelop, but this page aims to make it easier to get off the ground.
