@@ -65,6 +65,6 @@ Other
 Getting MonoDevelop
 -------------------
 
-Packages for several distros and platforms, as well as source code tarballs and build instructions are available in the MonoDevelop [Download](../../../../Download) page.
+Packages for several distros and platforms, as well as source code tarballs and build instructions are available in the MonoDevelop [Download](/download) page.
 
 This release of MonoDevelop needs at least **Mono 2.6.1** and **Gtk# 2.12.8** to run.
