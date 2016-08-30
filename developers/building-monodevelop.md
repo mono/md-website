@@ -170,7 +170,7 @@ Windows
 -   Install the Microsoft Build Tools 2015 ([installer](https://www.microsoft.com/en-us/download/details.aspx?id=48159)).
 -   Install MSysGit (from [here](http://code.google.com/p/msysgit/))
 -   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm))
--   Install Visual F# Tools 4.0 (from [here](https://www.microsoft.com/en-us/download/confirmation.aspx?id=48179))
+-   Install Visual F# Tools 3.1.2 (from [here](https://www.microsoft.com/en-us/download/details.aspx?id=44011))
 -   Get MonoDevelop from [GitHub](http://github.com/mono/monodevelop).
 
 ### Building using Visual Studio or MonoDevelop
