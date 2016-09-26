@@ -2,8 +2,34 @@
 title: Install MonoDevelop on Linux
 ---
 
-Install MonoDevelop on Linux
-============================
+Install MonoDevelop preview via FlatPak
+=======================================
+
+[FlatPak](http://flatpak.org/) is a new packaging format for Linux, which allows the same applications to run in a sandboxed environment, across any modern distribution.
+
+We are offering a preview release of MonoDevelop as a FlatPak bundle, which does not require Mono to be installed.
+
+[Download the preview here]({{ site.data.latestrelease.monodevelop_linux_url }}).
+
+First, [install FlatPak for your distribution](http://flatpak.org/getting.html).
+
+Next, you'll need some FlatPak repositories:
+
+```bash
+wget https://sdk.gnome.org/keys/gnome-sdk.gpg
+flatpak remote-add --gpg-import=gnome-sdk.gpg gnome https://sdk.gnome.org/repo/
+```
+
+Finally, you need the core FreeDesktop runtime, to install MonoDevelop:
+
+```bash
+flatpak install org.freedesktop.Platform 1.4
+```
+
+You can now install our FlatPak bundle, using `flatpak install --user --bundle {{ site.data.latestrelease.monodevelop_linux_url | split: '/' | last }}`
+
+Install MonoDevelop packages on Linux (deprecated)
+==================================================
 
 The first step is to install Mono on your system, please follow the guide for your distribution on the Mono website:
 
