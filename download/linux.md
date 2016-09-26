@@ -23,7 +23,7 @@ flatpak remote-add --gpg-import=gnome-sdk.gpg gnome https://sdk.gnome.org/repo/
 Finally, you need the core FreeDesktop runtime, to install MonoDevelop:
 
 ```bash
-flatpak install org.freedesktop.Platform 1.4
+flatpak install gnome org.freedesktop.Platform 1.4
 ```
 
 You can now install our FlatPak bundle, using `flatpak install --user --bundle {{ site.data.latestrelease.monodevelop_linux_url | split: '/' | last }}`
