@@ -1,4 +1,4 @@
 version: 6.1 Service Release 0 (6.1.1.15)
 monodevelop_mac_url: http://download.xamarin.com/studio/Mac/XamarinStudio-6.1.1.15-0.dmg
 monodevelop_windows_url: http://download.xamarin.com/studio/Windows/XamarinStudio-6.1.1.15-0.msi
-monodevelop_linux_url: https://download.mono-project.com/monodevelop/monodevelop-6.1.1.15.flatpak
+monodevelop_linux_url: https://download.mono-project.com/monodevelop/monodevelop-6.1.1.15-1.flatpak
