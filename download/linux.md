@@ -28,6 +28,8 @@ flatpak install gnome org.freedesktop.Platform 1.4
 
 You can now install our FlatPak bundle, using `flatpak install --user --bundle {{ site.data.latestrelease.monodevelop_linux_url | split: '/' | last }}`
 
+You can run newly installed MonoDevelop from shell using  `flatpak run com.xamarin.MonoDevelop`
+
 Install MonoDevelop packages on Linux (deprecated)
 ==================================================
 
