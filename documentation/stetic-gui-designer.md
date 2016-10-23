@@ -92,7 +92,7 @@ Now here's something you might not have expected. Why did the Menu Bar not fill 
 
 Another thing you can do is change the Menu Bar's "Auto Size" property (under Box Child Layout in the Widget Properties pad) to false and then enable the "Expand" and/or "Expand"+"Fill" properties. Expand tells the widget to stay its default size, but center itself in the container and fill the rest of the container with background. Fill tells the widget to fill the container with itself. To explore the difference between the two states, try putting a Button in the bottom half of the VBox and alternating Expand and Expand+Fill. Then delete the button.
 
-On with the Menu Bar. Select the **Menu Bar** from the Widget Tree (or the pull-down menu at the top of the menu designer window or just click on it in the GUI designer) and then left-click on the text the says **"Click to create menu."**
+On with the Menu Bar. Select the **Menu Bar** from the Widget Tree (or the pull-down menu at the top of the menu designer window or just click on it in the GUI designer) and then left-click on the text that says **"Click to create menu."**
 
 ![Stetic\_Tutorial\_11.jpg](/images/333-Stetic_Tutorial_11.jpg)
 
