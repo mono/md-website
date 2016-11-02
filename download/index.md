@@ -43,7 +43,17 @@ To install this release, you also need to install the following packages:
 
 <h3 id="lin"><i class="fa fa-linux"></i> Linux</h3>
 
-#### Xamarin packages
+#### FlatPak package
+
+To install this release, you also need to install the following packages:
+
+- FlatPak: [Download](http://flatpak.org/getting.html)
+
+<a href="{{ site.data.latestrelease.monodevelop_linux_url }}" class="button radius"><i class="fa fa-download"></i> Download MonoDevelop</a>
+
+For more instructions on installing the FlatPak package, see [here](/download/linux/).
+
+#### Xamarin packages (Legacy)
 
 MonoDevelop for Linux is available for various distributions. The following packages are built, tested and distributed by Xamarin. Use these if you want to use a stable, official and up-to-date version of MonoDevelop.
 
