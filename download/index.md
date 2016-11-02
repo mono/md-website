@@ -55,7 +55,7 @@ For more instructions on installing the FlatPak package, see [here](/download/li
 
 #### Xamarin packages (Legacy)
 
-MonoDevelop for Linux is available for various distributions. The following packages are built, tested and distributed by Xamarin. Use these if you want to use a stable, official and up-to-date version of MonoDevelop.
+MonoDevelop for Linux is available for various distributions. The following packages are built, tested and distributed by Xamarin. These packages are no longer updated beyond version 5.10.
 
 - [Debian, Ubuntu, and derivatives](/download/linux/)
 - [CentOS, Fedora and derivatives](/download/linux/)
