@@ -171,24 +171,25 @@ Now build and run the addin, and you will see the new command in the edit menu.
 
 The command still doesn't do anything, as the command handler is a stub. First, we want to make sure that the command is only enabled when the active document is an editable text document.
 
-Many important services can be accessed via the MonoDevelop.Ide.Gui.IdeApp static class. The workbench represents the IDE window, including the Documents, which may contain multiple views. We query the active document to see whether any of the views offer the Mono.TextEditor.ITextEditorDataProvider interface.
+Many important services can be accessed via the MonoDevelop.Ide.Gui.IdeApp static class. The workbench represents the IDE window, including the Documents, which may contain multiple views. We query the active document to see whether any of the views offer the TextEditor instance.
 
 First, import the namespaces:
 
 ``` csharp
+using MonoDevelop.Editor;
 using MonoDevelop.Ide;
 using MonoDevelop.Ide.Gui;
 using MonoDevelop.Ide.Gui.Content;
 using Mono.TextEditor;
 ```
 
-Then alter the command handler's Update method. This method is queried whenever a command is shown in a menu or executed via keybindings. By changing the info object, you can disable the command or make it invisible, populate array commands, update the state of check or radio commands, and many other things. We are just going to disable it if we can't find an ITextEditorDataProvider in the active document.
+Then alter the command handler's Update method. This method is queried whenever a command is shown in a menu or executed via keybindings. By changing the info object, you can disable the command or make it invisible, populate array commands, update the state of check or radio commands, and many other things. We are just going to disable it if we can't find an Editor in the active document.
 
 ``` csharp
 protected override void Update (CommandInfo info)
 {
     MonoDevelop.Ide.Gui.Document doc = IdeApp.Workbench.ActiveDocument;
-    info.Enabled = doc != null && doc.GetContent<ITextEditorDataProvider> () != null;
+    info.Enabled = doc != null && doc.Editor != null;
 }
 ```
 
@@ -198,13 +199,12 @@ Now we can implement the command's Run method, which, unsurprisingly, is called 
 protected override void Run ()
 {
     MonoDevelop.Ide.Gui.Document doc = IdeApp.Workbench.ActiveDocument;
-    var textEditorData = doc.GetContent<ITextEditorDataProvider> ().GetTextEditorData ();
     string date = DateTime.Now.ToString ();
-    textEditorData.InsertAtCaret (date);
+    doc.Editor.InsertAtCaret (date);
 }
 ```
 
-This uses the ITextEditorDataProvider directly - we know it's not null, since the Run method could not be called unless our Update method had enabled the command. It simply inserts the current date at the cursor position using one of the convenience methods of the text editor.
+This uses the Editor directly - we know it's not null, since the Run method could not be called unless our Update method had enabled the command. It simply inserts the current date at the cursor position using one of the convenience methods of the text editor.
 
 Wrapping Up
 -----------
