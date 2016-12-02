@@ -14,8 +14,7 @@ First, [install FlatPak for your distribution](http://flatpak.org/getting.html).
 Next, you'll need a minimal FlatPak repository to provide our dependencies:
 
 ```bash
-wget https://sdk.gnome.org/keys/gnome-sdk.gpg
-flatpak remote-add --gpg-import=gnome-sdk.gpg gnome https://sdk.gnome.org/repo/
+flatpak remote-add --from gnome https://sdk.gnome.org/gnome.flatpakrepo
 ```
 
 Finally, install MonoDevelop with:
