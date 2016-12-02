@@ -9,24 +9,20 @@ Install MonoDevelop preview via FlatPak
 
 We are offering a preview release of MonoDevelop as a FlatPak bundle, which does not require Mono to be installed.
 
-[Download the preview here]({{ site.data.latestrelease.monodevelop_linux_url }}).
-
 First, [install FlatPak for your distribution](http://flatpak.org/getting.html).
 
-Next, you'll need some FlatPak repositories:
+Next, you'll need a minimal FlatPak repository to provide our dependencies:
 
 ```bash
 wget https://sdk.gnome.org/keys/gnome-sdk.gpg
 flatpak remote-add --gpg-import=gnome-sdk.gpg gnome https://sdk.gnome.org/repo/
 ```
 
-Finally, you need the core FreeDesktop runtime, to install MonoDevelop:
+Finally, install MonoDevelop with:
 
 ```bash
-flatpak install gnome org.freedesktop.Platform 1.4
+flatpak install --user --from https://download.mono-project.com/repo/monodevelop.flatpakref
 ```
-
-You can now install our FlatPak bundle, using `flatpak install --user --bundle {{ site.data.latestrelease.monodevelop_linux_url | split: '/' | last }}`
 
 You can run newly installed MonoDevelop from shell using  `flatpak run com.xamarin.MonoDevelop`
 
