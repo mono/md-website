@@ -9,15 +9,9 @@ Install MonoDevelop preview via FlatPak
 
 We are offering a preview release of MonoDevelop as a FlatPak bundle, which does not require Mono to be installed.
 
-First, [install FlatPak for your distribution](http://flatpak.org/getting.html).
+First, [install FlatPak for your distribution](http://flatpak.org/getting.html) - make sure you have version 0.8.0 or higher.
 
-Next, you'll need a minimal FlatPak repository to provide our dependencies:
-
-```bash
-flatpak remote-add --user --from gnome https://sdk.gnome.org/gnome.flatpakrepo
-```
-
-Finally, install MonoDevelop with:
+Then, install MonoDevelop with:
 
 ```bash
 flatpak install --user --from https://download.mono-project.com/repo/monodevelop.flatpakref
