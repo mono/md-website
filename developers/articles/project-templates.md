@@ -269,7 +269,7 @@ The TemplateWizard class is referenced via the .addin.xml file and its responsib
 
 A template wizard can support multiple pages. If more than one page is supported then the TemplateWizard’s TotalPages property should be overridden and the number of wizard pages supported should be returned.
 
-The TemplateWizard’s Parameters property holds the a dictionary of template parameters:
+The TemplateWizard’s Parameters property holds a dictionary of template parameters:
 
 ``` csharp
 ProjectCreateParameters Parameters { get; }
