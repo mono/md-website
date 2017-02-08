@@ -164,7 +164,7 @@ Windows
 
 ### Prerequisites and Source
 
--   Install Gtk# ([installer](http://download.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.22.msi)).
+-   Install Gtk# ([installer](https://dl.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.42.msi)).
 -   Install the Mono libraries package ([installer](https://files.xamarin.com/~jeremie/MonoLibraries.msi))
 -   Install the Microsoft Build Tools 2013 ([installer](http://www.microsoft.com/en-us/download/details.aspx?id=40760)).
 -   Install the Microsoft Build Tools 2015 ([installer](https://www.microsoft.com/en-us/download/details.aspx?id=48159)).
