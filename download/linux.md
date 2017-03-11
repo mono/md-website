@@ -14,7 +14,7 @@ First, [install FlatPak for your distribution](http://flatpak.org/getting.html) 
 Then, install MonoDevelop with:
 
 ```bash
-flatpak install --user --from https://mono-project.azureedge.net/repo/monodevelop.flatpakref
+flatpak install --user --from https://download.mono-project.com/repo/monodevelop.flatpakref
 ```
 
 You can run newly installed MonoDevelop from shell using  `flatpak run com.xamarin.MonoDevelop`
