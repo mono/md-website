@@ -166,16 +166,14 @@ Windows
 
 -   Install Gtk# ([installer](https://dl.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.42.msi)).
 -   Install the Mono libraries package ([installer](https://files.xamarin.com/~jeremie/MonoLibraries.msi))
--   Install the Microsoft Build Tools 2013 ([installer](http://www.microsoft.com/en-us/download/details.aspx?id=40760)).
--   Install the Microsoft Build Tools 2015 ([installer](https://www.microsoft.com/en-us/download/details.aspx?id=48159)).
+-   Install Visual Studio 2017 with the.NET Desktop and .NET Core workloads and the F# optional component.
 -   Install Git for Windows (from [here](https://git-for-windows.github.io/))
 -   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm))
--   Install Visual F# Tools 4.0 (from [here](https://www.microsoft.com/en-us/download/details.aspx?id=48179))
 -   Get MonoDevelop from [GitHub](http://github.com/mono/monodevelop).
 
 ### Building using Visual Studio or MonoDevelop
 
-You need at least Visual Studio 2015 or MonoDevelop 5.10.1(build 6)  
+You need at least Visual Studio 2017 or MonoDevelop 7.1  
 
 -   Open main/Main.sln.
 -   Select the **DebugWin32 **configuration.
@@ -183,4 +181,4 @@ You need at least Visual Studio 2015 or MonoDevelop 5.10.1(build 6)  
 
 ### Building using MSBuild
 
-Open a terminal in main and run winbuild.bat (or winbuild.sh from MSysGit bash). You can easily run MD directly after building with the winrun.bat/sh script.
+Open a terminal in main and run winbuild.bat. You can easily run MD directly after building with the winbuild.bat script.
