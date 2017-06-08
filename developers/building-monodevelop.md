@@ -18,7 +18,7 @@ MonoDevelop requires the following packages (or newer versions):
 
 -   Mono 3.0.4
 -   Mono.Addins 0.6
--   Gtk# 2.12.10
+-   Gtk# 2.12.45
 -   monodoc 1.0
 -   cmake
 -   libssh2
@@ -164,21 +164,22 @@ Windows
 
 ### Prerequisites and Source
 
--   Install Gtk# ([installer](https://dl.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.42.msi)).
+-   Install Gtk# ([installer](https://dl.xamarin.com/GTKforWindows/Windows/gtk-sharp-2.12.45.msi)).
 -   Install the Mono libraries package ([installer](https://files.xamarin.com/~jeremie/MonoLibraries.msi))
--   Install Visual Studio 2017 with the.NET Desktop and .NET Core workloads and the F# optional component.
+-   Install Visual Studio 2017 with the .NET Desktop and .NET Core workloads and the F# optional component (note, F# is disabled by default so need to enable it in the VS installer).
 -   Install Git for Windows (from [here](https://git-for-windows.github.io/))
 -   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm))
--   Get MonoDevelop from [GitHub](http://github.com/mono/monodevelop).
+-   Get MonoDevelop from [GitHub](https://github.com/mono/monodevelop).
 
 ### Building using Visual Studio or MonoDevelop
 
 You need at least Visual Studio 2017 or MonoDevelop 7.1  
 
+-   git clone https://github.com/mono/monodevelop --recursive
 -   Open main/Main.sln.
--   Select the **DebugWin32 **configuration.
+-   Select the **DebugWin32** configuration (this is important!).
 -   Build the solution.
 
 ### Building using MSBuild
 
-Open a terminal in main and run winbuild.bat. You can easily run MD directly after building with the winbuild.bat script.
+Open a Command Prompt in main and run winbuild.bat. You can easily run MD directly after building with the winbuild.bat script (run monodevelop\main\build\bin\monodevelop.exe).
