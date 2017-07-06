@@ -30,6 +30,9 @@ Writing Add-ins
 [Creating a Simple Add-in](/developers/articles/creating-a-simple-add-in/)<br/>
 This walkthrough will guide you through the process of creating a simple add-in, introducing the fundamentals of the add-in system and some of MonoDevelop's core APIs.
 
+[Creating a Simple project template using Add-ins](/developers/articles/creating-a-simple-project-template/)<br/>
+This walkthrough will guide you through the process of creating a simple project template using add-ins (in Visual Studio for Mac).
+
 [Walk through: Extending the Project Pad](/developers/articles/extending-the-project-pad/)<br/>
 This tutorial explains how to implement an addin that extends the project pad. The idea for this extension is to be able to show the classes that are implemented in a file as child nodes of that file in the project pad.
 
