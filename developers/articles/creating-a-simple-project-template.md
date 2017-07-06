@@ -1,3 +1,7 @@
+---
+title: Creating a simple project template
+---
+
 ### Creating a simple project template (in Visual Studio for Mac)
 
 **A. Installing the AddinMaker extension**
