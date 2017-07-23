@@ -5,7 +5,7 @@ redirect_from:
   - /Feature_List/
 ---
 
-The following matrix shows which features are available for each platform. MonoDevelop features not shown in the list ara available for all platforms.
+The following matrix shows which features are available for each platform. MonoDevelop features not shown in the list are available for all platforms.
 
 | **Feature**              | **Linux**                              | **Mac**                                 | **Windows**                             |
 |--------------------------|----------------------------------------|-----------------------------------------|-----------------------------------------|
