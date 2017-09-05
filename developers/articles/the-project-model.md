@@ -383,10 +383,54 @@ Those attributes can be used in any subclass of the following classes:
  * ProjectConfiguration
  * ProjectExtension
  * ProjectItem
+ * SolutionExtension (when SolutionDataSectionAttribute is applied to the type)
+ 
+### Solution Serialization
 
-### Solution and Workspace Item Serialization
+Solution serialization behavior can be customized by implemnting a `SolutionExtension` subclass and overriding `OnReadSolution` and `OnWriteSolution`. The provided `SlnFile` instance can be used to read and write data to the solution file.
 
-The Project Model already implement support for loading solutions and workspaces. If you are implementing your own `WorkspaceItem` subclass, you need to implement serialization support for it.
+Automatic property serialization is supported as described above. However, for automatic serialization to work the `SolutionDataSectionAttribute` attribute must be applied to the `SolutionExtension` subclass. This attribute taks the name of the custom data section as first argument. For example:
+
+``` csharp
+	[SolutionDataSection ("TestData")]
+	class TestSolutionExtension: SolutionExtension
+	{
+		[ItemProperty ("customData")]
+		public string CustomData { get; set; }
+
+		[ItemProperty ("extra")]
+		public ComplexSolutionData Extra { get; set; }
+	}
+
+	class ComplexSolutionData
+	{
+		[ItemProperty ("prop1")]
+		public string Prop1 { get; set; }
+
+		[ItemProperty ("prop2")]
+		public string Prop2 { get; set; }
+	}
+```
+
+The solution extension properties could end being serialized in the solution file like this:
+
+```
+...
+Global
+	...
+	GlobalSection(TestData) = postSolution
+		customData = one
+		extra = $0
+		$0.prop1 = two
+		$0.prop2 = three
+	EndGlobalSection
+	...
+EndGlobal
+```
+
+### WorkspaceItem Serialization
+
+The Project Model already implements support for loading solutions and workspaces. If you are implementing your own `WorkspaceItem` subclass, you need to implement serialization support for it.
 
 The first step is to implement a `WorkspaceObjectReader` subclass. This class will be in charge of loading the bits from the file that contains the workspace item. It has the following API:
 
