@@ -13,7 +13,6 @@ The following matrix shows which features are available for each platform. MonoD
 | Visual Basic             | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
 | Java (IKVM)              | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
 | Boo                      | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
-| C/C++                    | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: red;">No</span>     |
 | Python                   | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
 | Vala                     | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
 | ASP.NET Project          | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
@@ -30,7 +29,6 @@ The following matrix shows which features are available for each platform. MonoD
 | Subversion add-in        | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
 | Help Browser (Monodoc)   | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
 | Debugging (managed)      | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| Debugging (C/C++)        | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
 | ASP.NET Debugging        | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes </span> |
 
 IDE Workbench
@@ -432,13 +430,6 @@ Project Templates
 -   Console project
 -   Empty project
 -   Library
-
-#### C/C++
-
--   Empty project
--   Shared library
--   Static library
--   Console project
 
 #### Other projects
 

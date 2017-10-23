@@ -23,9 +23,6 @@ This tutorial is intended as an introduction to working with MonoDevelop.
 [Introducing Xamarin Studio](http://docs.xamarin.com/guides/cross-platform/getting_started/introducing_xamarin_studio)<br/>
 Xamarin Studio is an IDE based on MonoDevelop, which provides additional features to create projects for iOS and Android. This article is a nice overview of the IDE.
 
-[Creating C/C++ Projects](/documentation/creating-c-and-cpp-projects/)<br/>
-This tutorial provides an overview of creating simple C/C++ projects.
-
 Gtk# Development
 ----------------
 

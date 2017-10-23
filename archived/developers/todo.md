@@ -1365,64 +1365,6 @@ This is a list of features that we would like to add to MonoDevelop. If you want
     </tbody>
     <tbody>
         <tr>
-            <td><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/c-cpp/">C, C++</a></td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr class="edit-form" id="_task_e_CPP.MSBuild">
-            <td> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/c-cpp/">VS2010-compatible MSBuild targets</a></li> </ul> </td>
-            <td class="task-status-Pending" style="font-size: smaller;">Pending</td>
-            <td class="task-importance-Normal" style="font-size: smaller;">Normal</td>
-            <td class="task-complexity-Medium" style="font-size: smaller;">Medium</td>
-            <td class="task-target" style="font-size: smaller;"></td>
-            <td class="task-owner" style="font-size: smaller;"></td>
-        </tr>
-        <tr class="edit-form" id="_task_e_CPP.Locals">
-            <td> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/c-cpp/">Resolver for locals</a></li> </ul> </td>
-            <td class="task-status-Pending" style="font-size: smaller;">Pending</td>
-            <td class="task-importance-Normal" style="font-size: smaller;">Normal</td>
-            <td class="task-complexity-Medium" style="font-size: smaller;">Medium</td>
-            <td class="task-target" style="font-size: smaller;"></td>
-            <td class="task-owner" style="font-size: smaller;"></td>
-        </tr>
-        <tr class="edit-form" id="_task_e_CPP.RealParser">
-            <td> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/c-cpp/">Real parser</a></li> </ul> </td>
-            <td class="task-status-Pending" style="font-size: smaller;">Pending</td>
-            <td class="task-importance-Normal" style="font-size: smaller;">Normal</td>
-            <td class="task-complexity-Medium" style="font-size: smaller;">Medium</td>
-            <td class="task-target" style="font-size: smaller;"></td>
-            <td class="task-owner" style="font-size: smaller;"></td>
-        </tr>
-        <tr class="edit-form" id="_task_e_CPP.PInvoke">
-            <td> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/c-cpp/">P/Invoke integration/assistant</a></li> </ul> </td>
-            <td class="task-status-Pending" style="font-size: smaller;">Pending</td>
-            <td class="task-importance-Normal" style="font-size: smaller;">Normal</td>
-            <td class="task-complexity-Medium" style="font-size: smaller;">Medium</td>
-            <td class="task-target" style="font-size: smaller;"></td>
-            <td class="task-owner" style="font-size: smaller;"></td>
-        </tr>
-        <tr class="edit-form" id="_task_e_CPP.Windows">
-            <td> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/c-cpp/">Support for C/C++ projects in Windows</a></li> </ul> </td>
-            <td class="task-status-Pending" style="font-size: smaller;">Pending</td>
-            <td class="task-importance-Normal" style="font-size: smaller;">Normal</td>
-            <td class="task-complexity-Medium" style="font-size: smaller;">Medium</td>
-            <td class="task-target" style="font-size: smaller;"></td>
-            <td class="task-owner" style="font-size: smaller;"></td>
-        </tr>
-        <tr class="edit-form" id="_task_e_CPP.TemplateSnippets">
-            <td> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/c-cpp/">Templates and Code Snippets</a></li> </ul> </td>
-            <td class="task-status-Pending" style="font-size: smaller;">Pending</td>
-            <td class="task-importance-Normal" style="font-size: smaller;">Normal</td>
-            <td class="task-complexity-Medium" style="font-size: smaller;">Medium</td>
-            <td class="task-target" style="font-size: smaller;"></td>
-            <td class="task-owner" style="font-size: smaller;"></td>
-        </tr>
-    </tbody>
-    <tbody>
-        <tr>
             <td><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/xml/">XML</a></td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
