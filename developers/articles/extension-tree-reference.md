@@ -66,6 +66,34 @@ Extension Nodes
 | xsdFile               | System.String | False    | False       | An XML schema that can be used to provide code completion for documents using this doctype.                                          |
 | completionDocTypeName | System.String | False    | False       | The name of another doctype declaration that can be used to provide useful code completion for for documents using this doctype.     |
 
+Debugger support for MonoDevelop
+--------------------------------
+
+Support for Debugging projects
+
+|-----------|-------------|
+| Id        | Debugger    |
+| Namespace | MonoDevelop |
+| Version   | 2.1.0       |
+
+Extension Points:
+
+-   /MonoDevelop/Debugging/DebuggerFactories
+
+#### /MonoDevelop/Debugging/DebuggerFactories
+
+Debug session factories. Specified classes must implement Mono.Debugging.IDebuggerSessionFactory.
+
+Extension Nodes
+
+**DebuggerFactory**
+
+Specifies a class that will be used to create an extension object.
+
+| Name  | Type                                                                                        | Required | Localizable | escription                                                                                         |
+|-------|---------------------------------------------------------------------------------------------|----------|-------------|----------------------------------------------------------------------------------------------------|
+| class | System.Type, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | False    | False       | ame of the class. If a value is not provided, the class name will be taken from the 'id' attribute |
+
 Deployment Services Core
 ------------------------
 
