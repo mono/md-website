@@ -58,9 +58,9 @@ If you do install MonoDevelop, it is best to run the current version uninstalled
 
 ### Working on MonoDevelop
 
-Before hacking on MonoDevelop, don't be afraid to ask questions on [\#monodevelop IRC](http://mono-project.com/IRC) or [MonoDevelop mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list). People will be able to give you pointer about where to start and how best to approach the problems your are trying to solve. There are also number of [Articles](/developers/articles/) on the MonoDevelop architecture and on implementing addins.
+Before hacking on MonoDevelop, don't be afraid to ask questions on [\#monodevelop IRC](http://mono-project.com/IRC) or [MonoDevelop mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list). People will be able to give you pointer about where to start and how best to approach the problems you are trying to solve. There are also number of [Articles](/developers/articles/) on the MonoDevelop architecture and on implementing addins.
 
-The MonoDevelop solution can be opened from MonoDevelop, and builds can be preformed form within MonoDevelop. Indeed, some parts of the build (such as Stetic code generation) must be performed within MD. However, the modified MonoDevelop must be run from a terminal with
+The MonoDevelop solution can be opened from MonoDevelop, and builds can be preformed from within MonoDevelop. Indeed, some parts of the build (such as Stetic code generation) must be performed within MD. However, the modified MonoDevelop must be run from a terminal with
 
 ``` bash
 make run
