@@ -76,7 +76,7 @@ Next, add a category as well as a language in the TemplateConfiguration section 
 </Template>
 ```
 In this example we assume that the template should appear under the other/net/general category.
-For detailed info about project template setup, you can refer to the [project templates](project-templates.md) article.
+For detailed info about project template setup, you can refer to the [project templates](/developers/articles/project-templates/) article.
 
 Lastly you have to make sure the project template is copied into the output directory using the copy to output directory property of that file. Otherwise the project template won't appear in the new solution window.
 
