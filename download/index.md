@@ -3,6 +3,7 @@ layout: base
 title: Download
 navgroup: download
 redirect_from:
+  - /Download/
   - /Download/Mac_MonoTouch/
   - /Download/Mac_Preview/
   - /MonoDevelopWin32/
