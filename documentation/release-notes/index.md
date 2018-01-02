@@ -6,7 +6,14 @@ redirect_from:
 
 In this section you will find the release notes for all published MonoDevelop releases.
 
-MonoDevelop 4.x and later
+MonoDevelop 7.x and later
+-------------------------
+
+Check the release notes for [Visual Studio for Mac](http://developer.xamarin.com/releases/vs-mac/).
+
+Note that those docs may include features that are only available with a Visual Studio license, such as improvements to the Xamarin iOS/Android plugins.
+
+MonoDevelop 4.x to 6.x
 -------------------------
 
 Check the release notes for [Xamarin Studio](http://developer.xamarin.com/releases/studio/).

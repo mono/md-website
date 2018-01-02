@@ -1,17 +1,16 @@
 ---
 layout: base
-title: Download
+title: Beta Download
 navgroup: download
 redirect_from:
-  - /downloads/
-  - /Downloads/
-  - /Download/
+  - /beta/
+  - /Beta/
 ---
 <div class="row">
   <div class="small-12 columns">
     <h1>Download</h1>
 
-    <h5>The latest MonoDevelop release is: <strong>{{ site.data.latestrelease.version }}</strong></h5>
+    <h5>The beta MonoDevelop release is: <strong>{{ site.data.betarelease.version }}</strong></h5>
     <p>Please choose your operating system to view the available packages. Source code is available on <a href="https://github.com/mono/monodevelop">GitHub</a> (viewing only) or as a <a href="https://download.mono-project.com/sources/monodevelop/">Tarball</a>.</p>
 
     <dl id="mono-download" class="tabs horizontal" data-tab data-options="deep_linking: true; scroll_to_content: false">
@@ -24,14 +23,14 @@ redirect_from:
       <div class="panel content active" id="download-mac" style="padding: 20px 10px 10px 10px">
         <h3>Visual Studio for Mac is available as a Mac Package (.pkg)</h3>
         <div>
-          <a href="{{ site.data.latestrelease.monodevelop_mac_url }}" class="button radius"><i class="fa fa-download"></i> Download Visual Studio for Mac</a>
+          <a href="{{ site.data.betarelease.monodevelop_mac_url }}" class="button radius"><i class="fa fa-download"></i> Download Visual Studio for Mac</a>
           <p>Supported on Mac OS X 10.7 and later.</p>
         </div>
       </div>
       <div class="panel content active" id="download-lin" style="padding: 10px 10px 10px 10px">
         <h3>MonoDevelop for Linux is available as a Flatpak package (.flatpakref)</h3>
         <div>
-          <a href="{{ site.data.latestrelease.monodevelop_linux_url }}" class="button radius"><i class="fa fa-download"></i> Download MonoDevelop</a>
+          <a href="{{ site.data.betarelease.monodevelop_linux_url }}" class="button radius"><i class="fa fa-download"></i> Download MonoDevelop</a>
           <p>Supported on any distribution with <a href="https://flatpak.org">Flatpak</a> 0.8.3+</p>
           <hr />
           <p>Currently this download only works on x86-64 operating systems. We plan to offer x86 and ARM64 builds in the future.</p>
@@ -44,16 +43,13 @@ redirect_from:
         <h5>GTK# for .NET</h5>
         <p>Installer for running Gtk#-based applications on Microsoft .NET:</p>
         <div>
-          <a href="{{ site.data.latestrelease.gtksharp_windows_url }}" class="button radius small"><i class="fa fa-download"></i> Download Gtk#</a>
+          <a href="{{ site.data.betarelease.gtksharp_windows_url }}" class="button radius small"><i class="fa fa-download"></i> Download Gtk#</a>
         </div>
       </div>
     </div>
 
     <h2>Release Notes</h2>
     <p>Check out the release notes of all MonoDevelop versions <a href="/documentation/release-notes/">here</a>.</p>
-
-    <h2>Alpha and Beta updates</h2>
-    <p>To try pre-release packages, check the <a href="/download/alpha/">alpha</a> or <a href="/download/beta/">beta</a> download pages.</p>
   </div>
 </div>
 

@@ -15,7 +15,7 @@ If you are storing an unbounded number of files such as user-defined templates 
 
 The version number in the profile directory name will depend what version are using. Typically it increases only with major versions, e.g. 4.0, 5.0. If unsure, check the Logs directory, opened from the *Help -\> Open Log Directory* menu.
 
-**NOTE: For Xamarin Studio, replace `MonoDevelop` with `XamarinStudio` in these paths.**
+**NOTE: For Visual Studio for Mac, replace `MonoDevelop` with `VisualStudio` in these paths.**
 
 #### Config
 
@@ -24,9 +24,9 @@ Configuration files that may be migrated between machines safely.
 The location is dependent on operating system and environment, but normally will have the following values:
 
 |-----------------|------------------------------------------------|
-| Mac             | ~/Library/Preferences/MonoDevelop-{version}/   |
-| Windows Vista/7 | ~/AppData/Roaming/MonoDevelop-{version}/Config |
-| Linux           | ~/.config/MonoDevelop-{version}/               |
+| Mac             | ~/Library/Preferences/MonoDevelop/{version}/   |
+| Windows 7/8/10  | ~/AppData/Roaming/MonoDevelop/{version}/Config |
+| Linux           | ~/.config/MonoDevelop/{version}/               |
 
 #### LocalConfig
 
@@ -35,9 +35,9 @@ Configuration files that are specific to the local machine.
 The location is dependent on operating system and environment, but normally will have the following values:
 
 |-----------------|----------------------------------------------|
-| Mac             | ~/Library/Preferences/MonoDevelop-{version}/ |
-| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/Config |
-| Linux           | ~/.config/MonoDevelop-{version}/             |
+| Mac             | ~/Library/Preferences/MonoDevelop/{version}/ |
+| Windows 7/8/10  | ~/AppData/Local/MonoDevelop/{version}/Config |
+| Linux           | ~/.config/MonoDevelop/{version}/             |
 
 #### Logs
 
@@ -46,9 +46,9 @@ Log files that may be needed for bug reporting.
 The location is dependent on operating system and environment, but normally will have the following values:
 
 |-----------------|---------------------------------------------|
-| Mac             | ~/Library/Logs/MonoDevelop-{version}/       |
-| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/Logs/ |
-| Linux           | ~/.cache/MonoDevelop-{version}/Logs         |
+| Mac             | ~/Library/Logs/MonoDevelop/{version}/       |
+| Windows 7/8/10  | ~/AppData/Local/MonoDevelop/{version}/Logs/ |
+| Linux           | ~/.cache/MonoDevelop/{version}/Logs         |
 
 #### Cache
 
@@ -57,9 +57,9 @@ Cache files that may be deleted without loss of information.
 The location is dependent on operating system and environment, but normally will have the following values:
 
 |-----------------|----------------------------------------------|
-| Mac             | ~/Library/Caches/MonoDevelop-{version}/      |
-| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/Cache  |
-| Linux           | ~/.cache/MonoDevelop-{version}/              |
+| Mac             | ~/Library/Caches/MonoDevelop/{version}/      |
+| Windows 7/8/10  | ~/AppData/Local/MonoDevelop/{version}/Cache  |
+| Linux           | ~/.cache/MonoDevelop/{version}/              |
 
 #### Temp
 
@@ -68,9 +68,9 @@ Temporary files that may be deleted while MonoDevelop is not running, without lo
 The location is dependent on operating system and environment, but normally will have the following values:
 
 |-----------------|---------------------------------------------|
-| Mac             | ~/Library/Caches/MonoDevelop-{version}/Temp |
-| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/Temp  |
-| Linux           | ~/.cache/MonoDevelop-{version}/Temp         |
+| Mac             | ~/Library/Caches/MonoDevelop/{version}/Temp |
+| Windows 7/8/10  | ~/AppData/Local/MonoDevelop/{version}/Temp  |
+| Linux           | ~/.cache/MonoDevelop/{version}/Temp         |
 
 #### Data
 
@@ -79,9 +79,9 @@ Data files created by the user, such as user-defined templates, formatting profi
 The location is dependent on operating system and environment, but normally will have the following values:
 
 |-----------------|------------------------------------------|
-| Mac             | ~/Library/MonoDevelop-{version}/         |
-| Windows Vista/7 | ~/AppData/Roaming/MonoDevelop-{version}/ |
-| Linux           | ~/.local/share/MonoDevelop-{version}/    |
+| Mac             | ~/Library/MonoDevelop/{version}/         |
+| Windows 7/8/10  | ~/AppData/Roaming/MonoDevelop/{version}/ |
+| Linux           | ~/.local/share/MonoDevelop/{version}/    |
 
 #### LocalInstall
 
@@ -90,9 +90,9 @@ This location is for files installed into MonoDevelop. For example, downloaded a
 The location is dependent on operating system and environment, but normally will have the following values:
 
 |-----------------|------------------------------------------------------------------|
-| Mac             | ~/Library/Application Support/MonoDevelop-{version}/LocalInstall |
-| Windows Vista/7 | ~/AppData/Local/MonoDevelop-{version}/LocalInstall               |
-| Linux           | ~/.local/share/MonoDevelop-{version}/LocalInstall                |
+| Mac             | ~/Library/Application Support/MonoDevelop/{version}/LocalInstall |
+| Windows 7/8/10  | ~/AppData/Local/MonoDevelop/{version}/LocalInstall               |
+| Linux           | ~/.local/share/MonoDevelop/{version}/LocalInstall                |
 
 ### Profile Migration
 
@@ -128,6 +128,6 @@ When testing MonoDevelop, it can be useful to have a test profile instead of alt
 
 The profile locations for the test profile are
 
-`$MONODEVELOP_TEST_PROFILE/MonoDevelop-{version}/{LocationName}`
+`$MONODEVELOP_TEST_PROFILE/MonoDevelop/{version}/{LocationName}`
 
 and the test profile location will be searched for older profiles for migrations.
