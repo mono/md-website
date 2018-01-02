@@ -40,7 +40,7 @@ defaults:
       path: ""
     values:
       layout: "base"
-gems:
+plugins:
   - jekyll-redirect-from
 exclude:
   - CNAME
