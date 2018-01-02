@@ -1,4 +1,6 @@
 # General settings
+title: MonoDevelop Project
+repository: mono/md-website
 permalink: pretty
 markdown: kramdown
 kramdown:
