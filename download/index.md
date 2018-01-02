@@ -3,9 +3,10 @@ layout: base
 title: Download
 navgroup: download
 redirect_from:
-  - /downloads/
-  - /Downloads/
-  - /Download/
+  - /Download/Mac_MonoTouch/
+  - /Download/Mac_Preview/
+  - /MonoDevelopWin32/
+  - /download/trunk_builds/
 ---
 <div class="row">
   <div class="small-12 columns">
@@ -22,10 +23,10 @@ redirect_from:
 
     <div class="tabs-content" id="mono-download-panel">
       <div class="panel content active" id="download-mac" style="padding: 20px 10px 10px 10px">
-        <h3>Visual Studio for Mac is available as a Mac Package (.pkg)</h3>
+        <h3>Visual Studio for Mac is available as a Mac Disk Image (.dmg)</h3>
         <div>
           <a href="{{ site.data.latestrelease.monodevelop_mac_url }}" class="button radius"><i class="fa fa-download"></i> Download Visual Studio for Mac</a>
-          <p>Supported on Mac OS X 10.7 and later.</p>
+          <p>Supported on Mac OS X 10.11 and later.</p>
         </div>
       </div>
       <div class="panel content active" id="download-lin" style="padding: 10px 10px 10px 10px">
@@ -44,7 +45,7 @@ redirect_from:
         <h5>GTK# for .NET</h5>
         <p>Installer for running Gtk#-based applications on Microsoft .NET:</p>
         <div>
-          <a href="{{ site.data.latestrelease.gtksharp_windows_url }}" class="button radius small"><i class="fa fa-download"></i> Download Gtk#</a>
+          <a href="http://www.mono-project.com/download/#download-win" class="button radius small"><i class="fa fa-download"></i> Download Gtk#</a>
         </div>
       </div>
     </div>
