@@ -1,19 +1,13 @@
 ---
 layout: base
-title: Download
+title: Alpha Download
 navgroup: download
-redirect_from:
-  - /Download/
-  - /Download/Mac_MonoTouch/
-  - /Download/Mac_Preview/
-  - /MonoDevelopWin32/
-  - /download/trunk_builds/
 ---
 <div class="row">
   <div class="small-12 columns">
     <h1>Download</h1>
 
-    <h5>The latest MonoDevelop release is: <strong>{{ site.data.latestrelease.version }}</strong></h5>
+    <h5>The alpha MonoDevelop release is: <strong>{{ site.data.alpharelease.version }}</strong></h5>
     <p>Please choose your operating system to view the available packages. Source code is available on <a href="https://github.com/mono/monodevelop">GitHub</a> (viewing only) or as a <a href="https://download.mono-project.com/sources/monodevelop/">Tarball</a>.</p>
 
     <dl id="mono-download" class="tabs horizontal" data-tab data-options="deep_linking: true; scroll_to_content: false">
@@ -26,14 +20,14 @@ redirect_from:
       <div class="panel content active" id="download-mac" style="padding: 20px 10px 10px 10px">
         <h3>Visual Studio for Mac is available as a Mac Disk Image (.dmg)</h3>
         <div>
-          <a href="{{ site.data.latestrelease.monodevelop_mac_url }}" class="button radius"><i class="fa fa-download"></i> Download Visual Studio for Mac</a>
+          <a href="{{ site.data.alpharelease.monodevelop_mac_url }}" class="button radius"><i class="fa fa-download"></i> Download Visual Studio for Mac</a>
           <p>Supported on Mac OS X 10.11 and later.</p>
         </div>
       </div>
       <div class="panel content active" id="download-lin" style="padding: 10px 10px 10px 10px">
         <h3>MonoDevelop for Linux is available as a Flatpak package (.flatpakref)</h3>
         <div>
-          <a href="{{ site.data.latestrelease.monodevelop_linux_url }}" class="button radius"><i class="fa fa-download"></i> Download MonoDevelop</a>
+          <a href="{{ site.data.alpharelease.monodevelop_linux_url }}" class="button radius"><i class="fa fa-download"></i> Download MonoDevelop</a>
           <p>Supported on any distribution with <a href="https://flatpak.org">Flatpak</a> 0.8.3+</p>
           <hr />
           <p>Currently this download only works on x86-64 operating systems. We plan to offer x86 and ARM64 builds in the future.</p>

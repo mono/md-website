@@ -20,8 +20,8 @@ A list of all features supported by MonoDevelop.
 [Creating A Simple Solution](/documentation/creating-a-simple-solution/)<br/>
 This tutorial is intended as an introduction to working with MonoDevelop.
 
-[Introducing Xamarin Studio](http://docs.xamarin.com/guides/cross-platform/getting_started/introducing_xamarin_studio)<br/>
-Xamarin Studio is an IDE based on MonoDevelop, which provides additional features to create projects for iOS and Android. This article is a nice overview of the IDE.
+[Introducing Visual Studio for Mac](https://docs.microsoft.com/en-us/visualstudio/mac/)<br/>
+Visual Studio for Mac is an IDE based on MonoDevelop, which provides additional features to create projects for iOS and Android. This article is a nice overview of the IDE.
 
 Gtk# Development
 ----------------

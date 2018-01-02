@@ -1,3 +1,3 @@
 version: 7.3 (7.3.2.12)
 monodevelop_mac_url: https://dl.xamarin.com/VsMac/VisualStudioForMac-7.3.2.12.dmg
-monodevelop_linux_url: https://download.mono-project.com/repo/monodevelop.flatpakref
+monodevelop_linux_url: https://download.mono-project.com/repo/monodevelop-alpha.flatpakref

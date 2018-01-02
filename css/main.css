@@ -128,6 +128,11 @@ footer {
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 5px;
   }
+
+  #mono-download.tabs dd > a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 40.063em) {
@@ -154,6 +159,27 @@ footer {
   color: #FFF;
   margin-bottom: 20px;
   font-weight: bold;
+}
+
+/* --- --- */
+
+/* --- Download page --- */
+#mono-download.tabs dd > a {
+  font-size: 1.5em;
+  white-space: nowrap;
+}
+
+#mono-download.tabs dd.active a {
+  background-color: #333;
+  color: #fff;
+}
+
+#mono-download.tabs dd {
+  line-height: 0.9em;
+}
+
+#download-mac, #download-lin, #download-win {
+  padding-top: 10px;
 }
 
 /* --- --- */

@@ -8,7 +8,7 @@ This document explains how to extend the New Project dialog with new categories 
 
 ### Project Template Categories
 
-Project templates in the New Project dialog have three category levels. Xamarin Studio and MonoDevelop define the following category levels.
+Project templates in the New Project dialog have three category levels. Visual Studio for Mac and MonoDevelop define the following category levels.
 
 - crossplat
     - app
@@ -63,7 +63,7 @@ Project templates in the New Project dialog have three category levels. Xamarin 
 
 MonoDevelop’s categories are defined in the Templates.addin.xml file.
 
-Xamarin Studio’s categories are defined in the Xamarin.Ide.addin.xml file.
+Visual Studio for Mac’s categories are defined in the Xamarin.Ide.addin.xml file.
 
 ### Adding a Project Template to an Existing Category
 
@@ -113,7 +113,7 @@ MonoDevelop supports retina icons everywhere and to use them in the New Project 
 
 The addin.xml file only needs to define the single StockIcon resource. MonoDevelop will automatically find and use the retina icon for a retina screen.
 
-To insert a category before or after another existing category you can use the insertbefore or insertafter attributes. For example Xamarin Studio uses the insertbefore attribute to ensure its categories are inserted before those defined for MonoDevelop.
+To insert a category before or after another existing category you can use the insertbefore or insertafter attributes. For example Visual Studio for Mac uses the insertbefore attribute to ensure its categories are inserted before those defined for MonoDevelop.
 
 ``` xml
 <Extension path="/MonoDevelop/Ide/ProjectTemplateCategories">

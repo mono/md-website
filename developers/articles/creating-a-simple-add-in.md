@@ -16,9 +16,9 @@ MonoDevelop is built around the concept of an extension tree. An addin is a set 
 Creating the Addin
 ------------------
 
-For this tutorial we will use the Addin Maker addin, which simplifies the process of creating, running and debugging an addin. The Addin Maker addin can be installed from the Addin Manager. Once it's installed, you'll see a new C*\#/Xamarin* Studio category in the *New Solution* dialog, with a "Xamarin Studio" addin template. Xamarin Studio is an extended and rebranded version of MonoDevelop, so you can use this to create an addin that will work for both Xamarin Studio and MonoDevelop. 
+For this tutorial we will use the Addin Maker addin, which simplifies the process of creating, running and debugging an addin. The Addin Maker addin can be installed from the Addin Manager. Once it's installed, you'll see a new *Miscellaneous/General* category in the *New Solution* dialog, with a "IDE Extension" addin template. Visual Studio for Mac is an extended and rebranded version of MonoDevelop, so you can use this to create an addin that will work for Visual Studio for Mac, Xamarin Studio and MonoDevelop. 
 
-Start out by creating a new addin called "DateInserter". This will create an addin that you can build and run/debug. If you run it, a new instance of Xamarin Studio / MonoDevelop will be launched, and you will see your DateInserter addin in its Addin Manager.
+Start out by creating a new addin called "DateInserter". This will create an addin that you can build and run/debug. If you run it, a new instance of Visual Studio for Mac / Xamarin Studio / MonoDevelop will be launched, and you will see your DateInserter addin in its Addin Manager.
 
 An addin has metadata about its name, version, dependencies, etc. It also defines any number of extensions that plug into extension points defined by other addins, and can also define extension points that other addins can extend.
 
