@@ -82,19 +82,8 @@ Building MonoDevelop from source on the Mac is straightforward when the latest *
 
 First you will need Xcode installed. If you have Xcode 4.3 or later, you will need to then install the Xcode Commandline tool from Xcode preferences, and install `autoconf` and `automake` from [brew](http://mxcl.github.com/homebrew/).
 
-Before running the `configure` script, tell aclocal where to find the pkgconfig M4 macro (pkg.m4), e.g.
-
-    export ACLOCAL_FLAGS="-I /Library/Frameworks/Mono.framework/Versions/Current/share/aclocal"
-
-and ensure that the Mono framework comes first in your PATH so you do not end up accidentally using conflicting versions of utilities from packages such as MacPorts:
-
-    export PATH="/Library/Frameworks/Mono.framework/Versions/Current/bin:$PATH"
-
-You will also need to add the GTK+ libraries' location to the Mac dynamic loader path:
-
-    export DYLD_FALLBACK_LIBRARY_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib:/lib:/usr/lib
-
 **NOTE: Please ensure that you have the very latest Mono MDK.**
+
 
 Check out MD, configure using the Mac profile:
 
@@ -104,9 +93,32 @@ Check out MD, configure using the Mac profile:
     make
     make run
 
+
 **NOTE:** DO NOT use *configure --select* on Mac - the Mac profile passes adds required arguments to the configuration of *main*.  Instead edit *profiles/mac* manually to add any additional modules.
 
 **IMPORTANT**: Do not install MonoDevelop into the install prefix. MonoDevelop will pick up libraries from the prefix automatically. If you configured with a non-default prefix, then when you build an app bundle, the **entire prefix** will be merged into the app bundle.
+
+**Things you might have to do before running the `configure` script**
+
+1. , tell aclocal where to find the pkgconfig M4 macro (pkg.m4), e.g.
+
+       export ACLOCAL_FLAGS="-I /Library/Frameworks/Mono.framework/Versions/Current/share/aclocal"
+
+   Comment: this did not appear necessary
+   
+2. Ensure that the Mono framework comes first in your PATH so you do not end up accidentally using conflicting versions of utilities from packages such as MacPorts:
+
+       export PATH="/Library/Frameworks/Mono.framework/Versions/Current/bin:$PATH"
+
+   Comment: this did not appear necessary
+
+3. Add the GTK+ libraries' location to the Mac dynamic loader path:
+
+       export DYLD_FALLBACK_LIBRARY_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib:/lib:/usr/lib
+
+   Comment: this did not appear necessary
+
+
 
 #### Building extras
 
@@ -134,7 +146,7 @@ When building MonoDevelop using MonoDevelop, be sure to select the Mac configura
 
 #### Main
 
-Building main is straightforward. Open main/Main.sln, select the mac configuration, and run the Build command. Note that *running* MonoDevelop from within MD will currently only work if you export `DYLD_FALLBACK_LIBRARY_PATH` as described above.``
+Building main is straightforward. Open main/Main.sln, select the mac configuration, and run the Build command. Note that *running* MonoDevelop from within MD will currently only work if you export `DYLD_FALLBACK_LIBRARY_PATH` as described above.
 
 #### Extras
 
