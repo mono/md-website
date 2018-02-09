@@ -106,13 +106,7 @@ Check out MD, configure using the Mac profile:
 
    Comment: this did not appear necessary
    
-2. Ensure that the Mono framework comes first in your PATH so you do not end up accidentally using conflicting versions of utilities from packages such as MacPorts:
-
-       export PATH="/Library/Frameworks/Mono.framework/Versions/Current/bin:$PATH"
-
-   Comment: this did not appear necessary
-
-3. Add the GTK+ libraries' location to the Mac dynamic loader path:
+2. Add the GTK+ libraries' location to the Mac dynamic loader path:
 
        export DYLD_FALLBACK_LIBRARY_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib:/lib:/usr/lib
 
