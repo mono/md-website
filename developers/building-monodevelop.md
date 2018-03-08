@@ -20,6 +20,7 @@ MonoDevelop requires the following packages (or newer versions):
 -   Mono.Addins 0.6
 -   Gtk# 2.12.45
 -   monodoc 1.0
+-   F# (`fsharpc` program)
 -   cmake
 -   libssh2
 
