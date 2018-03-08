@@ -72,6 +72,9 @@ MonoDevelop's logging service provides a configurable way for developers to log 
 [Project Templates](/developers/articles/project-templates/)<br/>
 A guide on how to integrate with the New Project dialog and implement project template wizard pages.
 
+[Status Service](/developers/articles/status-service/)<br/>
+A guide on how to use the Status Service to display status information in the statusbar.
+
 MonoDevelop Design and Architecure
 ----------------------------------
 
