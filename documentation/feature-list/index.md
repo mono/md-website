@@ -9,6 +9,7 @@ The following matrix shows which features are available for each platform. MonoD
 
 | **Feature**              | **Linux**                              | **Mac**                                 | **Windows**                             |
 |--------------------------|----------------------------------------|-----------------------------------------|-----------------------------------------|
+| F#                       | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
 | C#                       | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
 | Visual Basic             | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
 | Java (IKVM)              | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
