@@ -19,11 +19,11 @@ There are numerous goals that MonoDevelop hopes to achieve. Some of these are:
 
 -   To create a best of breed development environment for Unix systems for Mono.
 -   Since it's written in Gtk#, and we like Gtk# and we get good support from Gtk#, most likely it will add functionality to improve the Gtk# experience.
--   We want to integrate the tools we have been building so far, so things like MonoDoc, NUnit-Gtk and the debugger should target MonoDevelop.
+-   We integrate the tools we have been building so far, so things like MonoDoc, NUnit-Gtk and the debugger target MonoDevelop.
 
 ### Under which license is MonoDevelop available?
 
-The MonoDevelop Core is licensed under the [LGPLv2](http://www.gnu.org/licenses/lgpl-2.1.html), though much of the code and add-ins are licensed under the MIT/X11 license. All the source code is available through the Subversion file repository. Read the [Download](/download/) page for directions on downloading the source.
+The MonoDevelop Core is licensed under the [LGPLv2](http://www.gnu.org/licenses/lgpl-2.1.html), though much of the code and add-ins are licensed under the MIT/X11 license. All the source code is available through the Github file repository. Read the [Download](/download/) page for directions on downloading the source.
 
 ### Why another IDE for GNOME?
 
@@ -59,7 +59,7 @@ The Add-in Manager can be launched independently with the command 'mdtool gsetup
 
 ### Can I import my Visual Studio 2K5+ project into MonoDevelop?
 
-MonoDevelop can open, manipulate and save MSBuild-based projects directly in most cases. In fact, since MonoDevelop 2.0 the default project format has been VS2008-style MSBuild projects, but VS2005 and VS1010 formats are also handled.
+MonoDevelop can open, manipulate and save MSBuild-based projects directly in most cases. In fact, since MonoDevelop 2.0 the default project format has been VS2008-style MSBuild projects, but VS2005 and VS2010 formats are also handled.
 
 ### I added an assembly to the GAC, why doesn't it appear in the assemblies list when I try to add a reference in a MonoDevelop project?
 
