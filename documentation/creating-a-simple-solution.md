@@ -18,7 +18,7 @@ The purpose of this tutorial is to outline the basic process for creating an app
 Step 1: Create the Solution
 ---------------------------
 
-From the **File** menu, select "**New Project**", this will open up the "New Project" window. Select "C#" from the language list and "**Console Project**" from the templates. Give your application a name as so:
+From the **File** menu, select "**New Solution**", this will open up the "New Solution" window. Select "C#" from the language list and "**Console Project**" from the templates. Give your application a name as so:
 
 ![New\_Solution\_Window.png](/images/345-New_Solution_Window.png)
 
