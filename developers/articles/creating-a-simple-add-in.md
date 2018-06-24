@@ -199,7 +199,7 @@ Now we can implement the command's Run method, which, unsurprisingly, is called 
 protected override void Run ()
 {
     MonoDevelop.Ide.Gui.Document doc = IdeApp.Workbench.ActiveDocument;
-    string date = DateTime.Now.ToString ();
+    string date = System.DateTime.Now.ToString ();
     doc.Editor.InsertAtCaret (date);
 }
 ```
