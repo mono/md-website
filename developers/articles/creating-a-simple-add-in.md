@@ -48,9 +48,9 @@ using Mono.Addins.Description;
 [assembly:AddinDependency ("::MonoDevelop.Ide", MonoDevelop.BuildInfo.Version)]
 ```
 
-The combined namespace and id should be unique among all MonoDevelop addins. The other attributes are self-explanatory, and many of them are optional, particularly if the addin does not define extension points, but it is good practice to fill them all out.
+The combined namespace and ID should be unique among all MonoDevelop addins. The other attributes are self-explanatory, and many of them are optional, particularly if the addin does not define extension points, but it is good practice to fill them all out.
 
-Addins must declares dependencies on the addins with the extension points they use. In this case, we have a dependency on the `MonoDevelop.Ide` and `MonoDevelop.Core` addins, which contain many of the IDE's core extension points and APIs. By using a constant for the version string, we automatically ensure that the dependencies' versions match the targeted MonoDevelop version.
+Addins must declare dependencies on the addins with the extension points they use. In this case, we have a dependency on the `MonoDevelop.Ide` and `MonoDevelop.Core` addins, which contain many of the IDE's core extension points and APIs. By using a constant for the version string, we automatically ensure that the dependencies' versions match the targeted MonoDevelop version.
 
 Note that the addin engine considers dependencies' full names to be relative to the addin's own namespace. If we had referenced the dependency as "MonoDevelop.Ide", the addin engine would have tried to find an addin called "DateInserter.MonoDevelop.Ide", and failed. To prevent this, we used the "::" qualifier to make it a global reference.
 
@@ -155,7 +155,7 @@ namespace DateInserter
 }
 ```
 
-We also need to define the enum for the command id.
+We also need to define the enum for the command ID.
 
 ``` csharp
 namespace DateInserter
