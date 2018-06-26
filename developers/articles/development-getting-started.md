@@ -8,7 +8,7 @@ redirect_from:
 
 It's relatively easy to get started working on MonoDevelop, but this page aims to make it easier to get off the ground.
 
-If you're on OS X you can also try @dvdsgl's one step install: [https://github.com/dvdsgl/monodevelop-build](https://github.com/dvdsgl/monodevelop-build)
+If you're on macOS you can also try @dvdsgl's one step install: [https://github.com/dvdsgl/monodevelop-build](https://github.com/dvdsgl/monodevelop-build)
 
 ### Setting up an Environment
 

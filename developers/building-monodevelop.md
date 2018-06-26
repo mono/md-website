@@ -72,10 +72,10 @@ The configure script may fail because of missing dependencies; install them, and
 
 After this, you can build and install any of the additional tarballs using the same procedure.
 
-Mac OSX
--------
+macOS
+-----
 
-Building MonoDevelop from source on the Mac is straightforward when the latest **Mono SDK** package is installed. In general, the instructions in [Development:Getting Started](/developers/articles/development-getting-started/) can be applied directly to building MD on OS X. However, there are a few caveats, so this page explains the Mac build process in more detail.
+Building MonoDevelop from source on the Mac is straightforward when the latest **Mono SDK** package is installed. In general, the instructions in [Development:Getting Started](/developers/articles/development-getting-started/) can be applied directly to building MD on macOS. However, there are a few caveats, so this page explains the Mac build process in more detail.
 
 ### Building using Makefiles
 
@@ -127,7 +127,7 @@ To run MD, simply use<span style="font-size: 11px;">:</span>
 
 #### Building the App package
 
-To build the app package, navigate to the OS X build directory:
+To build the app package, navigate to the macOS build directory:
 
     cd main/build/MacOSX
 

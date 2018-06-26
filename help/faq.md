@@ -45,7 +45,7 @@ MonoDevelop 0.10 and later has an integrated GUI designer based on [Stetic](http
 
 Yes. MonoDevelop can be run on Windows, and can build, run and debug apps with either Mono or .NET. A Windows installer for MonoDevelop is available in the [Download](/download/) page.
 
-### Does MonoDevelop work on Mac OSX?
+### Does MonoDevelop work on macOS?
 
 Yes, it is available on the [Download](/download/) page.
 
