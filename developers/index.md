@@ -52,7 +52,7 @@ There are a few rules to follow when committing code:
 
 ### Coding Guidelines
 
-New code written for MonoDevelop should follow the generic [Mono Coding Guidelines](http://www.mono-project.com/Coding_Guidelines), with the following exceptions:
+New code written for MonoDevelop should follow the generic [Mono Coding Guidelines](https://www.mono-project.com/Coding_Guidelines), with the following exceptions:
 
 -   use camelCase for field names
 -   code must be indented using tabs, not spaces, and tabs have a width equal to 4 spaces

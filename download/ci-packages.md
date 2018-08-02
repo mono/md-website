@@ -9,9 +9,9 @@ The Mono Project hosts a [public Jenkins instance](http://jenkins.mono-project.c
 
 The first step is to add the CI repository to your system, please follow the guide for your distribution on the Mono website:
 
-- [Debian, Ubuntu, and derivatives](http://www.mono-project.com/docs/getting-started/install/linux/ci-packages/#debian-ubuntu-and-derivatives)
-- [CentOS, Fedora and derivatives](http://www.mono-project.com/docs/getting-started/install/linux/ci-packages/#centos-fedora-and-derivatives)
-- [openSUSE and SLES](http://www.mono-project.com/docs/getting-started/install/linux/ci-packages/#opensuse-and-sles)
+- [Debian, Ubuntu, and derivatives](https://www.mono-project.com/docs/getting-started/install/linux/ci-packages/#debian-ubuntu-and-derivatives)
+- [CentOS, Fedora and derivatives](https://www.mono-project.com/docs/getting-started/install/linux/ci-packages/#centos-fedora-and-derivatives)
+- [openSUSE and SLES](https://www.mono-project.com/docs/getting-started/install/linux/ci-packages/#opensuse-and-sles)
 
 After you added the CI repository, search your package manager for **monodevelop-snapshot** to find a number of possible packages to install.
 

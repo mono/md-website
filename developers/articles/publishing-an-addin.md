@@ -18,7 +18,7 @@ There are some add-in properties which can be set to control how add-ins are pre
         <Name locale="ca-ES">Support per a Git</Name>
         <Description>Provides support for the Git version control system</Description>
         <Author>Lluis Sanchez</Author>
-        <Url>http://monodevelop.com/Git</Url>
+        <Url>https://www.monodevelop.com/</Url>
         <Icon32>git.png</Icon32>
     </Header>
     ...

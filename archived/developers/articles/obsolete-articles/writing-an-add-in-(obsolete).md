@@ -61,7 +61,7 @@ Since the entire application is an add-in there is no limit. It supports conditi
      <AddIn name        = "MonoDevelop Nunit"
             author      = "John Luke"
             copyright   = "GPL"
-            url         = "http://monodevelop.com"
+            url         = "https://www.monodevelop.com"
             description = "NUnit testing tool"
             version     = "0.2">
 

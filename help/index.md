@@ -12,7 +12,7 @@ If you need help building, running, or troubleshooting a problem with MonoDevelo
 -   join us in **\#monodevelop** on [GIMPnet](http://www.gimp.org/irc.html) IRC or at [Gitter](https://gitter.im/mono/monodevelop).
 -   subscribe to the [MonoDevelop Mailing List](http://lists.ximian.com/mailman/listinfo/monodevelop-list).
 
-For general help about the Mono framework, take a look at the [Mono website](http://www.mono-project.com).
+For general help about the Mono framework, take a look at the [Mono website](https://www.mono-project.com).
 
 ### Reporting Bugs
 

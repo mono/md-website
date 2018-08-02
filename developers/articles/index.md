@@ -48,10 +48,10 @@ This article explains how to create a syntax highlighting mode for a new file ty
 [Publishing an Add-in](/developers/articles/publishing-an-addin/)<br/>
 This article explains how to publish an add-in to make it available to MonoDevelop users.
 
-[Introduction to Mono.Addins](http://www.mono-project.com/Introduction_to_Mono.Addins)<br/>
+[Introduction to Mono.Addins](https://www.mono-project.com/Introduction_to_Mono.Addins)<br/>
 This article explains the library basics and some examples. Mono.Addins is the add-in engine used by MonoDevelop.
 
-[Mono.Addins Reference Manual](http://www.mono-project.com/Mono.Addins_Reference_Manual)<br/>
+[Mono.Addins Reference Manual](https://www.mono-project.com/Mono.Addins_Reference_Manual)<br/>
 An in-depth explanation of all Mono.Addins features. Mono.Addins is the add-in engine used by MonoDevelop.
 
 MonoDevelop API

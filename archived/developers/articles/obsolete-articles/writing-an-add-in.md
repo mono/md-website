@@ -25,7 +25,7 @@ Add-ins can also add new extension points to the extension tree. For example, th
 
 MonoDevelop can be seen as a hierarchy of add-ins. Each add-in can add new items to extension points, and can add new extension points for other add-ins to extend.
 
-MonoDevelop uses the [Mono.Addins](http://www.mono-project.com/Mono.Addins) framework, and its [introduction](http://www.mono-project.com/Introduction_to_Mono.Addins)and [reference manual ](http://www.mono-project.com/Mono.Addins_Reference_Manual)may be useful to developers writing addins that are more advanced than what is described in this document.
+MonoDevelop uses the [Mono.Addins](https://www.mono-project.com/Mono.Addins) framework, and its [introduction](https://www.mono-project.com/Introduction_to_Mono.Addins)and [reference manual ](https://www.mono-project.com/Mono.Addins_Reference_Manual)may be useful to developers writing addins that are more advanced than what is described in this document.
 
 Contents of an add-in
 ---------------------

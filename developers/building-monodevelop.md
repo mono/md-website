@@ -26,7 +26,7 @@ MonoDevelop requires the following packages (or newer versions):
 
 You can build them from [git](http://github.com/mono/monodevelop), [source releases](http://download.mono-project.com/sources/) or, even easier, simply install the [pre-built packages](http://www.go-mono.com/mono-downloads/download.html) appropriate for your platform.
 
-**We strongly recommend you install everything from packages if possible.** If not, you should use a [Parallel Mono Environment](http://www.mono-project.com/Parallel_Mono_Environments). Do not install anything to /usr or /usr/local unless you completely understand the implications of doing so.
+**We strongly recommend you install everything from packages if possible.** If not, you should use a [Parallel Mono Environment](https://www.mono-project.com/Parallel_Mono_Environments). Do not install anything to /usr or /usr/local unless you completely understand the implications of doing so.
 
 Note that if your distro has sufficiently up-to-date Gtk# or Mono.Addins packages, you can configure a parallel Mono environment to use them instead of building them from source. See the section on MONO\_GAC\_PREFIX in the Parallel Mono Environment guide.
 
@@ -171,7 +171,7 @@ Windows
 
 ### Prerequisites and Source
 
--   Install Gtk# ([installer](http://www.mono-project.com/download/#download-win)).
+-   Install Gtk# ([installer](https://www.mono-project.com/download/#download-win)).
 -   Install the Mono libraries package ([installer](https://files.xamarin.com/~jeremie/MonoLibraries.msi))
 -   Install Visual Studio 2017 with the .NET Desktop and .NET Core workloads and the F# optional component (note, F# is disabled by default so need to enable it in the VS installer).
 -   Install Git for Windows (from [here](https://git-for-windows.github.io/))

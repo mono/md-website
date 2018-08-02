@@ -4,7 +4,7 @@ redirect_from:
   - /Download/Mono_For_Android/
 ---
 
-[Mono for Android](http://mono-android.net/) allows developing Android applications using Mono. There is an addin for MonoDevelop that allows building Mono for Android applications with MonoDevelop on Mac and Windows.
+[Xamarin](https://www.xamarin.com/) allows developing Android applications using Mono. There is an addin for MonoDevelop that allows building Mono for Android applications with MonoDevelop on Mac and Windows.
 
 Installing and updating the addin depends on the platform. The addin currently requires MonoDevelop **2.6 beta 1**, which can be downloaded from the [MonoDevelop download page](/download/).
 

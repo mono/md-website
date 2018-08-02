@@ -11,7 +11,7 @@ Introduction
 
 The MonoDevelop addin architecture is designed to allow you to extend any part of MonoDevelop, for example supporting a new language or version control system, or custom source editing commands. This walkthrough will take you through the basics of writing addins, by describing the creating of a simple addin that adds a command to insert the current date into the source editor.
 
-MonoDevelop is built around the concept of an extension tree. An addin is a set of extensions that plug into extension points defined in other addins, and can also define new extension points for other addins to extend. The whole of MonoDevelop is built this way, so there are many extension points available, and the core ones are described in the Extension Point Reference. MonoDevelop uses the [Mono.Addins](http://www.mono-project.com/Mono.Addins) addin engine, so for advanced addin questions, refer to the [Mono.Addins Reference Manual](http://www.mono-project.com/Mono.Addins_Reference_Manual). You can also use Mono.Addins in your own applications.
+MonoDevelop is built around the concept of an extension tree. An addin is a set of extensions that plug into extension points defined in other addins, and can also define new extension points for other addins to extend. The whole of MonoDevelop is built this way, so there are many extension points available, and the core ones are described in the Extension Point Reference. MonoDevelop uses the [Mono.Addins](https://www.mono-project.com/Mono.Addins) addin engine, so for advanced addin questions, refer to the [Mono.Addins Reference Manual](https://www.mono-project.com/Mono.Addins_Reference_Manual). You can also use Mono.Addins in your own applications.
 
 Creating the Addin
 ------------------

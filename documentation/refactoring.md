@@ -75,4 +75,4 @@ You can edint the refactoring key bindings from the option menu of MonoDevelop P
 
 There are many other Refactoring tools and of course there is a way to write your own Refactorings but for more information check this article: 
 
-[http://monodevelop.com/Developers/Articles/Refactoring](/developers/articles/refactoring/)
+[https://www.monodevelop.com/developers/articles/refactoring/](/developers/articles/refactoring/)

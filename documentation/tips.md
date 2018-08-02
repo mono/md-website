@@ -63,5 +63,5 @@ redirect_from:
 -   If you have the *sshfs FUSE filesystem* installed, the Web Deploy dialog can be used to deploy your ASP.NET project to a remote server over SSH.
 -   Additional *add-ins may be available* from MonoDevelop's online add-in repositories, providing new or updated functionality. To install them, go to 'Tools -\> Add-in Manager', and click 'Install Add-ins'.
 -   The *Subversion integration* makes source control very easy. If not convinced, investigate the ChangeLog integration.
--   When writing applications *that may be used on other platforms* such as Windows, be aware of differences in the path separators and casing of filenames. Detailed guidelines for cross-platform development are available at [Guidelines:Application Portability](http://www.mono-project.com/Guidelines:Application_Portability)
+-   When writing applications *that may be used on other platforms* such as Windows, be aware of differences in the path separators and casing of filenames. Detailed guidelines for cross-platform development are available at [Guidelines:Application Portability](https://www.mono-project.com/Guidelines:Application_Portability)
 -   For a faster startup, *disable unneeded add-ins* using the Addin Manager.
