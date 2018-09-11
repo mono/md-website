@@ -171,6 +171,7 @@ Windows
 
 ### Prerequisites and Source
 
+-   Make sure you have .NET Framework 4.7.1 Reference Assemblies ([4.7.1 Targeting Pack](https://www.microsoft.com/en-us/download/details.aspx?id=56119))
 -   Install Gtk# ([installer](https://www.mono-project.com/download/#download-win)).
 -   Install the Mono libraries package ([installer](https://files.xamarin.com/~jeremie/MonoLibraries.msi))
 -   Install Visual Studio 2017 with the .NET Desktop and .NET Core workloads and the F# optional component (note, F# is disabled by default so need to enable it in the VS installer).
