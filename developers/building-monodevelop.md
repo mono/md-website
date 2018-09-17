@@ -174,7 +174,7 @@ Windows
 -   Install Visual Studio 2017 with the .NET Desktop and .NET Core workloads and the F# optional component (note, F# is disabled by default so need to enable it in the VS installer).
 -   Install Git for Windows (from [here](https://git-for-windows.github.io))
 -   Make sure you have .NET Framework 4.7.1 Reference Assemblies ([4.7.1 Targeting Pack](https://www.microsoft.com/en-us/download/details.aspx?id=56119))
--   Install Gtk# ([installer](https://www.mono-project.com/download/#download-win)).
+-   Install Gtk# ([installer](https://www.mono-project.com/download/#download-win)). Direct link: [gtk-sharp-2.12.45.msi](https://xamarin.azureedge.net/GTKforWindows/Windows/gtk-sharp-2.12.45.msi)
 -   Install the Mono libraries package ([installer](https://files.xamarin.com/~jeremie/MonoLibraries.msi))
 -   Install GNU Gettext tools (from [here](http://gnuwin32.sourceforge.net/packages/gettext.htm))
 
