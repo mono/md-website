@@ -26,9 +26,9 @@ MonoDevelop requires the following packages (or newer versions):
 
 You can build them from [git](http://github.com/mono/monodevelop), [source releases](http://download.mono-project.com/sources/) or, even easier, simply install the [pre-built packages](http://www.go-mono.com/mono-downloads/download.html) appropriate for your platform.
 
-**We strongly recommend you install everything from packages if possible.** If not, you should use a [Parallel Mono Environment](https://www.mono-project.com/Parallel_Mono_Environments). Do not install anything to /usr or /usr/local unless you completely understand the implications of doing so.
+**We strongly recommend you install everything from packages if possible.** If not, you should use a [Parallel Mono Environment](https://www.mono-project.com/Parallel_Mono_Environments). Do not install anything to `/usr` or `/usr/local` unless you completely understand the implications of doing so.
 
-Note that if your distro has sufficiently up-to-date Gtk# or Mono.Addins packages, you can configure a parallel Mono environment to use them instead of building them from source. See the section on MONO\_GAC\_PREFIX in the Parallel Mono Environment guide.
+Note that if your distro has sufficiently up-to-date Gtk# or Mono.Addins packages, you can configure a parallel Mono environment to use them instead of building them from source. See the section on `MONO_GAC_PREFIX` in the Parallel Mono Environment guide.
 
 ### Building from Git
 
@@ -101,7 +101,7 @@ Check out MD, configure using the Mac profile:
 
 **Things you might have to do before running the `configure` script**
 
-1. , tell aclocal where to find the pkgconfig M4 macro (pkg.m4), e.g.
+1. Tell aclocal where to find the pkgconfig M4 macro (pkg.m4), e.g.
 
        export ACLOCAL_FLAGS="-I /Library/Frameworks/Mono.framework/Versions/Current/share/aclocal"
 
@@ -141,7 +141,7 @@ When building MonoDevelop using MonoDevelop, be sure to select the Mac configura
 
 #### Main
 
-Building main is straightforward. Open main/Main.sln, select the mac configuration, and run the Build command. Note that *running* MonoDevelop from within MD will currently only work if you export `DYLD_FALLBACK_LIBRARY_PATH` as described above.
+Building main is straightforward. Open `main/Main.sln`, select the Mac configuration, and run the Build command. Note that *running* MonoDevelop from within MD will currently only work if you export `DYLD_FALLBACK_LIBRARY_PATH` as described above.
 
 #### Extras
 
@@ -183,10 +183,10 @@ Windows
 You need at least Visual Studio 2017 or MonoDevelop 7.1  
 
 -   `git clone https://github.com/mono/monodevelop --recursive`
--   Open main/Main.sln.
+-   Open `main/Main.sln`.
 -   Select the **DebugWin32** configuration and **Any CPU** platform (this is important!).
 -   Build the solution.
 
 ### Building using MSBuild
 
-Open a Command Prompt in main and run winbuild.bat. You can easily run MD directly after building with the winbuild.bat script (run monodevelop\main\build\bin\monodevelop.exe).
+Open a Command Prompt in `main` and run `winbuild.bat`. You can easily run MD directly after building with the `winbuild.bat` script (run `monodevelop\main\build\bin\monodevelop.exe`).
