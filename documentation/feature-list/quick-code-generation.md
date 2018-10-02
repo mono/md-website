@@ -4,13 +4,13 @@ redirect_from:
   - /Documentation/Feature_List/Quick_Code_Generation/
 ---
 
-The quick code generation popup can be activated using Alt+Insert (in the standart keyboard layout). It allows easy creation of frequent code parts. You can create
+The quick code generation pop-up can be activated with the `Alt + Insert` shortcut, by default.
+This feature allows for the generation of:
 
 -   Constructors
 -   Properties
--   Event OnXXX methods
--   Customized ToString() methods
--   Create Equals & Hash code
+-   Event Handlers
+-   `ToString ()`, `Equals (object)`, and `GetHashCode ()` overridden methods.
 
 ### Example
 
@@ -28,7 +28,7 @@ class Timer
 }
 ```
 
-Now go inside the class and hit Alt+Insert. With just using the code generators mentioned above you can create:
+Now, using the code generatation pop-up (from the shortcut `Alt + Insert`), the following code can be generated:
 
 ``` csharp
 using System;
@@ -93,4 +93,4 @@ class Timer
 }
 ```
 
-And all this without typing a line of code (except the OnTimeChanged call in the Time propery setter).
+_Note:_ A call to `OnTimeChanged` has been added manually in the `Time` property setter.
