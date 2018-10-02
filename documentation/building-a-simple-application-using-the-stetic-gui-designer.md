@@ -27,7 +27,7 @@ To open the Designer you must right-click **MainWindow** from the **Solution Pad
 Step 2: Creating the GUI
 ------------------------
 
-The main philosophy of Gtk# is that every Widge t(Buttons, Toolbars etc.) must be placed into a Container (HBox, Vbox, Table etc.). This tutorial is meant as a quick Introduction so if you want to read more about Gtk# [please do so](https://www.mono-project.com/GtkSharp).
+The main philosophy of Gtk# is that every Widget (Buttons, Toolbars etc.) must be placed into a Container (HBox, Vbox, Table etc.). This tutorial is meant as a quick Introduction so if you want to read more about Gtk# [please do so](https://www.mono-project.com/GtkSharp).
 
 To get started, switch to the Designer by pressing the "Designer" button located at the bottom:
 
