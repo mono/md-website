@@ -69,7 +69,7 @@ In this method a constant is used.  This constant should be given a better name
 
 ![/images/229-ss-introduceconstant2.png](/images/229-ss-introduceconstant2.png)
 
-You can edint the refactoring key bindings from the option menu of MonoDevelop Preferences menu menu:
+You can edit the refactoring key bindings from the option menu of MonoDevelop Preferences menu menu:
 
 ![tutorial222.png](http://img254.imageshack.us/img254/7505/tutorial222.png)
 

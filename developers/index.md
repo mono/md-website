@@ -5,7 +5,7 @@ redirect_from:
   - /Contribute/
 ---
 
-If you want to contribute on the development of MonoDevelop, implement your own tools based on the platform, create new add-ins for the IDE, or just know more about the project, you'll find some useful information in this page. Here are some interesting links to start with:
+If you want to contribute to the development of MonoDevelop, implement your own tools based on the platform, create new add-ins for the IDE, or just know more about the project, you'll find some useful information in this page. Here are some interesting links to start with:
 
 -   [Articles](/developers/articles/): A collection of articles written by the MonoDevelop community. You'll find technical documentation, tutorials and other useful information for learning about the MonoDevelop platform.
 -   [TODO](/archived/developers/todo/): A list of features we would like MD to have. If you want to contribute, just pick one of them and notify through the [mailing list](http://lists.ximian.com/mailman/listinfo/monodevelop-list) that you are going to work on it.
@@ -23,9 +23,9 @@ Filing bugs is a very easy way to help contribute to any project. See the [Repor
 
 ### Submitting Patches
 
-Patches have to be submitted by using the Pull Request mechanism that github provides. Here is a summary of how it works:
+Patches have to be submitted by using the Pull Request mechanism that GitHub provides. Here is a summary of how it works:
 
-1.  If you don't already have one, you have to create your own fork of the MonoDevelop repository. You can do it using the Fork command available in the [main page](http://github.com/mono/monodevelop) of the project in github.
+1.  If you don't already have one, you have to create your own fork of the MonoDevelop repository. You can do it using the Fork command available in the [main page](http://github.com/mono/monodevelop) of the project in GitHub.
 2.  Make and commit your changes in your forked repository.
 3.  In the main page of your forked repository, click on the Pull Request command.
 4.  In the Pull Request dialog, enter a descriptive comment of the change and add a recipient. You can use following users as recipients:
@@ -54,10 +54,10 @@ There are a few rules to follow when committing code:
 
 New code written for MonoDevelop should follow the generic [Mono Coding Guidelines](https://www.mono-project.com/Coding_Guidelines), with the following exceptions:
 
--   use camelCase for field names
--   code must be indented using tabs, not spaces, and tabs have a width equal to 4 spaces
--   the opening brace { of a class or namespace should be put on a new line, like methods
--   lines should be wrapped to 120 chars, not 80
+-   Use camelCase for field names.
+-   Code must be indented using tabs, not spaces, and tabs have a width equal to 4 spaces.
+-   The opening brace `{` of a class, namespace, or method should be on its own new line.
+-   Lines should be limited to 120 characters in width, not 80.
 
 The MonoDevelop solution is configured with formatting policies that conform to these guidelines.
 
@@ -79,7 +79,9 @@ Although addins that do not follow these rules cannot be accepted into the MonoD
 
 ### Working on the Website
 
-We are always looking for help on developing the MonoDevelop website. If you're interested, please check out the [GitHub repository](https://github.com/mono/md-website) of the website. Currently, we're are looking for the following:
+We are always looking for help with development of the MonoDevelop website. If you're interested, please check out the 
+website's [GitHub repository.](https://github.com/mono/md-website) Currently, we are looking for support with 
+the following:
 
 -   Tutorials
 -   Screenshots
