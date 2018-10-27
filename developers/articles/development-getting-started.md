@@ -22,8 +22,10 @@ Make sure you have git installed, and check MonoDevelop out from [GitHub](https:
 
 Open a terminal in the top-level MonoDevelop directory, and run
 
+[OS specific instruction](https://www.monodevelop.com/developers/building-monodevelop/)
+
 ``` bash
-./configure --profile=core
+./configure 
 ```
 
 It may fail because of missing dependencies; install them, and re-run the command.
