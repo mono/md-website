@@ -29,7 +29,7 @@ redirect_from:
 -   You can *change the targeted runtime* -- 1.1, 2.0, Silverlight 1.1 -- by right-clicking on the project name in the Solution tab, selecting 'Project Options', and going to 'General -\> Runtime Options'.
 -   You can *refresh your project file* list by right-clicking on the project name, and selecting 'Display Options -\> Refresh'. This can be particularly useful if you use the Version Control Addin and you update or commit files externally and need to refresh their updated status inside MonoDevelop.
 -   Add a *packaging project* to your solution to package the output of other projects for distribution.
--   *Makefile integration* can be used to synchronise file lists and references to variables in Makefiles, and can invoke Makefile targets to perform builds.
+-   *Makefile integration* can be used to synchronize file lists and references to variables in Makefiles, and can invoke Makefile targets to perform builds.
 -   In the *C# compiler options*, defines should be separated by commas e.g. VERBOSE,MONO,ETC.
 -   If you get any 'Type not found' *compilation errors*, you may be missing a reference to a common assembly such as System or System.Xml. Edit your project's referenced assemblies by right-clicking on the 'References' folder in the Solution Pad and selecting 'Edit references'.
 
