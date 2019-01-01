@@ -6,14 +6,15 @@ redirect_from:
   - /Bugs/
 ---
 
-MonoDevelop bugs should be filed at [bugzilla.xamarin.com](http://bugzilla.xamarin.com).
 
-To report a bug, follow the steps below:
-
-1.  [Create a Bugzilla account](http://bugzilla.xamarin.com).
-2.  Ensure the bug you are reporting hasn't already been fixed. Install the latest version of MonoDevelop using the "Current Development" instructions on the download page.
-3.  Review the [open MonoDevelop bugs](https://bugzilla.xamarin.com/describecomponents.cgi?product=Xamarin%20Studio) and make sure that your bug hasn't been submitted already.
+Before reporting a bug follow the steps below:
+1.  Ensure the bug you are reporting hasn't already been fixed. Install the latest version of MonoDevelop using the "Current Development" instructions on the download page.
+2.  Review the [open MonoDevelop bugs](https://bugzilla.xamarin.com/describecomponents.cgi?product=Xamarin%20Studio) and make sure that your bug hasn't been submitted already.
+3.  Review the issues at [MonoDevelop issues on GitHub](https://github.com/mono/monodevelop/issues)
 4.  If it hasn't been submitted, submit a new MonoDevelop bug.
+
+New monoDevelop bugs should be filed at [MonoDevelop on GitHub](https://github.com/mono/monodevelop/issues).
+To report a bug, you sould have an account in github.com
 
 It's important to include the version number of MonoDevelop and the OS. If MonoDevelop was installed by any means other than the official packages (e.g. Unity's custom MonoDevelop builds, or built from source), please note this and include the Mono version information.
 
