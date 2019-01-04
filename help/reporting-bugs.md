@@ -13,8 +13,8 @@ Before reporting a bug follow the steps below:
 3.  Review the issues at [MonoDevelop issues on GitHub](https://github.com/mono/monodevelop/issues)
 4.  If it hasn't been submitted, submit a new MonoDevelop bug.
 
-New monoDevelop bugs should be filed at [MonoDevelop on GitHub](https://github.com/mono/monodevelop/issues).
-To report a bug, you sould have an account in github.com
+New MonoDevelop bugs should be filed at the [MonoDevelop repo on GitHub](https://github.com/mono/monodevelop/issues).
+To report a bug, you need a GitHub account.
 
 It's important to include the version number of MonoDevelop and the OS. If MonoDevelop was installed by any means other than the official packages (e.g. Unity's custom MonoDevelop builds, or built from source), please note this and include the Mono version information.
 
