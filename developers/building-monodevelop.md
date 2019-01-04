@@ -182,7 +182,7 @@ Windows
 
 You need at least Visual Studio 2017 or MonoDevelop 7.1  
 
--   `git clone https://github.com/mono/monodevelop --recursive`
+-   `git clone https://github.com/mono/monodevelop --recursive -j8`
 -   Open `main/Main.sln`.
 -   Select the **DebugWin32** configuration and **Any CPU** platform (this is important!).
 -   Build the solution.
