@@ -24,7 +24,7 @@ MonoDevelop requires the following packages (or newer versions):
 -   cmake
 -   libssh2
 
-You can build them from [git](http://github.com/mono/monodevelop), [source releases](http://download.mono-project.com/sources/) or, even easier, simply install the [pre-built packages](http://www.go-mono.com/mono-downloads/download.html) appropriate for your platform.
+You can build them from [git](http://github.com/mono/monodevelop), [source releases](http://download.mono-project.com/sources/) or, even easier, simply install the [pre-built packages](/download/) appropriate for your platform.
 
 **We strongly recommend you install everything from packages if possible.** If not, you should use a [Parallel Mono Environment](https://www.mono-project.com/Parallel_Mono_Environments). Do not install anything to `/usr` or `/usr/local` unless you completely understand the implications of doing so.
 

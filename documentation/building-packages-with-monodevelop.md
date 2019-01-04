@@ -8,4 +8,4 @@ redirect_from:
 
 This screencast shows how to use MonoDevelop to create source and binary packages for projects.
 
-[Download hi-res video (Ogg/Vorbis/Theora 36.7Mb)](http://www.go-mono.com/md/screencasts/Packaging.ogg)
+[Download hi-res video (Ogg/Vorbis/Theora 36.7Mb)](https://dl.xamarin.com/uploads/tkps2efnyvm/packaging.ogg)

@@ -115,7 +115,7 @@ MonoDevelop 1.0 Release Candidate 1 has been released. This new release includes
 
 ### MonoDevelop goes to MacOS X
 
-The recently updated Mono 1.2.6 package for MacOS X contains [Imendio's Native Gtk+ for OSX](http://developer.imendio.com/projects/gtk-macosx), Gtk# and MonoDevelop with Mac support. It is now available from Mono's [downloads](http://www.go-mono.com/mono-downloads/download.html) page.
+The recently updated Mono 1.2.6 package for MacOS X contains [Imendio's Native Gtk+ for OSX](http://developer.imendio.com/projects/gtk-macosx), Gtk# and MonoDevelop with Mac support. It is now available from Mono's [downloads](/download/) page.
 
 *February 14, 2008*
 
