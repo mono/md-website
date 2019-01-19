@@ -16,7 +16,7 @@ Linux
 
 MonoDevelop requires the following packages (or newer versions):
 
--   Mono 3.0.4
+-   Mono 5.10
 -   Mono.Addins 0.6
 -   Gtk# 2.12.45
 -   monodoc 1.0
@@ -131,7 +131,7 @@ To build the app package, navigate to the macOS build directory:
 
     cd main/build/MacOSX
 
-From here, build the MonoDevelop.app or a zipped version using `make MonoDevelop.app` or `make MonoDevelop.app.zip` respectively. You can then build the .dmg using the `./make-dmg-bundle.sh` script. To include addins from extras, manually copy their build directories into the MonoDevelop.app directory, e.g.
+From here, build the MonoDevelop.app using `make app`. You can then build the .dmg using the `./make-dmg-bundle.sh` script. To include addins from extras, manually copy their build directories into the MonoDevelop.app directory, e.g.
 
     cp -r ../../../extras/MonoDevelop.AspNet.Mvc/build/* MonoDevelop.app/Contents/MacOS/lib/monodevelop/AddIns/MonoDevelop.AspNet.Mvc/
 
