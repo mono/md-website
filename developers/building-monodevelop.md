@@ -158,13 +158,13 @@ Install the latest Mono MDK (2.10.6 at the time of writing) and git. Then run th
     cd monodevelop
     ./configure --profile=mac
     make
-    cd main/build/MacOSX && make MonoDevelop.app && open MonoDevelop.app
+    cd main/build/MacOSX && make app && open MonoDevelop.app
 
 To update, run the following commands in the `monodevelop` directory:
 
     git pull
     make
-    cd main/build/MacOSX && make MonoDevelop.app && open MonoDevelop.app
+    cd main/build/MacOSX && make app && open MonoDevelop.app
 
 Windows
 -------
