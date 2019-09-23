@@ -273,10 +273,10 @@ The `OnLoad()` implementation of the `Project` class loads the project informati
 1. It loads the project file using an `MSBuildProject` instance. The project file is parsed and evaluated following the MSBuild rules.
 2. `OnReadProjectHeader()` is invoked. This method is in charge of loading the core properties of the project, which need to be resolved before loading all the other content.
 3. `OnReadProject()` is invoked, which loads the content of the project. This is done by invoking some other methods:
-    * `OnCreateProjectItem()` is invoked for each MSBuild item. This method returns an instance of `ProjectItem` (or a subclass).
-    * `ProjectItem.Read()` is invoked on each project item. This method loads the data of the item into the `ProjectItem` instance. After that, the item is added to the list of items of the project.
-    * `OnCreateConfiguration()` is invoked for each MSBuild property group that is identified as the definition of a configuration. This method returns an instance of ProjectConfiguration (or a subclass).
-    * `OnReadConfiguration()` is invoked for each configuration. The default implementation invokes the `ProjectConfiguration.Read()` method.
+   * `OnCreateProjectItem()` is invoked for each MSBuild item. This method returns an instance of `ProjectItem` (or a subclass).
+   * `ProjectItem.Read()` is invoked on each project item. This method loads the data of the item into the `ProjectItem` instance. After that, the item is added to the list of items of the project.
+   * `OnCreateConfiguration()` is invoked for each MSBuild property group that is identified as the definition of a configuration. This method returns an instance of ProjectConfiguration (or a subclass).
+   * `OnReadConfiguration()` is invoked for each configuration. The default implementation invokes the `ProjectConfiguration.Read()` method.
 
 The `OnSave()` implementation of the `Project` class loads the project information following this sequence:
 
@@ -386,7 +386,7 @@ Those attributes can be used in any subclass of the following classes:
 * ProjectItem
 * SolutionExtension (when SolutionDataSectionAttribute is applied to the type)
 
-### Solution Serialization
+### Solution Serialization
 
 Solution serialization behavior can be customized by implemnting a `SolutionExtension` subclass and overriding `OnReadSolution` and `OnWriteSolution`. The provided `SlnFile` instance can be used to read and write data to the solution file.
 
