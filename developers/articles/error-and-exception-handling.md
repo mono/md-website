@@ -68,6 +68,7 @@ for example:
 ``` csharp
 LoggingService.LogInternalError ("Something failed", exception);
 ```
+
 ### When to report exceptions to the user
 
 Short answer: never. The user should never see exception traces. Any operation

@@ -79,8 +79,8 @@ Although addins that do not follow these rules cannot be accepted into the MonoD
 
 ### Working on the Website
 
-We are always looking for help with development of the MonoDevelop website. If you're interested, please check out the 
-website's [GitHub repository.](https://github.com/mono/md-website) Currently, we are looking for support with 
+We are always looking for help with development of the MonoDevelop website. If you're interested, please check out the
+website's [GitHub repository.](https://github.com/mono/md-website) Currently, we are looking for support with
 the following:
 
 -   Tutorials

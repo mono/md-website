@@ -25,7 +25,7 @@ Open a terminal in the top-level MonoDevelop directory, and run
 [OS specific instruction](https://www.monodevelop.com/developers/building-monodevelop/)
 
 ``` bash
-./configure 
+./configure
 ```
 
 It may fail because of missing dependencies; install them, and re-run the command.

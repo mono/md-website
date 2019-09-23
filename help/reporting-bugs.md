@@ -6,7 +6,6 @@ redirect_from:
   - /Bugs/
 ---
 
-
 Before reporting a bug follow the steps below:
 1.  Ensure the bug you are reporting hasn't already been fixed. Install the latest version of MonoDevelop using the "Current Development" instructions on the download page.
 2.  Review the [open MonoDevelop bugs](https://bugzilla.xamarin.com/describecomponents.cgi?product=Xamarin%20Studio) and make sure that your bug hasn't been submitted already.

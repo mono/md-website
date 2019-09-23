@@ -9,12 +9,14 @@ title: Creating a simple project template
 Custom project templates in Visual Studio for Mac can be installed as IDE extensions, so in order to start you first have to have the AddinMaker extension installed first. By doing this a new category called "Ide extensions" will appear under the new project window (File => new solution)
 
 In order to install the AddinMaker extension:
+
 1. Open the extensions window from (Visual Studio Community menu => extensions)
 2. Open the Gallery tab & search for the "AddinMaker" extension & install it
 
 **B. Creating the project template solution**
 
 To get started, you will need to create an ide extension project. You can make one by following the following steps:
+
 1. Open the new solution window
 2. Choose IDE extension & click next
 3. Choose a project name (for this guide we use MyAwesomeTemplate, but you can replace that with any name)
@@ -22,31 +24,31 @@ To get started, you will need to create an ide extension project. You can make o
 **C. Adding a project template file**
 
 Project file templates are made using the Project template option from the new file menu.
-To get started create a Templates folder & add a new Project file template named "MyAwesomeTemplate" or any other name. 
+To get started create a Templates folder & add a new Project file template named "MyAwesomeTemplate" or any other name.
 You will find the project file template in the Add-in category of the new file window.
 By default you will get something like this:
 
-```
+```xml
 <?xml version="1.0"?>
 <Template>
-	<TemplateConfiguration>
-		<_Name>MyAwesomeTemplate</_Name>
-	</TemplateConfiguration>
-	<Actions>
-	</Actions>
-	<Combine name="MyProjectTemplateTutorial" directory=".">
-		<Options>
-			<StartupProject>MyProjectTemplateTutorial</StartupProject>
-		</Options>
-		<Project name="MyProjectTemplateTutorial" directory=".">
-			<References>
-			</References>
-			<Packages>
-			</Packages>
-			<Files>
-			</Files>
-		</Project>
-	</Combine>
+    <TemplateConfiguration>
+        <_Name>MyAwesomeTemplate</_Name>
+    </TemplateConfiguration>
+    <Actions>
+    </Actions>
+    <Combine name="MyProjectTemplateTutorial" directory=".">
+        <Options>
+            <StartupProject>MyProjectTemplateTutorial</StartupProject>
+        </Options>
+        <Project name="MyProjectTemplateTutorial" directory=".">
+            <References>
+            </References>
+            <Packages>
+            </Packages>
+            <Files>
+            </Files>
+        </Project>
+    </Combine>
 </Template>
 ```
 
@@ -54,27 +56,29 @@ By default you will get something like this:
 
 Before running this project, you first have to add a reference to this template in the Manifest.addin.xml. Open up your Manifest.addin.xml & replace the contents with the following code:
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <ExtensionModel>
-	<Extension path="/MonoDevelop/Ide/ProjectTemplates">
+    <Extension path="/MonoDevelop/Ide/ProjectTemplates">
         <ProjectTemplate id="MyAwesomeTemplate" file="Templates/MyAwesomeTemplate.xpt.xml" />
     </Extension>
 </ExtensionModel>
 ```
 
 Next, add a category as well as a language in the TemplateConfiguration section of your project template file:
-```
+
+```xml
 <?xml version="1.0"?>
 <Template>
-	<TemplateConfiguration>
-		<_Name>MyAwesomeTemplate</_Name>
-		<Category>other/net/general</Category>
-		<LanguageName>C#</LanguageName>
-	</TemplateConfiguration>
-	...
+    <TemplateConfiguration>
+        <_Name>MyAwesomeTemplate</_Name>
+        <Category>other/net/general</Category>
+        <LanguageName>C#</LanguageName>
+    </TemplateConfiguration>
+    ...
 </Template>
 ```
+
 In this example we assume that the template should appear under the other/net/general category.
 For detailed info about project template setup, you can refer to the [project templates](/developers/articles/project-templates/) article.
 
@@ -87,7 +91,7 @@ If you now run the project you will see your template name appear appear under o
 Until now the project template was empty. In order to create a complete project template however, we need to be able to add refrences, packages etc.
 The following example shows how this can be done:
 
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Template>
     ...
@@ -113,7 +117,7 @@ The following example shows how this can be done:
 
 In order for this example to work, you also need to create the actual HomeController.cs.txt. For this demo you can use the followning code (Templates/HomeController.cs.txt):
 
-```
+```csharp
 using System;
 
 namespace ${RootNamespace}

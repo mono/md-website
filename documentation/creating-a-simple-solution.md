@@ -108,14 +108,17 @@ Building Solution MyApplication
       Performing main compilation...
       Build complete -- 0 errors, 0 warnings
 ```
+
 As of MonoDevelop version 6, it is being distributed as a FlatPak archive. Thus the correct command line to build a Solution, provided you are in the directory of the solution, would be:
 
 ``` bash
 flatpak run --command=/app/bin/xbuild com.xamarin.MonoDevelop
 ```
+
 if you want to specify which Configuration (Debug or Release, or others if configured) is to be built, you can specify the /p:Configuration command line switch like this:
 
 ``` bash
 flatpak run --command=/app/bin/xbuild com.xamarin.MonoDevelop /p:Configuration=Release
 ```
+
 For further information, run xbuild with the /help command line option.

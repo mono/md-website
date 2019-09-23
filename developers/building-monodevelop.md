@@ -85,7 +85,6 @@ First you will need Xcode installed. If you have Xcode 4.3 or later, you will ne
 
 **NOTE: Please ensure that you have the very latest Mono MDK.**
 
-
 Check out MD, configure using the Mac profile:
 
     git clone git://github.com/mono/monodevelop.git
@@ -93,7 +92,6 @@ Check out MD, configure using the Mac profile:
     ./configure --profile=mac
     make
     make run
-
 
 **NOTE:** DO NOT use *configure --select* on Mac - the Mac profile passes adds required arguments to the configuration of *main*.  Instead edit *profiles/mac* manually to add any additional modules.
 
@@ -106,14 +104,12 @@ Check out MD, configure using the Mac profile:
        export ACLOCAL_FLAGS="-I /Library/Frameworks/Mono.framework/Versions/Current/share/aclocal"
 
    Comment: this did not appear necessary
-   
+
 2. Add the GTK+ libraries' location to the Mac dynamic loader path:
 
        export DYLD_FALLBACK_LIBRARY_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib:/lib:/usr/lib
 
    Comment: this did not appear necessary
-
-
 
 #### Building extras
 

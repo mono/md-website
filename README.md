@@ -4,7 +4,8 @@ MonoDevelop Website [![Build Status](https://travis-ci.org/mono/md-website.svg)]
 This repository contains the files used for generating the [MonoDevelop website](http://www.monodevelop.com).
 
 ## Architecture
-The site is made with [Jekyll](http://jekyllrb.com), an open source static site generator. GitHub Pages, where the site is hosted, natively supports Jekyll so every time someone pushes to this repository, the website will be built and updated. 
+
+The site is made with [Jekyll](http://jekyllrb.com), an open source static site generator. GitHub Pages, where the site is hosted, natively supports Jekyll so every time someone pushes to this repository, the website will be built and updated.
 
 For hosting it yourself, see [Setting up a local copy of the website](#setting-up-a-local-copy-of-the-website).
 
