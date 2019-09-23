@@ -54,7 +54,7 @@ This file describes the content of an add-in. It is an XML file with four sectio
 
 Here is a more detailed description of each section:
 
-### Header
+### The Header
 
 The header is the AddIn root element of the xml file. The most important attributes are the following:
 
