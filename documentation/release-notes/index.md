@@ -9,7 +9,7 @@ In this section you will find the release notes for all published MonoDevelop re
 MonoDevelop 7.x and later
 -------------------------
 
-Check the release notes for [Visual Studio for Mac](http://developer.xamarin.com/releases/vs-mac/).
+Check the release notes for [Visual Studio for Mac](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes?view=vsmac-2019).
 
 Note that those docs may include features that are only available with a Visual Studio license, such as improvements to the Xamarin iOS/Android plugins.
 
