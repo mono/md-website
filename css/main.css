@@ -21,12 +21,12 @@ code {
   margin-bottom: 20px;
 }
 
-button, .button {
-  background: #007EA8;
+button, .button {
+  background-color: #007EA8;
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
-  background: #006385;
+  background-color: #006385;
 }
 
 #header {
