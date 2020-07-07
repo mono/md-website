@@ -21,6 +21,14 @@ code {
   margin-bottom: 20px;
 }
 
+button, .button {
+  background: #007EA8;
+}
+
+button:hover, button:focus, .button:hover, .button:focus {
+  background: #006385;
+}
+
 #header {
   border-bottom: 5px solid #333;
   background: rgb(57,57,84); /* Old browsers */
@@ -62,7 +70,7 @@ code {
 
 footer {
   background-color: #EBEBEB;
-  color: #707070;
+  color: #696969;
   border-top: 1px solid #D9D8D7;
   margin-top: 50px;
 }
@@ -108,6 +116,14 @@ footer {
 .top-bar-section li:not(.has-form) a:not(.button),
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   line-height: 30px;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+  background: #007EA8;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+  background: #006385;
 }
 
 .top-bar-section .has-dropdown > a:after {
