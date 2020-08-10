@@ -2684,8 +2684,8 @@ redirect_from:
         </tr>
     </tbody>
     <tbody>
-        \r\n
-        <tr>\r\n<td>\r\n<a rel="custom nofollow" href="/archived/developers/tasks/build-and-distribution/error-reporting/">Error Reporting</a></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td>  </tr>
+        
+        <tr><td><a rel="custom nofollow" href="/archived/developers/tasks/build-and-distribution/error-reporting/">Error Reporting</a></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td>  </tr>
         <tr class="edit-form" id="_task_e_ErrorReporting.CrashHandler">
             <td> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/build-and-distribution/error-reporting/">Crash handler that can upload logs</a></li> </ul> </td>
             <td class="task-status-Pending" style="font-size: smaller;">Pending</td>
