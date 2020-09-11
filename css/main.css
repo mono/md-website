@@ -76,9 +76,18 @@ footer {
 }
 
 #footer-content {
-  padding-top: 40px;
+  padding-top: 25px;
   padding-left: 10px;
   height: 90px;
+}
+
+#footer-notes {
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+#footer-notes a {
+  color: #6A6A6A;
 }
 
 /* ### ### */

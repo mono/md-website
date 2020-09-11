@@ -14,9 +14,8 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="stylesheet" href="/css/main.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
-    <link rel="stylesheet" href="https://uhf.microsoft.com/mscc/statics/mscc-0.4.0.min.css" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
-    <script src="https://uhf.microsoft.com/mscc/statics/mscc-0.4.0.min.js"></script>
+    <script src="https://consentdeliveryfd.azurefd.net/mscc/lib/v2/wcp-consent.js"></script>
     <script>
       // redirect to the real domain in case someone visits the GitHub Pages domain
       if (window.location.hostname === 'mono.github.io') {
@@ -26,7 +25,7 @@
   </head>
   <body>
     <div id="header" class="contain-to-grid">
-      <div id="msccBanner" dir="ltr" data-site-name="Mono Develop" data-mscc-version="0.4.0" class="cc-banner" role="alert"><div class="cc-container"><svg class="cc-icon cc-v-center" x="0px" y="0px" viewBox="0 0 44 44" height="30px" fill="none" stroke="currentColor"><circle cx="22" cy="22" r="20" stroke-width="2"></circle><line x1="22" x2="22" y1="18" y2="33" stroke-width="3"></line><line x1="22" x2="22" y1="12" y2="15" stroke-width="3"></line></svg> <span class="cc-v-center cc-text">This site uses cookies for analytics. By continuing to browse this site, you agree to this use.</span> <a href="https://go.microsoft.com/fwlink/?linkid=845480" aria-label="Learn more about Microsoft's Cookie Policy" id="msccLearnMore" class="cc-link cc-v-center cc-float-right" data-mscc-ic="false">Learn more</a></div></div>
+      <div id="cookie-banner"></div>
 
       <nav class="top-bar" role="navigation" data-topbar>
         <ul class="title-area">
@@ -90,6 +89,10 @@
       <div class="row">
         <div id="footer-content">
           <strong>&copy; {{site.time | date: '%Y'}} MonoDevelop Project</strong>
+          <br/>
+          <div id="footer-notes">
+            <a id="manageConsentButton">Change cookie preferences</a>
+          </div>
         </div>
       </div>
     </footer>
@@ -115,6 +118,31 @@
           type: 'image'
         });
       });
+
+      // init cookie banner
+      function onConsentChanged(categoryPreferences) {
+        console.log("onConsentChanged", categoryPreferences);
+      }
+      function manageConsent() {
+        if (siteConsent.isConsentRequired) {
+            siteConsent.manageConsent();
+        }
+      }
+      window.WcpConsent && WcpConsent.init("en-US", "cookie-banner", function (err, _siteConsent) {
+        if (!err) {
+          siteConsent = _siteConsent;  // siteConsent is used to get the current consent
+
+          // attach manage consent functionality
+          var manageConsentButton = document.getElementById("manageConsentButton");
+          if (siteConsent.isConsentRequired) {
+            manageConsentButton.addEventListener('click', manageConsent);
+          } else {
+            manageConsentButton.style.display = "none";
+          }
+        } else {
+          console.log("Error initializing WcpConsent: "+ err);
+        }
+      }, onConsentChanged, WcpConsent.themes.light);
     </script>
   </body>
   <!--  GitHub revision:  {{ site.github.build_revision }}
