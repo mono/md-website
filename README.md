@@ -1,5 +1,5 @@
-MonoDevelop Website [![Build Status](https://travis-ci.org/mono/md-website.svg)](https://travis-ci.org/mono/md-website)
-=======================================================================================================================
+MonoDevelop Website ![build](https://github.com/mono/md-website/workflows/build/badge.svg)
+==========================================================================================
 
 This repository contains the files used for generating the [MonoDevelop website](http://www.monodevelop.com).
 
