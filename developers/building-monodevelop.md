@@ -87,7 +87,7 @@ First you will need Xcode installed. If you have Xcode 4.3 or later, you will ne
 
 Check out MD, configure using the Mac profile:
 
-    git clone git://github.com/mono/monodevelop.git
+    git clone https://github.com/mono/monodevelop.git
     pushd monodevelop
     ./configure --profile=mac
     make
@@ -150,7 +150,7 @@ Install the latest Mono MDK (2.10.6 at the time of writing) and git. Then run th
     export PATH="/Library/Frameworks/Mono.framework/Versions/Current/bin:$PATH"
     export ACLOCAL_FLAGS="-I /Library/Frameworks/Mono.framework/Versions/Current/share/aclocal"
     export DYLD_FALLBACK_LIBRARY_PATH=/Library/Frameworks/Mono.framework/Versions/Current/lib:/lib:/usr/lib
-    git clone git://github.com/mono/monodevelop.git
+    git clone https://github.com/mono/monodevelop.git
     cd monodevelop
     ./configure --profile=mac
     make
