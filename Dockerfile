@@ -1,6 +1,6 @@
 # Run a development container like this: "docker build -t md-website $(pwd) && docker run -it -p 4000:4000 -v $(pwd):/repo md-website"
 
-FROM ruby
+FROM ruby:2
 
 ENV LANG=C.UTF-8
 EXPOSE 4000

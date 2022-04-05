@@ -7,14 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title>{{ page.title }} | MonoDevelop</title>
     <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/normalize.min.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/foundation.min.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/github.min.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/magnific-popup.css" />
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans" />
-    <link rel="stylesheet" href="/css/main.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+    <link rel="stylesheet" href="/assets/normalize.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <link rel="stylesheet" href="/assets/foundation.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <link rel="stylesheet" href="/assets/github.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <link rel="stylesheet" href="/assets/magnific-popup.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+
+    <link rel="stylesheet" href="/assets/fontawesome/css/solid.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <link rel="stylesheet" href="/assets/fontawesome/css/brands.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+
+    <link rel="stylesheet" href="/assets/main.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <script src="/assets/modernizr.min.js?version={{site.time | date_to_xmlschema | cgi_escape}}"></script>
     <script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
     <script>
       // redirect to the real domain in case someone visits the GitHub Pages domain
@@ -37,31 +40,31 @@
 
         <section class="top-bar-section">
           <ul class="right">
-            <li {% if page.navgroup == "home" or layout.navgroup == "home" %}class="active"{% endif %}><a href="/"><i class="fa fa-home"></i> Home</a></li>
+            <li {% if page.navgroup == "home" or layout.navgroup == "home" %}class="active"{% endif %}><a href="/"><i class="fas fa-home"></i> Home</a></li>
             <li {% if page.navgroup == "screenshots" or layout.navgroup == "screenshots" %}class="active"{% endif %}>
               <a href="/screenshots/">
-                <div class="hide-for-medium-only"><i class="fa fa-image"></i> Screenshots</div>
-                <div class="show-for-medium-only"><i class="fa fa-image"></i> Screens</div>
+                <div class="hide-for-medium-only"><i class="fas fa-image"></i> Screenshots</div>
+                <div class="show-for-medium-only"><i class="fas fa-image"></i> Screens</div>
               </a>
             </li>
-            <li {% if page.navgroup == "download" or layout.navgroup == "download" %}class="active"{% endif %}><a href="/download/"><i class="fa fa-download"></i> Download</a></li>
-            <li {% if page.navgroup == "help" or layout.navgroup == "help" %}class="active"{% endif %}><a href="/help/"><i class="fa fa-question"></i> Help</a></li>
+            <li {% if page.navgroup == "download" or layout.navgroup == "download" %}class="active"{% endif %}><a href="/download/"><i class="fas fa-download"></i> Download</a></li>
+            <li {% if page.navgroup == "help" or layout.navgroup == "help" %}class="active"{% endif %}><a href="/help/"><i class="fas fa-question"></i> Help</a></li>
             <li {% if page.navgroup == "documentation" or layout.navgroup == "documentation" %}class="active"{% endif %}>
               <a href="/documentation/">
-                <div class="hide-for-medium-only"><i class="fa fa-book"></i> Documentation</div>
-                <div class="show-for-medium-only"><i class="fa fa-book"></i> Docs</div>
+                <div class="hide-for-medium-only"><i class="fas fa-book"></i> Documentation</div>
+                <div class="show-for-medium-only"><i class="fas fa-book"></i> Docs</div>
               </a>
             </li>
             <li {% if page.navgroup == "developers" or layout.navgroup == "developers" %}class="active"{% endif %}>
               <a href="/developers/">
-                <div class="hide-for-medium-only"><i class="fa fa-code"></i> Development</div>
-                <div class="show-for-medium-only"><i class="fa fa-code"></i> Dev</div>
+                <div class="hide-for-medium-only"><i class="fas fa-code"></i> Development</div>
+                <div class="show-for-medium-only"><i class="fas fa-code"></i> Dev</div>
               </a>
             </li>
             <li class="has-dropdown">
               <a title="Search" href="#">
-                <div class="hide-for-small"><i class="fa fa-search"></i></div>
-                <div class="hide-for-medium-up"><i class="fa fa-search"></i> Search</div>
+                <div class="hide-for-small"><i class="fas fa-search"></i></div>
+                <div class="hide-for-medium-up"><i class="fas fa-search"></i> Search</div>
               </a>
                 <ul class="dropdown">
                    <li class="has-form">
@@ -97,10 +100,10 @@
       </div>
     </footer>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/js/foundation.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/0.9.9/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/jquery.min.js?version={{site.time | date_to_xmlschema | cgi_escape}}"></script>
+    <script src="/assets/foundation.min.js?version={{site.time | date_to_xmlschema | cgi_escape}}"></script>
+    <script src="/assets/highlight.min.js?version={{site.time | date_to_xmlschema | cgi_escape}}"></script>
+    <script src="/assets/jquery.magnific-popup.min.js?version={{site.time | date_to_xmlschema | cgi_escape}}"></script>
 
     <script>
       // allow sub pages to run custom code
