@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/assets/normalize.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
     <link rel="stylesheet" href="/assets/foundation.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
-    <link rel="stylesheet" href="/assets/highlightjs/default.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
+    <link rel="stylesheet" href="/assets/highlightjs/a11y-dark.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
     <link rel="stylesheet" href="/assets/magnific-popup.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
 
     <link rel="stylesheet" href="/assets/fontawesome/css/solid.min.css?version={{site.time | date_to_xmlschema | cgi_escape}}" />
@@ -61,19 +61,10 @@
                 <div class="show-for-medium-only"><i class="fas fa-code"></i> Dev</div>
               </a>
             </li>
-            <li class="has-dropdown">
-              <a title="Search" href="#">
-                <div class="hide-for-small"><i class="fas fa-search"></i></div>
-                <div class="hide-for-medium-up"><i class="fas fa-search"></i> Search</div>
+            <li>
+              <a id="search_icon" title="Search" href="https://www.google.com/search?as_sitesearch=www.monodevelop.com">
+                <div><i class="fas fa-search"></i> Search</div>
               </a>
-                <ul class="dropdown">
-                   <li class="has-form">
-                    <form id="header-searchform" action="https://www.google.com/search" method="get">
-                          <input name="as_sitesearch" type="hidden" value="www.monodevelop.com" />
-                          <input name="q" type="text" title="Search" placeholder="Search..." />
-                    </form>
-                  </li>
-                </ul>
             </li>
           </ul>
         </section>
@@ -112,7 +103,7 @@
       }
 
       $(document).foundation();
-      hljs.initHighlightingOnLoad();
+      hljs.highlightAll();
       $(document).ready(function() {
 
         $('.image-link').magnificPopup({

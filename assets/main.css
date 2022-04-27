@@ -22,7 +22,7 @@ code {
 }
 
 button, .button {
-  background-color: #007EA8;
+  background-color: #00779f;
 }
 
 button:hover, button:focus, .button:hover, .button:focus {
@@ -30,7 +30,7 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 a {
-  color: #007EA8;
+  color: #00779f;
 }
 
 a:hover, a:focus {
@@ -256,7 +256,7 @@ footer {
 /* --- Blog post --- */
 .meta {
   margin-left: 2px;
-  color: #999;
+  color: #747474;
   margin-bottom: 20px;
 }
 
@@ -280,7 +280,7 @@ footer {
 }
 
 .meta a {
-  color: #999
+  color: #747474
 }
 /* --- --- */
 
