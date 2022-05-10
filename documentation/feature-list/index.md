@@ -9,28 +9,28 @@ The following matrix shows which features are available for each platform. MonoD
 
 | **Feature**              | **Linux**                              | **Mac**                                 | **Windows**                             |
 |--------------------------|----------------------------------------|-----------------------------------------|-----------------------------------------|
-| F#                       | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| C#                       | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| Visual Basic             | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| Java (IKVM)              | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
-| Boo                      | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
-| Python                   | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
-| Vala                     | <span style="color: green;">Yes</span> | <span style="color: red;">No</span>     | <span style="color: red;">No</span>     |
-| ASP.NET Project          | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| ASP.NET MVC Project      | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| Translation Project      | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: red;">No</span>     |
-| iPhone Project           | <span style="color: red;">No</span>    | <span style="color: green;">Yes</span>  | <span style="color: red;">No</span>     |
-| Moonlight Project        | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| Gtk# designer            | <span style="color: green;">Yes</span> | <span style="color: green; ">Yes</span> | <span style="color: green;">Yes</span>  |
-| Generation of Makefiles  | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: red;">No</span>     |
-| Generation of Tarballs   | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: red;">No</span>     |
-| Makefile Synchronization | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: red;">No</span>     |
-| Database Explorer        | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: red;">No</span>     |
-| NUnit add-in             | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| Subversion add-in        | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| Help Browser (Monodoc)   | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| Debugging (managed)      | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes</span>  |
-| ASP.NET Debugging        | <span style="color: green;">Yes</span> | <span style="color: green;">Yes</span>  | <span style="color: green;">Yes </span> |
+| F#                       | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| C#                       | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| Visual Basic             | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| Java (IKVM)              | <span style="color: #008000;">Yes</span> | <span style="color: #e50000;">No</span>   | <span style="color: #e50000;">No</span>   |
+| Boo                      | <span style="color: #008000;">Yes</span> | <span style="color: #e50000;">No</span>   | <span style="color: #e50000;">No</span>   |
+| Python                   | <span style="color: #008000;">Yes</span> | <span style="color: #e50000;">No</span>   | <span style="color: #e50000;">No</span>   |
+| Vala                     | <span style="color: #008000;">Yes</span> | <span style="color: #e50000;">No</span>   | <span style="color: #e50000;">No</span>   |
+| ASP.NET Project          | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| ASP.NET MVC Project      | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| Translation Project      | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #e50000;">No</span>   |
+| iPhone Project           | <span style="color: #e50000;">No</span>  | <span style="color: #008000;">Yes</span>  | <span style="color: #e50000;">No</span>   |
+| Moonlight Project        | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| Gtk# designer            | <span style="color: #008000;">Yes</span> | <span style="color: #008000; ">Yes</span> | <span style="color: #008000;">Yes</span>  |
+| Generation of Makefiles  | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #e50000;">No</span>   |
+| Generation of Tarballs   | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #e50000;">No</span>   |
+| Makefile Synchronization | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #e50000;">No</span>   |
+| Database Explorer        | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #e50000;">No</span>   |
+| NUnit add-in             | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| Subversion add-in        | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| Help Browser (Monodoc)   | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| Debugging (managed)      | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes</span>  |
+| ASP.NET Debugging        | <span style="color: #008000;">Yes</span> | <span style="color: #008000;">Yes</span>  | <span style="color: #008000;">Yes </span> |
 
 IDE Workbench
 -------------
