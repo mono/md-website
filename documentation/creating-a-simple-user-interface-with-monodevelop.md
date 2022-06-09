@@ -5,6 +5,6 @@ redirect_from:
   - /Creating_a_simple_user_interface_with_MonoDevelop/
 ---
 
-This screencast shows how to use MonoDevelop and the integrated Gtk# designer to create an application with a simple user interface.
+This screencast shows how to use MonoDevelop and the integrated Gtk# designer to create an application with a simple user interface:
 
-<iframe id="ytplayer" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/ZXaKK0IYTRg" frameborder="0" title="Creating a simple user interface with MonoDevelop"></iframe>
+[Creating a simple user interface with MonoDevelop (YouTube)](https://www.youtube.com/watch?v=ZXaKK0IYTRg)
