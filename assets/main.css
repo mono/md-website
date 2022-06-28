@@ -35,6 +35,15 @@ a {
 
 a:hover, a:focus {
   color: #006B8F;
+  text-decoration: underline;
+}
+
+a>i.fas, a>i.fab, a>div>i.fas, a>div>i.fab {
+  margin-right: 5px;
+}
+
+a>*i.fas:hover, a>*i.fab:hover {
+  text-decoration: underline;
 }
 
 #header {
@@ -144,6 +153,10 @@ footer {
   height: 75px;
   padding-top: 12px;
   padding-left: 10px;
+}
+
+.top-bar .name a {
+  text-decoration: none;
 }
 
 .top-bar-section > ul { 
