@@ -6,7 +6,7 @@ redirect_from:
 
 ### Building MonoDevelop
 
-<span style="color:#ff0000;">NOTE: THIS IS NOT UP TO DATE, MANY OF THE BUGS LISTED HERE HAVE BEEN FIXED IN MONODEVELOP 3.x and 4.0 (aka XAMARIN STUDIO)</span>
+<span style="color: #EB0000;">NOTE: THIS IS NOT UP TO DATE, MANY OF THE BUGS LISTED HERE HAVE BEEN FIXED IN MONODEVELOP 3.x and 4.0 (aka XAMARIN STUDIO)</span>
 
 Detailed instructions for building MonoDevelop on OS X can be found in the following articles:
 

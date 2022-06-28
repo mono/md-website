@@ -6,7 +6,7 @@ redirect_from:
   - /Developers/Obsolete_Articles/
 ---
 
-<span style="color:red">The articles in this page are outdated and are kept only as a reference.</span>
+<span style="color: #EB0000">The articles in this page are outdated and are kept only as a reference.</span>
 
 #### Version Control Add-In Brainstorming
 

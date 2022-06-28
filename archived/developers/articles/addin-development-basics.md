@@ -4,7 +4,7 @@ redirect_from:
   - /Developers/Articles/Addin_development_basics/
 ---
 
-<span style="color:#ff0000;">**For a more up to date guide, see** </span>**[<span style="color:#ff0000;">Creating a Simple Add-In</span>](/developers/articles/creating-a-simple-add-in/)**
+<span style="color: #EB0000;">**For a more up to date guide, see** </span>**[<span style="color: #EB0000;">Creating a Simple Add-In</span>](/developers/articles/creating-a-simple-add-in/)**
 
 This walkthrough will get you through the basic steps to get started developing addins for MonoDevelop. This is kept as short as possible and will only cover a very basic example.
 

@@ -6,7 +6,7 @@ redirect_from:
   - /Developers/Mac_Support/Trunk_Builds_of_the_Full_Mono//GTK//MD_Stack/
 ---
 
-<span style="color: rgb(255, 0, 0);">**NOTE: THESE INSTRUCTIONS ARE DEPRECATED**</span><span style="color: rgb(255, 0, 0);">**.**</span>
+<span style="color: #EB0000;">**NOTE: THESE INSTRUCTIONS ARE DEPRECATED**</span><span style="color: #EB0000;">**.**</span>
 
 Recently, we've been trying to make the experience for users of MonoDevelop on OS X just a bit better. Things were in a pretty sorry shape in terms of comfortableness. This is still an ongoing effort, but hopefully the automated build process we've put together below will make it just a bit easier for users to try the cutting edge which includes many features and fixes for OS X.  Namely, better gtk+ support and a working debugger.
 
