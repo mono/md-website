@@ -147,7 +147,7 @@ Does this mean that you need to define command handlers for every widget that ca
 
 The following diagram shows an example of command routes:
 
-[![routing.png](/images/386-routing.png)](/images/386-routing.png "Image:Routing.png")
+[![routing.png](/images/386-routing.png)](/images/386-routing.png "Example command routes showing the route hierarchy")
 
 Two interesting things:
 
