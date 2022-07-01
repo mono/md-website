@@ -23,26 +23,25 @@ Global tags
 
 There are a set of global tags which are defined by the IDE and which are always processed, no matter which tag model is being used:
 
-|-------------|--------------------------------------|
-| Date        | Current date (short format)          |
-| Time        | Current time (short format)          |
-| Year        | Current year                         |
-| Month       | Current month                        |
-| Day         | Current day                          |
-| Hour        | Current hour                         |
-| Minute      | Current minute                       |
-| Second      | Current second                       |
-| User        | User login name                      |
-| FilePath    | Full path of the active document     |
-| FileDir     | Directory of the active document     |
-| FileName    | Name of the active document          |
-| FileExt     | Extension of the active document     |
-| CurLine     | Cursor line in the active document   |
-| CurColumn   | Cursor column in the active document |
-| CurOffset   | Cursor offset in the active document |
-| CurText     | Selected text in the active document |
-| EditorText  | All text in the active document      |
-| StartupPath | MonoDevelop startup directory        |
+- `Date`        : Current date (short format)
+- `Time`        : Current time (short format)
+- `Year`        : Current year
+- `Month`       : Current month
+- `Day`         : Current day
+- `Hour`        : Current hour
+- `Minute`      : Current minute
+- `Second`      : Current second
+- `User`        : User login name
+- `FilePath`    : Full path of the active document
+- `FileDir`     : Directory of the active document
+- `FileName`    : Name of the active document
+- `FileExt`     : Extension of the active document
+- `CurLine`     : Cursor line in the active document  
+- `CurColumn`   : Cursor column in the active document
+- `CurOffset`   : Cursor offset in the active document
+- `CurText`     : Selected text in the active document
+- `EditorText`  : All text in the active document
+- `StartupPath` : MonoDevelop startup directory
 
 Tag value formatting
 --------------------
@@ -124,10 +123,10 @@ class SomeTagProvider: StringTagProvider<SomeObject>
 
 Some comments:
 
--   The **[Extension]** attribute must be applied to specify that this class extends and extension point
--   The base class **StringTagProvider\<T\>** is a convenient implementation of IStringTagProvider which checks the type of the provided instance and does the required type cast to call the specialized methods.
--   The **GetTags()** method must return a list of tags supported by this provider. The StringTagDescription takes the tag name and description as arguments.
--   The **GetTagValue()** method must be able to return values for each of the tags returned by GetTags().
--   The **tag name** in GetTagValue is always provided in upper case, no matter how it was specified in the parsed string.
+- The **[Extension]** attribute must be applied to specify that this class extends and extension point
+- The base class **StringTagProvider\<T\>** is a convenient implementation of IStringTagProvider which checks the type of the provided instance and does the required type cast to call the specialized methods.
+- The **GetTags()** method must return a list of tags supported by this provider. The StringTagDescription takes the tag name and description as arguments.
+- The **GetTagValue()** method must be able to return values for each of the tags returned by GetTags().
+- The **tag name** in GetTagValue is always provided in upper case, no matter how it was specified in the parsed string.
 
 The **WorkspaceItem** and **SolutionItem** classes (and all subclasses such as Solution and Project) have a GetStringTagModel() method which returns a StringTagModel for the instance. Add-ins can use IStringTagProvider implementations to provide custom tag values for those objects.

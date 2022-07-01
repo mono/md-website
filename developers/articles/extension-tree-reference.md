@@ -44,10 +44,9 @@ ASP.NET Project Support
 
 Support for ASP.NET projects, including editing, compiling, previewing and deploying to remote servers.
 
-|-----------|-------------|
-| Id        | AspNet      |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id          | Namespace         | Version |
+|-------------|-------------------|---------|
+| AspNet      | MonoDevelop       | 2.1.0   |
 
 Extension Points:
 
@@ -71,10 +70,9 @@ Debugger support for MonoDevelop
 
 Support for Debugging projects
 
-|-----------|-------------|
-| Id        | Debugger    |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id          | Namespace         | Version |
+|-------------|-------------------|---------|
+| Debugger    | MonoDevelop       | 2.1.0   |
 
 Extension Points:
 
@@ -99,10 +97,9 @@ Deployment Services Core
 
 Provides basic deployment services
 
-|-----------|-------------|
-| Id        | Deployment  |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id          | Namespace         | Version |
+|-------------|-------------------|---------|
+| Deployment  | MonoDevelop       | 2.1.0   |
 
 Extension Points:
 
@@ -317,10 +314,9 @@ Gettext Translations Support
 
 Provides support for adding/editing PO files.
 
-|-----------|-------------|
-| Id        | Gettext     |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id          | Namespace         | Version |
+|-------------|-------------------|---------|
+| Gettext     | MonoDevelop       | 2.1.0   |
 
 Extension Points:
 
@@ -458,10 +454,9 @@ Gtk# Visual Designer
 
 Provides support for visual design of Gtk# windows, dialogs and widgets.
 
-|-----------|-------------|
-| Id        | GtkCore     |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id          | Namespace         | Version |
+|-------------|-------------------|---------|
+| GtkCore     | MonoDevelop       | 2.1.0   |
 
 Extension Points:
 
@@ -667,10 +662,9 @@ HeapBuddy Profiler Add-in
 
 HeapBuddy Profiler Add-in
 
-|-----------|---------------------|
-| Id        | Profiling.HeapBuddy |
-| Namespace | MonoDevelop         |
-| Version   | 0.2.0               |
+| Id                  | Namespace         | Version |
+|---------------------|-------------------|---------|
+| Profiling.HeapBuddy | MonoDevelop       | 0.2.0   |
 
 Extension Points:
 
@@ -884,10 +878,9 @@ HeapShot Profiler Add-in
 
 HeapShot Profiler Add-in
 
-|-----------|--------------------|
-| Id        | Profiling.HeapShot |
-| Namespace | MonoDevelop        |
-| Version   | 0.2.0              |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Profiling.HeapShot | MonoDevelop        | 0.2.0   |
 
 Extension Points:
 
@@ -948,10 +941,9 @@ Makefile generation
 
 Allows generating simple makefiles and Autotools based makefiles for projects
 
-|-----------|-------------|
-| Id        | Autotools   |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Autotools          | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -991,10 +983,9 @@ MonoDevelop Database Components
 
 Database Components Module
 
-|-----------|---------------------|
-| Id        | Database.Components |
-| Namespace | MonoDevelop         |
-| Version   | 2.1.0               |
+| Id                  | Namespace          | Version |
+|---------------------|--------------------|---------|
+| Database.Components | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -1128,10 +1119,9 @@ MonoDevelop Database ConnectionManager
 
 Database ConnectionManager Module
 
-|-----------|----------------------------|
-| Id        | Database.ConnectionManager |
-| Namespace | MonoDevelop                |
-| Version   | 2.1.0                      |
+| Id                         | Namespace          | Version |
+|----------------------------|--------------------|---------|
+| Database.ConnectionManager | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -2466,10 +2456,9 @@ MonoDevelop Database Query
 
 Database Query Module
 
-|-----------|----------------|
-| Id        | Database.Query |
-| Namespace | MonoDevelop    |
-| Version   | 2.1.0          |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Database.Query     | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -2528,10 +2517,9 @@ MonoDevelop Database Sql
 
 Database Module
 
-|-----------|--------------|
-| Id        | Database.Sql |
-| Namespace | MonoDevelop  |
-| Version   | 2.1.0        |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Database.Sql       | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -2554,10 +2542,9 @@ MonoDevelop GUI for Project Services
 
 Provides GUI resources for managing MonoDevelop projects
 
-|-----------|--------------------------|
-| Id        | MonoDevelop.Projects.Gui |
-| Namespace |                         |
-| Version   | 2.1.0                    |
+| Id                       | Namespace          | Version |
+|--------------------------|--------------------|---------|
+| MonoDevelop.Projects.Gui |                    | 2.1.0   |
 
 Extension Points:
 
@@ -2581,10 +2568,9 @@ MonoDevelop Gui Services
 
 Provides basic GUI services
 
-|-----------|-------------|
-| Id        | Core.Gui    |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Core.Gui           | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -2658,10 +2644,9 @@ MonoDevelop Ide
 
 The MonoDevelop IDE application.
 
-|-----------|-------------|
-| Id        | Ide         |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Ide                | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -3608,10 +3593,9 @@ MonoDevelop Profiling Addin
 
 MonoDevelop Profiling Addin
 
-|-----------|-------------|
-| Id        | Profiling   |
-| Namespace | MonoDevelop |
-| Version   | 0.2.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Profiling          | MonoDevelop        | 0.2.0   |
 
 Extension Points:
 
@@ -3752,10 +3736,9 @@ MonoDevelop Project Services
 
 Provides support for loading and building MonoDevelop projects.
 
-|-----------|-------------|
-| Id        | Projects    |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Projects           | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -3995,10 +3978,9 @@ MonoDevelop Runtime
 
 Provides the core services of the MonoDevelop platform
 
-|-----------|-------------|
-| Id        | Core        |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| Core               | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -4103,10 +4085,9 @@ MonoDevelop Source Editor
 
 Provides a text editor for the MonoDevelop based on Mono.TextEditor
 
-|-----------|---------------|
-| Id        | SourceEditor2 |
-| Namespace | MonoDevelop   |
-| Version   | 2.0           |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| SourceEditor2      | MonoDevelop        | 2.0     |
 
 Extension Points:
 
@@ -4205,10 +4186,9 @@ MonoDevelop Source Editor 2
 
 Provides a text editor for the MonoDevelop based on Mono.TextEditor
 
-|-----------|---------------|
-| Id        | SourceEditor2 |
-| Namespace | MonoDevelop   |
-| Version   | 2.1.0         |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| SourceEditor2      | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -4410,10 +4390,9 @@ NUnit support
 
 Integrates NUnit into the MonoDevelop IDE.
 
-|-----------|-------------|
-| Id        | NUnit       |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| NUnit              | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -4754,10 +4733,9 @@ Project Web References
 
 Provides support for adding and maintianing Web References for CSharp and VB projects.
 
-|-----------|---------------|
-| Id        | WebReferences |
-| Namespace | MonoDevelop   |
-| Version   | 2.1.0         |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| WebReferences      | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -4865,10 +4843,9 @@ Vala Language Binding
 
 Vala Language binding
 
-|-----------|-------------|
-| Id        | ValaBinding |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| ValaBinding        | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -4993,10 +4970,9 @@ Version Control Support
 
 A MonoDevelop addin for using version control systems like Subversion
 
-|-----------|----------------|
-| Id        | VersionControl |
-| Namespace | MonoDevelop    |
-| Version   | 2.1.0          |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| VersionControl     | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -5059,10 +5035,9 @@ Visual Designer Support
 
 Supporting services and pads for visual design tools.
 
-|-----------|-----------------|
-| Id        | DesignerSupport |
-| Namespace | MonoDevelop     |
-| Version   | 2.1.0           |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| DesignerSupport    | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
@@ -5166,10 +5141,9 @@ XML Editor
 
 XML Editor
 
-|-----------|-------------|
-| Id        | XmlEditor   |
-| Namespace | MonoDevelop |
-| Version   | 2.1.0       |
+| Id                 | Namespace          | Version |
+|--------------------|--------------------|---------|
+| XmlEditor          | MonoDevelop        | 2.1.0   |
 
 Extension Points:
 
