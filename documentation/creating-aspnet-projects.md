@@ -16,7 +16,7 @@ Creating the Solution
 
 After opening MonoDevelop, select **New Project** from the Welcome Page or the **File** menu, to bring up the *New Solution* dialogue. From the list of project types on the left expand the *C#* category to reveal the *ASP.NET* subcategory, and select it. Now select the "Web Application" project, and specify the name and location of the new project, as shown below.
 
-[![New-AspNet-App.png](/images/360-New-AspNet-App.png)](/images/360-New-AspNet-App.png "New Solution screen with Web Application entry selected")
+![New-AspNet-App.png](/images/360-New-AspNet-App.png "New Solution screen with Web Application entry selected")
 
 ASP.NET projects are similarly available for other languages, but may not be fully supported.
 
@@ -76,7 +76,7 @@ Deploying the Project
 
 In the **Project Options**, the **Web Deployment Targets** panel allows you to define deployment targets, local or remote directories to which the application can be deployed. Remote deployment requires the sshfs FUSE filesystem.
 
-[![AspNetWebDeployNew.png](/images/359-AspNetWebDeployNew.png)](/images/359-AspNetWebDeployNew.png "Web Deployment wizard showing various options")
+![AspNetWebDeployNew.png](/images/359-AspNetWebDeployNew.png "Web Deployment wizard showing various options")
 
 After targets have been configured, the project can be deployed using the **Project**-\>**Deploy to Web...** command in the main menu, or by right-clicking on the project and selecting **Tools**-\>**Deploy to Web...**.
 
