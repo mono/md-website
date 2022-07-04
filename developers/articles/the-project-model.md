@@ -273,17 +273,17 @@ The `OnLoad()` implementation of the `Project` class loads the project informati
 1. It loads the project file using an `MSBuildProject` instance. The project file is parsed and evaluated following the MSBuild rules.
 2. `OnReadProjectHeader()` is invoked. This method is in charge of loading the core properties of the project, which need to be resolved before loading all the other content.
 3. `OnReadProject()` is invoked, which loads the content of the project. This is done by invoking some other methods:
-   * `OnCreateProjectItem()` is invoked for each MSBuild item. This method returns an instance of `ProjectItem` (or a subclass).
-   * `ProjectItem.Read()` is invoked on each project item. This method loads the data of the item into the `ProjectItem` instance. After that, the item is added to the list of items of the project.
-   * `OnCreateConfiguration()` is invoked for each MSBuild property group that is identified as the definition of a configuration. This method returns an instance of ProjectConfiguration (or a subclass).
-   * `OnReadConfiguration()` is invoked for each configuration. The default implementation invokes the `ProjectConfiguration.Read()` method.
+    * `OnCreateProjectItem()` is invoked for each MSBuild item. This method returns an instance of `ProjectItem` (or a subclass).
+    * `ProjectItem.Read()` is invoked on each project item. This method loads the data of the item into the `ProjectItem` instance. After that, the item is added to the list of items of the project.
+    * `OnCreateConfiguration()` is invoked for each MSBuild property group that is identified as the definition of a configuration. This method returns an instance of ProjectConfiguration (or a subclass).
+    * `OnReadConfiguration()` is invoked for each configuration. The default implementation invokes the `ProjectConfiguration.Read()` method.
 
 The `OnSave()` implementation of the `Project` class loads the project information following this sequence:
 
 1. `OnWriteProjectHeader()` is invoked. This method is in charge of storing the core properties of the project into the main property group of the MSBuildProject instance.
 2. `OnWriteProject()` is invoked. This method stores the content of the project into the MSBuildProject instance, following this sequence:
-   * `OnWriteConfiguration()` is invoked for each project configuration. This method stores the configuration data into the corresponding MSBuild property group. The default implementation invokes `ProjectConfiguration.Write()`.
-   * `ProjectItem.Write()` is invoked for each project item. This method stores the item data into the corresponding MSBuild item.
+    * `OnWriteConfiguration()` is invoked for each project configuration. This method stores the configuration data into the corresponding MSBuild property group. The default implementation invokes `ProjectConfiguration.Write()`.
+    * `ProjectItem.Write()` is invoked for each project item. This method stores the item data into the corresponding MSBuild item.
 3. The `MSBuildProject` instance, with all the updated information, is saved to disk.
 
 ### Custom Property Serialization

@@ -36,7 +36,7 @@ There are a set of global tags which are defined by the IDE and which are always
 - `FileDir`     : Directory of the active document
 - `FileName`    : Name of the active document
 - `FileExt`     : Extension of the active document
-- `CurLine`     : Cursor line in the active document  
+- `CurLine`     : Cursor line in the active document
 - `CurColumn`   : Cursor column in the active document
 - `CurOffset`   : Cursor offset in the active document
 - `CurText`     : Selected text in the active document
