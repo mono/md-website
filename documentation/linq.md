@@ -13,7 +13,7 @@ MonoDevelop [Database Addin](/documentation/database-addin/) implements SqlMeta
 
 ![AddinManager.png](/images/271-AddinManager.png)
 
- How to Use it
+How to Use it
 --------------
 
 This addin insert 2 **Tools menu** at:

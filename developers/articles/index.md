@@ -19,10 +19,10 @@ Building MonoDevelop
 It's relatively easy to get started working on MonoDevelop, but this article aims to make it easier to get off the ground.
 
 [Environment Variables](/developers/articles/environment-variables/)<br/>
-An in-depth explanation of all environment variables that can be altered in order to simplify the development of MonoDevelop. 
+An in-depth explanation of all environment variables that can be altered in order to simplify the development of MonoDevelop.
 
 [Building MonoDevelop from source](/developers/building-monodevelop/)<br/>
-Basic steps for building MonoDevelop. 
+Basic steps for building MonoDevelop.
 
 Writing Add-ins
 ---------------

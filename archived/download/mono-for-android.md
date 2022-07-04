@@ -23,5 +23,3 @@ It can also be obtained from the **beta channel** in the MonoDevelop Updater.
 #### Updating the Addin
 
 In general, the *MonoDevelop Updater* appears automatically when updates are available. However, to get updates for the beta **you will have to set the update level to beta**. Open the updater using the *Help-\>Check for Updates* window, and set the update level combo box to "beta". You will then be offered any available updates to the MonoDevelop beta.
-
-

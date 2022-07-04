@@ -14,4 +14,3 @@ redirect_from:
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-High" style="font-size: x-small;">High</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Provide support for creating and compiling IronPython projects, with support for code completion, and a REPL pad.
-

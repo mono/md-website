@@ -28,5 +28,3 @@ Should not take longer than 2-3 days to implement.
 Side effects: All parts that use the refactoring commands need to be changed. This will affect for example the implement & override members dialog.
 
  [Proposals](http://www.monodevelop.com/Proposals)
-
-

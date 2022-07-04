@@ -27,5 +27,3 @@ Simple support for picking a DB from the DB addin, then automatically creating/u
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Not sure what this would entail, but NHibernate seems like a good choice of default O/R mapper to offer.
-
-

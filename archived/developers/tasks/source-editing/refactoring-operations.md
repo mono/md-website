@@ -115,5 +115,3 @@ It would also be good to have an interactive picker for choosing where the extra
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Add support for re-ordering members within classes (and moving them into and out of regions) by drag-n-drop in the source outline pad.
-
-

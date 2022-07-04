@@ -52,7 +52,3 @@ Use OS/Desktop-native paths for settings, log files, temp files, cache files (co
 | <span class="task-status-Completed" style="font-size: x-small;">Completed</span> | <span class="task-owner" style="font-size: x-small;">lluis/mhutch</span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Abstract out the "run on external console" into the platform service so that platform addins can use the native terminal app instead of assuming Xterm.
-
- 
-
-

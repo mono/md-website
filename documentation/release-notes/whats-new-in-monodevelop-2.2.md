@@ -78,7 +78,7 @@ Code Template support has been completely rewritten and now offers much more pow
 -   Support for **'Surround With'**. Templates supporting this mode, can be used to surround a block of selected code. For example, the 'try' template will surround a block of code with a try/catch statement.
 
 [![CodeTemplates.png](/images/247-CodeTemplates.png)](/images/247-CodeTemplates.png "Code template with placeholder")<br/>
- 
+
 **Block Selection**
 
 Block selection in the editor is now supported by pressing Alt while selecting text.
@@ -371,7 +371,3 @@ Contributors to this release:
 -   Jonathan Pobst (Windows setup)
 -   Marc Christensen (QA)
 -   Andrew Jorgensen (packaging)
-
- 
-
-

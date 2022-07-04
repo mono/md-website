@@ -27,5 +27,3 @@ redirect_from:
 #### Writing an Add-In (obsolete)
 
 [Read Article](/archived/developers/articles/obsolete-articles/writing-an-add-in-(obsolete)/ "Writing_an_Add-In_(Obsolete)"). MonoDevelop (and SharpDevelop) have been written so that they can be easily extended by others. This can be accomplished by doing two simple things. First, by creating an assembly (.dll) containing the code for your add-in. Second, providing an .addin XML file that maps your code into MonoDevelop. This is intended as a simple and quick overview.
-
-

@@ -63,7 +63,3 @@ Run the stetic designer surface in a separate process so that it can load and re
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Add support for the GtkBuilder file format. Perhaps also support a XAML-like codebehind system.
-
- 
-
-

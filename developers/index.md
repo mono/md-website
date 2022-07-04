@@ -31,7 +31,7 @@ Patches have to be submitted by using the Pull Request mechanism that GitHub pro
 4.  In the Pull Request dialog, enter a descriptive comment of the change and add a recipient. You can use following users as recipients:
     -   mhutch: ASP.NET, Mac port, MonoTouch, Moonlight, MonoMac, XML, T4
     -   mkrueger: Text editor, C#, refactoring operations
-    -   slluis: everything else 
+    -   slluis: everything else
 
 ### Commit Rules
 

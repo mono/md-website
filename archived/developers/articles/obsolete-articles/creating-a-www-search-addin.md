@@ -301,5 +301,3 @@ For the rpm version
     # ln -s $PWD/bin/Debug/MySearchAddIn.dll /usr/lib/monodevelop/AddIns/
 
 Remember to remove the previous mysearch.addin.xml and MySearchAddIn.dll from the destination directories (if you already have created them with the cp command).
-
-

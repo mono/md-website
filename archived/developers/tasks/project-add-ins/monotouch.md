@@ -220,5 +220,3 @@ A GUI for viewing attached devices, their logs, installed certificates and provi
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 A command to attach to a running app with a gdb console
-
-

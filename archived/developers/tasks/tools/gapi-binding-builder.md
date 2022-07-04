@@ -13,4 +13,3 @@ redirect_from:
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Very-Low" style="font-size: x-small;">Very Low</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Create a new type of project: GAPI project. It would simplify the generation of bindings for Gnome libraries.
-

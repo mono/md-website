@@ -22,7 +22,9 @@ Alternatively, here is a direct link <http://git-osx-installer.googlecode.com/fi
 
 For those wanting the very succinct installation instructions, those are directly below. If you want the “why” then go down a few lines where comments are provided inline.
 
-`curl -o setup.py http://git.dronelabs.com/mono-osx-fi...ono_jhbuild.py `
+```bash
+curl -o setup.py http://git.dronelabs.com/mono-osx-fi...ono_jhbuild.py
+```
 
 <span style="font-family: Courier New;">`chmod +x setup.py`</span>
 
@@ -91,4 +93,3 @@ Now for those of you wanting the “why”, let me step you through the process 
 `# That's it!`
 
 If you have any problems with the script, email Christian directly at "chris at dronelabs dot com" or vwduder in IRC.  If you have any bugs with gtk+, email Christian directly with a short example and screenshot if you can (Command Shift 3) and I'll file the bug and hopefully fix it for you.
-

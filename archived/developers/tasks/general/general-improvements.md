@@ -99,5 +99,3 @@ By using Lucene to index all file in a solution, we could has super-fast fulltex
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Improve the usability of the regex toolkit. Bigger text entries, find more elegant solution for describing "elements" than awkward tooltips, have values from the library copied back into the toolkit, make library refresh not pop up blocking dialogs, make it possible to abort long-running regexes.
-
-

@@ -71,5 +71,3 @@ It would be useful to be able to log MD sessions for usability, reliability and 
 It would be useful to be able to collect certain kinds of anonymous data from MD users, which would be analysed to improve reliability, performance and usability.
 
 There could be several levels of opt-in. The default would be to ask each time an error happens by showing a dialog, but users would also be also to choose to upload system information and even session logs.
-
-

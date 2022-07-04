@@ -15,5 +15,3 @@ redirect_from:
 | <span class="task-status-Completed" style="font-size: x-small;">Completed</span> | <span class="task-owner" style="font-size: x-small;">mhutch</span> | <span class="task-importance-Low" style="font-size: x-small;">Low</span> | <span class="task-complexity-1w" style="font-size: x-small;">1w</span> | <span class="task-target" style="font-size: x-small;">2.6</span> |
 
 Implementation of the MonoMac add-in, with some basic project templates.
-
-

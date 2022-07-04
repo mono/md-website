@@ -477,4 +477,3 @@ Project and solution loading is done in a background thread, so they are in **No
 ### Async methods
 
 Methods that may take long time to execute are exposed as async methods. Continuations of async methods will be executed in the calling context.
-

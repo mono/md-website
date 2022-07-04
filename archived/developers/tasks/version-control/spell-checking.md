@@ -13,4 +13,3 @@ redirect_from:
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Low" style="font-size: x-small;">Low</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Integrate a spell checker in the text view used for entering commit messages. Spell errors should be highlighted. The dictionary to use should be configurable per-project.
-

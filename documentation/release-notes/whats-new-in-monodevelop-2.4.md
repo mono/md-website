@@ -47,7 +47,7 @@ MonoDevelop has an option which allows choosing the font to use for the tree vie
 
 -   New option for selecting the GTK+ theme
 -   New option for selecting the user interface language
--   New option for selecting the output pad font 
+-   New option for selecting the output pad font
 
 Project Model
 -------------
@@ -103,7 +103,7 @@ The Block Selection mode now supports editing. When a block of text is selected 
 
 **[![md24-TypeImport.png](/images/289-md24-TypeImport.png)](/images/289-md24-TypeImport.png "Import Type Command")**
 
-When pressing **control+alt+space**, MonoDevelop will show a list of all types available in the project and its references. When a type is selected, the name will be completed and the required namespace will be added to the *usings* list (if not already there). 
+When pressing **control+alt+space**, MonoDevelop will show a list of all types available in the project and its references. When a type is selected, the name will be completed and the required namespace will be added to the *usings* list (if not already there).
 
 **Move Lines Up/Down**
 
@@ -131,7 +131,7 @@ The filtering in the completion list now matches midway through words, making it
 -   New implement abstract members command
 -   Added support for vi marks
 -   New Xml formatting policy
--   Smart placement of semicolons 
+-   Smart placement of semicolons
 
 Debugger
 --------
@@ -152,7 +152,7 @@ Evaluation of expressions in the watch pad and the immediate pad has been improv
 
 **Exception Dialog**
 
-When an exception is thrown or uncaught, MonoDevelop will now show a dialog with information about the exception object. 
+When an exception is thrown or uncaught, MonoDevelop will now show a dialog with information about the exception object.
 
 Tools
 -----
@@ -167,7 +167,7 @@ There is now a file template for creating T4 text templates, and T4 templates ar
 
 **More Code Metrics**
 
-The Code Metrics tool can now calculate the Cyclometric Complexity and Class Coupling of projects and solutions. The results view has also been improved and it now shows the results grouped by project. 
+The Code Metrics tool can now calculate the Cyclometric Complexity and Class Coupling of projects and solutions. The results view has also been improved and it now shows the results grouped by project.
 
 ASP.NET
 -------
@@ -209,7 +209,7 @@ Some improvements in the Mac OSX port:
 
 -   Added file association definitions to the MonoDevelop app bundle so that it's the default handler for solution and project files.
 -   Included the Database add-in in the bundle.
--   Added support for running projects in an external console. 
+-   Added support for running projects in an external console.
 
 Vala
 ----
@@ -237,7 +237,7 @@ Contributors to this release:
 -   Luciano N. Callero (database add-in)
 -   Sanjoy Das (vi marks)
 -   Carlo Kok
--   Alan McGovern (The really annoying guy who complains when something breaks) 
+-   Alan McGovern (The really annoying guy who complains when something breaks)
 -   Jonathan Pobst (Windows setup)
 -   Andrew Jorgensen (QA & packaging)
 
@@ -249,7 +249,3 @@ Contributors to this release:
 -   Ray Wang, Yan-ren Tsai (Chinese)
 -   Mike Krueger, Masahiro Arai, Zeno Gantner (German)
 -   Bruno Bovey (French)
-
- 
-
-

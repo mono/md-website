@@ -62,5 +62,3 @@ The infrastructure would also provide a good basis for a macro system.
 A MonoDoc web server built into MD so that we have docs browser even on platforms that don't have a MonoDoc GUI. VS 2010 actually removed their dedicated browser in favour of somthing like this.
 
 Should be quite simple because we can re-use xsp and the existing docs server.
-
-

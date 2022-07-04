@@ -135,5 +135,3 @@ Currently come of the vi mode's key commands conflcit with MD's keybindings. The
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Add support for [surround.vim](http://www.catonmat.net/blog/vim-plugins-surround-vim/)
-
-

@@ -102,7 +102,7 @@ This enables data files to also break backwards compatibility without headaches 
 
 When a particular major version of MonoDevelop is run for the first time, it will look for older profiles, from the previous version to the oldest known version. The first profile it finds will be migrated into the profile for the new version. This is a one-time operation, and further changes will not be migrated.
 
-Addins can include data items in the migration using the `/MonoDevelop/Core/UserDataMigration` extension point: 
+Addins can include data items in the migration using the `/MonoDevelop/Core/UserDataMigration` extension point:
 
 ``` xml
 <Extension path = "/MonoDevelop/Core/UserDataMigration">

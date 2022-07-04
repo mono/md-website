@@ -369,5 +369,3 @@ The default parameters are defined in the TemplateConfiguration section.
     ...
 </TemplateConfiguration>
 ```
-
-

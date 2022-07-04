@@ -102,5 +102,3 @@ Web service and integration to MD for sharing code snippets. This would make it 
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 It should be possible for addins, e.g. language bindings or project types, to add default code snippets.
-
-

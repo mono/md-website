@@ -48,7 +48,7 @@ The **document tabs** for the document area get hard to navigate through when th
 | **<span style="font-size: x-small;">Status</span>**                          | **<span style="font-size: x-small;">Owner</span>**           | **<span style="font-size: x-small;">Importance</span>**                        | **<span style="font-size: x-small;">Complexity</span>**                        | **<span style="font-size: x-small;">MD Version</span>**          |
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;">2.8</span> |
 
-Something that has been proposed is to make each document view act like a web browser tab. This idea is based on Xcode 4. Code navigation within each view tab would change the contents of that view, instead of opening a new view tab. There would be a way to open new new tabs, similar to middle-clicking links in a browser. Tabs could be dragged off into new windows, docked side by side, etc. 
+Something that has been proposed is to make each document view act like a web browser tab. This idea is based on Xcode 4. Code navigation within each view tab would change the contents of that view, instead of opening a new view tab. There would be a way to open new new tabs, similar to middle-clicking links in a browser. Tabs could be dragged off into new windows, docked side by side, etc.
 
 This would solve the problem that code navigation, which is a very important part of a modern IDE, usually causes many new tabs to open automatically, which rapidly becomes annoying and difficult to manage. Users are already very familiar with how tabs and navigation in a web browser work.
 
@@ -257,5 +257,3 @@ Use a structured text view for the build output pad, so that individual tasks ca
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 When MD is showing the build results in the status bar it would be useful to hyperlink the error pad and/or build output pad from the result message, like Xcode does.
-
-

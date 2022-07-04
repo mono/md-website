@@ -55,7 +55,7 @@ Features
 Developers
 ----------
 
-### Implementing a Provider 
+### Implementing a Provider
 
  In order to implement a new provider you have to implement the following classes
 
@@ -71,7 +71,7 @@ Developers
 
 ### Optional Implementations
 
-**IDbLinq: **<span style="font-size: xx-small">[7]</span>** **This represent the Linq generation interface, the connection between the provider and a generator (i.e.: sqlmetal).
+**IDbLinq:** <span style="font-size: xx-small">[7]</span>This represent the Linq generation interface, the connection between the provider and a generator (i.e.: sqlmetal).
 
 **AbstractSqlDialect**: <span style="font-size: xx-small">[8]</span> Expose dialect or provider specific techniques of generating Sql language. Currently isn't really in use.
 

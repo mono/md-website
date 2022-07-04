@@ -52,5 +52,3 @@ Support for "shelving" a set of changes by diffing, and re-applying the shelved 
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Very-Low" style="font-size: x-small;">Very-Low</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 When opening a text file in the text editor, use the VCS diff to initialize the "changed lines" markers to indicate which have been modified but not committed.
-
-

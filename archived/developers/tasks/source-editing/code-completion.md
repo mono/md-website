@@ -56,7 +56,7 @@ Buttons along the bottom of the completion list for toggling custom group/filter
     -   [GtkWidget]
         -   WidgetMethod1
         -   WidgetMethod2
-    -   [GtkObject]   
+    -   [GtkObject]
         -   GtkObjectMethod1
     -   [System.Object]
         -   Equals

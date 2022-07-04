@@ -62,7 +62,7 @@ There are further extension points that can be implemented to add more features 
 -   references finder
 -   refactorer implementation
 -   specific refactorings
--   expression finder 
+-   expression finder
 -   debugger evaluator
 -   smart indentation
 -   ASP.NET inline code completion

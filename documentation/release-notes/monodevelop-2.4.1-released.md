@@ -36,7 +36,7 @@ Here is a summary of the most important fixes:
     -   Run in external console doesn't work on Windows
     -   627484 - Deleting folders does not remove the csproj file reference
 -   Text editor
-    -   648926 - Unhandled exception opening C# file 
+    -   648926 - Unhandled exception opening C# file
     -   635358 - Initial selection in "foreach" template is incorrect
     -   Fixed a code completion bug where fully qualified names could show up
     -   632698 - Wrong var inference
@@ -107,7 +107,7 @@ Here is a summary of the most important fixes:
     -   Display unknown signing identities and provisioning profiles in project settings
     -   Added command to save app bundle as a zip file
     -   Icon ordering and naming updated to match Apple's new guidelines
-    -   Custom string tag providers: SdkVersion, BundleVersion, BundleIdentifier, AppDirectory, 
+    -   Custom string tag providers: SdkVersion, BundleVersion, BundleIdentifier, AppDirectory,
 -   Other
     -   617276 - MonoDevelop crashes when clicking on a script error in Unity3d.
     -   600727 - Moonlight: DataGrid missing

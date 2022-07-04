@@ -100,5 +100,3 @@ Get MonoDoc working on Mac. Might have to port it to MonoObjc or something like 
 | <span class="task-status-Completed" style="font-size: x-small;">Completed</span> | <span class="task-owner" style="font-size: x-small;">mkrueger</span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;">2.6</span> |
 
 Get the stetic Gtk# designer addin working on Mac. Need to implement lots of GTK+ DnD features, and fix major performance issues when designer is open.
-
-

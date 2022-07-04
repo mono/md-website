@@ -53,5 +53,3 @@ Make updater able to download and install updates, as well as notifying about th
 Some addins have soft dependencies, for example, where they invoke external tools that might not always be installed. It would be nice to have a unified system for handling this, so that an addin manifest would declare these dependencies, then before using the tool the addin could make some kind of "CheckDependency(foo)" call. If the dependency was not installed, it would show a standard dialog with an explanation, and perhaps even suggest how to install the dependency.
 
 Maybe the addins could be automatically disabled if essential "soft" dependencies were not present, like the MonoTouch addin does when MonoTouch is not installed, in which case the addin manager could have a dialog for listing all soft dependencies and their status.
-
-

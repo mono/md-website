@@ -13,4 +13,3 @@ redirect_from:
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Highlight spelling errors in string literals and comment blocks. Language to be specified per project. More details [here](https://bugzilla.novell.com/show_bug.cgi?id=320172).
-

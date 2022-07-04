@@ -40,7 +40,7 @@ In older versions Color scheme files are defined in xml with following syntax:
 
 First a custom palette can be defined (but it's not required since the color attributes of the styles can use a color value directly). Color values have the form \#RRGGBB or \#AARRGGBB. Beside that html palette colors ("red", "green", "blue", ...) is supported as well.
 
-Style tags can either be nested (then the name of the nested style is PARENT.CHILD) or be just a 'list'. Example - these definitions are the same: 
+Style tags can either be nested (then the name of the nested style is PARENT.CHILD) or be just a 'list'. Example - these definitions are the same:
 
 ``` xml
 <Style name="string" color="red"/>

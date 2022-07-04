@@ -1,3 +1,4 @@
+# keep in sync with .markdownlint.json for VSCode
 all
 exclude_tag :line_length
 
@@ -13,6 +14,10 @@ exclude_rule 'MD041'
 # MD003: Header style
 # Justification: we actually like both atx and setext style headers
 exclude_rule 'MD003'
+
+# MD014: Dollar signs used before commands without showing output
+# Justification: we think this is fine
+exclude_rule 'MD014'
 
 # MD033: Inline HTML
 # Justification: we don't want pure Markdown, inline HTML is fine

@@ -96,5 +96,3 @@ Other
 -   There is an editor for property list (plist) files.
 -   New Branding engine, which allows distributors to customize several aspects of the MonoDevelop user interface, such as the welcome page or about box.
 -   The Gettext add-in is now supported on Windows
-
-

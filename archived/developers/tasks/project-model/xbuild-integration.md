@@ -13,4 +13,3 @@ redirect_from:
 | <span class="task-status-In Progress" style="font-size: x-small;">In Progress</span> | <span class="task-owner" style="font-size: x-small;">lluis</span> | <span class="task-importance-High" style="font-size: x-small;">High</span> | <span class="task-complexity-2w" style="font-size: x-small;">2w</span> | <span class="task-target" style="font-size: x-small;">2.6</span> |
 
 The end goal of this task is to replace MD's build system by xbuild. There is initial support for this, but it is not yet fully functional.
-

@@ -5,13 +5,13 @@ redirect_from:
   - /Old_News/
 ---
 
-### MonoDevelop 2.4.2 released 
+### MonoDevelop 2.4.2 released
 
 MonoDevelop 2.4.2 has been released. This is a bug fix release based on the 2.4 stable branch. See the [release notes](/documentation/release-notes/monodevelop-2.4.2-released/).
 
 *January 19, 2011*
 
-### MonoDevelop 2.4.1 released 
+### MonoDevelop 2.4.1 released
 
 MonoDevelop 2.4.1 has been released. This is a release based on the 2.4 stable branch, and includes many bug fixes and some feature improvements. See the [release notes](/documentation/release-notes/monodevelop-2.4.1-released/).
 
@@ -228,5 +228,3 @@ The new version of MonoDevelop has been released. See our release notes [here](/
 MonoDevelop 0.8 has been released. Release notes are available [here](/documentation/release-notes/0.8/). Directions for the packages are in the [Download](/download/) page.
 
 *October 15, 2005*
-
-

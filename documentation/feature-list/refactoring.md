@@ -67,5 +67,3 @@ In this method a constant is used. Now this constant should be given a better na
 ### Integrate Temporary Variable
 
 [TODO]
-
-

@@ -109,5 +109,3 @@ Add some options:
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Low" style="font-size: x-small;">Low</span> | <span class="task-complexity-1w" style="font-size: x-small;">1w</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Add support for deploying and running an application in the MeeGo simulator. The problem however is that the simulator is not very useful since it has very strict hardware requirements (e.g. it only runs on intel processors and graphic cards).
-
-

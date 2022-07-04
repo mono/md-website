@@ -103,6 +103,6 @@ Aside from the obvious difference in how the cshtml files are compiled into the 
 
 Since there is no default base class, the `@model` directive doesn't mimic the `System.Web.Mvc.WebViewPage\<TModel\>` mechanism of defining the model property on the base type and setting its type as a type parameter to the base class. Instead, the property is added directly on the generated class. To use a custom base class with a generic model property, simply omit the `@model` directive and instead specify the full closed name of the base class: `@inherits SomeClass\<SomeModel\>`.
 
-#### Razor Helpers 
+#### Razor Helpers
 
 The Razor templates preprocessor performs a small transformation to eliminate the `System.Web.WebPages.HelperResult` dependency from Razor helpers. Instead of returning an isnatnce of this type, they directly return an `Action\<TextWriter\>`, which the main Razor class uses to write to its output.

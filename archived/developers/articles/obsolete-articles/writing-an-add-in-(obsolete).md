@@ -151,5 +151,3 @@ There are various things that would be nice to have implemented as add-ins. Here
 Send comments to [jluke](mailto:jluke@cfl.rr.com) or the [MonoDevelop mailing list](mailto:monodevelop-list@lists.ximian.com)
 
 Licensed under the [MIT License](http://opensource.org/licenses/mit-license.php)
-
-

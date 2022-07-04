@@ -16,4 +16,3 @@ redirect_from:
 The current MD DOM could be improved by using an arbitrary tree which can be used by language bindings for their language tree and it could be extended by them. This would make the trees more consistent and there wouldn't be any need for tree conversion.
 
 This would make it easier to implement new language bindings.
-

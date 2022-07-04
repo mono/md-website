@@ -57,5 +57,3 @@ Some common methods that result in predictable string values, e.g. String.Concat
 A gettext scanner for ASP.NET pages.
 
 ASP.NET is tricky to parse an involves multiple languages. Probably the best way to do this is by combining the ASP.NET precompiler and the CIL gettext scanner.
-
-

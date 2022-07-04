@@ -36,7 +36,7 @@ Adding a project to a solution is as easy as right clicking on the solution name
 
 ### 3.1: Adding Solution Folders
 
-When you have multiple projects in your solution, **organizing your Projects in Solution Folders**can help working faster. You can add a Solution Folder to a Solution by right clicking on the Solution Name and choosing *New Solution Folder *<span style="font-weight: normal;">from the *Add*<span style="font-weight: normal;">item.
+When you have multiple projects in your solution, **organizing your Projects in Solution Folders**can help working faster. You can add a Solution Folder to a Solution by right clicking on the Solution Name and choosing *New Solution Folder* from the *Add* item.
 
 4: Settings
 -----------
@@ -87,7 +87,7 @@ You can add new translations later by right clicking on the **Translation projec
 
 Solutions are saved in a file with the '.sln' extension.
 
-Different Project types have different extensions, but they all end with '**.\*proj**'. The '**.\*proj**' fies are saved in the project directory (a subfolder of the solution folder), except the Packages project file, which is stored in the Solution directory. 
+Different Project types have different extensions, but they all end with '**.\*proj**'. The '**.\*proj**' fies are saved in the project directory (a subfolder of the solution folder), except the Packages project file, which is stored in the Solution directory.
 
 The Project Files are the same as the Project files used by Microsoft Visual Studio, and for the Project types that don't have a specific extension, '.mdproj' is used.
 

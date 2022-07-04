@@ -213,5 +213,3 @@ All local MonoDevelop projects under version control are recorded in this single
 The file may contain any number of `<Repository>` entries, each of which may contain any number of `<Project>` entries nested within `<LocalProjects>`. VersionControl should consult it whenever a project is opened and handle the project accordingly if it's found to be a working copy.
 
 Although the repository login passwords are SHA1 encoded they may still be vulnerable to brute-force/dictionary cracking. To help prevent the user from accidentally distributing it with their project, `VersionControl.xml` should be stored in `~/.config/MonoDevelop`.
-
-

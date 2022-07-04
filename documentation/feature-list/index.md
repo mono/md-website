@@ -460,5 +460,3 @@ Command Line Tools
 #### Graphical add-in setup utility
 
 -   mdtool gsetup
-
-

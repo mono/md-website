@@ -14,4 +14,3 @@ redirect_from:
 | <span class="task-status-Proposal" style="font-size: x-small;">Proposal</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Low" style="font-size: x-small;">Low</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Add support for NAnt file format and build commands.
-

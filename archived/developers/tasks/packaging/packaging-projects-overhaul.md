@@ -55,5 +55,3 @@ It may be difficult to migrate existing packaging projects to the new format. is
 #### Building on Other Platforms
 
 Some formats will only be buildable on certain platforms. How will MD handle this? This might be a good use for project *Configurations*.
-
-

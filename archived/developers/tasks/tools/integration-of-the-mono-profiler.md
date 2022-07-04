@@ -13,4 +13,3 @@ redirect_from:
 | <span class="task-status-In Progress" style="font-size: x-small;">In Progress</span> | <span class="task-owner" style="font-size: x-small;">mkrueger</span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-" style="font-size: x-small;"></span> | <span class="task-target" style="font-size: x-small;">2.6</span> |
 
 Add a "Profile" command that runs an application with the profiling option. Add windows that show the results of profile sessions in a graphical and easy to browse way.
-

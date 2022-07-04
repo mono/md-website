@@ -5,8 +5,7 @@ redirect_from:
   - /Screenshots/
 ---
 
-Screenshots
-===========
+## Screenshots
 
 #### MonoDevelop Main Window
 
@@ -41,4 +40,3 @@ Screenshots
 #### GUI designer
 
 [![ss-stetic.png](/images/387-ss-stetic-5-4.png)](/images/387-ss-stetic-5-4.png "GTK# Designer")
-

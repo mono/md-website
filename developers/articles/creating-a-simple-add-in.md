@@ -16,7 +16,7 @@ MonoDevelop is built around the concept of an extension tree. An addin is a set 
 Creating the Addin
 ------------------
 
-For this tutorial we will use the Addin Maker addin, which simplifies the process of creating, running and debugging an addin. The Addin Maker addin can be installed from the Addin Manager. Once it's installed, you'll see a new *Miscellaneous/General* category in the *New Solution* dialog, with a "IDE Extension" addin template. Visual Studio for Mac is an extended and rebranded version of MonoDevelop, so you can use this to create an addin that will work for Visual Studio for Mac, Xamarin Studio and MonoDevelop. 
+For this tutorial we will use the Addin Maker addin, which simplifies the process of creating, running and debugging an addin. The Addin Maker addin can be installed from the Addin Manager. Once it's installed, you'll see a new *Miscellaneous/General* category in the *New Solution* dialog, with a "IDE Extension" addin template. Visual Studio for Mac is an extended and rebranded version of MonoDevelop, so you can use this to create an addin that will work for Visual Studio for Mac, Xamarin Studio and MonoDevelop.
 
 Start out by creating a new addin called "DateInserter". This will create an addin that you can build and run/debug. If you run it, a new instance of Visual Studio for Mac / Xamarin Studio / MonoDevelop will be launched, and you will see your DateInserter addin in its Addin Manager.
 
@@ -24,7 +24,7 @@ An addin has metadata about its name, version, dependencies, etc. It also define
 
 The metadata, extensions and extension points can be defined via C# attributes, or in one or more XML files with the extension *.addin.xml*, which are typically embedded resources in the assembly. Attributes are often simpler, but some things can only be done with addin XML, so for simplicity most addins use addin XML so that its extension and extension points are all listed in one place.
 
-The addin created by the Addin Maker uses C# attributes for the metadata in a file called `AddinInfo.cs`, but its also creates an empty `Manifest.addin.xml` file. Both are in the `Properties` folder. 
+The addin created by the Addin Maker uses C# attributes for the metadata in a file called `AddinInfo.cs`, but its also creates an empty `Manifest.addin.xml` file. Both are in the `Properties` folder.
 
 The `AddinInfo.cs` file should look like this:
 
@@ -122,7 +122,7 @@ Add the following attribute to the **Command** element in the addin manifest:
 defaultHandler = "DateInserter.InsertDateHandler"
 ```
 
-So the Command element now looks like this: 
+So the Command element now looks like this:
 
 ``` xml
 <Extension path = "/MonoDevelop/Ide/Commands/Edit">

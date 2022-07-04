@@ -15,5 +15,3 @@ redirect_from:
 | <span class="task-status-In Progress" style="font-size: x-small;">In Progress</span> | <span class="task-owner" style="font-size: x-small;">mhutch</span> | <span class="task-importance-High" style="font-size: x-small;">High</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;">2.6</span> |
 
 Implementation of the MonoDroid add-in, with some basic project templates, custom framework, support for debugging and deployment.
-
-

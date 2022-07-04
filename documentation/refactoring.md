@@ -73,6 +73,6 @@ You can edit the refactoring key bindings from the option menu of MonoDevelop Pr
 
 ![tutorial222.png](http://img254.imageshack.us/img254/7505/tutorial222.png)
 
-There are many other Refactoring tools and of course there is a way to write your own Refactorings but for more information check this article: 
+There are many other Refactoring tools and of course there is a way to write your own Refactorings but for more information check this article:
 
 [https://www.monodevelop.com/developers/articles/refactoring/](/developers/articles/refactoring/)

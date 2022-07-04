@@ -78,5 +78,3 @@ Various messages in MonoDevelop error dialog and logs contain stack traces. Thes
 The SVN trunk and preview releases of MD have launch scripts that run Mono in debug mode, but release builds do not, because in debug mode Mono uses more memory. To enable debug mode, set the environment variable
 
 `MONO_OPTIONS="--debug"`
-
-

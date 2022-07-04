@@ -19,4 +19,3 @@ When triggering the command, it would simply show a text input field, while scan
 The advantage of embedding something like this inside MD, as opposed to an external app scanning MD's menus, is that it could be fully aware of the context - the workspace, project model, open file, etc. - and how the MD command system interacts with it. Addins could define how their commands interact with the contexts used by the text command system, enabling it to work better.
 
 This might also form the basis for a simple macro system.
-

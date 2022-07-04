@@ -33,7 +33,7 @@ To get started, switch to the Designer by pressing the "Designer" button located
 
 [![SourceCodeDesigner](http://farm6.static.flickr.com/5164/5231481777_202da87b75.jpg)](http://www.flickr.com/photos/56664731@N07/5231481777/ "SourceCodeDesigner by toma.tabacu, on Flickr")
 
-### 2.1 Adding Containers 
+### 2.1 Adding Containers
 
 The MainWindow is empty right now:
 
@@ -59,7 +59,7 @@ If we're going to have 4 buttons we need to add another box to the **HBox**. Rig
 
 ### 2.2 Adding Widgets
 
-Add a **Button** to each of the first row boxes and a **TextView** to the second row, like this: 
+Add a **Button** to each of the first row boxes and a **TextView** to the second row, like this:
 
 [![7](http://farm6.static.flickr.com/5090/5232073172_8080b106d7.jpg)](http://www.flickr.com/photos/56664731@N07/5232073172/ "7 by toma.tabacu, on Flickr")
 

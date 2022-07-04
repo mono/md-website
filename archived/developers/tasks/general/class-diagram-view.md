@@ -68,5 +68,3 @@ The canvas would allow exploring the types available in MonoDevelop's internal C
 #### Shared Designer Canvas
 
 It would be useful if the designer canvas were a re-usable component, so that it could be used for visualising things like database tables and relationship. As long as the canvas is well-separated from the form of the actual data it's visualising, this should not be hard.
-
-

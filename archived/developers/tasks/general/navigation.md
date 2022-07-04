@@ -53,5 +53,3 @@ This would be tree-based pad that could be used to drill down into the callers a
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 This would be a tree-based pad that could be used to drill down the code paths by which values could reach a variable. It would be useful, for example, for finding possible sources of nulls that could cause a NullReferenceException.
-
-

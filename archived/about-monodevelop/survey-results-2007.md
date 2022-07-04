@@ -24,7 +24,7 @@ Select one:
 <td align="left">156</td>
 <td align="left">17,55%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:78px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -32,7 +32,7 @@ Select one:
 <td align="left">269</td>
 <td align="left">30,26%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:134px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -40,7 +40,7 @@ Select one:
 <td align="left">211</td>
 <td align="left">23,73%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:105px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Select one:
 <td align="left">220</td>
 <td align="left">24,75%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:110px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -56,7 +56,7 @@ Select one:
 <td align="left">27</td>
 <td align="left">3,04%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:13px">
- 
+
 </div></td>
 </tr>
 </tbody>
@@ -79,7 +79,7 @@ Select all that apply:
 <td align="left">591</td>
 <td align="left">66,48%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:295px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -87,7 +87,7 @@ Select all that apply:
 <td align="left">434</td>
 <td align="left">48,82%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:212px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -95,7 +95,7 @@ Select all that apply:
 <td align="left">150</td>
 <td align="left">16,87%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:75px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -103,7 +103,7 @@ Select all that apply:
 <td align="left">362</td>
 <td align="left">40,72%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:181px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -111,7 +111,7 @@ Select all that apply:
 <td align="left">420</td>
 <td align="left">47,24%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:210px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -119,7 +119,7 @@ Select all that apply:
 <td align="left">265</td>
 <td align="left">29,81%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:132px">
- 
+
 </div></td>
 </tr>
 </tbody>
@@ -149,7 +149,7 @@ Select all that apply:
 <td align="left">849</td>
 <td align="left">95,50%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:424px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -157,7 +157,7 @@ Select all that apply:
 <td align="left">102</td>
 <td align="left">11,47%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:51px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -165,7 +165,7 @@ Select all that apply:
 <td align="left">96</td>
 <td align="left">10,80%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:48px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -173,7 +173,7 @@ Select all that apply:
 <td align="left">24</td>
 <td align="left">2,70%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:12px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -181,7 +181,7 @@ Select all that apply:
 <td align="left">67</td>
 <td align="left">7,54%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:33px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -189,7 +189,7 @@ Select all that apply:
 <td align="left">128</td>
 <td align="left">14,40%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:64px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -197,7 +197,7 @@ Select all that apply:
 <td align="left">74</td>
 <td align="left">8,32%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:37px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -205,7 +205,7 @@ Select all that apply:
 <td align="left">204</td>
 <td align="left">22,95%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:102px">
- 
+
 </div></td>
 </tr>
 </tbody>
@@ -235,7 +235,7 @@ Select all that apply:
 <td align="left">170</td>
 <td align="left">19,12%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:85px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -243,7 +243,7 @@ Select all that apply:
 <td align="left">790</td>
 <td align="left">88,86%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:395px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -251,7 +251,7 @@ Select all that apply:
 <td align="left">333</td>
 <td align="left">37,46%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:166px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -259,7 +259,7 @@ Select all that apply:
 <td align="left">295</td>
 <td align="left">33,18%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:147px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -267,7 +267,7 @@ Select all that apply:
 <td align="left">216</td>
 <td align="left">24,30%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:108px">
- 
+
 </div></td>
 </tr>
 </tbody>
@@ -297,7 +297,7 @@ Select all that apply:
 <td align="left">862</td>
 <td align="left">96,96%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:431px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -305,7 +305,7 @@ Select all that apply:
 <td align="left">185</td>
 <td align="left">20,81%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:92px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -313,7 +313,7 @@ Select all that apply:
 <td align="left">671</td>
 <td align="left">75,48%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:335px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -321,7 +321,7 @@ Select all that apply:
 <td align="left">50</td>
 <td align="left">5,62%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:25px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -329,7 +329,7 @@ Select all that apply:
 <td align="left">67</td>
 <td align="left">7,54%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:33px">
- 
+
 </div></td>
 </tr>
 </tbody>
@@ -352,7 +352,7 @@ Select one:
 <td align="left">16</td>
 <td align="left">1,80%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:8px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -360,7 +360,7 @@ Select one:
 <td align="left">6</td>
 <td align="left">0,67%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:3px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -368,7 +368,7 @@ Select one:
 <td align="left">6</td>
 <td align="left">0,67%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:3px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -376,7 +376,7 @@ Select one:
 <td align="left">4</td>
 <td align="left">0,45%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:2px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -384,7 +384,7 @@ Select one:
 <td align="left">20</td>
 <td align="left">2,25%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:10px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -392,7 +392,7 @@ Select one:
 <td align="left">45</td>
 <td align="left">5,06%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:23px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -400,7 +400,7 @@ Select one:
 <td align="left">458</td>
 <td align="left">51,52%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:179px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -408,7 +408,7 @@ Select one:
 <td align="left">82</td>
 <td align="left">9,22%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:41px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -416,7 +416,7 @@ Select one:
 <td align="left">2</td>
 <td align="left">0,22%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:1px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -424,7 +424,7 @@ Select one:
 <td align="left">7</td>
 <td align="left">0,79%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:3px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -432,7 +432,7 @@ Select one:
 <td align="left">2</td>
 <td align="left">0,22%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:1px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -440,7 +440,7 @@ Select one:
 <td align="left">10</td>
 <td align="left">1,12%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:5px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -448,7 +448,7 @@ Select one:
 <td align="left">98</td>
 <td align="left">11,02%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:49px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -456,7 +456,7 @@ Select one:
 <td align="left">10</td>
 <td align="left">1,12%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:5px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -464,7 +464,7 @@ Select one:
 <td align="left">53</td>
 <td align="left">5,96%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:53px">
- 
+
 </div></td>
 </tr>
 </tbody>
@@ -495,7 +495,7 @@ Select all that apply:
 <td align="left">435</td>
 <td align="left">48,93%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:217px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -503,7 +503,7 @@ Select all that apply:
 <td align="left">140</td>
 <td align="left">15,75%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:70px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -511,7 +511,7 @@ Select all that apply:
 <td align="left">126</td>
 <td align="left">14,17%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:63px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -519,7 +519,7 @@ Select all that apply:
 <td align="left">120</td>
 <td align="left">13,50%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:63px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -527,7 +527,7 @@ Select all that apply:
 <td align="left">176</td>
 <td align="left">19,80%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:88px">
- 
+
 </div></td>
 </tr>
 </tbody>
@@ -564,7 +564,7 @@ Select one:
 <td align="left">289</td>
 <td align="left">32,51%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:144px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -572,7 +572,7 @@ Select one:
 <td align="left">189</td>
 <td align="left">21,26%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:94px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -580,7 +580,7 @@ Select one:
 <td align="left">411</td>
 <td align="left">46,23%</td>
 <td align="left"><div style="background-color:#7aa1d4;width:205px">
- 
+
 </div></td>
 </tr>
 </tbody>
@@ -605,7 +605,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">82,79%</td>
 <td align="left">610,54</td>
 <td align="left"><div style="background-color:#7aa1d4;width:152px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -614,7 +614,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">64,90%</td>
 <td align="left">378,89</td>
 <td align="left"><div style="background-color:#7aa1d4;width:94px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -623,7 +623,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">65,35%</td>
 <td align="left">359,55</td>
 <td align="left"><div style="background-color:#7aa1d4;width:90px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -632,7 +632,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">61,53%</td>
 <td align="left">356,85</td>
 <td align="left"><div style="background-color:#7aa1d4;width:89px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -641,7 +641,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">64,57%</td>
 <td align="left">345,46</td>
 <td align="left"><div style="background-color:#7aa1d4;width:86px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -650,7 +650,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">63,22%</td>
 <td align="left">322,02</td>
 <td align="left"><div style="background-color:#7aa1d4;width:80px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -659,7 +659,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">54,89%</td>
 <td align="left">277,43</td>
 <td align="left"><div style="background-color:#7aa1d4;width:69px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -668,7 +668,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">55,79%</td>
 <td align="left">245,9</td>
 <td align="left"><div style="background-color:#7aa1d4;width:61px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -677,7 +677,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">53,99%</td>
 <td align="left">241,57</td>
 <td align="left"><div style="background-color:#7aa1d4;width:60px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -686,7 +686,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">52,64%</td>
 <td align="left">236,68</td>
 <td align="left"><div style="background-color:#7aa1d4;width:59px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -695,7 +695,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">53,66%</td>
 <td align="left">232,14</td>
 <td align="left"><div style="background-color:#7aa1d4;width:58px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -704,7 +704,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">52,19%</td>
 <td align="left">216,68</td>
 <td align="left"><div style="background-color:#7aa1d4;width:54px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -713,7 +713,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">50,28%</td>
 <td align="left">198,12</td>
 <td align="left"><div style="background-color:#7aa1d4;width:48px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -722,7 +722,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">50,51%</td>
 <td align="left">181,83</td>
 <td align="left"><div style="background-color:#7aa1d4;width:45px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -731,7 +731,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">46,57%</td>
 <td align="left">165,13</td>
 <td align="left"><div style="background-color:#7aa1d4;width:41px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -740,7 +740,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">46,12%</td>
 <td align="left">160,38</td>
 <td align="left"><div style="background-color:#7aa1d4;width:40px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -749,7 +749,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">45,22%</td>
 <td align="left">152,77</td>
 <td align="left"><div style="background-color:#7aa1d4;width:38px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -758,7 +758,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">45,33%</td>
 <td align="left">151,33</td>
 <td align="left"><div style="background-color:#7aa1d4;width:37px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -767,7 +767,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">42,29%</td>
 <td align="left">106,59</td>
 <td align="left"><div style="background-color:#7aa1d4;width:27px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -776,7 +776,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">40,04%</td>
 <td align="left">105,25</td>
 <td align="left"><div style="background-color:#7aa1d4;width:26px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -785,7 +785,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">41,17%</td>
 <td align="left">104,65</td>
 <td align="left"><div style="background-color:#7aa1d4;width:26px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -794,7 +794,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">39,15%</td>
 <td align="left">96,24</td>
 <td align="left"><div style="background-color:#7aa1d4;width:24px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -803,7 +803,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">37,57%</td>
 <td align="left">90,16</td>
 <td align="left"><div style="background-color:#7aa1d4;width:22px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -812,7 +812,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">37,01%</td>
 <td align="left">84,59</td>
 <td align="left"><div style="background-color:#7aa1d4;width:21px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -821,7 +821,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">37,80%</td>
 <td align="left">83,7</td>
 <td align="left"><div style="background-color:#7aa1d4;width:20px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -830,7 +830,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">35,66%</td>
 <td align="left">67,04</td>
 <td align="left"><div style="background-color:#7aa1d4;width:17px">
- 
+
 </div></td>
 </tr>
 <tr class="odd">
@@ -839,7 +839,7 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">33,30%</td>
 <td align="left">65,72</td>
 <td align="left"><div style="background-color:#7aa1d4;width:16px">
- 
+
 </div></td>
 </tr>
 <tr class="even">
@@ -848,10 +848,8 @@ Responders had to specify a ranking of the most preferred features. The first co
 <td align="left">32,28%</td>
 <td align="left">48,53</td>
 <td align="left"><div style="background-color:#7aa1d4;width:12px">
- 
+
 </div></td>
 </tr>
 </tbody>
 </table>
-
-

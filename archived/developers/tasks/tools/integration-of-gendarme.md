@@ -15,4 +15,3 @@ redirect_from:
 Integrate [Gendarme](https://www.mono-project.com/Gendarme) or in order to analyze assemblies for potential problems.
 
 Some basic work done ([CodeAnalysis](http://anonsvn.mono-project.com/source/trunk/monodevelop/extras/MonoDevelop.CodeAnalysis/) in extras).
-

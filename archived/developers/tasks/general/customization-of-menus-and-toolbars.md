@@ -13,4 +13,3 @@ redirect_from:
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Low" style="font-size: x-small;">Low</span> | <span class="task-complexity-" style="font-size: x-small;"></span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Provide an option for customizing the commands shown in menus and toolbars. Configurable key bindings.
-

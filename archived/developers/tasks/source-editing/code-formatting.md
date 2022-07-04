@@ -74,5 +74,3 @@ None that I'm aware of.
 It would be nice if the style settings are applied to source code on the fly while typing.
 
 [Proposals](http://www.monodevelop.com/Proposals)
-
-

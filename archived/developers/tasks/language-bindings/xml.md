@@ -67,5 +67,3 @@ The "new" XML completion triggering engine doesn't have full support for XML nam
 Need more test cases for the XML parser, especially error recovery. These are particularly useful because the HTML and ASP.NET parsers can leverage the same tests.
 
 - Check that the W3C conformance test suite can pass
-
-

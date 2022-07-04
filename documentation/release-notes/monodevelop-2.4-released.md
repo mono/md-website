@@ -69,7 +69,7 @@ This release of MonoDevelop needs at least **Mono 2.6.1** and **Gtk# 2.12.8** t
 Credits
 -------
 
-### Contributors to this Release 
+### Contributors to this Release
 
 -   Lluis Sanchez (project management, workbench, debugger, Windows port, web references, NUnit)
 -   Michael Hutchinson (ASP.NET, T4, Mac port, MonoTouch)

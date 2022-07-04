@@ -42,7 +42,7 @@ Resharper [has this](http://blogs.jetbrains.com/dotnet/2010/02/resharper-5-beta-
 | **<span style="font-size: x-small;">Status</span>**                              | **<span style="font-size: x-small;">Owner</span>**                   | **<span style="font-size: x-small;">Importance</span>**                    | **<span style="font-size: x-small;">Complexity</span>**            | **<span style="font-size: x-small;">MD Version</span>**          |
 | <span class="task-status-Completed" style="font-size: x-small;">Completed</span> | <span class="task-owner" style="font-size: x-small;">mkrueger</span> | <span class="task-importance-High" style="font-size: x-small;">High</span> | <span class="task-complexity-" style="font-size: x-small;"></span> | <span class="task-target" style="font-size: x-small;">2.6</span> |
 
-This will allow better support for on the fly error checking. Possibility of creating the AST with it. 
+This will allow better support for on the fly error checking. Possibility of creating the AST with it.
 
 ### C# REPL Pad
 
@@ -54,7 +54,7 @@ This will allow better support for on the fly error checking. Possibility of cre
 | **<span style="font-size: x-small;">Status</span>**                          | **<span style="font-size: x-small;">Owner</span>**           | **<span style="font-size: x-small;">Importance</span>**                        | **<span style="font-size: x-small;">Complexity</span>**                        | **<span style="font-size: x-small;">MD Version</span>**       |
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
-Implement a C# REPL pad by integrating the MCS REPL. 
+Implement a C# REPL pad by integrating the MCS REPL.
 
 It would be useful to create a generic [REPL Pad](/archived/developers/tasks/tools/repl-pad/) infrastructure that could be used for other languages such as F#, IronPython, Boo, etc.
 
@@ -68,7 +68,7 @@ It would be useful to create a generic [REPL Pad](/archived/developers/tasks/too
 | **<span style="font-size: x-small;">Status</span>**                              | **<span style="font-size: x-small;">Owner</span>**                   | **<span style="font-size: x-small;">Importance</span>**                    | **<span style="font-size: x-small;">Complexity</span>**                        | **<span style="font-size: x-small;">MD Version</span>**          |
 | <span class="task-status-Completed" style="font-size: x-small;">Completed</span> | <span class="task-owner" style="font-size: x-small;">mkrueger</span> | <span class="task-importance-High" style="font-size: x-small;">High</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;">2.6</span> |
 
-Support for parsing C# 4 files without breaking existing code completion, but no special support for C# 4. 
+Support for parsing C# 4 files without breaking existing code completion, but no special support for C# 4.
 
 ### Full C# 4 support
 
@@ -81,5 +81,3 @@ Support for parsing C# 4 files without breaking existing code completion, but no
 | <span class="task-status-Assigned" style="font-size: x-small;">Assigned</span> | <span class="task-owner" style="font-size: x-small;">mkrueger</span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;">2.8</span> |
 
 Full code completion support for C# 4 features, as far as is viable (not much can be done for "dynamic").
-
-

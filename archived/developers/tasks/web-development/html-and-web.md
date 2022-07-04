@@ -134,7 +134,7 @@ Visual designer for HTML pages, which could be used as a basis for the [ASP.NET 
 | **<span style="font-size: x-small;">Status</span>**                          | **<span style="font-size: x-small;">Owner</span>**           | **<span style="font-size: x-small;">Importance</span>**                        | **<span style="font-size: x-small;">Complexity</span>**                        | **<span style="font-size: x-small;">MD Version</span>**       |
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
-JS debugger using the Chromium/WebKit debugger API. 
+JS debugger using the Chromium/WebKit debugger API.
 
 ### Inspector based CSS editor
 
@@ -147,5 +147,3 @@ JS debugger using the Chromium/WebKit debugger API. 
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 CSS editor based on an inspector like Firebug, Chrome, [Stylizer](http://www.stylizerapp.com/), etc.
-
-

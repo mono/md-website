@@ -125,7 +125,7 @@ Tools
 
 #### **T4 Templating Engine**
 
-The T4 templating engine now supports preprocessed templates, and has improved compatibility with the Microsoft implementation. 
+The T4 templating engine now supports preprocessed templates, and has improved compatibility with the Microsoft implementation.
 
 #### **AnalysisCore**
 
@@ -201,5 +201,3 @@ Contributors to this release:
 -   Ray Wang, Yan-ren Tsai (Chinese)
 -   Mike Krueger, Masahiro Arai, Zeno Gantner (German)
 -   Bruno Bovey (French)
-
-

@@ -54,7 +54,7 @@ Bugs marked as ~~strikethough~~ have been fixes that will be released in future 
 -   Mouse clicks on dialogs annd menus sometimes have no effect unless MD is defocused and refocused.
 -   MD cannot restore maximize or fullscreen state correctly between sessions [[MD bug 561726]](https://bugzilla.novell.com/show_bug.cgi?id=561726 "https://bugzilla.novell.com/show_bug.cgi?id=561726") [GTK+ bug]
 -   Errors when opening context menus and configuration dropdown on PPC [[MD Bug 547894]](https://bugzilla.novell.com/show_bug.cgi?id=547894 "https://bugzilla.novell.com/show_bug.cgi?id=547894")
--   Mouse grabs are not always released. Affects treeview disclosures and toolbar buttons. Click on the window decoration to reset grab tracking. 
+-   Mouse grabs are not always released. Affects treeview disclosures and toolbar buttons. Click on the window decoration to reset grab tracking.
 
 #### Source Editor
 
@@ -64,7 +64,7 @@ Bugs marked as ~~strikethough~~ have been fixes that will be released in future 
 -   MD crashes when using Menlo font [Pango]
 -   ~~Text editor crashes when cutting/copying and Launchbar/Quicksilver is handling clipboard~~.
 -   Input methods are not supported, so many languages' characters cannot be input.
--   Doesn't render when QuartzGL is enabled: [[MD Bug 540583]](https://bugzilla.novell.com/show_bug.cgi?id=540583 "https://bugzilla.novell.com/show_bug.cgi?id=540583")[GTK+ bug]
+-   Doesn't render when QuartzGL is enabled: [MD Bug 540583](https://bugzilla.novell.com/show_bug.cgi?id=540583)(GTK+ bug)
 
 #### Drag-n-drop
 
@@ -100,5 +100,3 @@ Utilities that are known to cause this problem include:
 -   Keyboard Maestro
 -   Butler
 -   ClipboardHistory
-
-

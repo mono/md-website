@@ -50,7 +50,7 @@ A common problem that new users have it to be missing references to System, Syst
 | **<span style="font-size: x-small;">Status</span>**                              | **<span style="font-size: x-small;">Owner</span>**           | **<span style="font-size: x-small;">Importance</span>**                        | **<span style="font-size: x-small;">Complexity</span>**                        | **<span style="font-size: x-small;">MD Version</span>**       |
 | <span class="task-status-Completed" style="font-size: x-small;">Completed</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
-Save policy sets with user-specified names, and apply these named policy sets to projects. 
+Save policy sets with user-specified names, and apply these named policy sets to projects.
 
 ### Proper MSBuild file links in projects
 

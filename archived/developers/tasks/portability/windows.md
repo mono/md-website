@@ -38,7 +38,7 @@ Use the native "recently used files" list and register as able to handle them so
 | **<span style="font-size: x-small;">Status</span>**                                  | **<span style="font-size: x-small;">Owner</span>**                | **<span style="font-size: x-small;">Importance</span>**                    | **<span style="font-size: x-small;">Complexity</span>**                | **<span style="font-size: x-small;">MD Version</span>**          |
 | <span class="task-status-In Progress" style="font-size: x-small;">In Progress</span> | <span class="task-owner" style="font-size: x-small;">lluis</span> | <span class="task-importance-High" style="font-size: x-small;">High</span> | <span class="task-complexity-1w" style="font-size: x-small;">1w</span> | <span class="task-target" style="font-size: x-small;">2.6</span> |
 
-Use the native Windows file dialogs. This should be relatively straightforward since the abstraction work will need to be done for Mac anyway. Might have problems with the message pump. 
+Use the native Windows file dialogs. This should be relatively straightforward since the abstraction work will need to be done for Mac anyway. Might have problems with the message pump.
 
 ### Taskbar Progress Indicator
 
@@ -51,5 +51,3 @@ Use the native Windows file dialogs. This should be relatively straightforward s
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 Windows 7 enables app icons on the taskbar to show a progress indicator. MD should enable this for monitors shown in the status bar or modal dialogs.
-
-

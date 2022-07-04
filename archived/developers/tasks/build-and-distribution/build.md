@@ -63,5 +63,3 @@ Resurrect the Strongwind-based UI tests, add more, and run them on the CI server
 | <span class="task-status-Pending" style="font-size: x-small;">Pending</span> | <span class="task-owner" style="font-size: x-small;"></span> | <span class="task-importance-Normal" style="font-size: x-small;">Normal</span> | <span class="task-complexity-Medium" style="font-size: x-small;">Medium</span> | <span class="task-target" style="font-size: x-small;"></span> |
 
 It could be useful to run some Gendarme rules on the CI server to catch some problems automatically.
-
-

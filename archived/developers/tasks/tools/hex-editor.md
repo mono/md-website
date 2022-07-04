@@ -13,4 +13,3 @@ redirect_from:
 | <span class="task-status-Completed" style="font-size: x-small;">Completed</span> | <span class="task-owner" style="font-size: x-small;">mkrueger</span> | <span class="task-importance-Low" style="font-size: x-small;">Low</span> | <span class="task-complexity-2d" style="font-size: x-small;">2d</span> | <span class="task-target" style="font-size: x-small;">2.4</span> |
 
 Used for editing/viewing binary files. Not often used - but when needed it's helpful to have it inside the IDE. All other .NET IDEs have one, therefore we should too.
-

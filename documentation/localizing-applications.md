@@ -24,7 +24,7 @@ Gettext translates string values by looking them up in a catalog. In order to us
 
 First add a reference to the **Mono.Posix** assembly, which implements the Mono Gettext support. To do this, right click the project's *References* in the **Solution Pad** and select *Edit References*. Select Mono.Posix and, click the Add button, then click Ok.
 
-[![Reference.png](/images/297-Reference.png)](/images/297-Reference.png) 
+[![Reference.png](/images/297-Reference.png)](/images/297-Reference.png)
 
 To initialize the catalog, call
 
@@ -38,7 +38,7 @@ where *appname* is the name of your application and *locale* is the directory 
 
 To translate an application, every user-visible string must be translated. Gettext makes this simple: anywhere that a user-visible string is needed, simply pass the string to the **Catalog.GetString** method. It will return the translated version of the string, or, if not translation is available, it will return the string that was passed to it.
 
-For example, instead of 
+For example, instead of
 
 ``` csharp
 Console.WriteLine ("Hello World!");
@@ -54,7 +54,7 @@ The catalog can only translate literal strings, so not alter strings before pass
 
 Instead, translate a format string, then format it.
 
-For example, instead of 
+For example, instead of
 
 ``` csharp
 string message = "The temperature is " + temperature + " degrees";
@@ -86,22 +86,22 @@ MonoDevelop's Gtk# designer can automatically use Gettext in the code that it ge
 
 MonoDevelop has a special project type that handles creating, updating and editing gettext catalogs. This is the **Translation Project**. When creating a new solution, you are offered the option of creating a translation project, but it is easy to add one to an existing solution using the *Add Project* command.
 
-[![NewTranslationProject.png](/images/296-NewTranslationProject.png)](/images/296-NewTranslationProject.png) 
+[![NewTranslationProject.png](/images/296-NewTranslationProject.png)](/images/296-NewTranslationProject.png)
 
 To update the catalog, right-click on the translation project and select *Update.* The translation project will scan all other projects in the solution looking for translatable strings. You can opt-out of this scan for individual files using the property pad.
 
 To add translations, right-click on the translation project and select *Add Translation.* You can then select a language, and MonoDevelop will add a translation for that language.
 
-[![NewLocalization.png](/images/294-NewLocalization.png)](/images/294-NewLocalization.png) 
+[![NewLocalization.png](/images/294-NewLocalization.png)](/images/294-NewLocalization.png)
 
 To edit a translation, open the translation catalog by double-clicking on the language in the Solution Pad.
 
 At the top of the translation catalog editor is a list of all the translatable strings. Each has an icon indicating whether it is translated, untranslated, or a fuzzy match. Select one, and more information will appear in the other boxes. The *Original(msgid)* value is the string found in the code. Below it is the *Translated(msgstr)* value, where the translator should set the translated version of the string. There is also an option to comment the translation or see from which line from the source code it originates. Don't forget to save the catalog after editing!
 
-[![TranslationGUI.png](/images/298-TranslationGUI.png)](/images/298-TranslationGUI.png) 
+[![TranslationGUI.png](/images/298-TranslationGUI.png)](/images/298-TranslationGUI.png)
 
 The translation catalogs will be compiled when the translation project is built. The output directory for the compiled files can be configured in the *Project Options* of the translation project.
 
-[![ProjectOptions.png](/images/299-ProjectOptions.png)](/images/299-ProjectOptions.png) 
+[![ProjectOptions.png](/images/299-ProjectOptions.png)](/images/299-ProjectOptions.png)
 
 Fuzzy strings are string which have been automatically matched during an update. They are likely incorrect but may be useful when updating the real translation.

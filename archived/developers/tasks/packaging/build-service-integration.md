@@ -77,5 +77,3 @@ As much code as possible should be abstracted out for use in a future Visual Stu
 ### Notes
 
 The OBS API is available at <https://api.opensuse.org/apidocs>.
-
-

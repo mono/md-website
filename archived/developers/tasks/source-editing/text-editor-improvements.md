@@ -162,5 +162,3 @@ An editor for text editor color schemes.
 A simple editor could allow the user to pick a few colors and [generate a scheme from them](http://frickinsweet.com/tools/Theme.mvc.aspx).
 
 An advanced editor could either allow the user to pick styles from a list of names, or [pick them from a sample document](http://studiostyles.info/), and set their colors.
-
-

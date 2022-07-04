@@ -63,7 +63,7 @@ The source analysis engine and context actions now use the new C# resolver, whic
 
 When source analysis is enabled, there is also an optional minimap scrollbar. This can be enabled from the context menu on the source editor scrollbar.
 
-Source analysis features are experimental, and may not be supported in future versions.* *For this reason they're disabled by default, but they can be enabled in the *Other-\>Source Analysis *preferences panel.
+Source analysis features are experimental, and may not be supported in future versions. For this reason they're disabled by default, but they can be enabled in the *Other-\>Source Analysis* preferences panel.
 
 Mac and Android
 ---------------
@@ -113,5 +113,3 @@ It can now be opened directly from the *View* menu, and can be used to browse 
 ### Improved Performance for Large Projects
 
 The performance of large projects has been greatly improved. Many common operations such as opening, closing, building, cleaning and adding files are significantly faster.
-
-

@@ -17,4 +17,3 @@ A generic pad for language addins to plug in a REPL (read-eval-print-loop). The 
 Th REPL pad should provide a decent terminal-like widget with syntax highlighting and good keyboard usability, history, etc. It should also have a mechanism for running the actual REPL outside the MD process, and for loading the projects' compiled output dlls. It could also provide a command for copying selected text from the source editor to the REPL and executing it, and maybe a mechanism for storing and managing code snippets for the repl.
 
 Using Mono.TextEditor as the REPL widget directly would require adding support for line wrapping and uneditable regions, so it might be easier to use the Mono.TextEditor syntax highlighting engine with a GTK TextView.
-
