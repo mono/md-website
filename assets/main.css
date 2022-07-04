@@ -229,7 +229,7 @@ footer {
     padding: 0 5px;
   }
 
-  #mono-download.tabs dd > a {
+  #mono-download.tabs li > a {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
@@ -264,17 +264,17 @@ footer {
 /* --- --- */
 
 /* --- Download page --- */
-#mono-download.tabs dd > a {
+#mono-download.tabs li > a {
   font-size: 1.5em;
   white-space: nowrap;
 }
 
-#mono-download.tabs dd.active a {
+#mono-download.tabs li.active a {
   background-color: #333;
   color: #fff;
 }
 
-#mono-download.tabs dd {
+#mono-download.tabs li {
   line-height: 0.9em;
 }
 
