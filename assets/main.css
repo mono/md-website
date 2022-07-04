@@ -210,6 +210,14 @@ footer {
   background: #006385;
 }
 
+@media (forced-colors: active) and (prefers-color-scheme: dark) {
+  .top-bar-section li.active:not(.has-form) a:not(.button) {
+    background-color: #fff;
+    color: #000;
+    forced-color-adjust: none;
+  }
+}
+
 .top-bar-section .has-dropdown > a:after {
   margin-top: -8px;
 }
