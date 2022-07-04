@@ -16,7 +16,7 @@ Creating the Solution
 
 After opening MonoDevelop, select **New Project** from the Welcome Page or the **File** menu, to bring up the *New Solution* dialogue. From the list of project types on the left expand the *C#* category to reveal the *ASP.NET* subcategory, and select it. Now select the "Web Application" project, and specify the name and location of the new project, as shown below.
 
-![New-AspNet-App.png](/images/360-New-AspNet-App.png "New Solution screen with Web Application entry selected"){:aria-label="New Solution screen with Web Application entry selected"}
+![New Solution screen with Web Application entry selected](/images/360-New-AspNet-App.png)
 
 ASP.NET projects are similarly available for other languages, but may not be fully supported.
 
@@ -27,7 +27,7 @@ Building and Running the Application
 
 The new project contains a default set of files. There's a page called Default.aspx, and grouped with it are its C# CodeBehind files Default.aspx.cs and Default.aspx.designer.cs. There's a Global.asax file for global application code, with CodeBehind in Global.asax.cs, and there's a Web.config file for application settings.
 
-![AspNetSolutionPad.png](/images/358-AspNetSolutionPad.png "Solution Pad listing all of the files"){:aria-label="Solution Pad listing all of the files"}
+![Solution Pad listing all of the files](/images/358-AspNetSolutionPad.png)
 
 Edit the Default.aspx file, and between the *form* tags, add an ASP button and label:
 
@@ -69,14 +69,14 @@ This is storing the current click count in the untyped ViewState collection prop
 
 Run the page, and clicking the button will now produce some feedback, by updating the label with the number of times you've clicked it.
 
-![AspNetDemoProjectOutput.png](/images/356-AspNetDemoProjectOutput.png "Demo output from the ASP.NET application showing a Click Me button and text"){:aria-label="Demo output from the ASP.NET application showing a Click Me button and text"}
+![Demo output from the ASP.NET application showing a Click Me button and text](/images/356-AspNetDemoProjectOutput.png)
 
 Deploying the Project
 ---------------------
 
 In the **Project Options**, the **Web Deployment Targets** panel allows you to define deployment targets, local or remote directories to which the application can be deployed. Remote deployment requires the sshfs FUSE filesystem.
 
-![AspNetWebDeployNew.png](/images/359-AspNetWebDeployNew.png "Web Deployment wizard showing various options"){:aria-label="Web Deployment wizard showing various options"}
+![Web Deployment wizard showing various options](/images/359-AspNetWebDeployNew.png)
 
 After targets have been configured, the project can be deployed using the **Project**-\>**Deploy to Web...** command in the main menu, or by right-clicking on the project and selecting **Tools**-\>**Deploy to Web...**.
 

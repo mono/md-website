@@ -147,7 +147,7 @@ Does this mean that you need to define command handlers for every widget that ca
 
 The following diagram shows an example of command routes:
 
-![routing.png](/images/386-routing.png "Example command routes showing the route hierarchy"){:aria-label="Example command routes showing the route hierarchy"}
+![Example command routes showing the route hierarchy](/images/386-routing.png)
 
 Two interesting things:
 
