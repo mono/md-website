@@ -274,6 +274,14 @@ footer {
   color: #fff;
 }
 
+@media (forced-colors: active) and (prefers-color-scheme: dark) {
+  #mono-download.tabs li.active a, #mono-download-linux.tabs li.active a {
+    background-color: #fff;
+    color: #333;
+    forced-color-adjust: none;
+  }
+}
+
 #mono-download.tabs li {
   line-height: 0.9em;
 }
