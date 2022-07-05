@@ -222,6 +222,14 @@ footer {
   }
 }
 
+@media (forced-colors: active) and (prefers-color-scheme: light) {
+  .top-bar-section li.active:not(.has-form) a:not(.button) {
+    background-color: #000;
+    color: #fff;
+    forced-color-adjust: none;
+  }
+}
+
 .top-bar-section .has-dropdown > a:after {
   margin-top: -8px;
 }
@@ -290,6 +298,14 @@ footer {
   #mono-download.tabs li.active a, #mono-download-linux.tabs li.active a {
     background-color: #fff;
     color: #333;
+    forced-color-adjust: none;
+  }
+}
+
+@media (forced-colors: active) and (prefers-color-scheme: light) {
+  #mono-download.tabs li.active a, #mono-download-linux.tabs li.active a {
+    background-color: #333;
+    color: #fff;
     forced-color-adjust: none;
   }
 }
