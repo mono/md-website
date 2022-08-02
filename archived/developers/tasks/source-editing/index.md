@@ -239,7 +239,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_SourceEditing.CodeStyle"></a><a rel="custom nofollow" href="/archived/developers/tasks/source-editing/code-style-policies/">Code Style Policies</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/source-editing/code-style-policies/">Code Style Policies</a></td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -445,7 +445,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_SourceEditing.SpellChecking"></a><a rel="custom nofollow" href="/archived/developers/tasks/source-editing/spell-checking-of-string-literals-and-comments/">Spell checking of string literals and comments</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/source-editing/spell-checking-of-string-literals-and-comments/">Spell checking of string literals and comments</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>

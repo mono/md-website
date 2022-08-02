@@ -47,7 +47,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_VC.SpellChecking"></a><a rel="custom nofollow" href="/archived/developers/tasks/version-control/spell-checking/">Spell Checking</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/version-control/spell-checking/">Spell Checking</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Low"><span style="font-size: smaller;">Low</span></td>

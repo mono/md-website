@@ -18,7 +18,7 @@ redirect_from:
     </thead>
     <tbody>
         <tr>
-            <td><a id="_task_a_Packaging.Project"></a><a rel="custom nofollow" href="/archived/developers/tasks/packaging/packaging-projects-overhaul/">Packaging Projects Overhaul</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/packaging/packaging-projects-overhaul/">Packaging Projects Overhaul</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-High"><span style="font-size: smaller;">High</span></td>
@@ -29,7 +29,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Packaging.BuildService"></a><a rel="custom nofollow" href="/archived/developers/tasks/packaging/build-service-integration/">Build Service Integration</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/packaging/build-service-integration/">Build Service Integration</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-High"><span style="font-size: smaller;">High</span></td>

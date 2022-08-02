@@ -102,7 +102,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_General.MissingIcons"></a><a rel="custom nofollow" href="/archived/developers/tasks/general/missing-icons/">Missing Icons</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/general/missing-icons/">Missing Icons</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Low"><span style="font-size: smaller;">Low</span></td>
@@ -113,7 +113,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_General.MenuCustomization"></a><a rel="custom nofollow" href="/archived/developers/tasks/general/customization-of-menus-and-toolbars/">Customization of menus and toolbars</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/general/customization-of-menus-and-toolbars/">Customization of menus and toolbars</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-"><span style="font-size: smaller;"></span></td>
@@ -144,7 +144,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_General.ClassWizard"></a><a rel="custom nofollow" href="/archived/developers/tasks/general/class-wizard/">Class Wizard</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/general/class-wizard/">Class Wizard</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Low"><span style="font-size: smaller;">Low</span></td>
@@ -155,7 +155,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_General.ClassDiagram"></a><a rel="custom nofollow" href="/archived/developers/tasks/general/class-diagram-view/">Class Diagram View</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/general/class-diagram-view/">Class Diagram View</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-High"><span style="font-size: smaller;">High</span></td>

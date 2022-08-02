@@ -18,7 +18,7 @@ redirect_from:
     </thead>
     <tbody>
         <tr>
-            <td><a id="_task_a_Tools.GAPI"></a><a rel="custom nofollow" href="/archived/developers/tasks/tools/gapi-binding-builder/">GAPI binding builder</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/gapi-binding-builder/">GAPI binding builder</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Very-Low"><span style="font-size: smaller;">Very-Low</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -231,7 +231,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Tools.Gendarme"></a><a rel="custom nofollow" href="/archived/developers/tasks/tools/integration-of-gendarme/">Integration of Gendarme</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/integration-of-gendarme/">Integration of Gendarme</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -389,7 +389,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Tools.HexEditor"></a><a rel="custom nofollow" href="/archived/developers/tasks/tools/hex-editor/">Hex Editor</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/hex-editor/">Hex Editor</a></td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-2d"><span style="font-size: smaller;">2d</span></td>
@@ -400,7 +400,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Tools.REPLPad"></a><a rel="custom nofollow" href="/archived/developers/tasks/tools/repl-pad/">REPL Pad</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/repl-pad/">REPL Pad</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -411,7 +411,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Tools.Profiler"></a><a rel="custom nofollow" href="/archived/developers/tasks/tools/integration-of-the-mono-profiler/">Integration of the Mono Profiler</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/integration-of-the-mono-profiler/">Integration of the Mono Profiler</a></td>
             <td class="task-status-In Progress"><span style="font-size: smaller;">In Progress</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-"><span style="font-size: smaller;"></span></td>

@@ -85,7 +85,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_ProjectAddins.AddinAuthoring"></a><a rel="custom nofollow" href="/archived/developers/tasks/project-add-ins/add-in-authoring/">Add-in Authoring</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/project-add-ins/add-in-authoring/">Add-in Authoring</a></td>
             <td class="task-status-In Progress"><span style="font-size: smaller;">In Progress</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-3w"><span style="font-size: smaller;">3w</span></td>

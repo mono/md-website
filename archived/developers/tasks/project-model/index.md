@@ -19,7 +19,7 @@ redirect_from:
     </thead>
     <tbody>
         <tr>
-            <td><a id="_task_a_Projects.NonDotNetSupport"></a><a rel="custom nofollow" href="/archived/developers/tasks/project-model/improve-support-for-non-.net-languages/">Improve support for non-.NET languages</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/project-model/improve-support-for-non-.net-languages/">Improve support for non-.NET languages</a></td>
             <td class="task-status-Assigned"><span style="font-size: smaller;">Assigned</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-"><span style="font-size: smaller;"></span></td>
@@ -30,7 +30,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Projects.NewDom"></a><a rel="custom nofollow" href="/archived/developers/tasks/project-model/overwork-md-dom-to-a-real-tree-model/">Overwork MD DOM to a real tree model</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/project-model/overwork-md-dom-to-a-real-tree-model/">Overwork MD DOM to a real tree model</a></td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-2w"><span style="font-size: smaller;">2w</span></td>
@@ -151,7 +151,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Projects.NAnt"></a><a rel="custom nofollow" href="/archived/developers/tasks/project-model/nant-integration/">NAnt integration</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/project-model/nant-integration/">NAnt integration</a></td>
             <td class="task-status-Proposal"><span style="font-size: smaller;">Proposal</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -162,7 +162,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Projects.XBuildIntegration"></a><a rel="custom nofollow" href="/archived/developers/tasks/project-model/xbuild-integration/">XBuild Integration</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/project-model/xbuild-integration/">XBuild Integration</a></td>
             <td class="task-status-In Progress"><span style="font-size: smaller;">In Progress</span></td>
             <td class="task-importance-High"><span style="font-size: smaller;">High</span></td>
             <td class="task-complexity-2w"><span style="font-size: smaller;">2w</span></td>
@@ -173,7 +173,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Projects.AutoAssemblyInfo"></a><a rel="custom nofollow" href="/archived/developers/tasks/project-model/auto-population-(and-hiding)-of-assemblyinfo.cs/">Auto-population (and hiding) of AssemblyInfo.cs</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/project-model/auto-population-(and-hiding)-of-assemblyinfo.cs/">Auto-population (and hiding) of AssemblyInfo.cs</a></td>
             <td class="task-status-Proposal"><span style="font-size: smaller;">Proposal</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Low"><span style="font-size: smaller;">Low</span></td>

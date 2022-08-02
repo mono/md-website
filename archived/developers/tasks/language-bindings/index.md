@@ -18,7 +18,7 @@ redirect_from:
     </thead>
     <tbody>
         <tr>
-            <td><a id="_task_a_Languages.FS"></a><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/fsharp/">F#</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/fsharp/">F#</a></td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -94,7 +94,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Languages.IronRuby"></a><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/ironruby/">IronRuby</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/ironruby/">IronRuby</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-High"><span style="font-size: smaller;">High</span></td>
@@ -105,7 +105,7 @@ redirect_from:
     </tbody>
     <tbody>
         <tr>
-            <td><a id="_task_a_Languages.IronPython"></a><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/ironpython/">IronPython</a></td>
+            <td><a rel="custom nofollow" href="/archived/developers/tasks/language-bindings/ironpython/">IronPython</a></td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-High"><span style="font-size: smaller;">High</span></td>
