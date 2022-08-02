@@ -38,7 +38,7 @@ redirect_from:
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Stetic.1wpf"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">1-widget-per-file</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">1-widget-per-file</a></li> </ul> </td>
             <td class="task-status-In Progress"><span style="font-size: smaller;">In Progress</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -47,7 +47,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Stetic.NoRegen"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">Don't try to regenerate code every build</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">Don't try to regenerate code every build</a></li> </ul> </td>
             <td class="task-status-In Progress"><span style="font-size: smaller;">In Progress</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -56,7 +56,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Stetic.OutOfProcess"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">Run designer out-of-process, support for native widgets</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">Run designer out-of-process, support for native widgets</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -65,7 +65,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Stetic.GtkBuilder"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">Support for GtkBuilder</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">Support for GtkBuilder</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -74,7 +74,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Stetic.LightweightProjects"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">Lightweight project model</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/stetic/">Lightweight project model</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -94,7 +94,7 @@ redirect_from:
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.PinnedQuickWatch"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Pinned Quick Watch</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Pinned Quick Watch</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-High"><span style="font-size: smaller;">High</span></td>
             <td class="task-complexity-3d"><span style="font-size: smaller;">3d</span></td>
@@ -103,7 +103,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.FreezeThawThread"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Freezing and Thawing Threads</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Freezing and Thawing Threads</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -112,7 +112,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.RunToCursor"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Run to Cursor</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Run to Cursor</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -121,7 +121,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.SetNextStatement"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Set Next Statement</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Set Next Statement</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -130,7 +130,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.ILDebugging"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">IL Debugging</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">IL Debugging</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -139,7 +139,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.BreakpointManagement"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Breakpoint Management</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Breakpoint Management</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -148,7 +148,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.MultipleStatementsPerLine"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Multiple statements per line</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Multiple statements per line</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -157,7 +157,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.ThreadLabeling"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Thread Management</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Thread Management</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -166,7 +166,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.SDBConnectListen"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">SDB Connect/Listen</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">SDB Connect/Listen</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -175,7 +175,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.PreciseDataTooltips"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Precise Data Tooltips</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Precise Data Tooltips</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -184,7 +184,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.PreciseBreakpointPlacement"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Precise Breakpoint Placement</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Precise Breakpoint Placement</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -193,7 +193,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.ExternalBreakpoints"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Breakpoints on External Libraries</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Breakpoints on External Libraries</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -202,7 +202,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.ExpressionCodeCompletion"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Code Completion in Expressions</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Code Completion in Expressions</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -211,7 +211,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.ExpressionExtensionMethods"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Extension Methods and Lambdas in Expressions</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">Extension Methods and Lambdas in Expressions</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -220,7 +220,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Debugger.SdbNativeDisassembly"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">SDB native disassembly</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/debugger/">SDB native disassembly</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -243,7 +243,7 @@ redirect_from:
     <tbody>
         <tr> <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">Translation</a></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
         <tr>
-            <td><a id="_task_a_Projects.DotNetLocalization"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">Support for editing .NET localization</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">Support for editing .NET localization</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -252,7 +252,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Translation.OnlineDB"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">Online database of common translation phrases</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">Online database of common translation phrases</a></li> </ul> </td>
             <td class="task-status-Proposal"><span style="font-size: smaller;">Proposal</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -261,7 +261,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Translation.CILGettextScanner"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">CIL Gettext Scanner</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">CIL Gettext Scanner</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -270,7 +270,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Translation.AspNetGettextScanner"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">ASP.NET Gettext Scanner</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/translation/">ASP.NET Gettext Scanner</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -282,7 +282,7 @@ redirect_from:
     <tbody>
         <tr> <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/monodoc-documentation-generation/">MonoDoc</a></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
         <tr>
-            <td><a id="_task_a_Tools.MonodocGeneration"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/monodoc-documentation-generation/">MonoDoc documentation generation</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/monodoc-documentation-generation/">MonoDoc documentation generation</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -291,7 +291,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.MonodocAuthoring"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/monodoc-documentation-generation/">Help file authoring</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/monodoc-documentation-generation/">Help file authoring</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -300,7 +300,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.MonodocUserAnnotations"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/monodoc-documentation-generation/">Allow users to add annotations to documentation</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/monodoc-documentation-generation/">Allow users to add annotations to documentation</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -312,7 +312,7 @@ redirect_from:
     <tbody>
         <tr> <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/code-metrics-improvements/">Code Metrics Improvements</a></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
         <tr>
-            <td><a id="_task_a_Tools.CodeMetrics"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/code-metrics-improvements/">Useful code metrics in code metrics addin</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/code-metrics-improvements/">Useful code metrics in code metrics addin</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -324,7 +324,7 @@ redirect_from:
     <tbody>
         <tr> <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">T4</a></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
         <tr>
-            <td><a id="_task_a_T4.FileTemplates"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">T4 file templates</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">T4 file templates</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-2h"><span style="font-size: smaller;">2h</span></td>
@@ -333,7 +333,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_T4.UserProcessor"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">Expose T4 processor to users of the IDE</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">Expose T4 processor to users of the IDE</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-1d"><span style="font-size: smaller;">1d</span></td>
@@ -342,7 +342,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_T4.ClassGenerator"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">Expose T4 partial class generator to IDE</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">Expose T4 partial class generator to IDE</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-1d"><span style="font-size: smaller;">1d</span></td>
@@ -351,7 +351,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_T4.TagCompletion"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">T4 tag and directive completion</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">T4 tag and directive completion</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -360,7 +360,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_T4.CSCompletion"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">C# completion</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">C# completion</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -369,7 +369,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_T4.CustomProcessors"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">Custom directive processors</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">Custom directive processors</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Low"><span style="font-size: smaller;">Low</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -378,7 +378,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_T4.EmbraceAndExtend"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">Improve API and tools</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/t4/">Improve API and tools</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -423,7 +423,7 @@ redirect_from:
     <tbody>
         <tr> <td><a rel="custom nofollow" href="/archived/developers/tasks/tools/database-add-in/">Database Add-in</a></td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> <td>&nbsp;</td> </tr>
         <tr>
-            <td><a id="_task_a_Tools.Db.LINQ"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/database-add-in/">LINQ-to-SQL integration</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/database-add-in/">LINQ-to-SQL integration</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -432,7 +432,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Tools.Db.NHibernate"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/database-add-in/">NHibernate integration</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/tools/database-add-in/">NHibernate integration</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>

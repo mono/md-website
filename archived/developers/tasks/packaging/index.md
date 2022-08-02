@@ -49,7 +49,7 @@ redirect_from:
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td><a id="_task_a_PackageGen.RPM"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/packaging/package-generation/">RPM</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/packaging/package-generation/">RPM</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -58,7 +58,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_PackageGen.DEB"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/packaging/package-generation/">DEB</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/packaging/package-generation/">DEB</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -67,7 +67,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_PackageGen.MSI"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/packaging/package-generation/">MSI (Wix)</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/packaging/package-generation/">MSI (Wix)</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>

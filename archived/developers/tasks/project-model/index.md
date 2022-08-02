@@ -50,7 +50,7 @@ redirect_from:
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.ProjectTypeConverter"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Project type converter for SL, MT, ASP.NET, ASP.NET MVC, etc</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Project type converter for SL, MT, ASP.NET, ASP.NET MVC, etc</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -59,7 +59,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.SaveNamedPolicies"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Save named policy sets and apply to projects</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Save named policy sets and apply to projects</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -68,7 +68,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.MSBuildLinks"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Proper MSBuild file links in projects</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Proper MSBuild file links in projects</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-3d"><span style="font-size: smaller;">3d</span></td>
@@ -77,7 +77,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.PerProjectAsmResolution"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Support for per-solution assembly resolution rules</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Support for per-solution assembly resolution rules</a></li> </ul> </td>
             <td class="task-status-Assigned"><span style="font-size: smaller;">Assigned</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-1w"><span style="font-size: smaller;">1w</span></td>
@@ -86,7 +86,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.ProjectFromDirectory"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Quick create project from directory</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Quick create project from directory</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -95,7 +95,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.MoreRefsByDefault"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">More references by default</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">More references by default</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -104,7 +104,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.WcfRefs"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">WCF service references</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">WCF service references</a></li> </ul> </td>
             <td class="task-status-Completed"><span style="font-size: smaller;">Completed</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-2d"><span style="font-size: smaller;">2d</span></td>
@@ -113,7 +113,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.RebuildOnlyAPIChange"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Only rebuild dependent projects if public API changes</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Only rebuild dependent projects if public API changes</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
@@ -122,7 +122,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.RemoveNet11"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Remove .NET 1.1 support</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Remove .NET 1.1 support</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-"><span style="font-size: smaller;"></span></td>
@@ -131,7 +131,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.MD1Format"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Remove MD1 file format support</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Remove MD1 file format support</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-"><span style="font-size: smaller;"></span></td>
@@ -140,7 +140,7 @@ redirect_from:
             <td></td>
         </tr>
         <tr>
-            <td><a id="_task_a_Projects.MultiProjectSupport"></a> <ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Multi-Project Support</a></li> </ul> </td>
+            <td><ul style="margin: 0pt;"> <li><a rel="custom nofollow" href="/archived/developers/tasks/project-model/project-model-improvements/">Multi-Project Support</a></li> </ul> </td>
             <td class="task-status-Pending"><span style="font-size: smaller;">Pending</span></td>
             <td class="task-importance-Normal"><span style="font-size: smaller;">Normal</span></td>
             <td class="task-complexity-Medium"><span style="font-size: smaller;">Medium</span></td>
