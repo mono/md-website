@@ -16,13 +16,13 @@ Step 1: Creating a new Project
 
 Open Monodevelop and then select **File -\> New Project** from the menu. It should open a window that looks something like this:
 
-[![1](http://farm6.static.flickr.com/5050/5232072870_c37490530c.jpg)](http://www.flickr.com/photos/56664731@N07/5232072870/ "1 by toma.tabacu, on Flickr")
+![1](http://farm6.static.flickr.com/5050/5232072870_c37490530c.jpg)
 
 Select **C#** from the menu on the left and then click the icon labelled **Gtk# 2.0 Project**. Click **Forward** to proceed.
 
 To open the Designer you must right-click **MainWindow** from the **Solution Pad** and select **Open**.
 
-[![2](http://farm6.static.flickr.com/5090/5231481171_273f0ac055.jpg)](http://www.flickr.com/photos/56664731@N07/5231481171/ "2 by toma.tabacu, on Flickr")
+![2](http://farm6.static.flickr.com/5090/5231481171_273f0ac055.jpg)
 
 Step 2: Creating the GUI
 ------------------------
@@ -31,37 +31,37 @@ The main philosophy of Gtk# is that every Widget (Buttons, Toolbars etc.) must b
 
 To get started, switch to the Designer by pressing the "Designer" button located at the bottom:
 
-[![SourceCodeDesigner](http://farm6.static.flickr.com/5164/5231481777_202da87b75.jpg)](http://www.flickr.com/photos/56664731@N07/5231481777/ "SourceCodeDesigner by toma.tabacu, on Flickr")
+![SourceCodeDesigner](http://farm6.static.flickr.com/5164/5231481777_202da87b75.jpg)
 
 ### 2.1 Adding Containers
 
 The MainWindow is empty right now:
 
-[![3](http://farm6.static.flickr.com/5286/5231481209_3f4bdfd0ec.jpg)](http://www.flickr.com/photos/56664731@N07/5231481209/ "3 by toma.tabacu, on Flickr")
+![3](http://farm6.static.flickr.com/5286/5231481209_3f4bdfd0ec.jpg)
 
 All the default Containers and Widgets you need are in the **Toolbox Pad** on the right side of the screen:
 
-[![Containers](http://farm6.static.flickr.com/5244/5231481261_ffaef8635c.jpg)](http://www.flickr.com/photos/56664731@N07/5231481261/ "Containers by toma.tabacu, on Flickr")
+![Containers](http://farm6.static.flickr.com/5244/5231481261_ffaef8635c.jpg)
 
-[![Widgets1](http://farm6.static.flickr.com/5284/5232073350_0a2d75cc9a.jpg)](http://www.flickr.com/photos/56664731@N07/5232073350/ "Widgets1 by toma.tabacu, on Flickr")
+![Widgets1](http://farm6.static.flickr.com/5284/5232073350_0a2d75cc9a.jpg)
 
 First of all, we are going to add a **VBox** to separate the Buttons from the TextView. Go to **Toolbox -\> Containers** and drag the **VBox** container to the **MainWindow**. The result looks like this:
 
-[![4](http://farm6.static.flickr.com/5210/5232073084_541f090c28.jpg)](http://www.flickr.com/photos/56664731@N07/5232073084/ "4 by toma.tabacu, on Flickr")
+![4](http://farm6.static.flickr.com/5210/5232073084_541f090c28.jpg)
 
 Now we need to make a container for each of the Buttons. Add a **HBox** (drag & drop) to the first box of the **VBox**. The window will look like this:
 
-[![5](http://farm6.static.flickr.com/5165/5231481403_2fdfdb3d24.jpg)](http://www.flickr.com/photos/56664731@N07/5231481403/ "5 by toma.tabacu, on Flickr")
+![5](http://farm6.static.flickr.com/5165/5231481403_2fdfdb3d24.jpg)
 
 If we're going to have 4 buttons we need to add another box to the **HBox**. Right-click the **HBox** and select **hbox1 -\> Insert After**. The window should look like this:
 
-[![6](http://farm6.static.flickr.com/5042/5232073038_2064183def.jpg)](http://www.flickr.com/photos/56664731@N07/5232073038/ "6 by toma.tabacu, on Flickr")
+![6](http://farm6.static.flickr.com/5042/5232073038_2064183def.jpg)
 
 ### 2.2 Adding Widgets
 
 Add a **Button** to each of the first row boxes and a **TextView** to the second row, like this:
 
-[![7](http://farm6.static.flickr.com/5090/5232073172_8080b106d7.jpg)](http://www.flickr.com/photos/56664731@N07/5232073172/ "7 by toma.tabacu, on Flickr")
+![7](http://farm6.static.flickr.com/5090/5232073172_8080b106d7.jpg)
 
 Every **Widget** and **Container** has properties that define their appearance and behaviour.
 
@@ -69,22 +69,22 @@ You can modify these properties from the **Properties Pad** (below the Toolbox P
 
 For example, select the **TextView** that was just added and change its **Show Scrollbars** property by unchecking the checkbox:
 
-[![TextViewProperties](http://farm6.static.flickr.com/5001/5231481553_913f9969d4.jpg)](http://www.flickr.com/photos/56664731@N07/5231481553/ "TextViewProperties by toma.tabacu, on Flickr")
+![TextViewProperties](http://farm6.static.flickr.com/5001/5231481553_913f9969d4.jpg)
 
 Now select the first **Button** and change its **Name** to "buttonClear". The Name property is used by the application to refer to this instance of the **Gtk.Button** class. To change the text on the button you must modify the **Label** property which can be found in the **Button Properties** submenu. Change it to "Clear" as shown in the image below:
 
-[![ButtonProperties](http://farm6.static.flickr.com/5045/5231481649_ed1a5c99ac.jpg)](http://www.flickr.com/photos/56664731@N07/5231481649/ "ButtonProperties by toma.tabacu, on Flickr")
+![ButtonProperties](http://farm6.static.flickr.com/5045/5231481649_ed1a5c99ac.jpg)
 
 Make modifications to the other **Buttons** until your **MainWindow** looks like this:
 
-[![8](http://farm6.static.flickr.com/5281/5232073204_373f1fb028.jpg)](http://www.flickr.com/photos/56664731@N07/5232073204/ "8 by toma.tabacu, on Flickr")
+![8](http://farm6.static.flickr.com/5281/5232073204_373f1fb028.jpg)
 
 Step 3: Adding Functionality
 ----------------------------
 
 Select the "Clear" Button and open the **Signals** tab in the **Properties Pad**:
 
-[![ButtonSignals](http://farm6.static.flickr.com/5088/5232073278_c1aa37e639.jpg)](http://www.flickr.com/photos/56664731@N07/5232073278/ "ButtonSignals by toma.tabacu, on Flickr")
+![ButtonSignals](http://farm6.static.flickr.com/5088/5232073278_c1aa37e639.jpg)
 
 Double-click on the **Clicked** Signal to automatically add a **Signal Handler**. A Signal Handler is a function that is called when a Signal is triggered.
 

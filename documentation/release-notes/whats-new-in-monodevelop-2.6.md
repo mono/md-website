@@ -14,14 +14,14 @@ The version control subsystem in MonoDevelop now supports GIT. The basic version
 -   The **Add/Remove** commands can be used to add or remove files to the git repository.
 -   The **Review Changes** command shows files that have changed in a directory, and allows committing the changes
 -   The **Revert** command restores modified files by doing a soft reset and a checkout.
--   [![md26-GitBranchManager.png](/images/302-md26-GitBranchManager.png)](/images/302-md26-GitBranchManager.png "Branch and Remote Manager")The **Update** command updates a project from a remote repository by using a pull+rebase operation. Uncommitted changes are automatically saved and restored after the update.
+-   ![Branch and Remote Manager](/images/302-md26-GitBranchManager.png "Branch and Remote Manager")The **Update** command updates a project from a remote repository by using a pull+rebase operation. Uncommitted changes are automatically saved and restored after the update.
 -   The **Publish** command initializes a GIT repository in the solution directory and pushes the initial commit to a remote repository.
 
 Also, some GIT specific commands have been added:
 
 -   The **Push Changes** command corresponds to 'git push'. It allows selecting the target remote/branch.
 -   The **Switch to Branch** command can be used to checkout a branch.
--   [![md26-ChangesView.png](/images/308-md26-ChangesView.png)](/images/308-md26-ChangesView.png "Changes View")The **Merge** and **Rebase** commands allows merging a branch with the current one.
+-   ![Changes View](/images/308-md26-ChangesView.png "Changes View")The **Merge** and **Rebase** commands allows merging a branch with the current one.
 -   The **Stash** and **Pop Stash** commands allow saving changes in the working directory. The **Manage stages** command shows a list of saved stashes.
 -   The **Create Git Repository** allows initializing a repository for an existing project.
 -   The New Solution dialog now has an option which allows creating a local Git repository for the new solution.
@@ -32,7 +32,7 @@ The GIT backend is implemented using the [NGit](https://github.com/slluis/ngit)
 
 #### **Improved Version Control Views**
 
-[![md26-Blame.png](/images/309-md26-Blame.png)](/images/309-md26-Blame.png "Changes View")The **Log** and **Blame** windows are now integrated in the editor window as alternate views.
+![Changes View](/images/309-md26-Blame.png "Changes View")The **Log** and **Blame** windows are now integrated in the editor window as alternate views.
 
 The **Log** view has a new design which makes it easier to browse the history of a project or file. **Gravatar icons** if the commit authors are now shown in the history. **Search** support has been added.
 
@@ -47,7 +47,7 @@ Project Model
 
 #### **User defined policies**
 
-[![md26-CustomPolicies.png](/images/306-md26-CustomPolicies.png)](/images/306-md26-CustomPolicies.png "Custom Policies")The concept of "Policies" was introduced in MonoDevelop 2.4. Policies are settings which can be applied per-solution and per-project. Policies include settings like code formatting rules, standard header for files or naming policies.
+![Custom Policies](/images/306-md26-CustomPolicies.png "Custom Policies")The concept of "Policies" was introduced in MonoDevelop 2.4. Policies are settings which can be applied per-solution and per-project. Policies include settings like code formatting rules, standard header for files or naming policies.
 
 In this release, we introduce support for **user defined policy sets**. Users can now define a set of policies and give it a name. This policy set can then be applied as a whole or policy by policy to a project.
 
@@ -76,7 +76,7 @@ The C# parser which is used to support code completion has been rewritten in thi
 
 #### **Improved C# formatting options dialog**
 
-[![md26-CsharpFormatting.png](/images/307-md26-CsharpFormatting.png)](/images/307-md26-CsharpFormatting.png "C# formatting settings dialog")The formatting options for C# are now edited in a new dialog which has more space for showing the available options and the preview code. New formatting options have been added in this release:
+![C# formatting settings dialog](/images/307-md26-CsharpFormatting.png "C# formatting settings dialog")The formatting options for C# are now edited in a new dialog which has more space for showing the available options and the preview code. New formatting options have been added in this release:
 
 -   Added options for blank lines between members.
 -   Added spacing options for indexers.
@@ -85,7 +85,7 @@ The C# parser which is used to support code completion has been rewritten in thi
 
 #### **New path bar**
 
-[![md26-PathBar.png](/images/303-md26-PathBar.png)](/images/303-md26-PathBar.png "The Path Bar")
+![The Path Bar](/images/303-md26-PathBar.png "The Path Bar")
 
 A new path bar at the top of the text editor allows selecting the active class and member. It provides a more consistent user experience between C# and XML/HTML/ASP.NET files.
 
@@ -95,7 +95,7 @@ Minor improvements to the VI mode. Work on a new architecture has begun but is n
 
 #### **DocFood add-in**
 
-[![md26-DocFood.png](/images/304-md26-DocFood.png)](/images/304-md26-DocFood.png "Doc Food add-in")This new add-in can generate XML documentation for classes and class members. It parses the member name and generates some basic documentation out of it.
+![Doc Food add-in](/images/304-md26-DocFood.png "Doc Food add-in")This new add-in can generate XML documentation for classes and class members. It parses the member name and generates some basic documentation out of it.
 
 #### **<span style="font-weight: bold;">Improved</span> XML editing experience**
 
@@ -106,7 +106,7 @@ Debugger
 
 #### **IL disassembly view**
 
-[![md26-Disassembly.png](/images/305-md26-Disassembly.png)](/images/305-md26-Disassembly.png "Disassembly View")When using Mono's Soft Debugger engine, MonoDevelop is now able to show the IL of the code being debugged in the Disassembly window. The Disassembly window will be automatically shown, for example, when double clicking on a method in the call stack pad for which there is no source code file. It can also be made visible using the "Show Disassembly" command.
+![Disassembly View](/images/305-md26-Disassembly.png "Disassembly View")When using Mono's Soft Debugger engine, MonoDevelop is now able to show the IL of the code being debugged in the Disassembly window. The Disassembly window will be automatically shown, for example, when double clicking on a method in the call stack pad for which there is no source code file. It can also be made visible using the "Show Disassembly" command.
 
 #### **Catchpoints and conditional breakpoints in the Win32 debugger**
 
@@ -157,7 +157,7 @@ C / C++
 -   Rudimentary project support for Objective C has been added.
 -   Basic support for the Go-to-declaration command.
 
-[![md26-AddinManager.png](/images/310-md26-AddinManager.png)](/images/310-md26-AddinManager.png "The new Add-in Manager")
+![The new Add-in Manager](/images/310-md26-AddinManager.png "The new Add-in Manager")
 
 Add-in Management
 -----------------

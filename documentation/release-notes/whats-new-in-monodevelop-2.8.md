@@ -13,17 +13,19 @@ The MSBuild project files written by MonoDevelop are more compatible wth Visual
 
 #### New Edit References dialog
 
-[![AddReference.png](/images/313-AddReference.png)](/images/313-AddReference.png "AddReference.png")The Edit References dialog has been redesigned and it is now easier and faster to select the references to be added to a project. It has a new "All" tab which lists all available references (of all kinds: packages, projects and files) and supports filtering using a word matching algorithm (the same used for the find type/file commands).
+![AddReference.png](/images/313-AddReference.png)
+
+The Edit References dialog has been redesigned and it is now easier and faster to select the references to be added to a project. It has a new "All" tab which lists all available references (of all kinds: packages, projects and files) and supports filtering using a word matching algorithm (the same used for the find type/file commands).
 
 On Windows, assemblies in assembly folders are now shown in the references list correctly.
 
-[![DocumentOutline.png](/images/314-DocumentOutline.png)](/images/314-DocumentOutline.png "DocumentOutline.png")
+![DocumentOutline.png](/images/314-DocumentOutline.png)
 
 #### Improved Class and Document Outline pads
 
 Classes and members in the Document Outline view can now be sorted and grouped.
 
-[![HighlitingEditor.png](/images/315-HighlitingEditor.png)](/images/315-HighlitingEditor.png "HighlitingEditor.png")
+![HighlitingEditor.png](/images/315-HighlitingEditor.png)
 
 Source Editing
 --------------
@@ -53,7 +55,9 @@ We have updated MonoTouch's samples to take advantage of XCode 4 and added many 
 
 #### Storyboard Support
 
-[![xcode\_storyboard.jpg](/images/320-xcode_storyboard.jpg)](/images/320-xcode_storyboard.jpg "xcode_storyboard.jpg")With the new version of MonoDevelop, you can now create applications that use [iOS 5 Storyboards](http://developer.apple.com/technologies/ios5/).   This is part of our XCode 4 integration.   Merely double-click on a storyboard to launch XCode 4.2, design your UI, name your custom classes, switch back to MonoDevelop, and consume all of the new classes that were created.
+![xcode\_storyboard.jpg](/images/320-xcode_storyboard.jpg)
+
+With the new version of MonoDevelop, you can now create applications that use [iOS 5 Storyboards](http://developer.apple.com/technologies/ios5/).   This is part of our XCode 4 integration.   Merely double-click on a storyboard to launch XCode 4.2, design your UI, name your custom classes, switch back to MonoDevelop, and consume all of the new classes that were created.
 
 Storyboards require that your application target iOS5 and newer.
 
@@ -61,13 +65,13 @@ Storyboards require that your application target iOS5 and newer.
 
 MonoTouch application settings are now stored in the Info.plist application manifest, instead of the project file. There is a new user-friendly editor for the Info.plist, which can be accessed in the *Project Options* dialog or by directly opening the Info.plist file from the *Solution Pad.*
 
-#### [![MonoTouchProjectOptions.png](/images/316-MonoTouchProjectOptions.png)](/images/316-MonoTouchProjectOptions.png "MonoTouchProjectOptions.png")
+#### ![MonoTouchProjectOptions.png](/images/316-MonoTouchProjectOptions.png)
 
 #### InterfaceDefinition Files
 
 MonoDevelop now uses the InterfaceDefinition build action for xib files instead of Page. Existing files will have their build action migrated automatically.
 
-#### [![NewProjectTemplates.png](/images/317-NewProjectTemplates.png)](/images/317-NewProjectTemplates.png "NewProjectTemplates.png")Project Templates
+#### ![NewProjectTemplates.png](/images/317-NewProjectTemplates.png)Project Templates
 
 There are many more MonoTouch project templates, all with iPhone, iPad and Universal variants. These all use the new Xcode 4 codebehind layout.
 
@@ -83,7 +87,9 @@ The location of the MonoTouch and iOS SDKs is now configurable.
 
 #### TestFlight integration
 
-![testflight.jpg](/images/321-testflight.jpg)iOS developers will enjoy the [TestFlight integration](http://docs.xamarin.com/ios/tutorials/TestFlight_Support) in MonoDevelop.  You can now publish your projects directly from MonoDevelop to TestFlight to allow your users and beta testers to take out your application for a spin, without having to deal with any of the complexities of managing certificates or provisioning profiles.   Merely select "Publish to TestFlight" from the Project menu, and watch as your application is compiled, packaged and uploaded to TestFlight for distribution
+![testflight.jpg](/images/321-testflight.jpg)
+
+iOS developers will enjoy the [TestFlight integration](http://docs.xamarin.com/ios/tutorials/TestFlight_Support) in MonoDevelop.  You can now publish your projects directly from MonoDevelop to TestFlight to allow your users and beta testers to take out your application for a spin, without having to deal with any of the complexities of managing certificates or provisioning profiles.   Merely select "Publish to TestFlight" from the Project menu, and watch as your application is compiled, packaged and uploaded to TestFlight for distribution
 
 ### MonoMac Projects
 

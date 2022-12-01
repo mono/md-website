@@ -53,7 +53,7 @@ redirect_from:
 
 In order to implement a designer/source split view, the HTML/ASP.NET editor needs to handle three editing modes simultaneously: the HTML editing surface, the text editor, and the control host (editable via the property grid). Each of these has some sort of internal representations of the document (a DOM), and it is not feasible for them all to operate on the same DOM.
 
-The following architecture is proposed: [![700px](/images/404.png)](/images/404.png "File:Media_Gallery/HtmlEditorArchitecture.png")
+The following architecture is proposed: ![700px](/images/404.png)
 
 Edits to the document will be encapsulated in Action objects, which will be sent to the Editing Manager. This is responsible for broadcasting the changes to the DOMs. The editing manager also tracks selection using the mechanism, and the application of styles to the selected elements.
 

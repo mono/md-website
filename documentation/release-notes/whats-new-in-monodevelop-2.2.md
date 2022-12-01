@@ -16,12 +16,12 @@ Windows is now an officially supported platform for running MonoDevelop. Many Wi
 
 We are releasing a new Windows Installer which includes almost all you need to run MonoDevelop. The only external dependency is Gtk#, which is provided in a separate installer.
 
- [![SteticWin32.png](/images/239-SteticWin32.png)](/images/239-SteticWin32.png "MonoDevelop running on Windows")   [![md21Setup.png](/images/240-md21Setup.png)](/images/240-md21Setup.png "The Windows Installer")
+![MonoDevelop running on Windows](/images/239-SteticWin32.png "MonoDevelop running on Windows")   ![The Windows Installer](/images/240-md21Setup.png "The Windows Installer")
 
 Mac Support
 -----------
 
-[![MacMainMenu.png](/images/256-MacMainMenu.png)](/images/256-MacMainMenu.png "MonoDevelop running on Mac OSX")**Mac OSX now Officially Supported**
+![MonoDevelop running on Mac OSX](/images/256-MacMainMenu.png "MonoDevelop running on Mac OSX")**Mac OSX now Officially Supported**
 
 Mac OSX is also now a supported platform. MonoDevelop has been adapted to Mac OSX in many ways. For example, keyboard shortcuts follow the OSX standard, and the main menu is replaced by the global Mac menu. In addition, a large number of Mac-specific, mainly GTK-related bugs have been fixed. See the [Feature Matrix](#feature-matrix) for more details about which add-ins are supported in Mac OSX.
 
@@ -32,25 +32,25 @@ Project Management
 
 MonoDevelop now supports targetting different .NET runtimes. For example, when running on Windows, it is possible to build and run applications using either Microsoft .NET or Mono. Also, when running on Linux, it is possible to target several Mono versions installed in different prefixes.
 
-[![Captura-Options.png](/images/241-Captura-Options.png)](/images/241-Captura-Options.png "Multiple Target Runtimes")
+![Multiple Target Runtimes](/images/241-Captura-Options.png "Multiple Target Runtimes")
 **Per mime-type Policies**
 
 Text file formatting settings can now be specified per file type. Formatting information is stored in the project file, so it will be the same for all programmers of the project.
 
-[![Captura-OptionsFormatting.png](/images/242-Captura-OptionsFormatting.png)](/images/242-Captura-OptionsFormatting.png "Per mime-type Policies")
+![Per mime-type Policies](/images/242-Captura-OptionsFormatting.png "Per mime-type Policies")
 **Custom Execution Modes**
 
 The new *Run With* menu allows running a project using a special execution mode. Execution modes can be provided by add-ins (for example, a debugger or a profiler), and can be customized by the user (for example, it would be possible to define a custom mode which runs a profiler with a set of user defined options).
 
-[![CapturaModes.png](/images/243-CapturaModes.png)](/images/243-CapturaModes.png "Custom Execution Modes")
+![Custom Execution Modes](/images/243-CapturaModes.png "Custom Execution Modes")
 **Global Assembly Folders**<br/>
 It is now possible to specify a set of folders where MonoDevelop should look for assemblies when resolving project references. This set of folders is also used to look for .pc files. This simplifies the development of libraries (such as add-ins) that need to be linked to applications which are not installed in the system. Custom folders can be specified in the Preferences -\> Build options panel.
 
-[![OptionsAssemblyFolders.png](/images/244-OptionsAssemblyFolders.png)](/images/244-OptionsAssemblyFolders.png "Global Assembly Folders")
+![Global Assembly Folders](/images/244-OptionsAssemblyFolders.png "Global Assembly Folders")
 **Delete Project Dialog** <br/>
 When removing a project from a solution, MonoDevelop now presents a dialog which allows deleting all or part of the project files from disk.
 
-[![DeleteProject.png](/images/245-DeleteProject.png)](/images/245-DeleteProject.png "Delete Project Dialog")
+![Delete Project Dialog](/images/245-DeleteProject.png "Delete Project Dialog")
 **Dropping Files From Nautilus/Explorer to the Solution Tree**
 
 Drag & Drop of files between the file manager and the Solution tree is now supported. This can be used to add files to a project.
@@ -77,18 +77,18 @@ Code Template support has been completely rewritten and now offers much more pow
 -   Templates can now have **placeholders**. When the template is inserted, the cursor will be moved to the first placeholder and the user can move between placeholders by pressing TAB. Placeholders can be linked to other text in the template, which will be automatically updated. For example, a template for the 'for' statement can have a placeholder for the iteration variable, and when the name of the variable is entered all references to that variable in the template are automatically updated.
 -   Support for **'Surround With'**. Templates supporting this mode, can be used to surround a block of selected code. For example, the 'try' template will surround a block of code with a try/catch statement.
 
-[![CodeTemplates.png](/images/247-CodeTemplates.png)](/images/247-CodeTemplates.png "Code template with placeholder")<br/>
+![Code template with placeholder](/images/247-CodeTemplates.png "Code template with placeholder")<br/>
 
 **Block Selection**
 
 Block selection in the editor is now supported by pressing Alt while selecting text.
 
-[![BlockSelection.png](/images/248-BlockSelection.png)](/images/248-BlockSelection.png "Block Selection")
+![Block Selection](/images/248-BlockSelection.png "Block Selection")
 **Code Focus**
 
 When hovering over a fold region, the corresponding area of code will be highlighted to make it easier to identify among all the code regions.
 
-[![CodeFocus.png](/images/404.png)](/images/404.png "Code Focus")
+![Code Focus](/images/404.png "Code Focus")
 **Big Performance Improvements**
 
 The editor is now much faster and will be more responsive when editing large files.
@@ -99,7 +99,7 @@ A new **C# formatter** has been implemented. This formatter has plenty of format
 
 The new **Format Document** command (available in Edit -\> Format -\> Format Document) formats the current file following the options specified for the file file type and active project.
 
-[![CSharpFormattingOptions.png](/images/249-CSharpFormattingOptions.png)](/images/249-CSharpFormattingOptions.png "C# Formatting Options")
+![C# Formatting Options](/images/249-CSharpFormattingOptions.png "C# Formatting Options")
 **On-the-fly formatting [Preview]**
 
 When the 'on the fly code formatting' option is enabled, MonoDevelop will automatically format blocks of code following the formatting options set in the project. This feature is still in beta status and disabled by default.
@@ -108,12 +108,12 @@ When the 'on the fly code formatting' option is enabled, MonoDevelop will automa
 
 The Code Completion window now supports acronym matching. This is useful for completing long identifiers. For example, a method name such as ChangeCurrentPageArgs can be quickly selected by just typing 'ccp'.
 
-[![CompletionAcronymMatch.png](/images/251-CompletionAcronymMatch.png)](/images/251-CompletionAcronymMatch.png "Acronym Matching in Code Completion")
+![Acronym Matching in Code Completion](/images/251-CompletionAcronymMatch.png "Acronym Matching in Code Completion")
 **XML Documentation Shown in Code Completion**
 
 Documentation written in the code using the XML documentation format will now be shown in the Code Completion window.
 
-[![XmlDocumentationCompletion.png](/images/250-XmlDocumentationCompletion.png)](/images/250-XmlDocumentationCompletion.png "XML Documentation Shown in Code Completion")
+![XML Documentation Shown in Code Completion](/images/250-XmlDocumentationCompletion.png "XML Documentation Shown in Code Completion")
 **Improved vi Mode Support**
 
 The vi Mode support has been improved with several new commands.
@@ -133,7 +133,7 @@ The 'Show Code Generation Window' command (Alt + Insert by default) allows quick
 -   Implement equality methods.
 -   Introduce a parameter null check in a method.
 
-[![GenerateCode.png](/images/246-GenerateCode.png)](/images/246-GenerateCode.png "Code Generator<")
+![Code Generator](/images/246-GenerateCode.png "Code Generator")
 
 Refactoring
 -----------
@@ -247,7 +247,7 @@ The System.Web.Mvc.dll is included in Mono 2.4.2.3 and later. In order for MonoD
 IPhone Add-in
 -------------
 
-[![MonoDevelopIPhone.png](/images/262-MonoDevelopIPhone.png)](/images/262-MonoDevelopIPhone.png "MonoDevelop running on Mac OSX")
+![MonoDevelop running on Mac OSX](/images/262-MonoDevelopIPhone.png "MonoDevelop running on Mac OSX")
 
 The Mac release of MonoDevelop includes an iPhone development addin. Although it requires Novell's commercial MonoTouch product to develop, build and run iPhone applications, the addin itself is open-source. The iPhone addin includes
 
@@ -277,7 +277,7 @@ The Python Binding has been greatly improved, and we are releasing it as an offi
 Version Control
 ---------------
 
-**[![Annotations.png](/images/258-Annotations.png)](/images/258-Annotations.png "Annotations Command")Show Annotations Command**
+**![Annotations Command](/images/258-Annotations.png "Annotations Command")Show Annotations Command**
 
 The Show Annotations command makes it easy to see which lines have been changed by who. This operation is available as a command in the Version Control context menu, and it is also available in the context menu of the text editor (so you can show annotations for any open file).
 

@@ -17,7 +17,7 @@ The format styles should be set in the policy dialog. Code formatting should be 
 
 The configuration dialog should look like:
 
-[![Image:StyleSettings.jpg](/images/404.png)](/images/404.png "File:Media_Gallery/StyleSettings.jpg")
+![Image:StyleSettings.jpg](/images/404.png)
 
 In the option categories panel should be a tree with all categorized available options.
 
