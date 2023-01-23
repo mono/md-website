@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.6.10'
+        ruby-version: '3.1'
     - name: Install dependencies
       run: |
         gem install bundler
@@ -25,7 +25,7 @@ jobs:
     - name: Markdownlint
       run: bundle exec mdl -s markdownlint-config.rb .
     - name: HTMLProofer
-      run: bundle exec htmlproofer ./_site --disable-external --allow-hash-href --enforce-https=false
+      run: bundle exec htmlproofer ./_site --disable-external --allow-hash-href
 
     # Accessibility scan
     - uses: actions/setup-node@v3
