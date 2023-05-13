@@ -105,7 +105,7 @@ Policies can be applied to solutions, and can be overridden on child projects or
 The default policies for new solutions, or solutions without policies applied, can be edited in the *Edit-\>Default Policies* dialog.
 
 |-----|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
-|     | [![300px](/images/404.png)](/images/404.png "Naming policies") | [![300px](/images/404.png)](/images/404.png "Commit policies") |
+|     | ![300px](/images/404.png) | ![300px](/images/404.png) |
 
 **Vala Add-in**
 
@@ -116,7 +116,7 @@ Integration with Vala's API binding system allows users to easily reference pack
 Class pad browsing is supported via exuberant ctags, as is limited code completion.
 
 |-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [![350px](/images/404.png)](/images/404.png "Vala class pad") | [![350px](/images/404.png)](/images/404.png "Package selector") |
+| ![350px](/images/404.png) | ![350px](/images/404.png) |
 
 ### IDE Workbench
 
@@ -288,7 +288,7 @@ Here is a list of the supported features (not all features are supported in both
 -   Tracepoints, hitpoints, and conditional breakpoints (only GDB).
 
 |-----|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-|     | [![Setting breakpoints](/images/404.png)](/images/404.png "Setting breakpoints") | [![200px](/images/404.png)](/images/404.png "Debug tooltip") | [![200px](/images/404.png)](/images/404.png "Disassembly window") | [![200px](/images/404.png)](/images/404.png "Completion in watch window") |
+|     | ![Setting breakpoints](/images/404.png) | ![200px](/images/404.png) | ![200px](/images/404.png) | ![200px](/images/404.png) |
 
 ### Version Control
 

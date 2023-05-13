@@ -23,7 +23,7 @@ This work has allowed us to substantially improve many existing features, and to
 
 ### C# Code Completion
 
-[![md30\_codecompletion.png](/images/374-md30_codecompletion.png)](/images/374-md30_codecompletion.png "md30_codecompletion.png")
+![md30\_codecompletion.png](/images/374-md30_codecompletion.png)
 
 The reliability and accuracy of the C# code completion has been improved substantially. In particular, code completion is now more robust in its handling of incomplete code, and better at providing correctly contextual suggestions. Type inference in code completion is much more reliable, which fixes cases where MonoDevelop failed to provide code completion for lambdas and LINQ expressions.
 
@@ -31,7 +31,7 @@ Many known issues in C# code completion have been fixed, and are now covered by 
 
 ### Navigation and Refactoring
 
-[![md30\_createmember.png](/images/375-md30_createmember.png)](/images/375-md30_createmember.png "md30_createmember.png")
+![md30\_createmember.png](/images/375-md30_createmember.png)
 
 The *Find References* navigation command now uses the new C# resolver. It is more accurate and many times faster, particularly for members. This also makes the *Rename* refactoring command much faster.
 
@@ -39,13 +39,13 @@ Many new refactorings and code transformation actions are available from the con
 
 ### Semantic Highlighting
 
-[![md30\_semantic\_highlighting.png](/images/376-md30_semantic_highlighting.png)](/images/376-md30_semantic_highlighting.png "md30_semantic_highlighting.png")
+![md30\_semantic\_highlighting.png](/images/376-md30_semantic_highlighting.png)
 
 Semantic highlighting for C# has returned! It is now much faster, and is enabled by default. It makes code more readable by allowing the syntax highlighting engine to highlight different kinds of symbols differently in a mneaingful way. For example, type names are highlighted a different color than member names, and unresolved symbols are highlighted red.
 
 ### Code Formatting
 
-[![md30\_code\_formatting.png](/images/383-md30_code_formatting.png)](/images/383-md30_code_formatting.png "md30_code_formatting.png")
+![md30\_code\_formatting.png](/images/383-md30_code_formatting.png)
 
 The on-the-fly C# code formatter automatically reformats your code to match your project's code style settings as you edit it in the source editor. The newest version is much improved. It's more reliable and less intrusive, and is now enabled by default. It can be disabled in the *Text Editor-\>Behavior* preferences panel.
 
@@ -53,13 +53,15 @@ By [popular demand](http://xamarin.uservoice.com/forums/144858-xamarin-suggesti
 
 ### Experimental Source Analysis
 
-[![md30\_source\_analysis.png](/images/377-md30_source_analysis.png)](/images/377-md30_source_analysis.png "md30_source_analysis.png")When enabled, the experimental source analysis engine inspects your code on the fly, detects problems and potential improvements, and highlights them various ways depending on their severity. The vertical scrollbar provides a high-level view of inspection results and search results for the whole file.
+![md30\_source\_analysis.png](/images/377-md30_source_analysis.png)
+
+When enabled, the experimental source analysis engine inspects your code on the fly, detects problems and potential improvements, and highlights them various ways depending on their severity. The vertical scrollbar provides a high-level view of inspection results and search results for the whole file.
 
 The new *Quick Fix* command offers contextual actions for transforming and refactoring code, including automatic fixes for many inspections. It improves discovery of refactoring commands by hinting when they are available with a lightbulb icon.
 
 The source analysis engine and context actions now use the new C# resolver, which has enabled the efficient implementation of many more inspection rules. It's straightforward to [implement new actions](http://mikemdblog.blogspot.com/2012/03/how-to-write-context-action-using.html) using the NRefactory 5 context actions model.
 
-[![md\_30\_minimap\_scrollbar.png](/images/378-md_30_minimap_scrollbar.png)](/images/378-md_30_minimap_scrollbar.png "md_30_minimap_scrollbar.png")
+![md\_30\_minimap\_scrollbar.png](/images/378-md_30_minimap_scrollbar.png)
 
 When source analysis is enabled, there is also an optional minimap scrollbar. This can be enabled from the context menu on the source editor scrollbar.
 
@@ -70,13 +72,17 @@ Mac and Android
 
 ### New MonoMac Addin
 
-[![md30\_monomac\_entitlements.png](/images/380-md30_monomac_entitlements.png)](/images/380-md30_monomac_entitlements.png "md30_monomac_entitlements.png")The MonoMac add-in has been updated to improve support for deploying to the Mac App Store. The features and functionality now closer match the MonoTouch add-in.
+![md30\_monomac\_entitlements.png](/images/380-md30_monomac_entitlements.png)
+
+The MonoMac add-in has been updated to improve support for deploying to the Mac App Store. The features and functionality now closer match the MonoTouch add-in.
 
 There is a user-friendly editor for the Info.plist manifest, including editing of Mac App Store entitlements for app sandboxing. Packaging and signing options are now in the project options and can be enabled as part of the build process.
 
 ### Enhanced PList Support
 
-[![md30\_plisteditor.png](/images/379-md30_plisteditor.png)](/images/379-md30_plisteditor.png "md30_plisteditor.png")The usability of the PList editor for both MonoTouch and MonoMac projects has been greatly improved, and many quirks have been fixed. The enhanced editor now uses information about known keys to:
+![md30\_plisteditor.png](/images/379-md30_plisteditor.png)
+
+The usability of the PList editor for both MonoTouch and MonoMac projects has been greatly improved, and many quirks have been fixed. The enhanced editor now uses information about known keys to:
 
 -   offer a list of valid subkeys when adding children to a key of type Dictionary or Array
 -   set the correct type for subkeys automatically
@@ -91,7 +97,9 @@ On Windows, PLP projects are built using the Microsoft PLP targets. Building PL
 
 ### Android UI Designer
 
-[![md30\_android\_designer.png](/images/382-md30_android_designer.png)](/images/382-md30_android_designer.png "md30_android_designer.png")The Xamarin packages of MonoDevelop on Mac and Windows include a new visual drag-and-drop UI designer for editing Android XML layouts in Mono for Android projects. It has full support for resources and qualifiers, and can be used to view and edit the layout in various simulated device specifications.
+![md30\_android\_designer.png](/images/382-md30_android_designer.png)
+
+The Xamarin packages of MonoDevelop on Mac and Windows include a new visual drag-and-drop UI designer for editing Android XML layouts in Mono for Android projects. It has full support for resources and qualifiers, and can be used to view and edit the layout in various simulated device specifications.
 
 For more information, see the [Mono for Android Designer Tutorial](http://docs.xamarin.com/android/tutorials/Designer_Overview).
 
@@ -106,7 +114,9 @@ This is a more reliable way to keep blank lines empty compared to the old opti
 
 ### Revamped Assembly Browser
 
-[![md30\_assemblybrowser.png](/images/381-md30_assemblybrowser.png)](/images/381-md30_assemblybrowser.png "md30_assemblybrowser.png")The assembly browser has been substantially overhauled. Performance has been improved, search and navigation are more reliable.
+![md30\_assemblybrowser.png](/images/381-md30_assemblybrowser.png)
+
+The assembly browser has been substantially overhauled. Performance has been improved, search and navigation are more reliable.
 
 It can now be opened directly from the *View* menu, and can be used to browse types from projects as well as assemblies.
 

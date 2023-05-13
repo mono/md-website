@@ -15,13 +15,13 @@ There is a new configuration option for selecting the desired **level of compac
 
 **Improved Pad Organization**
 
-[![md24-MainWindow.png](/images/279-md24-MainWindow.png)](/images/279-md24-MainWindow.png "Main Window")Results pads such as the Error List, logs for Version Control or Find in Files operations are now shown in autohide mode by default, and the buttons to activate them are now placed next to the status bar, saving some valuable visual space. Until now, those pads were shown docked at the bottom, taking space from the text editor.
+![Main Window](/images/279-md24-MainWindow.png "Main Window")Results pads such as the Error List, logs for Version Control or Find in Files operations are now shown in autohide mode by default, and the buttons to activate them are now placed next to the status bar, saving some valuable visual space. Until now, those pads were shown docked at the bottom, taking space from the text editor.
 
 When the result of a command is shown in the status bar, clicking on the status bar will now activate the pad that contains the results of the command. For example, for a build operation it will show the Errors List, or for a Version Control operation it will show the operation output log.
 
 ****Improved Error Workflow with **In-line Error Bubbles**
 
-[![md24-ErrorBubbles.png](/images/278-md24-ErrorBubbles.png)](/images/278-md24-ErrorBubbles.png "Multiple Target Runtimes")The compiler/error management workflow has been improved in several areas to make it easier to browse through errors and warnings:
+![Multiple Target Runtimes](/images/278-md24-ErrorBubbles.png "Multiple Target Runtimes")The compiler/error management workflow has been improved in several areas to make it easier to browse through errors and warnings:
 
 -   Errors and warnings are now shown in-line in the text editor. It is possible to jump through all errors by pressing **F4**.
 -   The standalone Build Output pad has been integrated into the Errors List pad, and it can be made visible by clicking on a new Build Oputput button.
@@ -31,7 +31,7 @@ When the result of a command is shown in the status bar, clicking on the status 
 
 The look of the New Project and New File dialogs have been improved, and now they have a section for recently used templates.
 
-[![md24-NavigateTo.png](/images/280-md24-NavigateTo.png)](/images/280-md24-NavigateTo.png "Navigate To Dialog")
+![Navigate To Dialog](/images/280-md24-NavigateTo.png "Navigate To Dialog")
 
 **Navigate To dialog**
 
@@ -41,7 +41,7 @@ The new Navigate To dialog allows quickly finding and jumping to files, types an
 
 MonoDevelop has an option which allows choosing the font to use for the tree view pads such as the Solution pad or the Class pad. Those tree views may be large for big projects, so users find it convenient to use a small font, which allows seeing more information at once.
 
-[![md24-PadZoom.png](/images/285-md24-PadZoom.png)](/images/285-md24-PadZoom.png "Pad Zooming")To make font reduction easier and more handy, a new Zoom capability has been added to the tree pads. So to zoom, all you have to do is hold the **Control key** and move the **mouse wheel** up and down (the standard zoom shortcuts can also be used for this, including **Control+0** to reset the zoom).
+![Pad Zooming](/images/285-md24-PadZoom.png "Pad Zooming")To make font reduction easier and more handy, a new Zoom capability has been added to the tree pads. So to zoom, all you have to do is hold the **Control key** and move the **mouse wheel** up and down (the standard zoom shortcuts can also be used for this, including **Control+0** to reset the zoom).
 
 **Other Improvements**
 
@@ -52,7 +52,7 @@ MonoDevelop has an option which allows choosing the font to use for the tree vie
 Project Model
 -------------
 
-**[![md24-ExeProject.png](/images/282-md24-ExeProject.png)](/images/282-md24-ExeProject.png "Multiple Target Runtimes")Standalone Assembly Projects**
+**![Multiple Target Runtimes](/images/282-md24-ExeProject.png "Multiple Target Runtimes")Standalone Assembly Projects**
 
 MonoDevelop now supports loading an executable assembly as a project. Such projects can be created by directly opening a .exe using the File Open command or by adding the .exe to an existing solutions. Also, MonoDevelop will get the list of source code files from the debug info of the assembly (when available).
 
@@ -64,7 +64,7 @@ Console projects with the 'Run in External Console' option will now properly wor
 
 **<span id="1273075374164E" style="display: none;"> </span>**
 
-[![md24-SolutionFiles.png](/images/404.png)](/images/404.png "Multiple Target Runtimes")Files can now be directly added to solution folders. This is useful to keep common solution files handy, such as documentation or data files which are not directly bound to a specific project.
+![Multiple Target Runtimes](/images/404.png "Multiple Target Runtimes")Files can now be directly added to solution folders. This is useful to keep common solution files handy, such as documentation or data files which are not directly bound to a specific project.
 
 **Proper MSBuild file links in projects**
 
@@ -77,7 +77,7 @@ Although not directly visible to the user, some important changes has been done 
 Source Editing
 --------------
 
-**[![md24-InlineSearch.png](/images/284-md24-InlineSearch.png)](/images/284-md24-InlineSearch.png "Inline Search")Improved in-line search**
+**![Inline Search](/images/284-md24-InlineSearch.png "Inline Search")Improved in-line search**
 
 The search bar which was located at the bottom of the editor in previous versions is now replaced by a new animated popup bar, which makes a more efficient use of space.
 
@@ -85,13 +85,13 @@ The new search bar has improved handling of the case mode. New searches start in
 
 **Group Mode in Code Completion**
 
-[![md24-CompletionGroups.png](/images/281-md24-CompletionGroups.png)](/images/281-md24-CompletionGroups.png "Group Mode")The code completion list has a new *Group* display mode. In this mode, members of a class are shown grouped below the class name that declares them. This mode makes it easier to locate members for classes with a large inheritance chains.
+![Group Mode](/images/281-md24-CompletionGroups.png "Group Mode")The code completion list has a new *Group* display mode. In this mode, members of a class are shown grouped below the class name that declares them. This mode makes it easier to locate members for classes with a large inheritance chains.
 
 Group mode can be toggled by pressing **control+space** while the completion list is visible. The keys **shift+up/down** can be used to jump between groups.
 
 **Symbol Usage Highlighting**
 
-[![md24-ReferenceHilight.png](/images/287-md24-ReferenceHilight.png)](/images/287-md24-ReferenceHilight.png "Symbol Usage Highlighting")
+![Symbol Usage Highlighting](/images/287-md24-ReferenceHilight.png "Symbol Usage Highlighting")
 
 When placing the cursor over a symbol, MonoDevelop will now automatically highlight all usages of that symbol in the editor. The keys **control+shift+up/down** can be user to jump between symbol instances.
 
@@ -101,7 +101,7 @@ The Block Selection mode now supports editing. When a block of text is selected 
 
 **Import Type Command**
 
-**[![md24-TypeImport.png](/images/289-md24-TypeImport.png)](/images/289-md24-TypeImport.png "Import Type Command")**
+**![Import Type Command](/images/289-md24-TypeImport.png "Import Type Command")**
 
 When pressing **control+alt+space**, MonoDevelop will show a list of all types available in the project and its references. When a type is selected, the name will be completed and the required namespace will be added to the *usings* list (if not already there).
 
@@ -136,7 +136,7 @@ The filtering in the completion list now matches midway through words, making it
 Debugger
 --------
 
-**[![md24-PinnedDebugValues.png](/images/286-md24-PinnedDebugValues.png)](/images/286-md24-PinnedDebugValues.png "Pinned Quick Watch")Pinned Quick Watch**
+**![Pinned Quick Watch](/images/286-md24-PinnedDebugValues.png "Pinned Quick Watch")Pinned Quick Watch**
 
 Debug value tooltips can now be pinned into the text editor. To do it, just move the mouse over a symbol, and when the value tooltip is shown, move the cursor over the tooltip and click on the Pin button. When inspecting a class instance or an array, it is also possible to expand it and pin one of the members.
 
@@ -157,7 +157,7 @@ When an exception is thrown or uncaught, MonoDevelop will now show a dialog with
 Tools
 -----
 
-**[![md24-HexEditor.png](/images/283-md24-HexEditor.png)](/images/283-md24-HexEditor.png "Hex Editor")Hex Editor**
+**![Hex Editor](/images/283-md24-HexEditor.png "Hex Editor")Hex Editor**
 
 The new Hex Editor allows inspecting and editing binary files. A file can be opened with the Hex Editor by using the **Open With** menu available for project files, or when using the Open File command, by selecting Hex Editor in the Open With combo box.
 
@@ -177,7 +177,7 @@ There is code completion for C# regions in ASP.NET pages.
 Web References
 --------------
 
-**[![md24-WebReferenceWCF.png](/images/290-md24-WebReferenceWCF.png)](/images/290-md24-WebReferenceWCF.png "WCF Web References")WCF Web References**
+**![WCF Web References](/images/290-md24-WebReferenceWCF.png "WCF Web References")WCF Web References**
 
 The Add Web Reference command now supports adding references based on WCF. When adding the reference, and new combo box allows selecting the target framework, which can be WCF or .NET 2.0 Web Services.
 

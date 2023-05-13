@@ -27,11 +27,11 @@ Open Monodevelop and then select **File -\> New Project** from the menu. It shou
 
 Select **C#** from the menu on the left and then click the icon labeled **Gtk# 2.0 Project**. In the entry labeled **Name**, put the name of the project, make sure that the **Create separate Solution subdirectory** checkbox is checked (for cleanliness) and then click the **New** button at the bottom of the window.
 
-[![Stetic\_Tutorial\_02.jpg](/images/324-Stetic_Tutorial_02.jpg)](/images/324-Stetic_Tutorial_02.jpg "Stetic_Tutorial_02.jpg")
+![Stetic_Tutorial_02.jpg](/images/324-Stetic_Tutorial_02.jpg "Stetic_Tutorial_02.jpg")
 
 As you can see, MonoDevelop has created a skeleton solution and project for us and even opened the file containing the Main class and Main() method for us in the editor window. Nice. We could build and run the application now, lets do that just for fun. Click the **Project -\> Run** menu option, hit **F5**, or click the **Run** toolbar button shown below.
 
-[![Stetic\_Tutorial\_03.jpg](/images/325-Stetic_Tutorial_03.jpg)](/images/325-Stetic_Tutorial_03.jpg "Stetic_Tutorial_03.jpg")
+![Stetic_Tutorial_03.jpg](/images/325-Stetic_Tutorial_03.jpg "Stetic_Tutorial_03.jpg")
 
 This function saves and builds the project and then runs the resulting executable. You should see something like this.
 
@@ -44,13 +44,13 @@ Step 2: Editing the GUI
 
 First we need to open the MainWindow.cs file. In the solution pad, double-click on the MainWindow.cs file. This creates a new tab in the editor window and loads the file for editing. You'll notice that a couple of things about the interface change a little.
 
-[![Stetic\_Tutorial\_05.jpg](/images/327-Stetic_Tutorial_05.jpg)](/images/327-Stetic_Tutorial_05.jpg "Stetic_Tutorial_05.jpg")
+![Stetic_Tutorial_05.jpg](/images/327-Stetic_Tutorial_05.jpg "Stetic_Tutorial_05.jpg")
 
 First off, there are new buttons below the MainWindow.cs tab. Second, two new pads appeared: the **Widget Palette** pad and the **Widget Properties** pad.
 
 The new buttons switch the view from the **Source Code** editor to the GUI designer. Click the **Designer** button to bring up the Stetic GUI designer.
 
-[![Stetic\_Tutorial\_06.jpg](/images/328-Stetic_Tutorial_06.jpg)](/images/328-Stetic_Tutorial_06.jpg "Stetic_Tutorial_06.jpg")
+![Stetic_Tutorial_06.jpg](/images/328-Stetic_Tutorial_06.jpg "Stetic_Tutorial_06.jpg")
 
 And there's our GUI, just a simple blank window with buttons and a title. Let's change window's title to something more appropriate. To do that, select the window by clicking on it, selecting it from the pull-down menu at the top of the Stetic window or selecting it from the **Widget Tree** tab of the Widget Properties pad.
 
@@ -110,7 +110,7 @@ One interesting thing to note, before we continue, is that if we press the **Act
 
 We could have also created all of our menu items (called Actions) from here. Notice also in the Widget Palette pad, that the Actions we just created appeared down at the bottom. We could also have drag-and-dropped them in to the menu in the right layout. Pretty convenient.
 
-[![Stetic\_Tutorial\_13.jpg](/images/335-Stetic_Tutorial_13.jpg)](/images/335-Stetic_Tutorial_13.jpg "Stetic_Tutorial_13.jpg")
+![Stetic_Tutorial_13.jpg](/images/335-Stetic_Tutorial_13.jpg "Stetic_Tutorial_13.jpg")
 
 All right! Let's build and run our application now and have a look at the menus we just created. Click the **Run** button and have a look. You might be disappointed to find that none of the menu entries do anything. This is because we have to connect them to a signal handler and then write their code.
 
@@ -120,7 +120,7 @@ In fact there are three: "Activated", "Changed", and "Toggled". For our program 
 
 Click on the **"Click here to add a new handler"** next to the "Activated" signal and type "OnOpen" into the entry and press enter. As such:
 
-[![Stetic\_Tutorial\_14.jpg](/images/336-Stetic_Tutorial_14.jpg)](/images/336-Stetic_Tutorial_14.jpg "Stetic_Tutorial_14.jpg")
+![Stetic_Tutorial_14.jpg](/images/336-Stetic_Tutorial_14.jpg "Stetic_Tutorial_14.jpg")
 
 Now, if you click the **Source Code** button at the bottom of the GUI designer and notice that MonoDevelop has automatically added a skeleton "OnOpen" function to our MainWindow class. This is the function that will be called when the "Open" menu item is activated.
 
@@ -146,7 +146,7 @@ To start out, drag and drop a **Scrolled Window** widget from the Widget Palette
 
 Then drag and drop a **TextView** widget into the blank space left in the Scrolled Window. Change its "Name" property in the Properties tab of the Widget Properties pad to "logTextView". Like this:
 
-[![Stetic\_Tutorial\_18.jpg](/images/340-Stetic_Tutorial_18.jpg)](/images/340-Stetic_Tutorial_18.jpg "Stetic_Tutorial_18.jpg")
+![Stetic_Tutorial_18.jpg](/images/340-Stetic_Tutorial_18.jpg "Stetic_Tutorial_18.jpg")
 
 MonoDevelop creates a field for every widget in the window. You can use that field to access to the widget properties at run time.
 
