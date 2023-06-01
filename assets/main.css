@@ -201,6 +201,10 @@ footer {
   margin-top: 45px;
 }
 
+.top-bar-section > ul > li {
+  margin-right: 2px;
+}
+
 .top-bar-section li:not(.has-form) a:not(.button),
 .top-bar-section li.active:not(.has-form) a:not(.button) {
   line-height: 30px;
@@ -316,6 +320,14 @@ footer {
 
 #mono-download.tabs li {
   line-height: 0.9em;
+}
+
+#mono-download.tabs li {
+  line-height: 0.9em;
+}
+
+#mono-download-panel .tabs li {
+  margin-right: 2px;
 }
 
 #mono-download-panel .panel.content>p, #mono-download-panel .panel.content>*>p {
