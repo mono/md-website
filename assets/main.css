@@ -202,7 +202,7 @@ footer {
 }
 
 .top-bar-section > ul > li {
-  margin-right: 2px;
+  margin-right: 3px;
 }
 
 .top-bar-section li:not(.has-form) a:not(.button),
