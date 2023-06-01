@@ -292,6 +292,11 @@ footer {
 /* --- --- */
 
 /* --- Download page --- */
+
+.mono-download-page a.underline {
+  text-decoration: underline;
+}
+
 #mono-download.tabs li > a {
   font-size: 1.5em;
   white-space: nowrap;
