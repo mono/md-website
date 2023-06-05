@@ -40,23 +40,23 @@
 
         <section class="top-bar-section">
           <ul class="right">
-            <li {% if page.navgroup == "home" or layout.navgroup == "home" %}class="active"{% endif %}><a href="/" tabindex="0" {% if page.navgroup == "home" or layout.navgroup == "home" %} aria-current="page">{% endif %}<i class="fas fa-home"></i>Home</a></li>
+            <li {% if page.navgroup == "home" or layout.navgroup == "home" %}class="active"{% endif %}><a href="/" tabindex="0" {% if page.navgroup == "home" or layout.navgroup == "home" %} aria-current="page"{% endif %}><i class="fas fa-home"></i>Home</a></li>
             <li {% if page.navgroup == "screenshots" or layout.navgroup == "screenshots" %}class="active"{% endif %}>
-              <a href="/screenshots/" {% if page.navgroup == "screenshots" or layout.navgroup == "screenshots" %} aria-current="page">{% endif %}>
+              <a href="/screenshots/" {% if page.navgroup == "screenshots" or layout.navgroup == "screenshots" %} aria-current="page"{% endif %}>
                 <div class="hide-for-medium-only"><i class="fas fa-image"></i>Screenshots</div>
                 <div class="show-for-medium-only"><i class="fas fa-image"></i>Screens</div>
               </a>
             </li>
-            <li {% if page.navgroup == "download" or layout.navgroup == "download" %}class="active"{% endif %}><a href="/download/" {% if page.navgroup == "download" or layout.navgroup == "download" %} aria-current="page">{% endif %}><i class="fas fa-download"></i>Download</a></li>
-            <li {% if page.navgroup == "help" or layout.navgroup == "help" %}class="active"{% endif %}><a href="/help/" {% if page.navgroup == "help" or layout.navgroup == "help" %} aria-current="page">{% endif %}><i class="fas fa-question"></i>Help</a></li>
+            <li {% if page.navgroup == "download" or layout.navgroup == "download" %}class="active"{% endif %}><a href="/download/" {% if page.navgroup == "download" or layout.navgroup == "download" %} aria-current="page"{% endif %}><i class="fas fa-download"></i>Download</a></li>
+            <li {% if page.navgroup == "help" or layout.navgroup == "help" %}class="active"{% endif %}><a href="/help/" {% if page.navgroup == "help" or layout.navgroup == "help" %} aria-current="page"{% endif %}><i class="fas fa-question"></i>Help</a></li>
             <li {% if page.navgroup == "documentation" or layout.navgroup == "documentation" %}class="active"{% endif %}>
-              <a href="/documentation/" {% if page.navgroup == "documentation" or layout.navgroup == "documentation" %} aria-current="page">{% endif %}>
+              <a href="/documentation/" {% if page.navgroup == "documentation" or layout.navgroup == "documentation" %} aria-current="page"{% endif %}>
                 <div class="hide-for-medium-only"><i class="fas fa-book"></i>Documentation</div>
                 <div class="show-for-medium-only"><i class="fas fa-book"></i>Docs</div>
               </a>
             </li>
             <li {% if page.navgroup == "developers" or layout.navgroup == "developers" %}class="active"{% endif %}>
-              <a href="/developers/" {% if page.navgroup == "developers" or layout.navgroup == "developers" %} aria-current="page">{% endif %}>
+              <a href="/developers/" {% if page.navgroup == "developers" or layout.navgroup == "developers" %} aria-current="page"{% endif %}>
                 <div class="hide-for-medium-only"><i class="fas fa-code"></i>Development</div>
                 <div class="show-for-medium-only"><i class="fas fa-code"></i>Dev</div>
               </a>
