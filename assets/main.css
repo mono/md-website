@@ -325,10 +325,7 @@ footer {
 
 #mono-download.tabs li {
   line-height: 0.9em;
-}
-
-#mono-download.tabs li {
-  line-height: 0.9em;
+  margin-right: 3px;
 }
 
 #mono-download-panel .tabs li {

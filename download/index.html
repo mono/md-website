@@ -38,7 +38,7 @@ redirect_from:
       </div>
       <div role="tabpanel" class="panel content" id="download-lin" style="padding: 10px 10px 10px 10px">
         <span><b>Linux distribution</b></span>
-        <ul id="mono-download-linux" class="tabs horizontal" data-tab role="tablist" data-options="deep_linking: true; scroll_to_content: false">
+        <ul id="mono-download-linux" class="tabs horizontal" data-tab role="tablist" data-options="deep_linking: false; scroll_to_content: false">
           <li class="tab-title active" role="presentation"><a href="#download-lin-ubuntu" role="tab" tabindex="0" aria-selected="true" aria-controls="download-lin-ubuntu"><img src="/images/ubuntu-logo.svg" height="20px" width="20px" alt="Ubuntu Logo" style="margin-right: 5px;"/>Ubuntu</a></dd>
           <li class="tab-title" role="presentation"><a href="#download-lin-debian" role="tab" tabindex="0" aria-selected="false" aria-controls="download-lin-debian"><img src="/images/debian-logo.svg" height="20px" width="20px" alt="Debian Logo" style="margin-right: 5px;"/>Debian</a></dd>
           <li class="tab-title" role="presentation"><a href="#download-lin-raspbian" role="tab" tabindex="0" aria-selected="false" aria-controls="download-lin-raspbian"><img src="/images/raspbian-logo.svg" height="20px" width="20px" alt="Raspbian Logo" style="margin-right: 5px;"/>Raspbian</a></dd>
@@ -206,12 +206,7 @@ function runScripts() {
       $('#mono-download-panel>div.panel.active').removeClass('active');
       $('#mono-download-panel>#download-' + os).addClass('active');
     }
-    if (window.location.hash) {
-      if (window.location.hash.search("download-lin-") >= 0) {
-        activate('lin');
-      }
-    }
-    else {
+    if (window.location.hash === "") {
       if (window.navigator.appVersion.search('Linux') >= 0 || window.navigator.platform.search('Linux') >= 0) {
         activate('lin');
       } else if (window.navigator.appVersion.search('Windows') >= 0 || window.navigator.platform.search('Windows') >= 0) {
