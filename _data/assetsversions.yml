@@ -3,6 +3,7 @@ fontawesome: 6.1.1
 highlightjs: 11.5.1
 foundation: 5.5.3
 main: 1
-jquery: 2.1.1
+jquery: 3.7.1
+jquery_migrate: 3.6.0
 modernizr: 3.7.0
 normalize: 3.0.3
